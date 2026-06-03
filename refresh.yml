@@ -1,0 +1,40 @@
+name: Refresh job dashboard
+
+on:
+  schedule:
+    - cron: "0 13 * * *"     # daily ~06:00 America/Los_Angeles
+  workflow_dispatch: {}       # allow manual runs from the Actions tab
+
+permissions:
+  contents: write             # let the default GITHUB_TOKEN commit the refreshed file
+
+concurrency:
+  group: refresh-dashboard
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Re-verify role statuses
+        run: python3 verify.py
+
+      - name: Commit refreshed dashboard
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "horizon-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add index.html
+            git commit -m "chore: daily role-status refresh ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No status changes today."
+          fi
