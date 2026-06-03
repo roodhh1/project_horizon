@@ -133,10 +133,19 @@ def main():
         try:
             live, v = (check_greenhouse(role) if role["type"] == "greenhouse"
                        else check_url(role))
-        except Exception as e:  # fail-safe: keep previous status
+        except Exception as e:  # fail-safe: keep previous status on a network error
             p = prev.get(key, {"live": True, "v": ""})
             live, v = p["live"], f"{p.get('v','')} (recheck failed {TODAY})".strip()
             print(f"  WARN {key}: {e!r} -> kept previous ({'live' if live else 'closed'})")
+        else:
+            # Debounce live->closed: a single "closed" read (e.g. a stale board
+            # snapshot or anti-bot page) must not flip a live role. Require TWO
+            # consecutive closed reads. First closed read is held as live and
+            # tagged "unconfirmed"; the next closed read confirms the close.
+            p = prev.get(key)
+            if (not live) and p and p.get("live") and "unconfirmed" not in p.get("v", ""):
+                live, v = True, f"Live (closing? unconfirmed) · {TODAY}"
+                print(f"  HOLD {key}: closed read held pending confirmation")
         new_status[key] = {"live": live, "v": v}
         was = prev.get(key, {}).get("live")
         if was is not None and was != live:
