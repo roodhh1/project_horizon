@@ -246,11 +246,6 @@ const ROLES = [
    verified:"Needs check", url:"https://www.brex.com/careers/7629290002",
    note:"Biz-ops analytics strategy in fintech. 'Lead' may be IC-leaning — confirm people-management scope before investing; could be a step sideways/down on org size."},
 
-  {co:"Gusto", role:"Head of AI & Machine Learning Engineering", loc:"SF / Denver / NYC", track:"stepup", trackLabel:"Step-up title", extraTrack:"stretch",
-   score:7.6, domain:3, comp:"Not posted (Head-level)", compFit:"at", tier:"Late-stage (~$9.5B)",
-   verified:"Needs check", url:"https://gusto.com/about/careers/join-the-team",
-   note:"Big scope (MLE + ML Platform + Risk DS + AI Scientists) and Head-level comp that likely clears anchor — but it's ENG-leaning, not product DS. Stretch on domain. Pursue only if you want to pivot toward AI/ML org leadership."},
-
   {co:"Anthropic", role:"Analytics Data Engineering Manager, Product", loc:"SF / NY / Seattle · 25% in-office", track:"stretch", trackLabel:"Stretch / AI-native", extraTrack:"stepup",
    score:8.7, domain:3, comp:"$370K–$450K base", compFit:"at", tier:"Frontier AI",
    verified:"Live", url:"https://job-boards.greenhouse.io/anthropic/jobs/5125387008",
@@ -282,7 +277,6 @@ const REFERRALS = {
   "Brex|Data Analytics Lead, Business Operations": {level:"bridge", text:"2nd°: <b>Sumeet Marwaha</b> (Head of Data, 34 mutuals), Bhavna Sinha (Sr DS, 8 mutuals)."},
   "Brex|Senior Data Scientist, Product Analytics": {level:"bridge", text:"2nd°: <b>Sumeet Marwaha</b> (Head of Data, 34 mutuals); team DS Christopher Hase, Bhavna Sinha."},
   "Gusto|Senior Manager, Growth Data Science": {level:"bridge", text:"No 1st°, but strong 2nd°: <b>Cam Miller</b> (Senior Manager, Data Science &amp; Analytics — peer/hiring-manager level; via Sri Harsha Maddula &amp; Ani Ghosh), <b>Amulya Kallakuri</b> (Product DS), <b>Luke Phan</b> (Head of Data Eng). Reclassified cold → reachable."},
-  "Gusto|Head of AI & Machine Learning Engineering": {level:"bridge", text:"2nd°: <b>Luke Phan</b> (Head of Data Engineering), <b>Cam Miller</b> (Sr Mgr DS&amp;A). Reachable via named mutuals."},
   "Anthropic|Analytics Data Engineering Manager, Product": {level:"bridge", text:"No 1st°, but strong 2nd°: <b>Josh C.</b> (oversees DS, Data Eng &amp; Analytics Eng — likely the hiring leader; via Alex Zhou &amp; Han Bai), <b>Xabi Azagirre</b> (DS leader, ex-Lyft), <b>Saptarshi C.</b> (ex-Microsoft Principal DS Mgr). Reclassified inconclusive → reachable."}
 };
 const refMap = {active:["#16a34a","★ In process — HM round 6/9"],direct:["#16a34a","✓ 1st° connection + warm 2nd° paths"],bridge:["#0ea5a4","◐ Reachable via 2nd° (named mutual)"],none:["#9aa3b2","— No connections found"]};
@@ -291,17 +285,16 @@ const refMap = {active:["#16a34a","★ In process — HM round 6/9"],direct:["#1
 // STATUS_BLOCK_START
 const VERIFIED_ON = "2026-06-03";
 const STATUS = {
-  "Mercury|Senior Data Science Manager": {live:true, v:"Board API · checked 2026-06-03"},
-  "Anthropic|Analytics Data Engineering Manager, Product": {live:true, v:"Board API · checked 2026-06-03"},
-  "Gusto|Senior Manager, Growth Data Science": {live:false, v:"Not on board · checked 2026-06-03"},
-  "Chime|Senior Manager, Product Analytics — Lending": {live:false, v:"Not on board · checked 2026-06-03"},
-  "Brex|Data Manager, Analytics": {live:false, v:"Not on board · checked 2026-06-03"},
-  "Brex|Data Analytics Lead, Business Operations": {live:false, v:"Not on board · checked 2026-06-03"},
-  "Brex|Senior Data Scientist, Product Analytics": {live:false, v:"Not on board · checked 2026-06-03"},
-  "Gusto|Head of AI & Machine Learning Engineering": {live:true, v:"Board API · checked 2026-06-03"},
-  "Plaid|Engineering Manager, Machine Learning": {live:false, v:"Careers 404 · checked 2026-06-03"},
-  "Plaid|Senior Data Scientist (Product)": {live:false, v:"Careers 404 · checked 2026-06-03"},
-  "Stripe|Data Science Manager, Growth": {live:false, v:"Careers closed · checked 2026-06-03"}
+  "Mercury|Senior Data Science Manager": {live:true, v:"Board API · updated May 21"},
+  "Stripe|Data Science Manager, Growth": {live:true, v:"Careers page · Jun 3"},
+  "Gusto|Senior Manager, Growth Data Science": {live:true, v:"Board API · updated May 6"},
+  "Anthropic|Analytics Data Engineering Manager, Product": {live:true, v:"Board API · updated May 8"},
+  "Chime|Senior Manager, Product Analytics — Lending": {live:false, v:"Pulled from Chime board — CLOSED"},
+  "Brex|Data Manager, Analytics": {live:false, v:"Not on Brex board — CLOSED"},
+  "Brex|Data Analytics Lead, Business Operations": {live:false, v:"Not on Brex board — CLOSED"},
+  "Brex|Senior Data Scientist, Product Analytics": {live:false, v:"Not on Brex board — CLOSED"},
+  "Plaid|Engineering Manager, Machine Learning": {live:false, v:"404 on Plaid careers — CLOSED"},
+  "Plaid|Senior Data Scientist (Product)": {live:false, v:"404 on Plaid careers — CLOSED"}
 };
 // STATUS_BLOCK_END
 

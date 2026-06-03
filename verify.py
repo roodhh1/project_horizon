@@ -43,9 +43,6 @@ TRACKED = [
      "type": "greenhouse", "token": "brex", "id": "7629290002"},
     {"key": "Brex|Senior Data Scientist, Product Analytics",
      "type": "greenhouse", "token": "brex", "id": "7924881002"},
-    {"key": "Gusto|Head of AI & Machine Learning Engineering",
-     "type": "greenhouse", "token": "gusto",
-     "title_regex": r"head of ai.*machine learning"},
     {"key": "Plaid|Engineering Manager, Machine Learning",
      "type": "url",
      "url": "https://plaid.com/careers/openings/engineering/new-york/engineering-manager-machine-learning/",
@@ -57,8 +54,7 @@ TRACKED = [
     {"key": "Stripe|Data Science Manager, Growth",
      "type": "url",
      "url": "https://stripe.com/jobs/listing/data-science-manager-growth/7440963",
-     "live_label": "Careers page", "dead_label": "Careers closed",
-     "live_signal": "Apply for this role"},
+     "live_label": "Careers page", "dead_label": "Careers closed"},
 ]
 
 _board_cache = {}  # token -> {"ids": set, "titles": [lowercase titles]}
@@ -95,17 +91,22 @@ def check_greenhouse(role):
 
 
 def check_url(role):
-    dead_markers = ("lost in 404", "404 |", "page not found", "no longer")
+    # Status-based: live unless the server says gone (404/410) or the page
+    # clearly states the role is closed. We deliberately do NOT require a
+    # positive "Apply" signal — self-hosted sites vary their markup and can
+    # serve different HTML to datacenter IPs, which would false-negative.
+    dead_markers = ("lost in 404", "page not found", "this position is no longer",
+                    "no longer accepting", "has been filled", "position is closed",
+                    "404 error")
     try:
         code, body = fetch(role["url"])
     except urllib.error.HTTPError as e:
-        if e.code == 404:
+        if e.code in (404, 410):
             return False, f"{role['dead_label']} · checked {TODAY}"
         raise
     low = body.lower()
     looks_dead = any(m in low for m in dead_markers)
-    sig = role.get("live_signal")
-    live = (code == 200) and (not looks_dead) and (sig is None or sig.lower() in low)
+    live = (code == 200) and not looks_dead
     return live, (f"{role['live_label']} · checked {TODAY}" if live
                   else f"{role['dead_label']} · checked {TODAY}")
 
