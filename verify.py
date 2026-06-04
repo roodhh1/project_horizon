@@ -55,6 +55,18 @@ TRACKED = [
      "type": "url",
      "url": "https://stripe.com/jobs/listing/data-science-manager-growth/7440963",
      "live_label": "Careers page", "dead_label": "Careers closed"},
+    {"key": "Coinbase|Senior Data Science Manager",
+     "type": "greenhouse", "token": "coinbase", "id": "6056727"},
+    {"key": "OpenAI|Data Science Manager, Integrity",
+     "type": "url",
+     "url": "https://openai.com/careers/data-science-manager-integrity-san-francisco/",
+     "live_label": "Careers page", "dead_label": "Careers 404"},
+    {"key": "Affirm|Director, Analytics, Strategic Insights",
+     "type": "greenhouse", "token": "affirm", "id": "7718616003"},
+    {"key": "Affirm|Senior Manager, Analytics (Full Stack)",
+     "type": "greenhouse", "token": "affirm", "id": "7491433003"},
+    {"key": "DoorDash|Senior Manager, Data Science, Analytics — Notifications, Consumer Growth",
+     "type": "greenhouse", "token": "doordashusa", "id": "6495978"},
 ]
 
 _board_cache = {}  # token -> {"ids": set, "titles": [lowercase titles]}

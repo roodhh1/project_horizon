@@ -246,6 +246,11 @@ const ROLES = [
    verified:"Needs check", url:"https://www.brex.com/careers/7629290002",
    note:"Biz-ops analytics strategy in fintech. 'Lead' may be IC-leaning — confirm people-management scope before investing; could be a step sideways/down on org size."},
 
+  {co:"Gusto", role:"Head of AI & Machine Learning Engineering", loc:"SF / Denver / NYC", track:"stepup", trackLabel:"Step-up title", extraTrack:"stretch",
+   score:7.6, domain:3, comp:"Not posted (Head-level)", compFit:"at", tier:"Late-stage (~$9.5B)",
+   verified:"Needs check", url:"https://gusto.com/about/careers/join-the-team",
+   note:"Big scope (MLE + ML Platform + Risk DS + AI Scientists) and Head-level comp that likely clears anchor — but it's ENG-leaning, not product DS. Stretch on domain. Pursue only if you want to pivot toward AI/ML org leadership."},
+
   {co:"Anthropic", role:"Analytics Data Engineering Manager, Product", loc:"SF / NY / Seattle · 25% in-office", track:"stretch", trackLabel:"Stretch / AI-native", extraTrack:"stepup",
    score:8.7, domain:3, comp:"$370K–$450K base", compFit:"at", tier:"Frontier AI",
    verified:"Live", url:"https://job-boards.greenhouse.io/anthropic/jobs/5125387008",
@@ -264,7 +269,32 @@ const ROLES = [
   {co:"Plaid", role:"Senior Data Scientist (Product)", loc:"San Francisco", track:"domain", trackLabel:"Domain-perfect", extraTrack:"",
    score:6.3, domain:4, comp:"Not posted (IC band)", compFit:"below", tier:"Late-stage fintech",
    verified:"Needs check", url:"https://plaid.com/careers/openings/engineering/san-francisco/senior-data-scientist/",
-   note:"⚠ IC, step-down in title. Good fintech-data domain but doesn't advance your leadership narrative. Referral-only consideration."}
+   note:"⚠ IC, step-down in title. Good fintech-data domain but doesn't advance your leadership narrative. Referral-only consideration."},
+
+  {co:"Coinbase", role:"Senior Data Science Manager", loc:"Remote — US", track:"lateral", trackLabel:"Lateral → better co", extraTrack:"stretch",
+   score:8.3, domain:3, comp:"Total comp ~$365K–$532K (Levels.fyi)", compFit:"at", tier:"Public · crypto leader (~$80B)",
+   verified:"Live", url:"https://www.coinbase.com/careers/positions/6056727",
+   note:"One of the few adds whose TOTAL COMP clears your $500K anchor (Levels.fyi median ~$380K, top of band $530K+). Leadership scope: 8+ yrs DS/analytics, 3+ managing. Domain is fintech-adjacent but crypto — and some Coinbase DS-mgr pods are CX/customer-lifecycle or Developer-platform leaning, so confirm the team is product/growth DS, not support analytics, before investing. Pure-comp + brand play in the AI/crypto lane."},
+
+  {co:"OpenAI", role:"Data Science Manager, Integrity", loc:"San Francisco", track:"stretch", trackLabel:"Stretch / AI-native", extraTrack:"stepup",
+   score:8.5, domain:3, comp:"Not posted (OpenAI DS-mgr TC typically clears anchor)", compFit:"at", tier:"Frontier AI (~$300B+)",
+   verified:"Live", url:"https://openai.com/careers/data-science-manager-integrity-san-francisco/",
+   note:"Frontier-AI optionality + comp that almost certainly clears anchor with PPUs. Leads the DS function for trust & safety / fraud / risk measurement at scale — direct adjacency to your risk and lending-fraud work. Caveat: this is integrity/safety, not product-growth DS — reframe your experimentation + causal-inference story toward abuse detection, measurement, and mitigation. Highest-ceiling AI-native add."},
+
+  {co:"Affirm", role:"Director, Analytics, Strategic Insights", loc:"Remote — US", track:"stepup", trackLabel:"Step-up title", extraTrack:"domain",
+   score:8.4, domain:4, comp:"$245K–$325K base (CA/NY/WA)", compFit:"border", tier:"Public BNPL lender (~$20B)",
+   verified:"Live", url:"https://job-boards.greenhouse.io/affirm/jobs/7718616003",
+   note:"Director-level STEP-UP at a pure lending/BNPL company — your lending + monetization + revenue narrative is the JD. Sits on the Revenue team (pricing, GTM, growth) advising segment leaders. 12+ yrs, exec-advisory. Honest flag: this role leans strategy/BizOps analytics over hands-on product DS, so position your story toward executive influence + revenue impact. Base below anchor; Affirm equity is the lever. Domain bullseye."},
+
+  {co:"Affirm", role:"Senior Manager, Analytics (Full Stack)", loc:"Remote — US / Canada", track:"domain", trackLabel:"Domain-perfect", extraTrack:"lateral",
+   score:8.1, domain:5, comp:"~$198K–$248K base", compFit:"below", tier:"Public BNPL lender (~$20B)",
+   verified:"Live", url:"https://job-boards.greenhouse.io/affirm/jobs/7491433003",
+   note:"Cards/payments/fintech analytics leadership (10+ yrs, 5+ leading) — bullseye for your lending + lifecycle wedge, and remote. Comp clearly below anchor; this is a lateral-with-edge you win on domain fit and company quality, not money. Pair it with the Director req above as your two shots at Affirm."},
+
+  {co:"DoorDash", role:"Senior Manager, Data Science, Analytics — Notifications, Consumer Growth", loc:"SF / Seattle / NY · hybrid", track:"domain", trackLabel:"Domain-perfect", extraTrack:"lateral",
+   score:8.6, domain:5, comp:"$186K–$274K base", compFit:"border", tier:"Public (~$70B)",
+   verified:"Live", url:"https://careersatdoordash.com/jobs/senior-manager-data-science-analytics---notifications-consumer-growth/6495978/",
+   note:"Notifications is DoorDash's single largest incremental-growth lever — this role leads DS across consumer reachability, lifecycle messaging, channel optimization (push/email/SMS/in-app) and GenAI-powered recs. Growth + customer-lifecycle + experimentation is a near-exact mirror of your Credit Karma / Intuit work. Base below anchor but DoorDash RSUs push TC toward border. Strongest big-tech wedge fit of the new batch."}
 ];
 
 const REFERRALS = {
@@ -277,24 +307,36 @@ const REFERRALS = {
   "Brex|Data Analytics Lead, Business Operations": {level:"bridge", text:"2nd°: <b>Sumeet Marwaha</b> (Head of Data, 34 mutuals), Bhavna Sinha (Sr DS, 8 mutuals)."},
   "Brex|Senior Data Scientist, Product Analytics": {level:"bridge", text:"2nd°: <b>Sumeet Marwaha</b> (Head of Data, 34 mutuals); team DS Christopher Hase, Bhavna Sinha."},
   "Gusto|Senior Manager, Growth Data Science": {level:"bridge", text:"No 1st°, but strong 2nd°: <b>Cam Miller</b> (Senior Manager, Data Science &amp; Analytics — peer/hiring-manager level; via Sri Harsha Maddula &amp; Ani Ghosh), <b>Amulya Kallakuri</b> (Product DS), <b>Luke Phan</b> (Head of Data Eng). Reclassified cold → reachable."},
-  "Anthropic|Analytics Data Engineering Manager, Product": {level:"bridge", text:"No 1st°, but strong 2nd°: <b>Josh C.</b> (oversees DS, Data Eng &amp; Analytics Eng — likely the hiring leader; via Alex Zhou &amp; Han Bai), <b>Xabi Azagirre</b> (DS leader, ex-Lyft), <b>Saptarshi C.</b> (ex-Microsoft Principal DS Mgr). Reclassified inconclusive → reachable."}
+  "Gusto|Head of AI & Machine Learning Engineering": {level:"bridge", text:"2nd°: <b>Luke Phan</b> (Head of Data Engineering), <b>Cam Miller</b> (Sr Mgr DS&amp;A). Reachable via named mutuals."},
+  "Anthropic|Analytics Data Engineering Manager, Product": {level:"bridge", text:"No 1st°, but strong 2nd°: <b>Josh C.</b> (oversees DS, Data Eng &amp; Analytics Eng — likely the hiring leader; via Alex Zhou &amp; Han Bai), <b>Xabi Azagirre</b> (DS leader, ex-Lyft), <b>Saptarshi C.</b> (ex-Microsoft Principal DS Mgr). Reclassified inconclusive → reachable."},
+  "Coinbase|Senior Data Science Manager": {level:"pending", text:"Referral sweep not yet run for Coinbase. Next step: scan your 1st/2nd° for DS/Analytics leaders, incl. ex-fintech contacts now at Coinbase."},
+  "OpenAI|Data Science Manager, Integrity": {level:"pending", text:"Referral sweep pending for OpenAI. Target Integrity / Trust &amp; Safety DS and any frontier-AI 2nd° paths."},
+  "Affirm|Director, Analytics, Strategic Insights": {level:"pending", text:"Referral sweep pending for Affirm. Strong odds given your lending/fintech overlap — scan for Revenue &amp; Analytics leaders."},
+  "Affirm|Senior Manager, Analytics (Full Stack)": {level:"pending", text:"Referral sweep pending for Affirm. Cards/payments analytics 2nd° paths are likely."},
+  "DoorDash|Senior Manager, Data Science, Analytics — Notifications, Consumer Growth": {level:"pending", text:"Referral sweep pending for DoorDash. Target Consumer Growth / Notifications DS leaders and ex-colleagues now at DoorDash."}
 };
-const refMap = {active:["#16a34a","★ In process — HM round 6/9"],direct:["#16a34a","✓ 1st° connection + warm 2nd° paths"],bridge:["#0ea5a4","◐ Reachable via 2nd° (named mutual)"],none:["#9aa3b2","— No connections found"]};
+const refMap = {active:["#16a34a","★ In process — HM round 6/9"],direct:["#16a34a","✓ 1st° connection + warm 2nd° paths"],bridge:["#0ea5a4","◐ Reachable via 2nd° (named mutual)"],pending:["#9aa3b2","◷ Referral sweep pending"],none:["#9aa3b2","— No connections found"]};
 
 // === AUTO-GENERATED below: do not hand-edit between the markers (verify.py rewrites this daily) ===
 // STATUS_BLOCK_START
-const VERIFIED_ON = "2026-06-04";
+const VERIFIED_ON = "2026-06-03";
 const STATUS = {
-  "Mercury|Senior Data Science Manager": {live:true, v:"Board API · checked 2026-06-04"},
-  "Anthropic|Analytics Data Engineering Manager, Product": {live:true, v:"Board API · checked 2026-06-04"},
-  "Gusto|Senior Manager, Growth Data Science": {live:true, v:"Live (closing? unconfirmed) · 2026-06-04"},
-  "Chime|Senior Manager, Product Analytics — Lending": {live:false, v:"Not on board · checked 2026-06-04"},
-  "Brex|Data Manager, Analytics": {live:false, v:"Not on board · checked 2026-06-04"},
-  "Brex|Data Analytics Lead, Business Operations": {live:false, v:"Not on board · checked 2026-06-04"},
-  "Brex|Senior Data Scientist, Product Analytics": {live:false, v:"Not on board · checked 2026-06-04"},
-  "Plaid|Engineering Manager, Machine Learning": {live:false, v:"Careers 404 · checked 2026-06-04"},
-  "Plaid|Senior Data Scientist (Product)": {live:false, v:"Careers 404 · checked 2026-06-04"},
-  "Stripe|Data Science Manager, Growth": {live:true, v:"Live (closing? unconfirmed) · 2026-06-04"}
+  "Mercury|Senior Data Science Manager": {live:true, v:"Board API · checked 2026-06-03"},
+  "Anthropic|Analytics Data Engineering Manager, Product": {live:true, v:"Board API · checked 2026-06-03"},
+  "Gusto|Senior Manager, Growth Data Science": {live:false, v:"Not on board · checked 2026-06-03"},
+  "Chime|Senior Manager, Product Analytics — Lending": {live:false, v:"Not on board · checked 2026-06-03"},
+  "Brex|Data Manager, Analytics": {live:false, v:"Not on board · checked 2026-06-03"},
+  "Brex|Data Analytics Lead, Business Operations": {live:false, v:"Not on board · checked 2026-06-03"},
+  "Brex|Senior Data Scientist, Product Analytics": {live:false, v:"Not on board · checked 2026-06-03"},
+  "Gusto|Head of AI & Machine Learning Engineering": {live:true, v:"Board API · checked 2026-06-03"},
+  "Plaid|Engineering Manager, Machine Learning": {live:false, v:"Careers 404 · checked 2026-06-03"},
+  "Plaid|Senior Data Scientist (Product)": {live:false, v:"Careers 404 · checked 2026-06-03"},
+  "Stripe|Data Science Manager, Growth": {live:false, v:"Careers closed · checked 2026-06-03"},
+  "Coinbase|Senior Data Science Manager": {live:true, v:"Board API · checked 2026-06-04"},
+  "OpenAI|Data Science Manager, Integrity": {live:true, v:"Careers page · checked 2026-06-04"},
+  "Affirm|Director, Analytics, Strategic Insights": {live:true, v:"Board API · checked 2026-06-04"},
+  "Affirm|Senior Manager, Analytics (Full Stack)": {live:true, v:"Board API · checked 2026-06-04"},
+  "DoorDash|Senior Manager, Data Science, Analytics — Notifications, Consumer Growth": {live:true, v:"Board API · checked 2026-06-04"}
 };
 // STATUS_BLOCK_END
 
