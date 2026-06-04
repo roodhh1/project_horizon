@@ -143,11 +143,9 @@
   </div>
 
   <div class="kpis">
-    <div class="kpi"><div class="n" id="k-total">0</div><div class="l">Roles tracked</div></div>
-    <div class="kpi alt"><div class="n" id="k-verified">0</div><div class="l">Live now · verified <span id="kpi-date">—</span></div></div>
-    <div class="kpi"><div class="n" id="k-closed">0</div><div class="l">Closed since last scan</div></div>
+    <div class="kpi alt"><div class="n" id="k-verified">0</div><div class="l">Live open roles · verified <span id="kpi-date">—</span></div></div>
     <div class="kpi"><div class="n" id="k-clears">0</div><div class="l">Likely clears comp anchor</div></div>
-    <div class="kpi alt"><div class="n" id="k-ref">0</div><div class="l">Roles with a warm contact</div></div>
+    <div class="kpi alt"><div class="n" id="k-ref">0</div><div class="l">Live roles with a warm contact</div></div>
   </div>
 
   <div class="sec-title"><h2>The mobility framework</h2><div class="rule"></div></div>
@@ -393,21 +391,19 @@ function render(){
 
 // KPIs
 const isLive=r=>{const s=STATUS[r.co+"|"+r.role];return !s||s.live;};
-document.getElementById('k-total').textContent = ROLES.length;
 document.getElementById('k-verified').textContent = ROLES.filter(isLive).length;
-document.getElementById('k-closed').textContent = ROLES.filter(r=>!isLive(r)).length;
 document.getElementById('k-clears').textContent = ROLES.filter(r=>r.compFit==="at"&&isLive(r)).length;
 // Dynamic freshness date + counts (driven by VERIFIED_ON, updated daily by verify.py)
 (()=>{
   const d=new Date((VERIFIED_ON||"")+"T00:00:00");
   const human=isNaN(d)?VERIFIED_ON:d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
   const short=isNaN(d)?VERIFIED_ON:d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
-  const live=ROLES.filter(isLive).length, closed=ROLES.length-live;
+  const live=ROLES.filter(isLive).length;
   const h3=document.getElementById('fresh-h3'); if(h3) h3.textContent=`↻ Freshness — last verified ${human}`;
-  const fc=document.getElementById('fresh-counts'); if(fc) fc.textContent=`As of ${human}: ${live} live, ${closed} closed of ${ROLES.length} tracked.`;
+  const fc=document.getElementById('fresh-counts'); if(fc) fc.textContent=`As of ${human}: ${live} live open role${live===1?'':'s'}.`;
   const kd=document.getElementById('kpi-date'); if(kd) kd.textContent=short;
 })();
-document.getElementById('k-ref').textContent = ROLES.filter(r=>{const rf=REFERRALS[r.co+"|"+r.role];return rf&&["direct","bridge","active"].includes(rf.level);}).length;
+document.getElementById('k-ref').textContent = ROLES.filter(r=>{if(!isLive(r))return false;const rf=REFERRALS[r.co+"|"+r.role];return rf&&["direct","bridge","active"].includes(rf.level);}).length;
 
 ['f-track','f-comp','f-search'].forEach(id=>{
   document.getElementById(id).addEventListener('input',render);
