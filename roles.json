@@ -14,7 +14,7 @@
       "compFit": "below",
       "tier": "High-growth fintech (~$3.5B+)",
       "url": "https://job-boards.greenhouse.io/mercury/jobs/5973037004",
-      "note": "★ YOUR ACTIVE ROLE — HM round with Leanne Fretz, Tue 6/9, 3pm PT. Leads the DS behind Mercury's revenue & product value engine: GTM + growth experimentation + monetization + core product (Spend/Expense/Invoicing). JD wants 10+ yrs, 3+ leading teams, growth/monetization/pricing + causal inference — a near-exact mirror of your Credit Karma + Intuit monetization story. Comp sits below your $500K anchor on base; Mercury's private equity upside is the lever. INTEL: Mercury is standing up a Cards/Credit business (multiple credit & card-fraud reqs live) — your '5 Days Early' lending work is a strong proof point for Leanne.",
+      "note": "★ YOUR ACTIVE ROLE — HM round with Leanne Fretz, Tue 6/9, 3pm PT. Leads the DS behind Mercury's revenue & product value engine: GTM + growth experimentation + monetization + core product (Spend/Expense/Invoicing). JD wants 10+ yrs, 3+ leading teams, growth/monetization/pricing + causal inference — a near-exact mirror of your Credit Karma + Intuit monetization story. Comp sits below your comp target on base; Mercury's private equity upside is the lever. INTEL: Mercury is standing up a Cards/Credit business (multiple credit & card-fraud reqs live) — your '5 Days Early' lending work is a strong proof point for Leanne.",
       "active": true,
       "verify": {
         "type": "greenhouse",
@@ -75,7 +75,7 @@
       "compFit": "at",
       "tier": "Frontier AI",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5125387008",
-      "note": "★ Only role here whose BASE alone ($370–450K) nears your anchor — with equity it clears $500K. Builds product data foundations across Consumer/Claude Code/Enterprise/Growth; sponsors visas. Caveat: this is analytics-ENGINEERING leadership (dbt/data modeling/pipelines), not product DS — reframe your 0→1 story toward data foundations & metrics. Wants 5+ yrs managing AE/DE teams.",
+      "note": "★ Only role here whose BASE alone ($370–450K) nears your comp target — with equity it clears it. Builds product data foundations across Consumer/Claude Code/Enterprise/Growth; sponsors visas. Caveat: this is analytics-ENGINEERING leadership (dbt/data modeling/pipelines), not product DS — reframe your 0→1 story toward data foundations & metrics. Wants 5+ yrs managing AE/DE teams.",
       "verify": {
         "type": "greenhouse",
         "token": "anthropic",
@@ -105,7 +105,7 @@
       "compFit": "at",
       "tier": "Public · crypto leader (~$80B)",
       "url": "https://www.coinbase.com/careers/positions/6056727",
-      "note": "One of the few adds whose TOTAL COMP clears your $500K anchor (Levels.fyi median ~$380K, top of band $530K+). Leadership scope: 8+ yrs DS/analytics, 3+ managing. Domain is fintech-adjacent but crypto — and some Coinbase DS-mgr pods are CX/customer-lifecycle or Developer-platform leaning, so confirm the team is product/growth DS, not support analytics, before investing. Pure-comp + brand play in the AI/crypto lane.",
+      "note": "One of the few adds whose TOTAL COMP clears your comp target (Levels.fyi median ~$380K, top of band $530K+). Leadership scope: 8+ yrs DS/analytics, 3+ managing. Domain is fintech-adjacent but crypto — and some Coinbase DS-mgr pods are CX/customer-lifecycle or Developer-platform leaning, so confirm the team is product/growth DS, not support analytics, before investing. Pure-comp + brand play in the AI/crypto lane.",
       "verify": {
         "type": "greenhouse",
         "token": "coinbase",
