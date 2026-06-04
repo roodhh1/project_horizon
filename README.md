@@ -1,11 +1,11 @@
-# Project Horizon — Job Finder
+# Beacon
 
-A self-maintaining dashboard of Data Science / Analytics leadership roles, scored
+A navigable job-search app for Data Science / Analytics leadership roles — scored
 for fit, comp, and mobility, with a 1st/2nd-degree referral map per company. It
 shows **only roles that are currently live** — closed postings are removed, and
 newly opened ones are added, automatically every day.
 
-**Live dashboard:** https://roodhh1.github.io/project_horizon/
+**Live app:** https://roodhh1.github.io/project_horizon/
 
 ## How fit scores work
 
@@ -32,20 +32,21 @@ JD's required years vs. Rodrigo's experience are shown on every card.
 Scores are a decision aid, not a verdict — they make the *why* explicit so a low
 Relevance or an Experience-gap is visible at a glance.
 
-## Using the dashboard
+## Using the app
 
-The Opportunities view is organized as an app with three tabs:
+Beacon is a single-page app with hash-based navigation (works on GitHub Pages):
 
-- **🎯 Top matches** — fresh (not-yet-engaged) roles scored **7.0 and above**, ranked
-  by fit. Lower-scored roles are hidden here (a hint shows how many).
-- **📌 In my radar** — roles you've engaged with. The active interview seeds this
-  automatically; everything else you add yourself.
-- **🗂 All roles** — every live role, ranked.
+- **Home** — a hub with stat tiles and tap-in cards to each section, plus the top 3 matches.
+- **Roles** — a compact, ranked list. Toggle **Top matches** (score ≥ 7) vs **All roles**,
+  filter by track, or search. Tap any role to open its **detail view** (score ring, fit
+  breakdown, experience match, compensation, referral path, apply / engage).
+- **Radar** — roles you've engaged with.
+- **Network** — warm 1st/2nd-degree paths into each company.
+- **About** — how the scoring and daily refresh work.
 
-Each card has a **+ Mark engaged** button. Click it once you've applied or reached
-out and the role moves to *In my radar*. This is saved in your browser
-(`localStorage`), so it persists across visits and across the daily data refresh —
-it's per-device and never leaves your machine.
+On a role's detail view, **Mark engaged** moves it to your Radar. Engaged state is saved
+in your browser (`localStorage`) — it persists across visits and the daily data refresh,
+is per-device, and never leaves your machine.
 
 ## Data model
 
