@@ -24,7 +24,10 @@ If a check errors (transient network blip), the previous status is **kept** — 
 is never falsely flipped to "closed".
 
 The GitHub Actions workflow (`.github/workflows/refresh.yml`) runs this daily
-(~06:00 PT) and commits any changes. GitHub Pages serves the result.
+(08:00 PT) and commits any changes. GitHub Pages serves the result.
+
+The dashboard shows **only roles that are currently live** — once `verify.py`
+marks a posting closed, it drops off the page on the next refresh.
 
 ## Run it yourself
 

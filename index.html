@@ -139,7 +139,7 @@
 
   <div class="insight" style="background:#eff6ff;border-color:#bfdbfe;border-left-color:#2563eb">
     <h3 id="fresh-h3" style="color:#1e40af">↻ Freshness</h3>
-    <p style="color:#1e3a8a"><b id="fresh-counts"></b> Each role is re-checked against the company's <b>live job-board API / careers page</b> — not the cached Greenhouse permalink, which keeps resolving after a posting is pulled. This page <b>auto-refreshes daily via GitHub Actions</b>. Closed roles are kept below (greyed) since the referral network behind them stays useful if a req reopens.</p>
+    <p style="color:#1e3a8a"><b id="fresh-counts"></b> Each role is re-checked against the company's <b>live job-board API / careers page</b> — not the cached Greenhouse permalink, which keeps resolving after a posting is pulled. This page <b>auto-refreshes daily at 8:00 AM PT via GitHub Actions</b>. Only roles that are <b>currently live</b> are shown — closed postings are dropped automatically on each scan.</p>
   </div>
 
   <div class="kpis">
@@ -175,14 +175,7 @@
       <option value="border">Borderline</option>
       <option value="below">Below anchor</option>
     </select>
-    <span class="lab">Verified</span>
-    <select id="f-ver">
-      <option value="">Any status</option>
-      <option value="Live">Live only</option>
-      <option value="Closed">Closed only</option>
-    </select>
     <input id="f-search" placeholder="Search company or role…">
-    <label class="lab" style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="checkbox" id="f-hideclosed"> Hide closed</label>
     <span class="count" id="f-count"></span>
   </div>
 
@@ -348,23 +341,16 @@ const grid=document.getElementById('grid');
 function render(){
   const ft=document.getElementById('f-track').value;
   const fc=document.getElementById('f-comp').value;
-  const fv=document.getElementById('f-ver').value;
   const fs=document.getElementById('f-search').value.toLowerCase();
-  const hideClosed=document.getElementById('f-hideclosed').checked;
   const liveOf=r=>(STATUS[r.co+"|"+r.role]||{live:true}).live;
+  // Only currently-live roles are ever shown; closed postings are dropped entirely.
   let rows=ROLES.filter(r=>{
-    if(hideClosed && !liveOf(r)) return false;
+    if(!liveOf(r)) return false;
     if(ft && r.track!==ft && r.extraTrack!==ft) return false;
     if(fc && r.compFit!==fc) return false;
-    if(fv==="Live" && !liveOf(r)) return false;
-    if(fv==="Closed" && liveOf(r)) return false;
     if(fs && !(r.co+" "+r.role).toLowerCase().includes(fs)) return false;
     return true;
-  }).sort((a,b)=>{
-    const la=liveOf(a), lb=liveOf(b);
-    if(la!==lb) return la?-1:1;
-    return b.score-a.score;
-  });
+  }).sort((a,b)=>b.score-a.score);
 
   grid.innerHTML = rows.map(r=>{
     const cp=compPill[r.compFit];
@@ -401,7 +387,8 @@ function render(){
     </div>`;
   }).join('');
 
-  document.getElementById('f-count').textContent = `${rows.length} of ${ROLES.length} shown`;
+  const liveTotal=ROLES.filter(r=>(STATUS[r.co+"|"+r.role]||{live:true}).live).length;
+  document.getElementById('f-count').textContent = `${rows.length} of ${liveTotal} live shown`;
 }
 
 // KPIs
@@ -422,10 +409,9 @@ document.getElementById('k-clears').textContent = ROLES.filter(r=>r.compFit==="a
 })();
 document.getElementById('k-ref').textContent = ROLES.filter(r=>{const rf=REFERRALS[r.co+"|"+r.role];return rf&&["direct","bridge","active"].includes(rf.level);}).length;
 
-['f-track','f-comp','f-ver','f-search'].forEach(id=>{
+['f-track','f-comp','f-search'].forEach(id=>{
   document.getElementById(id).addEventListener('input',render);
 });
-document.getElementById('f-hideclosed').addEventListener('change',render);
 render();
 </script>
 </body>
