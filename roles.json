@@ -8,13 +8,13 @@
       "track": "domain",
       "trackLabel": "Domain-perfect",
       "extraTrack": "lateral",
-      "score": 9.5,
+      "score": 8.8,
       "domain": 5,
       "comp": "$239K–$298.8K base",
       "compFit": "below",
       "tier": "High-growth fintech (~$3.5B+)",
       "url": "https://job-boards.greenhouse.io/mercury/jobs/5973037004",
-      "note": "★ YOUR ACTIVE ROLE — HM round with Leanne Fretz, Tue 6/9, 3pm PT. Leads the DS behind Mercury's revenue & product value engine: GTM + growth experimentation + monetization + core product (Spend/Expense/Invoicing). JD wants 10+ yrs, 3+ leading teams, growth/monetization/pricing + causal inference — a near-exact mirror of your Credit Karma + Intuit monetization story. Comp sits below your comp target on base; Mercury's private equity upside is the lever. INTEL: Mercury is standing up a Cards/Credit business (multiple credit & card-fraud reqs live) — your '5 Days Early' lending work is a strong proof point for Leanne.",
+      "note": "Bullseye: leads DS across growth, monetization, and core product — a near-exact mirror of your Credit Karma/Intuit monetization story, at your level. Only drag is base sitting below your target (equity is the lever).",
       "active": true,
       "verify": {
         "type": "greenhouse",
@@ -30,22 +30,33 @@
         "text": "In process. <b>Pre-6/9 intel calls (2nd°):</b> <b>Prateek Parashar</b> (Staff DS, Growth — your exact team; via Alonso Guerrero Castañeda &amp; Shubham Gupta), <b>Katja Wittfoth</b> (Sr DS / data leader, 11 mutuals), <b>Shannon Hees</b> (Sr DS, Product Analytics). <b>1st° backchannel:</b> Oneida Dueñas (Risk, ex-Intuit)."
       },
       "discovered": false,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 10,
+        "level": 9,
+        "experience": 10,
+        "company": 8,
+        "comp": "below",
+        "score": 8.8,
+        "confidence": "high",
+        "yoe_req": "10+ yrs, 3+ leading",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Gusto",
       "role": "Head of AI & Machine Learning Engineering",
       "loc": "SF / Denver / NYC",
-      "track": "stepup",
-      "trackLabel": "Step-up title",
+      "track": "stretch",
+      "trackLabel": "Stretch / AI-native",
       "extraTrack": "stretch",
-      "score": 7.6,
-      "domain": 3,
+      "score": 5.6,
+      "domain": 2,
       "comp": "Not posted (Head-level)",
       "compFit": "at",
       "tier": "Late-stage (~$9.5B)",
       "url": "https://gusto.com/about/careers/join-the-team",
-      "note": "Big scope (MLE + ML Platform + Risk DS + AI Scientists) and Head-level comp that likely clears anchor — but it's ENG-leaning, not product DS. Stretch on domain. Pursue only if you want to pivot toward AI/ML org leadership.",
+      "note": "Head-level scope and comp that likely clears your target, but it's MLE + ML-platform + AI engineering leadership — off your product-DS domain and requires deep ML-eng leadership.",
       "verify": {
         "type": "greenhouse",
         "token": "gusto",
@@ -60,7 +71,18 @@
         "text": "2nd°: <b>Luke Phan</b> (Head of Data Engineering), <b>Cam Miller</b> (Sr Mgr DS&amp;A). Reachable via named mutuals."
       },
       "discovered": false,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 3,
+        "level": 8,
+        "experience": 4,
+        "company": 8,
+        "comp": "at",
+        "score": 5.6,
+        "confidence": "med",
+        "yoe_req": "Head-level MLE/ML-platform leadership",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Anthropic",
@@ -69,13 +91,13 @@
       "track": "stretch",
       "trackLabel": "Stretch / AI-native",
       "extraTrack": "stepup",
-      "score": 8.7,
+      "score": 7.2,
       "domain": 3,
       "comp": "$370K–$450K base",
       "compFit": "at",
       "tier": "Frontier AI",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5125387008",
-      "note": "★ Only role here whose BASE alone ($370–450K) nears your comp target — with equity it clears it. Builds product data foundations across Consumer/Claude Code/Enterprise/Growth; sponsors visas. Caveat: this is analytics-ENGINEERING leadership (dbt/data modeling/pipelines), not product DS — reframe your 0→1 story toward data foundations & metrics. Wants 5+ yrs managing AE/DE teams.",
+      "note": "Comp clears your target and the brand is elite, but this is analytics-ENGINEERING leadership (dbt/modeling/pipelines) and wants 5+ yrs managing AE/DE teams specifically — adjacent to, not the center of, your product-DS track.",
       "verify": {
         "type": "greenhouse",
         "token": "anthropic",
@@ -90,7 +112,18 @@
         "text": "No 1st°, but strong 2nd°: <b>Josh C.</b> (oversees DS, Data Eng &amp; Analytics Eng — likely the hiring leader; via Alex Zhou &amp; Han Bai), <b>Xabi Azagirre</b> (DS leader, ex-Lyft), <b>Saptarshi C.</b> (ex-Microsoft Principal DS Mgr). Reclassified inconclusive → reachable."
       },
       "discovered": false,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 6,
+        "level": 8,
+        "experience": 6,
+        "company": 10,
+        "comp": "at",
+        "score": 7.2,
+        "confidence": "high",
+        "yoe_req": "8+ yrs total, 5+ managing AE/DE teams",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Coinbase",
@@ -100,12 +133,12 @@
       "trackLabel": "Lateral → better co",
       "extraTrack": "stretch",
       "score": 8.3,
-      "domain": 3,
+      "domain": 4,
       "comp": "Total comp ~$365K–$532K (Levels.fyi)",
       "compFit": "at",
       "tier": "Public · crypto leader (~$80B)",
       "url": "https://www.coinbase.com/careers/positions/6056727",
-      "note": "One of the few adds whose TOTAL COMP clears your comp target (Levels.fyi median ~$380K, top of band $530K+). Leadership scope: 8+ yrs DS/analytics, 3+ managing. Domain is fintech-adjacent but crypto — and some Coinbase DS-mgr pods are CX/customer-lifecycle or Developer-platform leaning, so confirm the team is product/growth DS, not support analytics, before investing. Pure-comp + brand play in the AI/crypto lane.",
+      "note": "Total comp clears your target at a top-tier public name, and the level fits exactly. Confirm the pod is product/growth DS — some Coinbase DS-manager teams lean CX/support analytics.",
       "verify": {
         "type": "greenhouse",
         "token": "coinbase",
@@ -120,7 +153,18 @@
         "text": "No 1st°, but strong 2nd° paths: <b>Sunayana Chaudhry</b> (Sr. Data Science Manager — peer/hiring level; via Denise McInerney &amp; Samta Menghrajani, 15 mutuals) and <b>Kilian Mie</b> (Head of DS/Analytics Eng for Institutions; via Arpit Kumar &amp; Yoni Michael). Team intel: Anmol Bhargava (Sr DS, NY, 14 mutuals)."
       },
       "discovered": false,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 7,
+        "level": 9,
+        "experience": 9,
+        "company": 9,
+        "comp": "at",
+        "score": 8.3,
+        "confidence": "med",
+        "yoe_req": "8+ yrs, 3+ managing",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "OpenAI",
@@ -129,13 +173,13 @@
       "track": "stretch",
       "trackLabel": "Stretch / AI-native",
       "extraTrack": "stepup",
-      "score": 8.5,
-      "domain": 3,
+      "score": 7.8,
+      "domain": 4,
       "comp": "Not posted (OpenAI DS-mgr TC typically clears anchor)",
       "compFit": "at",
       "tier": "Frontier AI (~$300B+)",
       "url": "https://openai.com/careers/data-science-manager-integrity-san-francisco/",
-      "note": "Frontier-AI optionality + comp that almost certainly clears anchor with PPUs. Leads the DS function for trust & safety / fraud / risk measurement at scale — direct adjacency to your risk and lending-fraud work. Caveat: this is integrity/safety, not product-growth DS — reframe your experimentation + causal-inference story toward abuse detection, measurement, and mitigation. Highest-ceiling AI-native add.",
+      "note": "Frontier-AI optionality and comp that clears your target. Leads DS for trust & safety / fraud / risk measurement — adjacency via your risk + experimentation work, but reframe away from product-growth.",
       "verify": {
         "type": "url",
         "url": "https://openai.com/careers/data-science-manager-integrity-san-francisco/",
@@ -151,7 +195,18 @@
         "text": "No 1st°, but reachable 2nd°: <b>Benjamin Neuwirth</b> (Data Science Lead, Financial Engineering; via Brett Salmon &amp; Shweta Singh, 8 mutuals). Integrity / Trust &amp; Safety intel via fintech-rooted DS staff <b>Page Piccinini</b> (ex-Mercury/Stripe) &amp; <b>Alison W.</b> (ex-Stripe)."
       },
       "discovered": false,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 7,
+        "level": 8,
+        "experience": 7,
+        "company": 10,
+        "comp": "at",
+        "score": 7.8,
+        "confidence": "med",
+        "yoe_req": "~8+ yrs + management (est.)",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Affirm",
@@ -160,13 +215,13 @@
       "track": "stepup",
       "trackLabel": "Step-up title",
       "extraTrack": "domain",
-      "score": 8.4,
+      "score": 7.8,
       "domain": 4,
       "comp": "$245K–$325K base (CA/NY/WA)",
       "compFit": "border",
       "tier": "Public BNPL lender (~$20B)",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7718616003",
-      "note": "Director-level STEP-UP at a pure lending/BNPL company — your lending + monetization + revenue narrative is the JD. Sits on the Revenue team (pricing, GTM, growth) advising segment leaders. 12+ yrs, exec-advisory. Honest flag: this role leans strategy/BizOps analytics over hands-on product DS, so position your story toward executive influence + revenue impact. Base below anchor; Affirm equity is the lever. Domain bullseye.",
+      "note": "Director step-up at a pure lending company — your lending/revenue narrative is the JD. But it leans exec strategy/BizOps over hands-on DS, and prefers a consulting/IB/PE background; your 11 yrs are DS, so the years-and-type fit is slightly under.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -181,7 +236,18 @@
         "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": false,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 8,
+        "level": 9,
+        "experience": 7,
+        "company": 8,
+        "comp": "border",
+        "score": 7.8,
+        "confidence": "high",
+        "yoe_req": "12+ yrs strategy/ops/analytics (consulting/IB/PE ideal)",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Affirm",
@@ -190,13 +256,13 @@
       "track": "domain",
       "trackLabel": "Domain-perfect",
       "extraTrack": "lateral",
-      "score": 8.1,
-      "domain": 5,
+      "score": 7.9,
+      "domain": 4,
       "comp": "~$198K–$248K base",
       "compFit": "below",
       "tier": "Public BNPL lender (~$20B)",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7491433003",
-      "note": "Cards/payments/fintech analytics leadership (10+ yrs, 5+ leading) — bullseye for your lending + lifecycle wedge, and remote. Comp clearly below anchor; this is a lateral-with-edge you win on domain fit and company quality, not money. Pair it with the Director req above as your two shots at Affirm.",
+      "note": "Cards/payments/fintech analytics leadership at your exact level and seniority — strong lending-domain fit, remote. Base sits below your target; win on domain + company.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -211,7 +277,18 @@
         "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": false,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 8,
+        "level": 9,
+        "experience": 9,
+        "company": 8,
+        "comp": "below",
+        "score": 7.9,
+        "confidence": "med",
+        "yoe_req": "10+ yrs, 5+ leading",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "DoorDash",
@@ -220,13 +297,13 @@
       "track": "domain",
       "trackLabel": "Domain-perfect",
       "extraTrack": "lateral",
-      "score": 8.6,
+      "score": 8.7,
       "domain": 5,
       "comp": "$186K–$274K base",
       "compFit": "border",
       "tier": "Public (~$70B)",
       "url": "https://careersatdoordash.com/jobs/senior-manager-data-science-analytics---notifications-consumer-growth/6495978/",
-      "note": "Notifications is DoorDash's single largest incremental-growth lever — this role leads DS across consumer reachability, lifecycle messaging, channel optimization (push/email/SMS/in-app) and GenAI-powered recs. Growth + customer-lifecycle + experimentation is a near-exact mirror of your Credit Karma / Intuit work. Base below anchor but DoorDash RSUs push TC toward border. Strongest big-tech wedge fit of the new batch.",
+      "note": "Leads DS across consumer reachability, lifecycle messaging, and channel optimization — a direct mirror of your Credit Karma/Intuit growth + lifecycle work, at your level. Strongest big-tech wedge fit.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -241,7 +318,18 @@
         "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": false,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 9,
+        "level": 9,
+        "experience": 9,
+        "company": 9,
+        "comp": "border",
+        "score": 8.7,
+        "confidence": "med",
+        "yoe_req": "~8+ yrs, people management (est.)",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Affirm",
@@ -250,13 +338,13 @@
       "track": "domain",
       "trackLabel": "Domain-perfect",
       "extraTrack": "lateral",
-      "score": 7.8,
-      "domain": 5,
+      "score": 6.6,
+      "domain": 4,
       "comp": "Not posted (est. ~$190K–$250K base)",
       "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7732706003",
-      "note": "Consumer analytics leadership at a BNPL lender — strong lifecycle/growth domain fit. 'Lead' may lean IC; confirm people-management scope. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "JD is Affirm's marketplace/ads side (two-sided platforms), not lending-core, and reads as an individual-contributor 'Lead' (no people-management) — a scope step-down for you, though experimentation overlaps.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -271,7 +359,18 @@
         "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 7,
+        "level": 6,
+        "experience": 7,
+        "company": 8,
+        "comp": "below",
+        "score": 6.6,
+        "confidence": "high",
+        "yoe_req": "7+ yrs (marketplaces/ads/two-sided)",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Affirm",
@@ -280,13 +379,13 @@
       "track": "domain",
       "trackLabel": "Domain-perfect",
       "extraTrack": "lateral",
-      "score": 8.0,
-      "domain": 5,
+      "score": 6.8,
+      "domain": 4,
       "comp": "Not posted (est. ~$190K–$250K base)",
       "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7740918003",
-      "note": "Credit analytics at Affirm — bullseye for your lending wedge. Confirm whether 'Lead' is IC or people-leader. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Credit/lending domain is a bullseye, but the JD is credit-RISK strategy at an IC 'Lead' level requiring only 4+ yrs — you'd be overqualified and a level down.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -301,22 +400,33 @@
         "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 8,
+        "level": 6,
+        "experience": 6,
+        "company": 8,
+        "comp": "below",
+        "score": 6.8,
+        "confidence": "high",
+        "yoe_req": "4+ yrs (credit strategy, unsecured lending)",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Affirm",
       "role": "Analytics Manager, Full Stack",
       "loc": "Remote Spain",
-      "track": "domain",
-      "trackLabel": "Domain-perfect",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
       "extraTrack": "lateral",
-      "score": 8.0,
-      "domain": 5,
+      "score": 4.7,
+      "domain": 2,
       "comp": "Not posted (est. ~$200K–$250K base)",
       "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7732927003",
-      "note": "Full-stack analytics manager at a BNPL lender — lending + lifecycle fit with people scope. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Despite the generic title, the JD is a FRAUD-management role based in Spain (EUR pay) — outside your domain and geography. Low priority.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -331,7 +441,18 @@
         "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 4,
+        "level": 6,
+        "experience": 4,
+        "company": 7,
+        "comp": "below",
+        "score": 4.7,
+        "confidence": "high",
+        "yoe_req": "7+ yrs FRAUD management",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Affirm",
@@ -340,13 +461,13 @@
       "track": "domain",
       "trackLabel": "Domain-perfect",
       "extraTrack": "lateral",
-      "score": 8.2,
-      "domain": 5,
+      "score": 7.0,
+      "domain": 4,
       "comp": "Not posted (est. ~$200K–$250K base)",
       "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7704631003",
-      "note": "Credit-risk analytics manager — lending bullseye plus manager scope. Strong fit. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Owns end-to-end credit strategy for the Shopify portfolio — strong lending domain, manager scope. The 7+ yrs is credit-risk-specific, where your background is lending analytics/monetization (adjacent, not identical).",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -361,22 +482,33 @@
         "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 8,
+        "level": 7,
+        "experience": 6,
+        "company": 8,
+        "comp": "below",
+        "score": 7.0,
+        "confidence": "high",
+        "yoe_req": "7+ yrs credit risk",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Affirm",
       "role": "Analytics Manager, Full Stack (Fraud Analytics)",
       "loc": "Remote UK",
-      "track": "domain",
-      "trackLabel": "Domain-perfect",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
       "extraTrack": "",
-      "score": 7.6,
-      "domain": 4,
+      "score": 5.3,
+      "domain": 3,
       "comp": "Not posted (est. ~$200K–$250K base)",
       "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7532268003",
-      "note": "Fraud analytics manager — lending-adjacent risk domain, manager scope. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Fraud analytics manager — risk-adjacent but the JD wants 7+ yrs of fraud-specific experience you don't have. Off your monetization/growth wedge.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -391,7 +523,18 @@
         "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 5,
+        "level": 6,
+        "experience": 4,
+        "company": 8,
+        "comp": "below",
+        "score": 5.3,
+        "confidence": "high",
+        "yoe_req": "7+ yrs fraud",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Affirm",
@@ -400,13 +543,13 @@
       "track": "stretch",
       "trackLabel": "Stretch / AI-native",
       "extraTrack": "",
-      "score": 6.8,
-      "domain": 3,
+      "score": 4.9,
+      "domain": 2,
       "comp": "Not posted (ENG band — likely borderline)",
       "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7710180003",
-      "note": "MLE manager (fraud) — engineering-leaning, not product DS; pursue only for an ML-org pivot. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "ML-engineering leadership (building/shipping fraud models) — wants 3+ yrs managing engineers, not data scientists. Off your product-DS track; pursue only for an ML-org pivot.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -421,7 +564,18 @@
         "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 3,
+        "level": 6,
+        "experience": 4,
+        "company": 8,
+        "comp": "border",
+        "score": 4.9,
+        "confidence": "high",
+        "yoe_req": "8+ yrs industry, 3+ managing ENGINEERS",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Affirm",
@@ -430,13 +584,13 @@
       "track": "stretch",
       "trackLabel": "Stretch / AI-native",
       "extraTrack": "",
-      "score": 7.0,
-      "domain": 3,
+      "score": 5.2,
+      "domain": 2,
       "comp": "Not posted (ENG band — likely borderline)",
       "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7723636003",
-      "note": "MLE manager for underwriting (credit) — lending domain but engineering-leaning. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Underwriting ML-engineering — lending-adjacent but an engineering-management role (deep ML/eng required); your DS-management experience doesn't map directly.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -451,7 +605,18 @@
         "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 4,
+        "level": 6,
+        "experience": 4,
+        "company": 8,
+        "comp": "border",
+        "score": 5.2,
+        "confidence": "high",
+        "yoe_req": "8+ yrs industry, 3+ managing ENGINEERS",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Affirm",
@@ -460,13 +625,13 @@
       "track": "stretch",
       "trackLabel": "Stretch / AI-native",
       "extraTrack": "stepup",
-      "score": 6.5,
-      "domain": 2,
+      "score": 4.8,
+      "domain": 1,
       "comp": "Not posted (Sr EM ENG band — likely near/clears anchor)",
       "compFit": "at",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7705033003",
-      "note": "ML-platform engineering leadership — off your product-DS domain, but comp likely strong. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "ML-platform engineering leadership (managing managers) — comp likely clears your target, but it requires 12+ yrs of software/ML engineering you don't have. Off-domain.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -481,7 +646,18 @@
         "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 2,
+        "level": 7,
+        "experience": 3,
+        "company": 8,
+        "comp": "at",
+        "score": 4.8,
+        "confidence": "high",
+        "yoe_req": "12+ yrs SWE/ML eng, 4+ managing managers",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Anthropic",
@@ -490,13 +666,13 @@
       "track": "stretch",
       "trackLabel": "Stretch / AI-native",
       "extraTrack": "",
-      "score": 6.0,
-      "domain": 2,
+      "score": 4.6,
+      "domain": 1,
       "comp": "Not posted (Anthropic comp typically high)",
       "compFit": "at",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5202462008",
-      "note": "People / workforce analytics at a frontier-AI company — comp likely clears anchor, but off your product-DS domain. Lower priority. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Frontier-AI brand and strong comp, but this is HR/people analytics + workforce planning (HRIS/FP&A) — a domain you have no background in. Low fit.",
       "verify": {
         "type": "greenhouse",
         "token": "anthropic",
@@ -511,7 +687,18 @@
         "text": ""
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 2,
+        "level": 5,
+        "experience": 3,
+        "company": 10,
+        "comp": "at",
+        "score": 4.6,
+        "confidence": "high",
+        "yoe_req": "7+ yrs people analytics / workforce planning",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Chime",
@@ -520,13 +707,13 @@
       "track": "stepup",
       "trackLabel": "Step-up title",
       "extraTrack": "domain",
-      "score": 8.2,
+      "score": 8.0,
       "domain": 4,
       "comp": "Not posted (Director band, est. ~$230K–$300K base)",
       "compFit": "border",
       "tier": "",
       "url": "https://boards.greenhouse.io/chime/jobs/8443192002?gh_jid=8443192002",
-      "note": "Director step-up at Chime — marketing/growth analytics with fintech lifecycle fit, and you have 1st° contacts here. Strong. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Director step-up at a fintech where you have 1st-degree contacts. Growth/lifecycle fit is strong; the one stretch is the 8+ yrs of *marketing-analytics-specific* experience (you're more product/monetization).",
       "verify": {
         "type": "greenhouse",
         "token": "chime",
@@ -541,7 +728,18 @@
         "text": "<b>1st°:</b> Mirna Ortiz Treviño (Sr PM, 15 mutuals) &amp; Ashwanth Draksha (Sr Data Analyst, Financial Crimes, 19 mutuals) — warm intros/intel. <b>2nd° leadership:</b> <b>Philip Denkabe</b> (Head of AI/ML/Data Science at Chime — likely above this role; via Dr. Ramla Jarrar &amp; Rafael Coss, 11 mutuals), Ekampreet Singh Kalsy (Product Analytics Lead), Rohith Devarasetty (Lead DS, Growth — experimentation/causal)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 8,
+        "level": 9,
+        "experience": 7,
+        "company": 9,
+        "comp": "border",
+        "score": 8.0,
+        "confidence": "high",
+        "yoe_req": "10+ yrs analytics, 8+ in marketing analytics",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "DoorDash",
@@ -550,13 +748,13 @@
       "track": "stepup",
       "trackLabel": "Step-up title",
       "extraTrack": "lateral",
-      "score": 8.3,
-      "domain": 4,
+      "score": 8.7,
+      "domain": 5,
       "comp": "Not posted (Director band; RSUs push TC toward border)",
       "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7822599",
-      "note": "Director step-up over commerce-platform analytics at DoorDash — big scope with RSU upside. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Director step-up leading managers across 0→1 and scaling commerce products — your incubation/0→1 and leadership experience map cleanly. RSUs push TC toward your target.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -571,7 +769,18 @@
         "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 9,
+        "level": 9,
+        "experience": 9,
+        "company": 9,
+        "comp": "border",
+        "score": 8.7,
+        "confidence": "high",
+        "yoe_req": "10+ yrs, leading senior teams & developing managers",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "DoorDash",
@@ -580,13 +789,13 @@
       "track": "domain",
       "trackLabel": "Domain-perfect",
       "extraTrack": "",
-      "score": 6.5,
+      "score": 6.9,
       "domain": 4,
       "comp": "Not posted (IC band)",
       "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7380096",
-      "note": "IC lead DS — a title step-down from your Senior Manager line; referral-only consideration. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Great product-analytics + experimentation domain, but it's an individual-contributor 'Lead' — a title step-down from your Senior Manager line. Referral-only consideration.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -601,7 +810,18 @@
         "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 8,
+        "level": 5,
+        "experience": 7,
+        "company": 9,
+        "comp": "below",
+        "score": 6.9,
+        "confidence": "high",
+        "yoe_req": "8+ yrs DS/product analytics (IC)",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "DoorDash",
@@ -610,13 +830,13 @@
       "track": "lateral",
       "trackLabel": "Lateral → better co",
       "extraTrack": "",
-      "score": 7.0,
+      "score": 6.0,
       "domain": 3,
       "comp": "Not posted (est. ~$190K–$260K base)",
       "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7967426",
-      "note": "Manager over in-store (retail-media-adjacent) data & analytics — manager scope, domain a stretch from growth DS. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Reports into Strategy & Ops; the JD is BI/analytics-engineering for the in-store GTM stack (DBT/Salesforce pipelines) — infrastructure-leaning vs your product-growth DS focus.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -631,7 +851,18 @@
         "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 5,
+        "level": 7,
+        "experience": 6,
+        "company": 9,
+        "comp": "below",
+        "score": 6.0,
+        "confidence": "high",
+        "yoe_req": "6+ yrs BI/analytics-eng (B2B SaaS), 2+ mgmt",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "DoorDash",
@@ -640,13 +871,13 @@
       "track": "lateral",
       "trackLabel": "Lateral → better co",
       "extraTrack": "domain",
-      "score": 7.6,
+      "score": 7.7,
       "domain": 4,
       "comp": "Not posted (est. ~$190K–$270K base)",
       "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7812825",
-      "note": "DS manager at DoorDash — solid lateral with growth/experimentation potential; confirm the pod (growth vs ops). Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "DS manager tied to product/business/GTM priorities — solid lateral with growth/experimentation overlap; you comfortably exceed the 6+ yrs + management bar. Base below target.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -661,7 +892,18 @@
         "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 8,
+        "level": 8,
+        "experience": 8,
+        "company": 9,
+        "comp": "below",
+        "score": 7.7,
+        "confidence": "high",
+        "yoe_req": "6+ yrs, managing DS/analysts",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "DoorDash",
@@ -670,13 +912,13 @@
       "track": "lateral",
       "trackLabel": "Lateral → better co",
       "extraTrack": "",
-      "score": 7.2,
+      "score": 7.0,
       "domain": 3,
       "comp": "Not posted (est. ~$190K–$270K base)",
       "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7821944",
-      "note": "DS manager, logistics analytics — ops-analytics leaning vs your growth wedge. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Same manager scope but pointed at logistics analytics — an ops domain further from your growth/monetization wedge.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -691,7 +933,18 @@
         "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 6,
+        "level": 8,
+        "experience": 8,
+        "company": 9,
+        "comp": "below",
+        "score": 7.0,
+        "confidence": "high",
+        "yoe_req": "6+ yrs, managing DS/analysts",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "DoorDash",
@@ -700,13 +953,13 @@
       "track": "domain",
       "trackLabel": "Domain-perfect",
       "extraTrack": "lateral",
-      "score": 7.8,
+      "score": 7.7,
       "domain": 4,
       "comp": "Not posted (est. ~$190K–$270K base)",
       "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7580412",
-      "note": "Manager over ads/promotions advertiser analytics — monetization/growth adjacency with people scope. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Manager over advertiser analytics with incrementality/attribution/experimentation — monetization-and-growth adjacency, and you clear the years + people-management bar.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -721,7 +974,18 @@
         "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 8,
+        "level": 8,
+        "experience": 8,
+        "company": 9,
+        "comp": "below",
+        "score": 7.7,
+        "confidence": "high",
+        "yoe_req": "6-8+ yrs marketing analytics, managing a team",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "DoorDash",
@@ -730,13 +994,13 @@
       "track": "stretch",
       "trackLabel": "Stretch / AI-native",
       "extraTrack": "",
-      "score": 6.8,
-      "domain": 3,
+      "score": 4.6,
+      "domain": 2,
       "comp": "Not posted (Principal ENG band — likely border)",
       "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7760003",
-      "note": "Principal MLE (ads delivery) — IC/engineering track, off your leadership-DS narrative though comp is strong. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Hands-on ML-engineering IC (PyTorch, LLM/RAG, ranking) — off your domain and an IC track. Comp is decent but the role doesn't advance your leadership narrative.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -751,7 +1015,18 @@
         "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 3,
+        "level": 4,
+        "experience": 4,
+        "company": 9,
+        "comp": "border",
+        "score": 4.6,
+        "confidence": "high",
+        "yoe_req": "5+ yrs building/deploying ML (IC Principal)",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "DoorDash",
@@ -760,13 +1035,13 @@
       "track": "domain",
       "trackLabel": "Domain-perfect",
       "extraTrack": "lateral",
-      "score": 8.4,
+      "score": 8.7,
       "domain": 5,
       "comp": "Not posted (est. ~$200K–$280K base; RSUs → border)",
       "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7454878",
-      "note": "Sr Manager over ads & promotions analytics — monetization + experimentation, a near-mirror of your wedge, with people scope. Strong. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
+      "note": "Sr Manager over ads & promotions analytics — monetization + funnel + experimentation is a near-mirror of your wedge, at your exact level. You clear the 8+ yrs + people-management bar. RSUs push toward target.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -781,7 +1056,18 @@
         "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": false
+      "isNew": false,
+      "fit": {
+        "relevance": 9,
+        "level": 9,
+        "experience": 9,
+        "company": 9,
+        "comp": "border",
+        "score": 8.7,
+        "confidence": "high",
+        "yoe_req": "8+ yrs analytics, people management",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Airbnb",
@@ -790,13 +1076,13 @@
       "track": "domain",
       "trackLabel": "Domain-perfect",
       "extraTrack": "lateral",
-      "score": 8.4,
+      "score": 7.9,
       "domain": 5,
       "comp": "Not posted (est. near/clears anchor at Airbnb)",
       "compFit": "border",
       "tier": "Public (~$80B+)",
       "url": "https://www.linkedin.com/jobs/view/4419488604/",
-      "note": "Acquisition/growth analytics leadership at a top-tier company, fully remote — experimentation + funnel + lifecycle is your wedge. 'Lead' may lean IC; confirm scope. Found via LinkedIn jobs.",
+      "note": "Acquisition/growth analytics at a top-tier company, fully remote — experimentation + funnel + lifecycle is your wedge. 'Lead' may be IC; JD is auth-gated, so confirm scope and required years.",
       "verify": {
         "type": "url",
         "url": "https://www.linkedin.com/jobs/view/4419488604/",
@@ -813,7 +1099,18 @@
       },
       "discovered": true,
       "isNew": false,
-      "source": "linkedin"
+      "source": "linkedin",
+      "fit": {
+        "relevance": 9,
+        "level": 7,
+        "experience": 7,
+        "company": 9,
+        "comp": "border",
+        "score": 7.9,
+        "confidence": "low",
+        "yoe_req": "JD auth-gated — confirm",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Asana",
@@ -828,7 +1125,7 @@
       "compFit": "border",
       "tier": "Public SaaS",
       "url": "https://www.linkedin.com/jobs/view/4411915992/",
-      "note": "DS manager at a strong product-SaaS company — growth/product DS lateral. Found via LinkedIn jobs.",
+      "note": "DS manager at a strong product-SaaS company — a clean lateral at your level with growth/product overlap. JD auth-gated; confirm focus and years.",
       "verify": {
         "type": "url",
         "url": "https://www.linkedin.com/jobs/view/4411915992/",
@@ -845,7 +1142,18 @@
       },
       "discovered": true,
       "isNew": false,
-      "source": "linkedin"
+      "source": "linkedin",
+      "fit": {
+        "relevance": 8,
+        "level": 9,
+        "experience": 8,
+        "company": 8,
+        "comp": "border",
+        "score": 8.0,
+        "confidence": "low",
+        "yoe_req": "JD auth-gated — confirm",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "Adobe",
@@ -854,13 +1162,13 @@
       "track": "stepup",
       "trackLabel": "Step-up title",
       "extraTrack": "lateral",
-      "score": 7.8,
-      "domain": 3,
+      "score": 7.9,
+      "domain": 4,
       "comp": "Not posted (Director band — likely clears anchor)",
       "compFit": "at",
       "tier": "Public (~$240B)",
       "url": "https://www.linkedin.com/jobs/view/4391940942/",
-      "note": "Director step-up at a large public company; comp likely clears anchor. On-site SF; domain depends on org (product vs enterprise). Found via LinkedIn jobs.",
+      "note": "Director step-up at a large public company; comp likely clears your target. On-site SF and domain depends on the org (product vs enterprise). JD auth-gated; confirm.",
       "verify": {
         "type": "url",
         "url": "https://www.linkedin.com/jobs/view/4391940942/",
@@ -877,14 +1185,25 @@
       },
       "discovered": true,
       "isNew": false,
-      "source": "linkedin"
+      "source": "linkedin",
+      "fit": {
+        "relevance": 7,
+        "level": 9,
+        "experience": 7,
+        "company": 9,
+        "comp": "at",
+        "score": 7.9,
+        "confidence": "low",
+        "yoe_req": "JD auth-gated — likely 12+ yrs",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "OpenAI",
       "role": "Marketing Analytics Lead",
       "loc": "San Francisco · hybrid",
-      "track": "stretch",
-      "trackLabel": "Stretch / AI-native",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
       "extraTrack": "domain",
       "score": 8.0,
       "domain": 4,
@@ -892,7 +1211,7 @@
       "compFit": "at",
       "tier": "Frontier AI (~$300B+)",
       "url": "https://www.linkedin.com/jobs/view/4416736417/",
-      "note": "Marketing/growth analytics lead at OpenAI — lifecycle/growth domain plus frontier-AI comp. Confirm IC vs people scope. Found via LinkedIn jobs.",
+      "note": "Marketing/growth analytics at OpenAI — lifecycle/growth domain plus frontier-AI comp. 'Lead' scope (IC vs people) and required years are unconfirmed (JD auth-gated).",
       "verify": {
         "type": "url",
         "url": "https://www.linkedin.com/jobs/view/4416736417/",
@@ -909,7 +1228,18 @@
       },
       "discovered": true,
       "isNew": false,
-      "source": "linkedin"
+      "source": "linkedin",
+      "fit": {
+        "relevance": 8,
+        "level": 7,
+        "experience": 7,
+        "company": 10,
+        "comp": "at",
+        "score": 8.0,
+        "confidence": "low",
+        "yoe_req": "JD auth-gated — confirm",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     }
   ]
 }

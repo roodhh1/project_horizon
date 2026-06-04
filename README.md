@@ -7,6 +7,31 @@ newly opened ones are added, automatically every day.
 
 **Live dashboard:** https://roodhh1.github.io/project_horizon/
 
+## How fit scores work
+
+Each live role carries a `fit` block and a composite **fit score (0–10)**. The score is
+a weighted blend of five sub-scores, each 0–10, judged against Rodrigo's profile
+(~11 yrs DS, ~5 yrs people-management; wedge: product analytics, monetization/pricing,
+consumer lending, growth, causal inference / experimentation):
+
+| Sub-score | Weight | What it measures |
+|-----------|:------:|------------------|
+| **Relevance** | 35% | How closely the role's *actual* focus (read from the JD) matches the wedge |
+| **Level** | 20% | Scope fit vs his Senior-Manager level — step-up Director/Head and lateral Manager rank high; IC "Lead"/Staff rank low |
+| **Experience** | 20% | Match of his years **and kind** of experience to the JD's requirements — penalizes domain-specific gaps (fraud-management, ML-engineering, people-analytics) even when total years exceed |
+| **Company** | 10% | Brand, stage, trajectory, comp ceiling |
+| **Comp** | 15% | Relative to his (confidential) target — at / borderline / below |
+
+`composite = 0.35·Relevance + 0.20·Level + 0.20·Experience + 0.10·Company + 0.15·Comp`
+
+Each role also has a **confidence** flag: `high` (JD fetched and parsed, e.g. via the
+Greenhouse content API), `med` (prior JD-informed detail), or `low` (JD auth-gated, e.g.
+LinkedIn — scored from title/company pending a manual read). The breakdown and the
+JD's required years vs. Rodrigo's experience are shown on every card.
+
+Scores are a decision aid, not a verdict — they make the *why* explicit so a low
+Relevance or an Experience-gap is visible at a glance.
+
 ## Data model
 
 All role data lives in **`roles.json`** — the single source of truth

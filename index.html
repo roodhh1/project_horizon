@@ -107,6 +107,20 @@
   .verified{color:var(--green);font-weight:700}
   .needs{color:var(--amber);font-weight:700}
   .note{font-size:12px;color:var(--slate);font-style:italic;border-top:1px dashed var(--line);padding-top:8px}
+  .fit{background:#f9fafc;border:1px solid var(--line);border-radius:10px;padding:9px 11px}
+  .fit-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+  .fit-title{font-size:11px;font-weight:700;color:var(--slate);text-transform:uppercase;letter-spacing:.5px}
+  .conf{font-size:10px;font-weight:700;padding:2px 7px;border-radius:999px}
+  .conf-high{background:#dcfce7;color:#166534}
+  .conf-med{background:#fef3c7;color:#92400e}
+  .conf-low{background:#e2e5ee;color:#6b7280}
+  .fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px}
+  .fitm{display:flex;align-items:center;gap:6px;font-size:11px}
+  .fitm .fl{color:var(--slate);width:74px;flex-shrink:0}
+  .fitm .fbar{flex:1;height:5px;background:#eceef4;border-radius:3px;overflow:hidden}
+  .fitm .fbar i{display:block;height:100%}
+  .fitm .fv{width:14px;text-align:right;font-weight:700;color:var(--ink)}
+  .fitreq{margin-top:7px;font-size:11px;color:var(--slate);line-height:1.4}
   .ref-block{background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:9px 11px}
   .ref-text{font-size:11.5px;color:#41506e;margin-top:4px;line-height:1.4}
   .ref-text b{color:var(--ink)}
@@ -249,6 +263,13 @@ function render(){
         <div style="grid-column:1/-1"><span class="k">Verified:</span> <span class="vstatus ok">● Live — ${st.v}</span></div>
       </div>
       <div class="note">${r.note}</div>
+      ${r.fit?`<div class="fit">
+        <div class="fit-head"><span class="fit-title">Fit breakdown</span><span class="conf conf-${r.fit.confidence}">${r.fit.confidence} confidence</span></div>
+        <div class="fit-grid">
+          ${[['Relevance',r.fit.relevance],['Level',r.fit.level],['Experience',r.fit.experience],['Company',r.fit.company]].map(([k,v])=>`<div class="fitm"><span class="fl">${k}</span><span class="fbar"><i style="width:${v*10}%;background:${scoreColor(v)}"></i></span><span class="fv">${v}</span></div>`).join('')}
+        </div>
+        ${r.fit.yoe_req?`<div class="fitreq"><b>JD asks:</b> ${r.fit.yoe_req} · <b>${r.fit.candidate}</b></div>`:''}
+      </div>`:''}
       ${(()=>{const rf=r.referral||{level:"pending",text:""};const rc=refMap[rf.level]||refMap.pending;return `<div class="ref-block"><div class="ref-status"><span class="dot" style="background:${rc[0]}"></span>${rc[1]}</div>${rf.text?`<div class="ref-text">${rf.text}</div>`:''}</div>`;})()}
       <div class="actions">
         <a class="btn apply" href="${r.url}" target="_blank" rel="noopener">View / Apply ↗</a>
