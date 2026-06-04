@@ -116,8 +116,8 @@
         "v": "Live (closing? unconfirmed) · 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": "Referral sweep not yet run for Coinbase. Next step: scan your 1st/2nd° for DS/Analytics leaders, incl. ex-fintech contacts now at Coinbase."
+        "level": "bridge",
+        "text": "No 1st°, but strong 2nd° paths: <b>Sunayana Chaudhry</b> (Sr. Data Science Manager — peer/hiring level; via Denise McInerney &amp; Samta Menghrajani, 15 mutuals) and <b>Kilian Mie</b> (Head of DS/Analytics Eng for Institutions; via Arpit Kumar &amp; Yoni Michael). Team intel: Anmol Bhargava (Sr DS, NY, 14 mutuals)."
       },
       "discovered": false,
       "isNew": false
@@ -147,8 +147,8 @@
         "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04)"
       },
       "referral": {
-        "level": "pending",
-        "text": "Referral sweep pending for OpenAI. Target Integrity / Trust &amp; Safety DS and any frontier-AI 2nd° paths."
+        "level": "bridge",
+        "text": "No 1st°, but reachable 2nd°: <b>Benjamin Neuwirth</b> (Data Science Lead, Financial Engineering; via Brett Salmon &amp; Shweta Singh, 8 mutuals). Integrity / Trust &amp; Safety intel via fintech-rooted DS staff <b>Page Piccinini</b> (ex-Mercury/Stripe) &amp; <b>Alison W.</b> (ex-Stripe)."
       },
       "discovered": false,
       "isNew": false
@@ -177,8 +177,8 @@
         "v": "Board API · checked 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": "Referral sweep pending for Affirm. Strong odds given your lending/fintech overlap — scan for Revenue &amp; Analytics leaders."
+        "level": "bridge",
+        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": false,
       "isNew": false
@@ -207,8 +207,8 @@
         "v": "Live (closing? unconfirmed) · 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": "Referral sweep pending for Affirm. Cards/payments analytics 2nd° paths are likely."
+        "level": "bridge",
+        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": false,
       "isNew": false
@@ -237,8 +237,8 @@
         "v": "Live (closing? unconfirmed) · 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": "Referral sweep pending for DoorDash. Target Consumer Growth / Notifications DS leaders and ex-colleagues now at DoorDash."
+        "level": "direct",
+        "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": false,
       "isNew": false
@@ -247,16 +247,16 @@
       "co": "Affirm",
       "role": "Analytics Lead, Full Stack (Consumer Analytics)",
       "loc": "Remote US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 7.8,
+      "domain": 5,
+      "comp": "Not posted (est. ~$190K–$250K base)",
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7732706003",
-      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Consumer analytics leadership at a BNPL lender — strong lifecycle/growth domain fit. 'Lead' may lean IC; confirm people-management scope. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -267,26 +267,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Affirm",
       "role": "Analytics Lead, Full Stack (Credit Analytics)",
       "loc": "Remote US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 8.0,
+      "domain": 5,
+      "comp": "Not posted (est. ~$190K–$250K base)",
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7740918003",
-      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Credit analytics at Affirm — bullseye for your lending wedge. Confirm whether 'Lead' is IC or people-leader. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -297,26 +297,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Affirm",
       "role": "Analytics Manager, Full Stack",
       "loc": "Remote Spain",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 8.0,
+      "domain": 5,
+      "comp": "Not posted (est. ~$200K–$250K base)",
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7732927003",
-      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Full-stack analytics manager at a BNPL lender — lending + lifecycle fit with people scope. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -327,26 +327,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Affirm",
       "role": "Analytics Manager, Full Stack (Credit Risk)",
       "loc": "Remote US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 8.2,
+      "domain": 5,
+      "comp": "Not posted (est. ~$200K–$250K base)",
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7704631003",
-      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Credit-risk analytics manager — lending bullseye plus manager scope. Strong fit. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -357,26 +357,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Affirm",
       "role": "Analytics Manager, Full Stack (Fraud Analytics)",
       "loc": "Remote UK",
-      "track": "new",
-      "trackLabel": "New find",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
       "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "score": 7.6,
+      "domain": 4,
+      "comp": "Not posted (est. ~$200K–$250K base)",
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7532268003",
-      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Fraud analytics manager — lending-adjacent risk domain, manager scope. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -387,26 +387,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Affirm",
       "role": "Manager, Machine Learning Engineering (Fraud)",
       "loc": "Remote Canada",
-      "track": "new",
-      "trackLabel": "New find",
+      "track": "stretch",
+      "trackLabel": "Stretch / AI-native",
       "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "score": 6.8,
+      "domain": 3,
+      "comp": "Not posted (ENG band — likely borderline)",
+      "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7710180003",
-      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "MLE manager (fraud) — engineering-leaning, not product DS; pursue only for an ML-org pivot. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -417,26 +417,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Affirm",
       "role": "Manager, Machine Learning Engineering (Underwriting) ",
       "loc": "Remote US",
-      "track": "new",
-      "trackLabel": "New find",
+      "track": "stretch",
+      "trackLabel": "Stretch / AI-native",
       "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "score": 7.0,
+      "domain": 3,
+      "comp": "Not posted (ENG band — likely borderline)",
+      "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7723636003",
-      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "MLE manager for underwriting (credit) — lending domain but engineering-leaning. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -447,26 +447,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Affirm",
       "role": "Senior Engineering Manager, Machine Learning Platform",
       "loc": "Remote US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "track": "stretch",
+      "trackLabel": "Stretch / AI-native",
+      "extraTrack": "stepup",
+      "score": 6.5,
+      "domain": 2,
+      "comp": "Not posted (Sr EM ENG band — likely near/clears anchor)",
+      "compFit": "at",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7705033003",
-      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "ML-platform engineering leadership — off your product-DS domain, but comp likely strong. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "affirm",
@@ -477,26 +477,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Anthropic",
       "role": "Workforce Planning Lead, People Analytics",
       "loc": "San Francisco, CA | New York City, NY",
-      "track": "new",
-      "trackLabel": "New find",
+      "track": "stretch",
+      "trackLabel": "Stretch / AI-native",
       "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "score": 6.0,
+      "domain": 2,
+      "comp": "Not posted (Anthropic comp typically high)",
+      "compFit": "at",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5202462008",
-      "note": "Auto-discovered on Anthropic's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "People / workforce analytics at a frontier-AI company — comp likely clears anchor, but off your product-DS domain. Lower priority. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "anthropic",
@@ -511,22 +511,22 @@
         "text": ""
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Chime",
       "role": "Director, Marketing Analytics",
       "loc": "San Francisco, CA, USA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "track": "stepup",
+      "trackLabel": "Step-up title",
+      "extraTrack": "domain",
+      "score": 8.2,
+      "domain": 4,
+      "comp": "Not posted (Director band, est. ~$230K–$300K base)",
+      "compFit": "border",
       "tier": "",
       "url": "https://boards.greenhouse.io/chime/jobs/8443192002?gh_jid=8443192002",
-      "note": "Auto-discovered on Chime's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Director step-up at Chime — marketing/growth analytics with fintech lifecycle fit, and you have 1st° contacts here. Strong. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "chime",
@@ -537,26 +537,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "direct",
+        "text": "<b>1st°:</b> Mirna Ortiz Treviño (Sr PM, 15 mutuals) &amp; Ashwanth Draksha (Sr Data Analyst, Financial Crimes, 19 mutuals) — warm intros/intel. <b>2nd° leadership:</b> <b>Philip Denkabe</b> (Head of AI/ML/Data Science at Chime — likely above this role; via Dr. Ramla Jarrar &amp; Rafael Coss, 11 mutuals), Ekampreet Singh Kalsy (Product Analytics Lead), Rohith Devarasetty (Lead DS, Growth — experimentation/causal)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "DoorDash",
       "role": "Director, Analytics, Commerce Platform",
       "loc": "New York,NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "track": "stepup",
+      "trackLabel": "Step-up title",
+      "extraTrack": "lateral",
+      "score": 8.3,
+      "domain": 4,
+      "comp": "Not posted (Director band; RSUs push TC toward border)",
+      "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7822599",
-      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Director step-up over commerce-platform analytics at DoorDash — big scope with RSU upside. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -567,26 +567,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "direct",
+        "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "DoorDash",
       "role": "Lead Data Scientist",
       "loc": "San Francisco, CA; Seattle, WA; New York, NY",
-      "track": "new",
-      "trackLabel": "New find",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
       "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "score": 6.5,
+      "domain": 4,
+      "comp": "Not posted (IC band)",
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7380096",
-      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "IC lead DS — a title step-down from your Senior Manager line; referral-only consideration. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -597,26 +597,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "direct",
+        "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "DoorDash",
       "role": "Manager, Data & Analytics, In-Store",
       "loc": "New York, NY",
-      "track": "new",
-      "trackLabel": "New find",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
       "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "score": 7.0,
+      "domain": 3,
+      "comp": "Not posted (est. ~$190K–$260K base)",
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7967426",
-      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Manager over in-store (retail-media-adjacent) data & analytics — manager scope, domain a stretch from growth DS. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -627,26 +627,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "direct",
+        "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "DoorDash",
       "role": "Manager, Data Science",
       "loc": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York, NY; Chicago, IL; Austin, TX",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
+      "extraTrack": "domain",
+      "score": 7.6,
+      "domain": 4,
+      "comp": "Not posted (est. ~$190K–$270K base)",
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7812825",
-      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "DS manager at DoorDash — solid lateral with growth/experimentation potential; confirm the pod (growth vs ops). Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -657,26 +657,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "direct",
+        "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "DoorDash",
       "role": "Manager, Data Science, Logistics Analytics",
       "loc": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York, NY; Chicago, IL; Austin, TX; Washington D.C.",
-      "track": "new",
-      "trackLabel": "New find",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
       "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "score": 7.2,
+      "domain": 3,
+      "comp": "Not posted (est. ~$190K–$270K base)",
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7821944",
-      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "DS manager, logistics analytics — ops-analytics leaning vs your growth wedge. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -687,26 +687,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "direct",
+        "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "DoorDash",
       "role": "Manager, Rx Advertiser Analytics - Ads & Promotions",
       "loc": "New York, NY; San Francisco, CA; Los Angeles, CA; Chicago, IL; Seattle, WA; Washington, DC; Tempe, AZ",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 7.8,
+      "domain": 4,
+      "comp": "Not posted (est. ~$190K–$270K base)",
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7580412",
-      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Manager over ads/promotions advertiser analytics — monetization/growth adjacency with people scope. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -717,26 +717,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "direct",
+        "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "DoorDash",
       "role": "Principal Machine Learning Engineer, Ads & Promos Delivery",
       "loc": "Sunnyvale, CA",
-      "track": "new",
-      "trackLabel": "New find",
+      "track": "stretch",
+      "trackLabel": "Stretch / AI-native",
       "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "score": 6.8,
+      "domain": 3,
+      "comp": "Not posted (Principal ENG band — likely border)",
+      "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7760003",
-      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Principal MLE (ads delivery) — IC/engineering track, off your leadership-DS narrative though comp is strong. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -747,26 +747,26 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "direct",
+        "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "DoorDash",
       "role": "Senior Manager, Ads & Promotions Analytics",
       "loc": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York, NY; Los Angeles, CA; Chicago, IL",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 8.4,
+      "domain": 5,
+      "comp": "Not posted (est. ~$200K–$280K base; RSUs → border)",
+      "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7454878",
-      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "note": "Sr Manager over ads & promotions analytics — monetization + experimentation, a near-mirror of your wedge, with people scope. Strong. Auto-found on the company board; first-pass score from title/company/level — confirm against the JD.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -777,11 +777,139 @@
         "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
+        "level": "direct",
+        "text": "<b>1st°:</b> Maximiliano Medina García (Data Scientist, 12 mutuals) — warm intro. <b>2nd° leadership:</b> <b>Alyssa Wisdom</b> (Director, Consumer Data Science — the Notifications / Consumer-Growth org; via Joseph Powers &amp; Ani Ghosh), <b>Yu Dong</b> (DS Analytics Manager, 24 mutuals — peer/hiring), <b>Zack L.</b> (Director DS, Fraud / Trust &amp; Safety), Lokesh Bisht &amp; Linsha Chen (Senior Directors). Ads/marketing: Moshe Katzwer (manages DS for paid marketing)."
+      },
+      "discovered": true,
+      "isNew": false
+    },
+    {
+      "co": "Airbnb",
+      "role": "Lead, Advanced Analytics, Acquisition",
+      "loc": "Remote — US",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 8.4,
+      "domain": 5,
+      "comp": "Not posted (est. near/clears anchor at Airbnb)",
+      "compFit": "border",
+      "tier": "Public (~$80B+)",
+      "url": "https://www.linkedin.com/jobs/view/4419488604/",
+      "note": "Acquisition/growth analytics leadership at a top-tier company, fully remote — experimentation + funnel + lifecycle is your wedge. 'Lead' may lean IC; confirm scope. Found via LinkedIn jobs.",
+      "verify": {
+        "type": "url",
+        "url": "https://www.linkedin.com/jobs/view/4419488604/",
+        "live_label": "LinkedIn posting",
+        "dead_label": "LinkedIn: closed"
+      },
+      "status": {
+        "live": true,
+        "v": "LinkedIn posting · checked 2026-06-04"
+      },
+      "referral": {
         "level": "pending",
         "text": ""
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false,
+      "source": "linkedin"
+    },
+    {
+      "co": "Asana",
+      "role": "Senior Data Science Manager",
+      "loc": "San Francisco · hybrid",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
+      "extraTrack": "domain",
+      "score": 8.0,
+      "domain": 4,
+      "comp": "Not posted (est. ~$210K–$290K base)",
+      "compFit": "border",
+      "tier": "Public SaaS",
+      "url": "https://www.linkedin.com/jobs/view/4411915992/",
+      "note": "DS manager at a strong product-SaaS company — growth/product DS lateral. Found via LinkedIn jobs.",
+      "verify": {
+        "type": "url",
+        "url": "https://www.linkedin.com/jobs/view/4411915992/",
+        "live_label": "LinkedIn posting",
+        "dead_label": "LinkedIn: closed"
+      },
+      "status": {
+        "live": true,
+        "v": "LinkedIn posting · checked 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false,
+      "source": "linkedin"
+    },
+    {
+      "co": "Adobe",
+      "role": "Director, Data Science & Analytics",
+      "loc": "San Francisco · on-site",
+      "track": "stepup",
+      "trackLabel": "Step-up title",
+      "extraTrack": "lateral",
+      "score": 7.8,
+      "domain": 3,
+      "comp": "Not posted (Director band — likely clears anchor)",
+      "compFit": "at",
+      "tier": "Public (~$240B)",
+      "url": "https://www.linkedin.com/jobs/view/4391940942/",
+      "note": "Director step-up at a large public company; comp likely clears anchor. On-site SF; domain depends on org (product vs enterprise). Found via LinkedIn jobs.",
+      "verify": {
+        "type": "url",
+        "url": "https://www.linkedin.com/jobs/view/4391940942/",
+        "live_label": "LinkedIn posting",
+        "dead_label": "LinkedIn: closed"
+      },
+      "status": {
+        "live": true,
+        "v": "LinkedIn posting · checked 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false,
+      "source": "linkedin"
+    },
+    {
+      "co": "OpenAI",
+      "role": "Marketing Analytics Lead",
+      "loc": "San Francisco · hybrid",
+      "track": "stretch",
+      "trackLabel": "Stretch / AI-native",
+      "extraTrack": "domain",
+      "score": 8.0,
+      "domain": 4,
+      "comp": "Not posted (OpenAI comp typically clears anchor)",
+      "compFit": "at",
+      "tier": "Frontier AI (~$300B+)",
+      "url": "https://www.linkedin.com/jobs/view/4416736417/",
+      "note": "Marketing/growth analytics lead at OpenAI — lifecycle/growth domain plus frontier-AI comp. Confirm IC vs people scope. Found via LinkedIn jobs.",
+      "verify": {
+        "type": "url",
+        "url": "https://www.linkedin.com/jobs/view/4416736417/",
+        "live_label": "LinkedIn posting",
+        "dead_label": "LinkedIn: closed"
+      },
+      "status": {
+        "live": true,
+        "v": "LinkedIn posting · checked 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false,
+      "source": "linkedin"
     }
   ]
 }
