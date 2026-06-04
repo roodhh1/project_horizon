@@ -32,6 +32,21 @@ JD's required years vs. Rodrigo's experience are shown on every card.
 Scores are a decision aid, not a verdict — they make the *why* explicit so a low
 Relevance or an Experience-gap is visible at a glance.
 
+## Using the dashboard
+
+The Opportunities view is organized as an app with three tabs:
+
+- **🎯 Top matches** — fresh (not-yet-engaged) roles scored **7.0 and above**, ranked
+  by fit. Lower-scored roles are hidden here (a hint shows how many).
+- **📌 In my radar** — roles you've engaged with. The active interview seeds this
+  automatically; everything else you add yourself.
+- **🗂 All roles** — every live role, ranked.
+
+Each card has a **+ Mark engaged** button. Click it once you've applied or reached
+out and the role moves to *In my radar*. This is saved in your browser
+(`localStorage`), so it persists across visits and across the daily data refresh —
+it's per-device and never leaves your machine.
+
 ## Data model
 
 All role data lives in **`roles.json`** — the single source of truth

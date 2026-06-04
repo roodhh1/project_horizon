@@ -57,6 +57,26 @@
   .t-stretch{background:#ede9fe;color:#5b21b6}
   .t-domain{background:#fae8ff;color:#86198f}
 
+  /* Tabs */
+  .tabs{display:flex;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:6px;margin:4px 0 0;position:sticky;top:0;z-index:5;box-shadow:0 2px 10px rgba(15,27,61,.04)}
+  .tab{flex:1;border:0;background:transparent;font:inherit;font-size:13.5px;font-weight:600;color:var(--slate);
+    padding:10px 12px;border-radius:10px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px;transition:background .12s,color .12s}
+  .tab:hover{background:var(--paper)}
+  .tab.active{background:var(--navy);color:#fff}
+  .tcount{font-size:11.5px;font-weight:700;background:rgba(0,0,0,.08);color:inherit;padding:1px 8px;border-radius:999px}
+  .tab.active .tcount{background:rgba(255,255,255,.22)}
+  .tabhint{font-size:12.5px;color:var(--slate);margin:8px 2px 0;min-height:0}
+  .gridnote{font-size:12.5px;color:var(--slate);margin:14px 2px 0;text-align:center}
+  .empty{grid-column:1/-1;text-align:center;color:var(--slate);padding:40px 16px;font-size:14px}
+  /* Engaged toggle + card accent */
+  .eng{font:inherit;font-size:12.5px;font-weight:600;padding:9px 12px;border-radius:10px;cursor:pointer;
+    border:1px solid var(--line);background:#fff;color:var(--slate);white-space:nowrap}
+  .eng:hover{border-color:var(--indigo);color:var(--indigo)}
+  .eng.on{background:#eef0fe;border-color:var(--indigo);color:var(--indigo)}
+  .role.engaged{border-left:4px solid var(--indigo)}
+  .radar-tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.5px;background:#eef0fe;
+    color:var(--indigo);padding:3px 9px;border-radius:999px;margin-bottom:4px}
   /* Filters */
   .filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 16px;
     background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
@@ -146,7 +166,6 @@
       <span>Primary lane: <b>Lateral → better company</b></span>
       <span>Wedge: <b>Lending · Monetization · Growth · Experimentation</b></span>
       <span>Base: <b>SF Bay (in-office OK)</b></span>
-      <span>Runway: <b>last day 7/31/26</b></span>
     </div>
   </header>
 
@@ -170,6 +189,14 @@
   </div>
 
   <div class="sec-title"><h2>Opportunities</h2><div class="rule"></div></div>
+
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-tab="top">🎯 Top matches <span class="tcount" id="tc-top">0</span></button>
+    <button class="tab" data-tab="radar">📌 In my radar <span class="tcount" id="tc-radar">0</span></button>
+    <button class="tab" data-tab="all">🗂 All roles <span class="tcount" id="tc-all">0</span></button>
+  </div>
+  <div class="tabhint" id="tabhint"></div>
+
   <div class="filters">
     <span class="lab">Track</span>
     <select id="f-track">
@@ -178,7 +205,6 @@
       <option value="stepup">Step-up title</option>
       <option value="stretch">Stretch / AI-native</option>
       <option value="domain">Domain-perfect</option>
-      <option value="new">New finds (unscored)</option>
     </select>
     <span class="lab">Comp fit</span>
     <select id="f-comp">
@@ -192,6 +218,7 @@
   </div>
 
   <div class="grid" id="grid"></div>
+  <div class="gridnote" id="gridnote"></div>
 
   <div class="sec-title"><h2>Referral cross-reference — 1st + 2nd degree</h2><div class="rule"></div></div>
   <div class="fw" style="grid-column:1/-1">
@@ -223,65 +250,119 @@ const compPill = {below:["below","Below anchor"],border:["border","Borderline"],
 const scoreColor = s => s>=9?"#16a34a":s>=8?"#0ea5a4":s>=7?"#d97706":"#e11d48";
 
 const grid=document.getElementById('grid');
-function render(){
+
+// --- Engaged state: persisted per-browser, survives the daily data refresh ---
+const EKEY='horizon_engaged_v1';
+let engagedMap={};
+try{ engagedMap=JSON.parse(localStorage.getItem(EKEY)||'{}'); }catch(e){ engagedMap={}; }
+const keyOf=r=>r.co+'|'+r.role;
+const isEngaged=r=>(keyOf(r) in engagedMap)?engagedMap[keyOf(r)]:!!r.active;
+function toggleEngaged(key){
+  const r=ROLES.find(x=>keyOf(x)===key);
+  const cur=(key in engagedMap)?engagedMap[key]:!!(r&&r.active);
+  engagedMap[key]=!cur;
+  try{ localStorage.setItem(EKEY,JSON.stringify(engagedMap)); }catch(e){}
+  draw();
+}
+
+let TAB='top';        // top | radar | all
+const HI=7;           // "Top matches" score threshold
+
+function passFilters(r){
   const ft=document.getElementById('f-track').value;
   const fc=document.getElementById('f-comp').value;
   const fs=document.getElementById('f-search').value.toLowerCase();
-  let rows=ROLES.filter(r=>{
-    if(ft && r.track!==ft && r.extraTrack!==ft) return false;
-    if(fc && r.compFit!==fc) return false;
-    if(fs && !(r.co+" "+r.role).toLowerCase().includes(fs)) return false;
-    return true;
-  }).sort((a,b)=>(b.score??-1)-(a.score??-1));
-
-  grid.innerHTML = rows.map(r=>{
-    const isNew = r.isNew || r.score==null;
-    const cp = compPill[r.compFit] || ["tbd","—"];
-    const st = r.status || {live:true,v:""};
-    const scoreHtml = (r.score==null)
-      ? `<div class="s" style="color:var(--indigo);font-size:16px">NEW</div><div class="sl">needs review</div>`
-      : `<div class="s" style="color:${scoreColor(r.score)}">${r.score.toFixed(1)}</div><div class="sl">fit score</div>`;
-    return `<div class="role${r.active?' active':''}${isNew?' isnew':''}">
-      <div class="top">
-        <div>
-          ${isNew?'<div class="new-badge">★ NEW — auto-found, needs review</div>':(r.active?'<div class="active-badge">★ ACTIVE — INTERVIEWING</div>':'')}
-          <div class="co">${r.co}</div>
-          <h3>${r.role}</h3>
-          <div class="loc">${r.loc}</div>
-        </div>
-        <div class="scorebox">${scoreHtml}</div>
-      </div>
-      <div class="chips">
-        <span class="chip ${trackChipClass[r.track]||''}">${r.trackLabel}</span>
-        ${r.extraTrack?`<span class="chip ${trackChipClass[r.extraTrack]||''}">${trackName[r.extraTrack]||r.extraTrack}</span>`:''}
-        ${r.domain!=null?`<span class="chip">Domain ${r.domain}/5</span>`:''}
-      </div>
-      <div class="meta">
-        <div><span class="k">Comp (base):</span> <span class="v">${r.comp}</span></div>
-        <div><span class="k">vs comp target:</span> <span class="pill ${cp[0]}">${cp[1]}</span></div>
-        ${r.tier?`<div><span class="k">Company:</span> <span class="v">${r.tier}</span></div>`:''}
-        <div style="grid-column:1/-1"><span class="k">Verified:</span> <span class="vstatus ok">● Live — ${st.v}</span></div>
-      </div>
-      <div class="note">${r.note}</div>
-      ${r.fit?`<div class="fit">
-        <div class="fit-head"><span class="fit-title">Fit breakdown</span><span class="conf conf-${r.fit.confidence}">${r.fit.confidence} confidence</span></div>
-        <div class="fit-grid">
-          ${[['Relevance',r.fit.relevance],['Level',r.fit.level],['Experience',r.fit.experience],['Company',r.fit.company]].map(([k,v])=>`<div class="fitm"><span class="fl">${k}</span><span class="fbar"><i style="width:${v*10}%;background:${scoreColor(v)}"></i></span><span class="fv">${v}</span></div>`).join('')}
-        </div>
-        ${r.fit.yoe_req?`<div class="fitreq"><b>JD asks:</b> ${r.fit.yoe_req} · <b>${r.fit.candidate}</b></div>`:''}
-      </div>`:''}
-      ${(()=>{const rf=r.referral||{level:"pending",text:""};const rc=refMap[rf.level]||refMap.pending;return `<div class="ref-block"><div class="ref-status"><span class="dot" style="background:${rc[0]}"></span>${rc[1]}</div>${rf.text?`<div class="ref-text">${rf.text}</div>`:''}</div>`;})()}
-      <div class="actions">
-        <a class="btn apply" href="${r.url}" target="_blank" rel="noopener">View / Apply ↗</a>
-      </div>
-    </div>`;
-  }).join('');
-
-  document.getElementById('f-count').textContent = `${rows.length} of ${ROLES.length} live shown`;
+  if(ft && r.track!==ft && r.extraTrack!==ft) return false;
+  if(fc && r.compFit!==fc) return false;
+  if(fs && !(r.co+" "+r.role).toLowerCase().includes(fs)) return false;
+  return true;
 }
 
+function card(r){
+  const cp=compPill[r.compFit]||["tbd","—"];
+  const st=r.status||{live:true,v:""};
+  const eng=isEngaged(r), isNew=r.isNew||r.score==null;
+  const scoreHtml=(r.score==null)
+    ? `<div class="s" style="color:var(--indigo);font-size:16px">NEW</div><div class="sl">needs review</div>`
+    : `<div class="s" style="color:${scoreColor(r.score)}">${r.score.toFixed(1)}</div><div class="sl">fit score</div>`;
+  const badge=r.active?'<div class="active-badge">★ ACTIVE — INTERVIEWING</div>'
+    :isNew?'<div class="new-badge">★ NEW — auto-found, needs review</div>'
+    :eng?'<div class="radar-tag">📌 IN YOUR RADAR</div>':'';
+  return `<div class="role${r.active?' active':''}${eng?' engaged':''}${isNew?' isnew':''}">
+    <div class="top">
+      <div>
+        ${badge}
+        <div class="co">${r.co}</div>
+        <h3>${r.role}</h3>
+        <div class="loc">${r.loc}</div>
+      </div>
+      <div class="scorebox">${scoreHtml}</div>
+    </div>
+    <div class="chips">
+      <span class="chip ${trackChipClass[r.track]||''}">${r.trackLabel}</span>
+      ${r.extraTrack?`<span class="chip ${trackChipClass[r.extraTrack]||''}">${trackName[r.extraTrack]||r.extraTrack}</span>`:''}
+      ${r.domain!=null?`<span class="chip">Domain ${r.domain}/5</span>`:''}
+    </div>
+    <div class="meta">
+      <div><span class="k">Comp (base):</span> <span class="v">${r.comp}</span></div>
+      <div><span class="k">vs comp target:</span> <span class="pill ${cp[0]}">${cp[1]}</span></div>
+      ${r.tier?`<div><span class="k">Company:</span> <span class="v">${r.tier}</span></div>`:''}
+      <div style="grid-column:1/-1"><span class="k">Verified:</span> <span class="vstatus ok">● Live — ${st.v}</span></div>
+    </div>
+    <div class="note">${r.note}</div>
+    ${r.fit?`<div class="fit">
+      <div class="fit-head"><span class="fit-title">Fit breakdown</span><span class="conf conf-${r.fit.confidence}">${r.fit.confidence} confidence</span></div>
+      <div class="fit-grid">
+        ${[['Relevance',r.fit.relevance],['Level',r.fit.level],['Experience',r.fit.experience],['Company',r.fit.company]].map(([k,v])=>`<div class="fitm"><span class="fl">${k}</span><span class="fbar"><i style="width:${v*10}%;background:${scoreColor(v)}"></i></span><span class="fv">${v}</span></div>`).join('')}
+      </div>
+      ${r.fit.yoe_req?`<div class="fitreq"><b>JD asks:</b> ${r.fit.yoe_req} · <b>${r.fit.candidate}</b></div>`:''}
+    </div>`:''}
+    ${(()=>{const rf=r.referral||{level:"pending",text:""};const rc=refMap[rf.level]||refMap.pending;return `<div class="ref-block"><div class="ref-status"><span class="dot" style="background:${rc[0]}"></span>${rc[1]}</div>${rf.text?`<div class="ref-text">${rf.text}</div>`:''}</div>`;})()}
+    <div class="actions">
+      <a class="btn apply" href="${r.url}" target="_blank" rel="noopener">View / Apply ↗</a>
+      <button class="eng${eng?' on':''}" data-key="${encodeURIComponent(keyOf(r))}">${eng?'✓ Engaged':'+ Mark engaged'}</button>
+    </div>
+  </div>`;
+}
+
+function draw(){
+  const base=ROLES.filter(passFilters).sort((a,b)=>(b.score??-1)-(a.score??-1));
+  let rows, empty='';
+  if(TAB==='radar'){
+    rows=base.filter(isEngaged);
+    empty='No roles in your radar yet. Hit <b>+ Mark engaged</b> on any card once you’ve applied or reached out — it stays saved on this device.';
+  } else if(TAB==='all'){
+    rows=base;
+  } else {
+    rows=base.filter(r=>!isEngaged(r) && (r.score??0)>=HI);
+    empty='No fresh matches at or above '+HI+' under these filters. Try <b>All roles</b>.';
+  }
+  grid.innerHTML = rows.length ? rows.map(card).join('') : `<div class="empty">${empty}</div>`;
+
+  const eng=base.filter(isEngaged);
+  document.getElementById('tc-top').textContent=base.filter(r=>!isEngaged(r)&&(r.score??0)>=HI).length;
+  document.getElementById('tc-radar').textContent=eng.length;
+  document.getElementById('tc-all').textContent=base.length;
+  document.getElementById('f-count').textContent=`${rows.length} shown`;
+
+  const lower=base.filter(r=>!isEngaged(r)&&(r.score??0)<HI).length;
+  const hint=document.getElementById('tabhint');
+  hint.innerHTML=(TAB==='top'&&lower)?`Hiding ${lower} fresh role${lower===1?'':'s'} scored under ${HI}. See <b>All roles</b> for everything.`:'';
+}
+const render=draw;  // filter listeners call render()
+
+document.getElementById('tabs').addEventListener('click',e=>{
+  const t=e.target.closest('.tab'); if(!t) return;
+  TAB=t.dataset.tab;
+  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));
+  draw();
+});
+grid.addEventListener('click',e=>{
+  const b=e.target.closest('.eng'); if(!b) return;
+  toggleEngaged(decodeURIComponent(b.dataset.key));
+});
+
 function initKpis(){
-  const newN = ROLES.filter(r=>r.isNew||r.score==null).length;
   document.getElementById('k-verified').textContent = ROLES.length;
   document.getElementById('k-clears').textContent = ROLES.filter(r=>r.compFit==="at").length;
   document.getElementById('k-ref').textContent = ROLES.filter(r=>{const rf=r.referral;return rf&&["direct","bridge","active"].includes(rf.level);}).length;
@@ -290,12 +371,12 @@ function initKpis(){
   const short=isNaN(d)?VERIFIED_ON:d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
   const live=ROLES.length;
   const h3=document.getElementById('fresh-h3'); if(h3) h3.textContent=`↻ Freshness — last verified ${human}`;
-  const fc=document.getElementById('fresh-counts'); if(fc) fc.textContent=`As of ${human}: ${live} live open role${live===1?'':'s'}${newN?`, incl. ${newN} new to review`:''}.`;
+  const fc=document.getElementById('fresh-counts'); if(fc) fc.textContent=`As of ${human}: ${live} live open role${live===1?'':'s'}.`;
   const kd=document.getElementById('kpi-date'); if(kd) kd.textContent=short;
 }
 
 ['f-track','f-comp','f-search'].forEach(id=>{
-  document.getElementById(id).addEventListener('input',render);
+  document.getElementById(id).addEventListener('input',draw);
 });
 
 fetch('roles.json',{cache:'no-store'})
@@ -304,10 +385,10 @@ fetch('roles.json',{cache:'no-store'})
     VERIFIED_ON = data.verified_on || "";
     ROLES = (data.roles||[]).filter(r=>(r.status||{live:true}).live);
     initKpis();
-    render();
+    draw();
   })
   .catch(e=>{
-    grid.innerHTML = `<div class="fw" style="grid-column:1/-1;color:#b91c1c;padding:18px">Couldn't load roles.json (${e.message}). If you opened this file directly from disk, serve it over http instead (e.g. <code>python3 -m http.server</code>) — GitHub Pages serves it fine.</div>`;
+    grid.innerHTML = `<div class="empty" style="color:#b91c1c">Couldn't load roles.json (${e.message}). If you opened this file directly, serve it over http (e.g. <code>python3 -m http.server</code>) — GitHub Pages serves it fine.</div>`;
   });
 </script>
 </body>
