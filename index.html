@@ -142,7 +142,9 @@
   .panel-h{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:600;letter-spacing:.03em;
     text-transform:uppercase;color:var(--faint);margin-bottom:14px}
   .panel-h .ic{width:17px;height:17px;color:var(--faint)}
-  .ptext{font-size:15px;color:#33333a;line-height:1.55}
+  .ptext{font-size:15px;color:var(--body);line-height:1.55}
+  .mono{position:relative;overflow:hidden}
+  .mono .logo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;padding:5px}
   .bars{display:grid;gap:11px}
   .bar{display:flex;align-items:center;gap:12px;font-size:13.5px}
   .bar .bl{width:96px;color:var(--sub);flex-shrink:0}
@@ -155,7 +157,7 @@
   .kv:first-child{border-top:0} .kv .k{color:var(--sub)} .kv .v{font-weight:500;text-align:right}
   .reqline{font-size:13.5px;color:var(--sub);margin-top:14px;padding-top:14px;border-top:1px solid var(--line2);line-height:1.7}
   .reqline b{color:var(--ink);font-weight:600}
-  .reftext{font-size:14px;color:#33333a;line-height:1.55;margin-top:10px}
+  .reftext{font-size:14px;color:var(--body);line-height:1.55;margin-top:10px}
   .reftext b{color:var(--ink)}
   .reflevel{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:500}
   .lvl-dot{width:9px;height:9px;border-radius:50%}
@@ -179,11 +181,11 @@
 
   /* ---------- theme variables + iOS ---------- */
   *{-webkit-tap-highlight-color:transparent}
-  :root{--track:#ececf0; --topbar:rgba(251,251,253,.82); --tint:#eef5ff; --hover:#f7f7fa; --seg:#ececf0}
+  :root{--track:#ececf0; --topbar:rgba(251,251,253,.82); --tint:#eef5ff; --hover:#f7f7fa; --seg:#ececf0; --body:#33333a}
   :root[data-theme="dark"]{
     --bg:#000000; --surface:#1c1c1e; --ink:#f5f5f7; --sub:#a1a1a6; --faint:#8e8e93;
     --line:#2c2c2e; --line2:#262628; --chip:#2c2c2e; --track:#3a3a3c;
-    --topbar:rgba(0,0,0,.72); --tint:rgba(10,132,255,.18); --hover:#262628; --seg:#2c2c2e;
+    --topbar:rgba(0,0,0,.72); --tint:rgba(10,132,255,.18); --hover:#262628; --seg:#2c2c2e; --body:#d6d6db;
     --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 30px rgba(0,0,0,.6);
   }
   .topbar{background:var(--topbar)}
@@ -261,6 +263,7 @@ try{ engagedMap=JSON.parse(localStorage.getItem(EKEY)||'{}'); }catch(e){ engaged
 const keyOf=r=>r.co+'|'+r.role;
 const isEngaged=r=>(keyOf(r) in engagedMap)?engagedMap[keyOf(r)]:!!r.active;
 function toggleEngaged(key){
+  key=decodeURIComponent(key);
   const r=ROLES.find(x=>keyOf(x)===key);
   const cur=(key in engagedMap)?engagedMap[key]:!!(r&&r.active);
   engagedMap[key]=!cur;
@@ -292,6 +295,15 @@ const compMap={at:['at','Likely clears'],border:['border','Borderline'],below:['
 const MONOC=['#0071e3','#5e5ce6','#1f8a8a','#bd7b12','#b5179e','#1c8a4d','#d2475f','#5856d6'];
 const monoColor=co=>MONOC[[...co].reduce((a,c)=>a+c.charCodeAt(0),0)%MONOC.length];
 const mono=co=>`<div class="mono" style="background:${monoColor(co)}">${co[0]}</div>`;
+const DOMAINS={Mercury:'mercury.com',Anthropic:'anthropic.com',Gusto:'gusto.com',Chime:'chime.com',
+  Affirm:'affirm.com',DoorDash:'doordash.com',Airbnb:'airbnb.com',Asana:'asana.com',Adobe:'adobe.com',
+  OpenAI:'openai.com',Coinbase:'coinbase.com',Stripe:'stripe.com',Plaid:'plaid.com',Brex:'brex.com'};
+function logoBox(co){
+  const d=DOMAINS[co];
+  const img=d?`<img class="logo" src="https://logo.clearbit.com/${d}?size=128" alt="" loading="lazy"
+    onerror="this.onerror=function(){this.remove()};this.src='https://icons.duckduckgo.com/ip3/${d}.ico'">`:'';
+  return `<div class="mono" style="background:${monoColor(co)}"><span class="init">${co[0]}</span>${img}</div>`;
+}
 const enc=s=>encodeURIComponent(s), dec=s=>decodeURIComponent(s);
 function ring(score,size){
   const r=(size-7)/2, c=2*Math.PI*r, off=c*(1-score/10), col=scoreColor(score), C=size/2;
@@ -307,8 +319,8 @@ const REF={active:['#1c8a4d','In process'],direct:['#1c8a4d','1st° + warm 2nd°
 /* ---------- role row + detail ---------- */
 function rowHTML(r){
   const eng=isEngaged(r), cp=compMap[r.compFit]||compMap.null;
-  return `<div class="row" onclick="go('#/role/'+enc('${enc(keyOf(r))}'))">
-    ${mono(r.co)}
+  return `<div class="row" onclick="go('#/role/${enc(keyOf(r))}')">
+    ${logoBox(r.co)}
     <div class="mid">
       <div class="co">${r.co}</div>
       <div class="rl">${r.role}</div>
@@ -334,7 +346,7 @@ function roleDetail(key){
   return `<div class="view">
     <span class="back" onclick="history.back()">${icon('chevL')} Back</span>
     <div class="dhead">
-      ${mono(r.co)}
+      ${logoBox(r.co)}
       <div>
         <div class="co">${r.co}</div>
         <h1>${r.role}</h1>
@@ -481,7 +493,7 @@ function networkView(){
     <p class="lede" style="font-size:15px">Warm paths into each company — 1st &amp; 2nd-degree contacts in data/analytics leadership.</p>
     <div style="height:18px"></div>
     <div class="list">${cos.map(c=>{const rl=REF[c.level]||REF.pending;return `<div class="row" style="cursor:default;align-items:flex-start">
-      ${mono(c.co)}
+      ${logoBox(c.co)}
       <div class="mid">
         <div class="rl" style="white-space:normal">${c.co} <span style="font-weight:400;color:var(--faint);font-size:13px">· ${c.n} role${c.n===1?'':'s'}</span></div>
         <div class="reflevel" style="margin-top:4px"><span class="lvl-dot" style="background:${rl[0]}"></span>${rl[1]}</div>
