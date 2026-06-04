@@ -159,11 +159,17 @@
   .reqline b{color:var(--ink);font-weight:600}
   .reftext{font-size:14px;color:var(--body);line-height:1.55;margin-top:10px}
   .reftext b{color:var(--ink)}
+  .capt{font-size:12px;color:var(--faint);margin-top:12px;line-height:1.5}
+  .capt b{color:var(--ink);font-weight:600}
   .reflevel{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:500}
   .lvl-dot{width:9px;height:9px;border-radius:50%}
 
   .empty{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:48px 20px;
     text-align:center;color:var(--sub);font-size:14.5px}
+  .empty.illus{padding:54px 24px}
+  .empty.illus svg{margin:0 auto 20px}
+  .empty.illus h3{font-size:18px;font-weight:600;color:var(--ink);margin-bottom:7px}
+  .empty.illus p{max-width:360px;margin:0 auto;font-size:14px;color:var(--sub);line-height:1.5}
 
   /* About */
   .feat{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
@@ -245,11 +251,9 @@
       <a data-route="#/network" onclick="go('#/network')"><svg class="ic" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0"/><path d="M16 5.3a3 3 0 0 1 0 5.4"/><path d="M20.5 20a5.5 5.5 0 0 0-4.3-5.4"/></svg><span class="lbl">Network</span></a>
       <a data-route="#/about" onclick="go('#/about')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r=".7" fill="currentColor" stroke="none"/></svg><span class="lbl">About</span></a>
     </nav>
-    <button class="themebtn" id="themebtn" onclick="toggleTheme()" aria-label="Toggle theme"></button>
     </div>
   </div>
 </div>
-<div class="bottomspacer"></div>
 
 <main class="container" id="app"></main>
 
@@ -290,8 +294,9 @@ const ICON={
   moon:'<path d="M20 13.5A8 8 0 1 1 10.5 4 6.2 6.2 0 0 0 20 13.5z"/>',
 };
 const icon=(n,cls='ic')=>`<svg class="${cls}" viewBox="0 0 24 24">${ICON[n]}</svg>`;
-const scoreColor=s=>s>=8.5?'#1c8a4d':s>=7.5?'#1f8a8a':s>=6.5?'#bd7b12':'#86868b';
+const scoreColor=s=>s>=8?'#15a34a':s>=7?'#e08600':s>=6?'#ef6820':'#d92d20';
 const compMap={at:['at','Likely clears'],border:['border','Borderline'],below:['below','Below target'],null:['tbd','—']};
+const compTip='Posted base vs the comp bar for this search — Likely clears: at or above · Borderline: close · Below: under.';
 const MONOC=['#0071e3','#5e5ce6','#1f8a8a','#bd7b12','#b5179e','#1c8a4d','#d2475f','#5856d6'];
 const monoColor=co=>MONOC[[...co].reduce((a,c)=>a+c.charCodeAt(0),0)%MONOC.length];
 const mono=co=>`<div class="mono" style="background:${monoColor(co)}">${co[0]}</div>`;
@@ -300,8 +305,10 @@ const DOMAINS={Mercury:'mercury.com',Anthropic:'anthropic.com',Gusto:'gusto.com'
   OpenAI:'openai.com',Coinbase:'coinbase.com',Stripe:'stripe.com',Plaid:'plaid.com',Brex:'brex.com'};
 function logoBox(co){
   const d=DOMAINS[co];
+  // Clearbit (nicest) → Google favicon (most reliable) → colored initial.
+  const g=`https://www.google.com/s2/favicons?sz=128&domain=${d}`;
   const img=d?`<img class="logo" src="https://logo.clearbit.com/${d}?size=128" alt="" loading="lazy"
-    onerror="this.onerror=function(){this.remove()};this.src='https://icons.duckduckgo.com/ip3/${d}.ico'">`:'';
+    onerror="this.onerror=function(){this.remove()};this.src='${g}'">`:'';
   return `<div class="mono" style="background:${monoColor(co)}"><span class="init">${co[0]}</span>${img}</div>`;
 }
 const enc=s=>encodeURIComponent(s), dec=s=>decodeURIComponent(s);
@@ -324,7 +331,7 @@ function rowHTML(r){
     <div class="mid">
       <div class="co">${r.co}</div>
       <div class="rl">${r.role}</div>
-      <div class="sub"><span>${r.loc}</span>${r.compFit?`<span class="pill ${cp[0]}">${cp[1]}</span>`:''}</div>
+      <div class="sub"><span>${r.loc}</span>${r.compFit?`<span class="pill ${cp[0]}" title="${compTip}">${cp[1]}</span>`:''}</div>
     </div>
     <div class="rt">
       ${eng?`<span class="bmk">${icon('bookmark')}</span>`:''}
@@ -356,7 +363,7 @@ function roleDetail(key){
     </div>
     <div class="dchips">
       <span class="tagchip">${r.trackLabel||''}</span>
-      ${r.compFit?`<span class="pill ${cp[0]}">${cp[1]}</span>`:''}
+      ${r.compFit?`<span class="pill ${cp[0]}" title="${compTip}">${cp[1]}</span>`:''}
       ${r.domain!=null?`<span class="tagchip">Domain ${r.domain}/5</span>`:''}
     </div>
     <div class="actions">
@@ -372,7 +379,8 @@ function roleDetail(key){
     <div class="panel">
       <div class="panel-h">${icon('pay')} Compensation</div>
       <div class="kv"><span class="k">Base (as posted)</span><span class="v">${r.comp}</span></div>
-      <div class="kv"><span class="k">vs your target</span><span class="v">${cp[1]}</span></div>
+      <div class="kv"><span class="k">Comp fit</span><span class="v"><span class="pill ${cp[0]}">${cp[1]}</span></span></div>
+      <div class="capt">Comp fit compares the role's posted base to the comp bar for this search — <b>Likely clears</b>: at or above · <b>Borderline</b>: close · <b>Below</b>: under.</div>
     </div>
     <div class="panel">
       <div class="panel-h">${icon('users')} Referral path</div>
@@ -473,13 +481,27 @@ function rerenderList(){
   const cl=document.getElementById('cl'); if(cl) cl.textContent=`${rows.length} role${rows.length===1?'':'s'}`+(listMode==='top'&&lower?` · ${lower} more under 7 in All`:'');
 }
 
+const ILLUS_RADAR=`<svg width="132" height="132" viewBox="0 0 132 132" fill="none" aria-hidden="true">
+  <circle cx="66" cy="62" r="50" stroke="var(--line)" stroke-width="2"/>
+  <circle cx="66" cy="62" r="34" stroke="var(--line)" stroke-width="2"/>
+  <circle cx="66" cy="62" r="18" stroke="var(--line)" stroke-width="2"/>
+  <path d="M66 62 L108 36" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+  <path d="M53 40h26a5 5 0 0 1 5 5v44l-18-10-18 10V45a5 5 0 0 1 5-5z" fill="var(--tint)" stroke="var(--accent)" stroke-width="2.6" stroke-linejoin="round"/>
+  <circle cx="108" cy="36" r="4" fill="var(--accent)"/>
+</svg>`;
 function radarView(){
   const rows=ROLES.filter(isEngaged).sort((a,b)=>(b.score??-1)-(a.score??-1));
+  const body = rows.length ? listView(rows,'') : `<div class="empty illus">
+    ${ILLUS_RADAR}
+    <h3>Nothing on your radar yet</h3>
+    <p>Open any role and tap <b>Mark engaged</b> once you've applied or reached out. It'll show up here — saved on this device.</p>
+    <button class="btn btn-primary" style="max-width:220px;margin:18px auto 0" onclick="go('#/roles')">Browse roles</button>
+  </div>`;
   return `<div class="view">
     <h1 class="display" style="font-size:30px">In my radar</h1>
     <p class="lede" style="font-size:15px">Roles you've applied to or reached out about. Saved on this device.</p>
     <div style="height:18px"></div>
-    ${listView(rows,'Nothing here yet. Open any role and tap <b>Mark engaged</b> once it’s on your radar.')}
+    ${body}
   </div>`;
 }
 
@@ -551,11 +573,7 @@ function applyTheme(t){
   const tb=document.getElementById('themebtn'); if(tb) tb.innerHTML=icon(t==='dark'?'sun':'moon');
 }
 function toggleTheme(){ applyTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark'); }
-(function initTheme(){
-  let t; try{ t=localStorage.getItem('beacon_theme'); }catch(e){}
-  if(!t) t=(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';
-  applyTheme(t);
-})();
+applyTheme('light');  // dark mode disabled for now
 
 fetch('roles.json',{cache:'no-store'})
   .then(r=>{if(!r.ok)throw new Error('roles.json '+r.status);return r.json();})
