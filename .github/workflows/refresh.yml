@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Re-verify role statuses
+      - name: Verify, prune, and discover roles
         run: python3 verify.py
 
       - name: Commit refreshed dashboard
@@ -34,9 +34,9 @@ jobs:
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "horizon-bot"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add index.html
-            git commit -m "chore: daily role-status refresh ($(date -u +%Y-%m-%d))"
+            git add roles.json index.html
+            git commit -m "chore: daily refresh — verify/prune/discover ($(date -u +%Y-%m-%d))"
             git push
           else
-            echo "No status changes today."
+            echo "No role changes today."
           fi

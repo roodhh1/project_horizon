@@ -1,0 +1,787 @@
+{
+  "verified_on": "2026-06-04",
+  "roles": [
+    {
+      "co": "Mercury",
+      "role": "Senior Data Science Manager",
+      "loc": "SF / NY / Portland / Remote US–CA",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 9.5,
+      "domain": 5,
+      "comp": "$239K–$298.8K base",
+      "compFit": "below",
+      "tier": "High-growth fintech (~$3.5B+)",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/5973037004",
+      "note": "★ YOUR ACTIVE ROLE — HM round with Leanne Fretz, Tue 6/9, 3pm PT. Leads the DS behind Mercury's revenue & product value engine: GTM + growth experimentation + monetization + core product (Spend/Expense/Invoicing). JD wants 10+ yrs, 3+ leading teams, growth/monetization/pricing + causal inference — a near-exact mirror of your Credit Karma + Intuit monetization story. Comp sits below your $500K anchor on base; Mercury's private equity upside is the lever. INTEL: Mercury is standing up a Cards/Credit business (multiple credit & card-fraud reqs live) — your '5 Days Early' lending work is a strong proof point for Leanne.",
+      "active": true,
+      "verify": {
+        "type": "greenhouse",
+        "token": "mercury",
+        "id": "5973037004"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-06-04"
+      },
+      "referral": {
+        "level": "active",
+        "text": "In process. <b>Pre-6/9 intel calls (2nd°):</b> <b>Prateek Parashar</b> (Staff DS, Growth — your exact team; via Alonso Guerrero Castañeda &amp; Shubham Gupta), <b>Katja Wittfoth</b> (Sr DS / data leader, 11 mutuals), <b>Shannon Hees</b> (Sr DS, Product Analytics). <b>1st° backchannel:</b> Oneida Dueñas (Risk, ex-Intuit)."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Gusto",
+      "role": "Head of AI & Machine Learning Engineering",
+      "loc": "SF / Denver / NYC",
+      "track": "stepup",
+      "trackLabel": "Step-up title",
+      "extraTrack": "stretch",
+      "score": 7.6,
+      "domain": 3,
+      "comp": "Not posted (Head-level)",
+      "compFit": "at",
+      "tier": "Late-stage (~$9.5B)",
+      "url": "https://gusto.com/about/careers/join-the-team",
+      "note": "Big scope (MLE + ML Platform + Risk DS + AI Scientists) and Head-level comp that likely clears anchor — but it's ENG-leaning, not product DS. Stretch on domain. Pursue only if you want to pivot toward AI/ML org leadership.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "gusto",
+        "title_regex": "head of ai|machine learning engineering"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-06-04"
+      },
+      "referral": {
+        "level": "bridge",
+        "text": "2nd°: <b>Luke Phan</b> (Head of Data Engineering), <b>Cam Miller</b> (Sr Mgr DS&amp;A). Reachable via named mutuals."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Anthropic",
+      "role": "Analytics Data Engineering Manager, Product",
+      "loc": "SF / NY / Seattle · 25% in-office",
+      "track": "stretch",
+      "trackLabel": "Stretch / AI-native",
+      "extraTrack": "stepup",
+      "score": 8.7,
+      "domain": 3,
+      "comp": "$370K–$450K base",
+      "compFit": "at",
+      "tier": "Frontier AI",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5125387008",
+      "note": "★ Only role here whose BASE alone ($370–450K) nears your anchor — with equity it clears $500K. Builds product data foundations across Consumer/Claude Code/Enterprise/Growth; sponsors visas. Caveat: this is analytics-ENGINEERING leadership (dbt/data modeling/pipelines), not product DS — reframe your 0→1 story toward data foundations & metrics. Wants 5+ yrs managing AE/DE teams.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "anthropic",
+        "id": "5125387008"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-06-04"
+      },
+      "referral": {
+        "level": "bridge",
+        "text": "No 1st°, but strong 2nd°: <b>Josh C.</b> (oversees DS, Data Eng &amp; Analytics Eng — likely the hiring leader; via Alex Zhou &amp; Han Bai), <b>Xabi Azagirre</b> (DS leader, ex-Lyft), <b>Saptarshi C.</b> (ex-Microsoft Principal DS Mgr). Reclassified inconclusive → reachable."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Coinbase",
+      "role": "Senior Data Science Manager",
+      "loc": "Remote — US",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
+      "extraTrack": "stretch",
+      "score": 8.3,
+      "domain": 3,
+      "comp": "Total comp ~$365K–$532K (Levels.fyi)",
+      "compFit": "at",
+      "tier": "Public · crypto leader (~$80B)",
+      "url": "https://www.coinbase.com/careers/positions/6056727",
+      "note": "One of the few adds whose TOTAL COMP clears your $500K anchor (Levels.fyi median ~$380K, top of band $530K+). Leadership scope: 8+ yrs DS/analytics, 3+ managing. Domain is fintech-adjacent but crypto — and some Coinbase DS-mgr pods are CX/customer-lifecycle or Developer-platform leaning, so confirm the team is product/growth DS, not support analytics, before investing. Pure-comp + brand play in the AI/crypto lane.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "coinbase",
+        "id": "6056727"
+      },
+      "status": {
+        "live": true,
+        "v": "Live (closing? unconfirmed) · 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": "Referral sweep not yet run for Coinbase. Next step: scan your 1st/2nd° for DS/Analytics leaders, incl. ex-fintech contacts now at Coinbase."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "OpenAI",
+      "role": "Data Science Manager, Integrity",
+      "loc": "San Francisco",
+      "track": "stretch",
+      "trackLabel": "Stretch / AI-native",
+      "extraTrack": "stepup",
+      "score": 8.5,
+      "domain": 3,
+      "comp": "Not posted (OpenAI DS-mgr TC typically clears anchor)",
+      "compFit": "at",
+      "tier": "Frontier AI (~$300B+)",
+      "url": "https://openai.com/careers/data-science-manager-integrity-san-francisco/",
+      "note": "Frontier-AI optionality + comp that almost certainly clears anchor with PPUs. Leads the DS function for trust & safety / fraud / risk measurement at scale — direct adjacency to your risk and lending-fraud work. Caveat: this is integrity/safety, not product-growth DS — reframe your experimentation + causal-inference story toward abuse detection, measurement, and mitigation. Highest-ceiling AI-native add.",
+      "verify": {
+        "type": "url",
+        "url": "https://openai.com/careers/data-science-manager-integrity-san-francisco/",
+        "live_label": "Careers page",
+        "dead_label": "Careers 404"
+      },
+      "status": {
+        "live": true,
+        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04)"
+      },
+      "referral": {
+        "level": "pending",
+        "text": "Referral sweep pending for OpenAI. Target Integrity / Trust &amp; Safety DS and any frontier-AI 2nd° paths."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Affirm",
+      "role": "Director, Analytics, Strategic Insights",
+      "loc": "Remote — US",
+      "track": "stepup",
+      "trackLabel": "Step-up title",
+      "extraTrack": "domain",
+      "score": 8.4,
+      "domain": 4,
+      "comp": "$245K–$325K base (CA/NY/WA)",
+      "compFit": "border",
+      "tier": "Public BNPL lender (~$20B)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7718616003",
+      "note": "Director-level STEP-UP at a pure lending/BNPL company — your lending + monetization + revenue narrative is the JD. Sits on the Revenue team (pricing, GTM, growth) advising segment leaders. 12+ yrs, exec-advisory. Honest flag: this role leans strategy/BizOps analytics over hands-on product DS, so position your story toward executive influence + revenue impact. Base below anchor; Affirm equity is the lever. Domain bullseye.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7718616003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": "Referral sweep pending for Affirm. Strong odds given your lending/fintech overlap — scan for Revenue &amp; Analytics leaders."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Affirm",
+      "role": "Senior Manager, Analytics (Full Stack)",
+      "loc": "Remote — US / Canada",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 8.1,
+      "domain": 5,
+      "comp": "~$198K–$248K base",
+      "compFit": "below",
+      "tier": "Public BNPL lender (~$20B)",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7491433003",
+      "note": "Cards/payments/fintech analytics leadership (10+ yrs, 5+ leading) — bullseye for your lending + lifecycle wedge, and remote. Comp clearly below anchor; this is a lateral-with-edge you win on domain fit and company quality, not money. Pair it with the Director req above as your two shots at Affirm.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7491433003"
+      },
+      "status": {
+        "live": true,
+        "v": "Live (closing? unconfirmed) · 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": "Referral sweep pending for Affirm. Cards/payments analytics 2nd° paths are likely."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "DoorDash",
+      "role": "Senior Manager, Data Science, Analytics — Notifications, Consumer Growth",
+      "loc": "SF / Seattle / NY · hybrid",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 8.6,
+      "domain": 5,
+      "comp": "$186K–$274K base",
+      "compFit": "border",
+      "tier": "Public (~$70B)",
+      "url": "https://careersatdoordash.com/jobs/senior-manager-data-science-analytics---notifications-consumer-growth/6495978/",
+      "note": "Notifications is DoorDash's single largest incremental-growth lever — this role leads DS across consumer reachability, lifecycle messaging, channel optimization (push/email/SMS/in-app) and GenAI-powered recs. Growth + customer-lifecycle + experimentation is a near-exact mirror of your Credit Karma / Intuit work. Base below anchor but DoorDash RSUs push TC toward border. Strongest big-tech wedge fit of the new batch.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "6495978"
+      },
+      "status": {
+        "live": true,
+        "v": "Live (closing? unconfirmed) · 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": "Referral sweep pending for DoorDash. Target Consumer Growth / Notifications DS leaders and ex-colleagues now at DoorDash."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Affirm",
+      "role": "Analytics Lead, Full Stack (Consumer Analytics)",
+      "loc": "Remote US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7732706003",
+      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7732706003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Affirm",
+      "role": "Analytics Lead, Full Stack (Credit Analytics)",
+      "loc": "Remote US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7740918003",
+      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7740918003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Affirm",
+      "role": "Analytics Manager, Full Stack",
+      "loc": "Remote Spain",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7732927003",
+      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7732927003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Affirm",
+      "role": "Analytics Manager, Full Stack (Credit Risk)",
+      "loc": "Remote US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7704631003",
+      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7704631003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Affirm",
+      "role": "Analytics Manager, Full Stack (Fraud Analytics)",
+      "loc": "Remote UK",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7532268003",
+      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7532268003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Affirm",
+      "role": "Manager, Machine Learning Engineering (Fraud)",
+      "loc": "Remote Canada",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7710180003",
+      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7710180003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Affirm",
+      "role": "Manager, Machine Learning Engineering (Underwriting) ",
+      "loc": "Remote US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7723636003",
+      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7723636003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Affirm",
+      "role": "Senior Engineering Manager, Machine Learning Platform",
+      "loc": "Remote US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7705033003",
+      "note": "Auto-discovered on Affirm's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7705033003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Anthropic",
+      "role": "Workforce Planning Lead, People Analytics",
+      "loc": "San Francisco, CA | New York City, NY",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5202462008",
+      "note": "Auto-discovered on Anthropic's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "anthropic",
+        "id": "5202462008"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Chime",
+      "role": "Director, Marketing Analytics",
+      "loc": "San Francisco, CA, USA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://boards.greenhouse.io/chime/jobs/8443192002?gh_jid=8443192002",
+      "note": "Auto-discovered on Chime's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "chime",
+        "id": "8443192002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Director, Analytics, Commerce Platform",
+      "loc": "New York,NY; San Francisco, CA; Sunnyvale, CA; Seattle, WA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7822599",
+      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "7822599"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Lead Data Scientist",
+      "loc": "San Francisco, CA; Seattle, WA; New York, NY",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7380096",
+      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "7380096"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Manager, Data & Analytics, In-Store",
+      "loc": "New York, NY",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7967426",
+      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "7967426"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Manager, Data Science",
+      "loc": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York, NY; Chicago, IL; Austin, TX",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7812825",
+      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "7812825"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Manager, Data Science, Logistics Analytics",
+      "loc": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York, NY; Chicago, IL; Austin, TX; Washington D.C.",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7821944",
+      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "7821944"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Manager, Rx Advertiser Analytics - Ads & Promotions",
+      "loc": "New York, NY; San Francisco, CA; Los Angeles, CA; Chicago, IL; Seattle, WA; Washington, DC; Tempe, AZ",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7580412",
+      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "7580412"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Principal Machine Learning Engineer, Ads & Promos Delivery",
+      "loc": "Sunnyvale, CA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7760003",
+      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "7760003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Senior Manager, Ads & Promotions Analytics",
+      "loc": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York, NY; Los Angeles, CA; Chicago, IL",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7454878",
+      "note": "Auto-discovered on DoorDash's job board 2026-06-04. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "7454878"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    }
+  ]
+}
