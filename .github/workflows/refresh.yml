@@ -2,7 +2,9 @@ name: Refresh job dashboard
 
 on:
   schedule:
-    - cron: "0 13 * * *"     # daily ~06:00 America/Los_Angeles
+    # GitHub cron is UTC and does not observe DST. 15:00 UTC = 08:00 PDT
+    # (summer) / 07:00 PST (winter). Tuned to land at 8 AM Pacific.
+    - cron: "0 15 * * *"     # daily 08:00 America/Los_Angeles (PDT)
   workflow_dispatch: {}       # allow manual runs from the Actions tab
 
 permissions:
