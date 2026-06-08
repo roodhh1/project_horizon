@@ -265,12 +265,14 @@ const EKEY='beacon_engaged_v1';
 let engagedMap={};
 try{ engagedMap=JSON.parse(localStorage.getItem(EKEY)||'{}'); }catch(e){ engagedMap={}; }
 const keyOf=r=>r.co+'|'+r.role;
-const isEngaged=r=>(keyOf(r) in engagedMap)?engagedMap[keyOf(r)]:!!r.active;
+// engagedMap value: 'YYYY-MM-DD' (engaged, with date) | true (engaged, legacy) | false (not). Missing => default to r.active.
+const isEngaged=r=>{const v=engagedMap[keyOf(r)];return v===undefined?!!r.active:!!v;};
+const engagedDate=r=>{const v=engagedMap[keyOf(r)];return (typeof v==='string')?v:null;};
 function toggleEngaged(key){
   key=decodeURIComponent(key);
   const r=ROLES.find(x=>keyOf(x)===key);
-  const cur=(key in engagedMap)?engagedMap[key]:!!(r&&r.active);
-  engagedMap[key]=!cur;
+  const cur=r?isEngaged(r):!!engagedMap[key];
+  engagedMap[key]= cur ? false : new Date().toISOString().slice(0,10);  // record the date you engage
   try{ localStorage.setItem(EKEY,JSON.stringify(engagedMap)); }catch(e){}
   router();
 }
@@ -312,6 +314,10 @@ function logoBox(co){
   return `<div class="mono" style="background:${monoColor(co)}"><span class="init">${co[0]}</span>${img}</div>`;
 }
 const enc=s=>encodeURIComponent(s), dec=s=>decodeURIComponent(s);
+const fmtMD=d=>{const x=new Date(d+'T00:00:00');return isNaN(x)?d:x.toLocaleDateString('en-US',{month:'short',day:'numeric'});};
+const fmtMDY=d=>{const x=new Date(d+'T00:00:00');return isNaN(x)?d:x.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});};
+const daysAgo=d=>{const x=new Date(d+'T00:00:00');return isNaN(x)?null:Math.max(0,Math.round((Date.now()-x)/864e5));};
+const postedLabel=d=>{const n=daysAgo(d);return `Posted ${fmtMD(d)}${n!=null?` · ${n}d ago`:''}`;};
 function ring(score,size){
   const r=(size-7)/2, c=2*Math.PI*r, off=c*(1-score/10), col=scoreColor(score), C=size/2;
   return `<svg class="ring" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
@@ -331,7 +337,7 @@ function rowHTML(r){
     <div class="mid">
       <div class="co">${r.co}</div>
       <div class="rl">${r.role}</div>
-      <div class="sub"><span>${r.loc}</span>${r.compFit?`<span class="pill ${cp[0]}" title="${compTip}">${cp[1]}</span>`:''}</div>
+      <div class="sub"><span>${r.loc}</span>${r.compFit?`<span class="pill ${cp[0]}" title="${compTip}">${cp[1]}</span>`:''}${r.posted?`<span class="tagchip">${postedLabel(r.posted)}</span>`:''}${eng&&engagedDate(r)?`<span class="tagchip" style="color:var(--accent-ink)">✓ Engaged ${fmtMD(engagedDate(r))}</span>`:''}</div>
     </div>
     <div class="rt">
       ${eng?`<span class="bmk">${icon('bookmark')}</span>`:''}
@@ -358,6 +364,7 @@ function roleDetail(key){
         <div class="co">${r.co}</div>
         <h1>${r.role}</h1>
         <div class="loc">${r.loc}${r.tier?' · '+r.tier:''}</div>
+        ${r.posted?`<div class="loc" style="margin-top:3px;color:var(--faint)">${postedLabel(r.posted)}</div>`:''}
       </div>
       <div class="rt">${r.score!=null?ring(r.score,64):'<span class="tagchip">NEW</span>'}<div class="lbl">fit</div></div>
     </div>
@@ -370,6 +377,7 @@ function roleDetail(key){
       <a class="btn btn-primary" href="${r.url}" target="_blank" rel="noopener">View / Apply ${icon('ext')}</a>
       <button class="btn btn-ghost${eng?' on':''}" onclick="toggleEngaged('${enc(keyOf(r))}')">${eng?icon('check')+' Engaged':icon('bookmark')+' Mark engaged'}</button>
     </div>
+    ${eng&&engagedDate(r)?`<div class="capt" style="margin-top:6px">◷ On your radar since <b>${fmtMDY(engagedDate(r))}</b></div>`:''}
     <div class="panel"><div class="panel-h">${icon('spark')} Why it fits</div><div class="ptext">${r.note}</div></div>
     ${f?`<div class="panel">
       <div class="panel-h">${icon('gauge')} Fit breakdown <span class="conf conf-${f.confidence}">${f.confidence} confidence</span></div>

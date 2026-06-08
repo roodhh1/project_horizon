@@ -18,6 +18,9 @@ Each run:
      review. (LinkedIn discovery + the referral sweep are done assisted, in a
      logged-in browser — never headless here.)
 
+Posting dates: where a role is on a Greenhouse board, we record `posted`
+(the board's first_published, YYYY-MM-DD) so the dashboard can show posting age.
+
 Stdlib only — no pip installs. Designed to run in GitHub Actions.
 """
 
@@ -29,7 +32,7 @@ import urllib.request
 import urllib.error
 
 DATA = "roles.json"
-UA = {"User-Agent": "ProjectHorizon-verifier/2.0 (+github actions)"}
+UA = {"User-Agent": "ProjectHorizon-verifier/2.1 (+github actions)"}
 TODAY = datetime.date.today().isoformat()
 
 # --- Discovery tuning --------------------------------------------------------
@@ -48,7 +51,7 @@ US_HINTS = ("united states", "remote", "u.s", " us", "new york", "san francisco"
             "oregon", "new york city", "nyc")
 MAX_NEW_PER_COMPANY = 8
 
-_board_cache = {}  # token -> {"jobs":[...], "ids":set, "titles":[...]}
+_board_cache = {}  # token -> {"jobs":[...], "ids":set, "titles":[...], "pub":{id:date}}
 
 
 def fetch(url, timeout=30):
@@ -65,7 +68,8 @@ def load_board(token):
     jobs = json.loads(body).get("jobs", [])
     info = {"jobs": jobs,
             "ids": {str(j.get("id")) for j in jobs},
-            "titles": [str(j.get("title", "")).lower() for j in jobs]}
+            "titles": [str(j.get("title", "")).lower() for j in jobs],
+            "pub": {str(j.get("id")): (j.get("first_published") or "")[:10] for j in jobs}}
     _board_cache[token] = info
     return info
 
@@ -117,6 +121,24 @@ def verify_one(role):
     return live, v
 
 
+def posted_for(cfg):
+    """first_published (YYYY-MM-DD) for a greenhouse role, or '' if unavailable.
+    Self-hosted / LinkedIn postings don't expose a reliable date, so they have none."""
+    if not cfg or cfg.get("type") != "greenhouse":
+        return ""
+    try:
+        info = load_board(cfg["token"])
+    except Exception:
+        return ""
+    if cfg.get("id"):
+        return info["pub"].get(str(cfg["id"]), "")
+    rx = re.compile(cfg.get("title_regex", "$^"), re.I)   # title_regex roles
+    for j in info["jobs"]:
+        if rx.search(str(j.get("title", ""))):
+            return (j.get("first_published") or "")[:10]
+    return ""
+
+
 def norm_title(s):
     s = s.lower().replace("&", "and")
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", s)).strip()
@@ -165,6 +187,7 @@ def discover(existing_roles, token_to_co):
                 "score": None, "domain": None,
                 "comp": "Not posted", "compFit": None, "tier": "",
                 "url": j.get("absolute_url", ""),
+                "posted": (j.get("first_published") or "")[:10],
                 "note": (f"Auto-discovered on {co}'s job board {TODAY}. "
                          "Not yet scored — review fit, comp, and referral path."),
                 "verify": {"type": "greenhouse", "token": token, "id": jid},
@@ -191,6 +214,9 @@ def main():
     for role in roles:
         live, v = verify_one(role)
         role["status"] = {"live": live, "v": v}
+        p = posted_for(role.get("verify"))   # stamp posting date when available
+        if p:
+            role["posted"] = p
         if live:
             kept.append(role)
             print(f"  LIVE  {role['co']}|{role['role']}")
