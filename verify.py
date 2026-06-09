@@ -217,9 +217,17 @@ def main():
         p = posted_for(role.get("verify"))   # stamp posting date when available
         if p:
             role["posted"] = p
+        # PINNED roles (manually tracked in the application pipeline) are never
+        # pruned, even when read as closed — we still record their live/closed
+        # status for display, but they stay in roles.json so the pipeline keeps
+        # its history (applied / rejected / closed). Their `app` field is
+        # preserved automatically on round-trip.
         if live:
             kept.append(role)
             print(f"  LIVE  {role['co']}|{role['role']}")
+        elif role.get("pinned"):
+            kept.append(role)
+            print(f"  PIN   {role['co']}|{role['role']} (kept; status: {v})")
         else:
             pruned.append(role)
             print(f"  PRUNE {role['co']}|{role['role']} ({v})")

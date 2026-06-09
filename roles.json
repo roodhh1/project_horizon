@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-06-09",
+  "verified_on": "2026-06-04",
   "roles": [
     {
       "co": "Mercury",
@@ -16,6 +16,12 @@
       "url": "https://job-boards.greenhouse.io/mercury/jobs/5973037004",
       "note": "Bullseye: leads DS across growth, monetization, and core product — a near-exact mirror of your Credit Karma/Intuit monetization story, at your level. Only drag is base sitting below your target (equity is the lever).",
       "active": true,
+      "pinned": true,
+      "app": {
+        "stage": "in-process",
+        "since": "2026-06-03",
+        "note": "HM round with Leanne Fretz (Head of Data Science). The 6/9 attempt failed on a Zoom host/waiting-room issue on Mercury's side — rescheduling in progress, flagged promptly, not your fault. Two full mock rounds done; well-prepped."
+      },
       "verify": {
         "type": "greenhouse",
         "token": "mercury",
@@ -23,7 +29,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · checked 2026-06-04"
       },
       "referral": {
         "level": "active",
@@ -41,8 +47,7 @@
         "confidence": "high",
         "yoe_req": "10+ yrs, 3+ leading",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-16"
+      }
     },
     {
       "co": "Gusto",
@@ -65,7 +70,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · checked 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -83,8 +88,7 @@
         "confidence": "high",
         "yoe_req": "Leads MLE / ML-platform / Risk-DS / AI orgs (engineering leadership)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-21"
+      }
     },
     {
       "co": "Anthropic",
@@ -107,7 +111,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · checked 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -125,8 +129,7 @@
         "confidence": "high",
         "yoe_req": "8+ yrs total, 5+ managing AE/DE teams",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-02-19"
+      }
     },
     {
       "co": "OpenAI",
@@ -150,7 +153,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-05) (recheck failed 2026-06-06) (recheck failed 2026-06-07) (recheck failed 2026-06-08) (recheck failed 2026-06-08) (recheck failed 2026-06-09)"
+        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04)"
       },
       "referral": {
         "level": "bridge",
@@ -191,7 +194,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · checked 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -209,8 +212,7 @@
         "confidence": "high",
         "yoe_req": "12+ yrs strategy/ops/analytics (consulting/IB/PE ideal)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-30"
+      }
     },
     {
       "co": "Affirm",
@@ -233,7 +235,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -251,8 +253,7 @@
         "confidence": "high",
         "yoe_req": "7+ yrs (marketplaces/ads/two-sided)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-18"
+      }
     },
     {
       "co": "Affirm",
@@ -275,7 +276,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -293,8 +294,7 @@
         "confidence": "high",
         "yoe_req": "4+ yrs (credit strategy, unsecured lending)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-26"
+      }
     },
     {
       "co": "Affirm",
@@ -317,7 +317,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -335,8 +335,7 @@
         "confidence": "high",
         "yoe_req": "7+ yrs FRAUD management",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-26"
+      }
     },
     {
       "co": "Affirm",
@@ -359,7 +358,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -377,8 +376,7 @@
         "confidence": "high",
         "yoe_req": "7+ yrs credit risk",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-21"
+      }
     },
     {
       "co": "Affirm",
@@ -401,7 +399,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -419,8 +417,7 @@
         "confidence": "high",
         "yoe_req": "7+ yrs fraud",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2025-11-26"
+      }
     },
     {
       "co": "Affirm",
@@ -443,7 +440,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -461,8 +458,7 @@
         "confidence": "high",
         "yoe_req": "8+ yrs industry, 3+ managing ENGINEERS",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-23"
+      }
     },
     {
       "co": "Affirm",
@@ -485,7 +481,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -503,8 +499,7 @@
         "confidence": "high",
         "yoe_req": "8+ yrs industry, 3+ managing ENGINEERS",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-07"
+      }
     },
     {
       "co": "Affirm",
@@ -527,7 +522,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -545,8 +540,7 @@
         "confidence": "high",
         "yoe_req": "12+ yrs SWE/ML eng, 4+ managing managers",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-22"
+      }
     },
     {
       "co": "Anthropic",
@@ -569,7 +563,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -587,8 +581,48 @@
         "confidence": "high",
         "yoe_req": "7+ yrs people analytics / workforce planning",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
+    },
+    {
+      "co": "Chime",
+      "role": "Director, Marketing Analytics",
+      "loc": "San Francisco, CA, USA",
+      "track": "stepup",
+      "trackLabel": "Step-up title",
+      "extraTrack": "domain",
+      "score": 8.0,
+      "domain": 4,
+      "comp": "Not posted (Director band, est. ~$230K–$300K base)",
+      "compFit": "border",
+      "tier": "",
+      "url": "https://boards.greenhouse.io/chime/jobs/8443192002?gh_jid=8443192002",
+      "note": "Director step-up at a fintech where you have 1st-degree contacts. Growth/lifecycle fit is strong; the one stretch is the 8+ yrs of *marketing-analytics-specific* experience (you're more product/monetization).",
+      "verify": {
+        "type": "greenhouse",
+        "token": "chime",
+        "id": "8443192002"
       },
-      "posted": "2026-05-05"
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-04"
+      },
+      "referral": {
+        "level": "direct",
+        "text": "<b>1st°:</b> Mirna Ortiz Treviño (Sr PM, 15 mutuals) &amp; Ashwanth Draksha (Sr Data Analyst, Financial Crimes, 19 mutuals) — warm intros/intel. <b>2nd° leadership:</b> <b>Philip Denkabe</b> (Head of AI/ML/Data Science at Chime — likely above this role; via Dr. Ramla Jarrar &amp; Rafael Coss, 11 mutuals), Ekampreet Singh Kalsy (Product Analytics Lead), Rohith Devarasetty (Lead DS, Growth — experimentation/causal)."
+      },
+      "discovered": true,
+      "isNew": false,
+      "fit": {
+        "relevance": 8,
+        "level": 9,
+        "experience": 7,
+        "company": 9,
+        "comp": "border",
+        "score": 8.0,
+        "confidence": "high",
+        "yoe_req": "10+ yrs analytics, 8+ in marketing analytics",
+        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
+      }
     },
     {
       "co": "DoorDash",
@@ -611,7 +645,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "direct",
@@ -629,8 +663,7 @@
         "confidence": "high",
         "yoe_req": "10+ yrs, leading senior teams & developing managers",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-12"
+      }
     },
     {
       "co": "DoorDash",
@@ -653,7 +686,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "direct",
@@ -671,8 +704,7 @@
         "confidence": "high",
         "yoe_req": "8+ yrs DS/product analytics (IC)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2025-11-06"
+      }
     },
     {
       "co": "DoorDash",
@@ -695,7 +727,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "direct",
@@ -713,8 +745,7 @@
         "confidence": "high",
         "yoe_req": "6+ yrs BI/analytics-eng (B2B SaaS), 2+ mgmt",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-06-01"
+      }
     },
     {
       "co": "DoorDash",
@@ -737,7 +768,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "direct",
@@ -755,8 +786,7 @@
         "confidence": "high",
         "yoe_req": "6+ yrs, managing DS/analysts",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-14"
+      }
     },
     {
       "co": "DoorDash",
@@ -779,7 +809,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "direct",
@@ -797,8 +827,7 @@
         "confidence": "high",
         "yoe_req": "6+ yrs, managing DS/analysts",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-16"
+      }
     },
     {
       "co": "DoorDash",
@@ -821,7 +850,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "direct",
@@ -839,8 +868,7 @@
         "confidence": "high",
         "yoe_req": "6-8+ yrs marketing analytics, managing a team",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-02-05"
+      }
     },
     {
       "co": "DoorDash",
@@ -863,7 +891,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "direct",
@@ -881,8 +909,7 @@
         "confidence": "high",
         "yoe_req": "5+ yrs building/deploying ML (IC Principal)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-03-27"
+      }
     },
     {
       "co": "DoorDash",
@@ -905,7 +932,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "Board API · discovered 2026-06-04"
       },
       "referral": {
         "level": "direct",
@@ -923,8 +950,7 @@
         "confidence": "high",
         "yoe_req": "8+ yrs analytics, people management",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2025-12-09"
+      }
     },
     {
       "co": "Airbnb",
@@ -948,7 +974,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-09"
+        "v": "LinkedIn posting · checked 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -991,7 +1017,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-09"
+        "v": "LinkedIn posting · checked 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -1034,7 +1060,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-09"
+        "v": "LinkedIn posting · checked 2026-06-04"
       },
       "referral": {
         "level": "direct",
@@ -1077,7 +1103,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-09"
+        "v": "LinkedIn posting · checked 2026-06-04"
       },
       "referral": {
         "level": "bridge",
@@ -1099,66 +1125,225 @@
       }
     },
     {
-      "co": "DoorDash",
-      "role": "Technical Program Manager, Data Engineering & AI",
-      "loc": "New York, NY; Chicago, IL",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
+      "co": "Snowflake",
+      "role": "Senior Manager, Product Data Science",
+      "loc": "Menlo Park, CA",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
+      "extraTrack": "domain",
       "score": null,
       "domain": null,
-      "comp": "Not posted",
+      "comp": "See posting",
       "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7727529",
-      "note": "Auto-discovered on DoorDash's job board 2026-06-05. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "doordashusa",
-        "id": "7727529"
-      },
+      "tier": "Public · data cloud (~$60B+)",
+      "url": "https://www.linkedin.com/jobs/view/4425460224/",
+      "note": "Recommended next apply. Top-tier brand and a consumption-monetization model that genuinely rewards your pricing/monetization work; product DS fits your wedge. Freshest of the saved roles and the strongest bridge now that SoFi closed. No referral mapped yet — worth a network sweep before applying cold.",
+      "pinned": true,
+      "source": "linkedin",
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "LinkedIn · added 2026-06-09"
+      },
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-06-09",
+        "note": "Your recommended next application — freshest top-tier bridge on the board. Get the app in; ideally find a warm path first."
       },
       "referral": {
         "level": "pending",
         "text": ""
       },
-      "discovered": true,
-      "isNew": true,
-      "posted": "2026-03-18"
+      "discovered": false,
+      "isNew": false
     },
     {
-      "co": "Chime",
-      "role": "Director, Marketing Analytics",
-      "loc": "San Francisco, CA, USA",
-      "track": "new",
-      "trackLabel": "New find",
+      "co": "Abridge",
+      "role": "Director, Data Science",
+      "loc": "San Francisco, CA (Hybrid)",
+      "track": "stepup",
+      "trackLabel": "Step-up title",
+      "extraTrack": "stretch",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Healthcare AI · high-growth",
+      "url": "https://www.linkedin.com/jobs/view/4402990454/",
+      "note": "Your best Director swing. AI-native with strong trajectory; the Director title is the scope upgrade you want. The cost is a domain pivot to clinical/healthcare — sell transferable 0→1 leadership, not domain depth. Applied and reached out to contacts; awaiting response.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "LinkedIn · added 2026-06-09"
+      },
+      "app": {
+        "stage": "applied",
+        "note": "Applied + reached out to contacts; no response yet. Best Director bet on the board — worth a follow-up nudge."
+      },
+      "referral": {
+        "level": "bridge",
+        "text": "Reached out to contacts at Abridge (pending reply)."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Databricks",
+      "role": "Senior Manager, Infrastructure Data Science",
+      "loc": "Mountain View, CA (On-site)",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
       "extraTrack": "",
       "score": null,
       "domain": null,
-      "comp": "Not posted",
+      "comp": "See posting",
       "compFit": null,
-      "tier": "",
-      "url": "https://boards.greenhouse.io/chime/jobs/8579395002?gh_jid=8579395002",
-      "note": "Auto-discovered on Chime's job board 2026-06-06. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "chime",
-        "id": "8579395002"
-      },
+      "tier": "Elite pre-IPO (~$60B+)",
+      "url": "https://www.linkedin.com/jobs/view/4297756002/",
+      "note": "Elite company, but Infrastructure DS is platform/internal-reliability work — off your product/growth/monetization wedge. You applied with an internal referral and got no recruiter contact, which confirms the fit was thin. Don't invest further.",
+      "pinned": true,
+      "source": "linkedin",
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-09"
+        "v": "LinkedIn · added 2026-06-09"
+      },
+      "app": {
+        "stage": "applied",
+        "note": "Applied + internal referral; no recruiter contact. Off-wedge (infra, not product/growth) — low expected pull. Treat as cold."
+      },
+      "referral": {
+        "level": "direct",
+        "text": "You have an internal referral here (applied)."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Checkr",
+      "role": "Senior Manager Data Science, Revenue & Growth",
+      "loc": "San Francisco, CA (Hybrid)",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Fintech-adjacent · background checks",
+      "url": "https://www.linkedin.com/jobs/view/4397418124/",
+      "note": "The Revenue & Growth mandate fits your monetization/growth wedge well, but you graded the company as failing your own high-growth bar. Reached out via recruiters with no response. Keep as low-priority volume, not a focus.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "LinkedIn · added 2026-06-09"
+      },
+      "app": {
+        "stage": "applied",
+        "note": "Reached out via recruiters; no response. Role fits the wedge but company fails your high-growth bar — low priority."
       },
       "referral": {
         "level": "pending",
         "text": ""
       },
-      "discovered": true,
-      "isNew": true,
-      "posted": "2026-06-04"
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "SoFi",
+      "role": "Senior Manager, Data Science",
+      "loc": "San Francisco, CA",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Public fintech · lending/banking",
+      "url": "https://www.linkedin.com/jobs/view/4399470189/",
+      "note": "Was the sharpest domain match on the board — lending, banking, monetization, financial products is exactly your wedge. The req has since been pulled. Worth watching for a reopen or a sibling lending/growth req.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": false,
+        "v": "Closed — req pulled (per SoFi) · confirmed 2026-06-09"
+      },
+      "app": {
+        "stage": "closed",
+        "since": "2026-06-09",
+        "note": "Role closed per SoFi. Strongest domain fit on the list — set an alert for a reopen or adjacent lending/growth req."
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Superhuman",
+      "role": "Director, Data Science",
+      "loc": "San Francisco, CA (Hybrid)",
+      "track": "stepup",
+      "trackLabel": "Step-up title",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Email productivity · Grammarly-acquired",
+      "url": "https://www.linkedin.com/jobs/view/4417695458/",
+      "note": "Director title was the appeal, but post-Grammarly-acquisition trajectory and DS-org scope are murky, and it was your weakest Director bet. Recruiter passed. Closed out.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": false,
+        "v": "Rejected · 2026-06-09"
+      },
+      "app": {
+        "stage": "rejected",
+        "since": "2026-06-09",
+        "note": "Recruiter passed. Weakest Director bet anyway — limited downside to losing it."
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Adobe",
+      "role": "Senior Manager, GTM Data Science",
+      "loc": "San Jose, CA",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Public (~$240B)",
+      "url": "https://www.linkedin.com/jobs/view/4389864311/",
+      "note": "GTM Data Science is sales/marketing-ops analytics — off your product/monetization wedge. Triaged as a pass. Note: the Adobe *Director, Data Science & Analytics* role (also tracked here) is the better Adobe target.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "LinkedIn · added 2026-06-09"
+      },
+      "app": {
+        "stage": "passed",
+        "since": "2026-06-09",
+        "note": "Passed — GTM/marketing analytics, off-wedge. Pursue the Adobe Director, DS & Analytics role instead."
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": false,
+      "isNew": false
     }
   ]
 }

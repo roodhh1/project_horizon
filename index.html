@@ -100,6 +100,12 @@
   .pill.at{background:#e3f5ea;color:var(--good)} .pill.border{background:#fbf0db;color:var(--warn)}
   .pill.below{background:#f2f2f6;color:var(--sub)} .pill.tbd{background:#f2f2f6;color:var(--faint)}
   .tagchip{font-size:11px;font-weight:500;color:var(--sub);background:var(--chip);padding:2px 9px;border-radius:980px}
+  .sbadge{font-size:11px;font-weight:600;padding:2px 9px;border-radius:980px;white-space:nowrap}
+  .stage-head{display:flex;align-items:center;gap:9px;margin:26px 2px 12px}
+  .stage-head .sdot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+  .stage-head h3{font-size:15px;font-weight:600}
+  .stage-head .cnt{color:var(--faint);font-size:13px;font-weight:500}
+  .appnote{font-size:13.5px;color:var(--sub);margin-top:3px;line-height:1.45}
 
   /* Controls */
   .controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:20px 0 16px}
@@ -247,6 +253,7 @@
     <nav class="nav" id="nav">
       <a data-route="#/" onclick="go('#/')"><svg class="ic" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5"/></svg><span class="lbl">Home</span></a>
       <a data-route="#/roles" onclick="go('#/roles')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg><span class="lbl">Roles</span></a>
+      <a data-route="#/pipeline" onclick="go('#/pipeline')"><svg class="ic" viewBox="0 0 24 24"><path d="M4 5h16l-6 7v6l-4 2v-8z"/></svg><span class="lbl">Pipeline</span></a>
       <a data-route="#/radar" onclick="go('#/radar')"><svg class="ic" viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg><span class="lbl">Radar</span></a>
       <a data-route="#/network" onclick="go('#/network')"><svg class="ic" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0"/><path d="M16 5.3a3 3 0 0 1 0 5.4"/><path d="M20.5 20a5.5 5.5 0 0 0-4.3-5.4"/></svg><span class="lbl">Network</span></a>
       <a data-route="#/about" onclick="go('#/about')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r=".7" fill="currentColor" stroke="none"/></svg><span class="lbl">About</span></a>
@@ -289,6 +296,7 @@ const ICON={
   check:'<path d="m5 12 5 5 9-11"/>',
   refresh:'<path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 3.5v4h-4"/>',
   compass:'<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2.2 5.3-5.3 2.2 2.2-5.3z"/>',
+  pipe:'<path d="M4 5h16l-6 7v6l-4 2v-8z"/>',
   gauge:'<path d="M12 13 16 9"/><path d="M4.5 18a9 9 0 1 1 15 0"/><circle cx="12" cy="13" r="1.3" fill="currentColor" stroke="none"/>',
   pay:'<rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="12" cy="12" r="2.4"/>',
   spark:'<path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><circle cx="12" cy="12" r="2.6" fill="currentColor" stroke="none"/>',
@@ -329,6 +337,23 @@ function ring(score,size){
 }
 const REF={active:['#1c8a4d','In process'],direct:['#1c8a4d','1st° + warm 2nd°'],bridge:['#1f8a8a','Reachable via 2nd°'],pending:['#c5c5cc','Sweep pending'],none:['#c5c5cc','No path yet']};
 
+/* ---------- application pipeline ---------- */
+// stage key -> [label, color, blurb]
+const STAGES=[
+  ['to-apply',  'To apply',  '#0071e3', 'Recommended — get the application in.'],
+  ['applied',   'Applied',   '#1f8a8a', 'In with the recruiter / ATS; awaiting movement.'],
+  ['in-process','In process','#15a34a', 'Active conversations or interviews underway.'],
+  ['rejected',  'Rejected',  '#d92d20', 'Passed on — kept for the record.'],
+  ['closed',    'Closed',    '#86868b', 'Req pulled before it resolved.'],
+  ['passed',    'Passed',    '#9aa0aa', 'You decided to skip it.'],
+];
+const STAGEMAP=Object.fromEntries(STAGES.map(s=>[s[0],s]));
+const DEAD_STAGES=new Set(['rejected','closed','passed']);
+const stageOf=r=>(r.app&&r.app.stage)||null;
+const stageBadge=st=>{const s=STAGEMAP[st];return s?`<span class="sbadge" style="background:${s[2]}1f;color:${s[2]}">${st==='to-apply'?'★ ':''}${s[1]}</span>`:'';};
+const stageColor=st=>(STAGEMAP[st]||['','','#86868b'])[2];
+const stageLabel=st=>(STAGEMAP[st]||['',st])[1];
+
 /* ---------- role row + detail ---------- */
 function rowHTML(r){
   const eng=isEngaged(r), cp=compMap[r.compFit]||compMap.null;
@@ -337,7 +362,7 @@ function rowHTML(r){
     <div class="mid">
       <div class="co">${r.co}</div>
       <div class="rl">${r.role}</div>
-      <div class="sub"><span>${r.loc}</span>${r.compFit?`<span class="pill ${cp[0]}" title="${compTip}">${cp[1]}</span>`:''}${r.posted?`<span class="tagchip">${postedLabel(r.posted)}</span>`:''}${eng&&engagedDate(r)?`<span class="tagchip" style="color:var(--accent-ink)">✓ Engaged ${fmtMD(engagedDate(r))}</span>`:''}</div>
+      <div class="sub"><span>${r.loc}</span>${stageOf(r)?stageBadge(stageOf(r)):''}${r.compFit?`<span class="pill ${cp[0]}" title="${compTip}">${cp[1]}</span>`:''}${r.posted?`<span class="tagchip">${postedLabel(r.posted)}</span>`:''}${eng&&engagedDate(r)?`<span class="tagchip" style="color:var(--accent-ink)">✓ Engaged ${fmtMD(engagedDate(r))}</span>`:''}</div>
     </div>
     <div class="rt">
       ${eng?`<span class="bmk">${icon('bookmark')}</span>`:''}
@@ -378,6 +403,9 @@ function roleDetail(key){
       <button class="btn btn-ghost${eng?' on':''}" onclick="toggleEngaged('${enc(keyOf(r))}')">${eng?icon('check')+' Engaged':icon('bookmark')+' Mark engaged'}</button>
     </div>
     ${eng&&engagedDate(r)?`<div class="capt" style="margin-top:6px">◷ On your radar since <b>${fmtMDY(engagedDate(r))}</b></div>`:''}
+    ${r.app?`<div class="panel"><div class="panel-h">${icon('pipe')} Application status</div>
+      <div class="reflevel"><span class="lvl-dot" style="background:${stageColor(r.app.stage)}"></span>${stageLabel(r.app.stage)}${r.app.since?` · since ${fmtMDY(r.app.since)}`:''}</div>
+      ${r.app.note?`<div class="reftext">${r.app.note}</div>`:''}</div>`:''}
     <div class="panel"><div class="panel-h">${icon('spark')} Why it fits</div><div class="ptext">${r.note}</div></div>
     ${f?`<div class="panel">
       <div class="panel-h">${icon('gauge')} Fit breakdown <span class="conf conf-${f.confidence}">${f.confidence} confidence</span></div>
@@ -403,9 +431,10 @@ function statTile(ic,n,l){return `<div class="stat">${icon(ic)}<div class="n">${
 function tile(route,ic,title,sub){return `<button class="tile" onclick="go('${route}')"><div class="tic">${icon(ic)}</div><div><h3>${title}</h3><p>${sub}</p></div><span class="arr">${icon('chevR')}</span></button>`;}
 
 function homeView(){
-  const live=ROLES.length;
-  const top=ROLES.filter(r=>!isEngaged(r)&&(r.score??0)>=7).sort((a,b)=>(b.score??0)-(a.score??0));
-  const radar=ROLES.filter(isEngaged).length;
+  const live=ROLES.filter(r=>(r.status||{live:true}).live).length;
+  const top=ROLES.filter(r=>!isEngaged(r)&&!(stageOf(r)&&stageOf(r)!=='to-apply')&&(r.score??0)>=7).sort((a,b)=>(b.score??0)-(a.score??0));
+  const pipe=ROLES.filter(r=>r.app).length;
+  const active=ROLES.filter(r=>['to-apply','applied','in-process'].includes(stageOf(r))).length;
   const clears=ROLES.filter(r=>r.compFit==='at').length;
   const warm=ROLES.filter(r=>['active','direct','bridge'].includes((r.referral||{}).level)).length;
   const d=new Date((VERIFIED_ON||'')+'T00:00:00');
@@ -416,14 +445,14 @@ function homeView(){
     <div class="meta-line"><span class="dot"></span>${live} live roles · verified ${human}</div>
     <div class="stats">
       ${statTile('target',top.length,'Top matches')}
-      ${statTile('gauge',clears,'Likely clear comp')}
+      ${statTile('pipe',active,'Active pipeline')}
       ${statTile('users',warm,'Warm contacts')}
-      ${statTile('bookmark',radar,'In your radar')}
+      ${statTile('gauge',clears,'Likely clear comp')}
     </div>
     <div class="sec-h">Explore</div>
     <div class="tiles">
       ${tile('#/roles','target','Opportunities',`${top.length} fresh matches scored 7+`)}
-      ${tile('#/radar','bookmark','In my radar',`${radar} role${radar===1?'':'s'} you're engaged with`)}
+      ${tile('#/pipeline','pipe','Pipeline',`${pipe} application${pipe===1?'':'s'} tracked`)}
       ${tile('#/network','users','Network',`${warm} roles with a warm path`)}
       ${tile('#/about','info','How Beacon works','Scoring, sources & method')}
     </div>
@@ -438,6 +467,8 @@ let listMode='top', listTrack='', listQuery='', listComp='', listConf='', listSo
 const COMPRANK={at:0,border:1,below:2,null:3};
 function filteredRoles(){
   const rows=ROLES.filter(r=>{
+    // Pipeline-tracked roles live on the Pipeline tab; only surface "to apply" here.
+    if(stageOf(r) && stageOf(r)!=='to-apply') return false;
     if(listTrack && r.track!==listTrack && r.extraTrack!==listTrack) return false;
     if(listComp && r.compFit!==listComp) return false;
     if(listConf && (r.fit||{}).confidence!==listConf) return false;
@@ -513,6 +544,24 @@ function radarView(){
   </div>`;
 }
 
+function pipelineView(){
+  const tracked=ROLES.filter(r=>r.app);
+  const active=tracked.filter(r=>['to-apply','applied','in-process'].includes(stageOf(r))).length;
+  const body = tracked.length ? STAGES.map(([key,label,color,blurb])=>{
+    const rows=tracked.filter(r=>stageOf(r)===key).sort((a,b)=>(b.score??-1)-(a.score??-1));
+    if(!rows.length) return '';
+    return `<div class="stage-head"><span class="sdot" style="background:${color}"></span><h3>${label}</h3><span class="cnt">· ${rows.length}</span></div>
+      <div class="appnote" style="margin:-8px 2px 10px;color:var(--faint)">${blurb}</div>
+      ${listView(rows,'')}`;
+  }).join('') : `<div class="empty">No applications tracked yet. Mark a role's stage in roles.json to populate this.</div>`;
+  return `<div class="view">
+    <h1 class="display" style="font-size:30px">Pipeline</h1>
+    <p class="lede" style="font-size:15px">Where each application stands — <b>${active} active</b> of ${tracked.length} tracked. Synced from roles.json, so it travels across your devices.</p>
+    <div style="height:8px"></div>
+    ${body}
+  </div>`;
+}
+
 function networkView(){
   const byCo={};
   ROLES.forEach(r=>{const rf=r.referral||{level:'pending'};const o=byCo[r.co]||(byCo[r.co]={co:r.co,level:rf.level,text:rf.text||'',n:0});o.n++;});
@@ -563,6 +612,7 @@ function router(){
   let html, active='#/';
   if(h.startsWith('#/role/')){ html=roleDetail(dec(h.slice(7))); active='#/roles'; }
   else if(h.startsWith('#/roles')){ html=rolesView(); active='#/roles'; }
+  else if(h.startsWith('#/pipeline')){ html=pipelineView(); active='#/pipeline'; }
   else if(h.startsWith('#/radar')){ html=radarView(); active='#/radar'; }
   else if(h.startsWith('#/network')){ html=networkView(); active='#/network'; }
   else if(h.startsWith('#/about')){ html=aboutView(); active='#/about'; }
@@ -585,7 +635,7 @@ applyTheme('light');  // dark mode disabled for now
 
 fetch('roles.json',{cache:'no-store'})
   .then(r=>{if(!r.ok)throw new Error('roles.json '+r.status);return r.json();})
-  .then(data=>{ VERIFIED_ON=data.verified_on||''; ROLES=(data.roles||[]).filter(r=>(r.status||{live:true}).live); router(); })
+  .then(data=>{ VERIFIED_ON=data.verified_on||''; ROLES=(data.roles||[]).filter(r=>(r.status||{live:true}).live || r.pinned); router(); })
   .catch(e=>{ document.getElementById('app').innerHTML=`<div class="empty" style="color:#c0392b">Couldn't load roles.json (${e.message}). Serve over http (e.g. <code>python3 -m http.server</code>) — GitHub Pages works fine.</div>`; });
 </script>
 </body>
