@@ -4,11 +4,19 @@ on:
   schedule:
     # GitHub cron is UTC and does not observe DST. 15:00 UTC = 08:00 PDT
     # (summer) / 07:00 PST (winter). Tuned to land at 8 AM Pacific.
-    - cron: "0 15 * * *"     # daily 08:00 America/Los_Angeles (PDT)
-  workflow_dispatch: {}       # allow manual runs from the Actions tab
+    - cron: "0 15 * * *"        # daily 08:00 America/Los_Angeles (PDT)
+  workflow_dispatch: {}          # allow manual runs from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "roles.json"             # auto-heal: a manual upload that clobbers the data
+                                 # file instantly re-runs the bot, which re-merges
+                                 # pipeline.json and re-verifies (clobber self-heals).
+      - "pipeline.json"          # editing an application stage updates the live app
+                                 # in seconds instead of waiting for the daily run.
 
 permissions:
-  contents: write             # let the default GITHUB_TOKEN commit the refreshed file
+  contents: write                # let the default GITHUB_TOKEN commit the refreshed file
 
 concurrency:
   group: refresh-dashboard
@@ -17,6 +25,10 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # Never re-trigger on the bot's own refresh commit. (Belt-and-suspenders:
+    # pushes made with GITHUB_TOKEN already don't spawn new workflow runs, so
+    # there is no infinite loop — this just makes that explicit.)
+    if: "github.event_name != 'push' || !contains(github.event.head_commit.message, 'chore: daily refresh')"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,5 +50,5 @@ jobs:
             git commit -m "chore: daily refresh — verify/prune/discover ($(date -u +%Y-%m-%d))"
             git push
           else
-            echo "No role changes today."
+            echo "No role changes."
           fi
