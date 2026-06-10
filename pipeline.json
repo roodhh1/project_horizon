@@ -1,0 +1,236 @@
+{
+  "_comment": "YOUR application pipeline — you own this file. verify.py merges it into roles.json each run; the bot never overwrites it. pinned_roles = manually-tracked applications (kept even when closed). overrides = auto-discovered roles you've applied to (attaches pinned + app stage).",
+  "pinned_roles": [
+    {
+      "co": "Snowflake",
+      "role": "Senior Manager, Product Data Science",
+      "loc": "Menlo Park, CA",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
+      "extraTrack": "domain",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Public · data cloud (~$60B+)",
+      "url": "https://www.linkedin.com/jobs/view/4425460224/",
+      "note": "Recommended next apply. Top-tier brand and a consumption-monetization model that genuinely rewards your pricing/monetization work; product DS fits your wedge. Freshest of the saved roles and the strongest bridge now that SoFi closed. No referral mapped yet — worth a network sweep before applying cold.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "LinkedIn · added 2026-06-09"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-06-09",
+        "note": "APPLIED 6/9 via Mario Heredia referral (1st°). Next: ask Mario to confirm the hiring manager; line up warm 2nd° intel via Hamin Oh (Dir, Data/Analytics/AI) or Kamer Toker-Yildiz (DS Leader) before the recruiter screen. Lead with monetization, not 'product analytics.'"
+      },
+      "referral": {
+        "level": "direct",
+        "text": "<b>Confirmed referral.</b> <b>1st°:</b> Mario Heredia (Data Science / AI / Leadership, 60+ mutuals) — your referrer + intel channel. <b>2nd° likely hiring chain:</b> <b>Hamin Oh</b> (Director, Data, Analytics &amp; AI; via sahithi visvanathan &amp; Trevor Scollins — top person to understand), <b>Kamer Toker-Yildiz</b> (Data Science Leader, Bay Area; via Abhishek Ghuwalewala), <b>Satya Kota</b> (Director, Data Engineering — adjacent). Peers: Peter L. (Sr DS), Si Peng (DS&amp;AI, ex-Apple)."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Abridge",
+      "role": "Director, Data Science",
+      "loc": "San Francisco, CA (Hybrid)",
+      "track": "stepup",
+      "trackLabel": "Step-up title",
+      "extraTrack": "stretch",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Healthcare AI · high-growth",
+      "url": "https://www.linkedin.com/jobs/view/4402990454/",
+      "note": "Your best Director swing. AI-native with strong trajectory; the Director title is the scope upgrade you want. The cost is a domain pivot to clinical/healthcare — sell transferable 0→1 leadership, not domain depth. Applied and reached out to contacts; awaiting response.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "LinkedIn · added 2026-06-09"
+      },
+      "app": {
+        "stage": "applied",
+        "note": "Applied + reached out to contacts; no response yet. Best Director bet on the board — worth a follow-up nudge."
+      },
+      "referral": {
+        "level": "bridge",
+        "text": "Reached out to contacts at Abridge (pending reply)."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Databricks",
+      "role": "Senior Manager, Infrastructure Data Science",
+      "loc": "Mountain View, CA (On-site)",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Elite pre-IPO (~$60B+)",
+      "url": "https://www.linkedin.com/jobs/view/4297756002/",
+      "note": "Elite company, but Infrastructure DS is platform/internal-reliability work — off your product/growth/monetization wedge. You applied with an internal referral and got no recruiter contact, which confirms the fit was thin. Don't invest further.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "LinkedIn · added 2026-06-09"
+      },
+      "app": {
+        "stage": "applied",
+        "note": "Applied + internal referral; no recruiter contact. Off-wedge (infra, not product/growth) — low expected pull. Treat as cold."
+      },
+      "referral": {
+        "level": "direct",
+        "text": "You have an internal referral here (applied)."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Checkr",
+      "role": "Senior Manager Data Science, Revenue & Growth",
+      "loc": "San Francisco, CA (Hybrid)",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Fintech-adjacent · background checks",
+      "url": "https://www.linkedin.com/jobs/view/4397418124/",
+      "note": "The Revenue & Growth mandate fits your monetization/growth wedge well, but you graded the company as failing your own high-growth bar. Reached out via recruiters with no response. Keep as low-priority volume, not a focus.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "LinkedIn · added 2026-06-09"
+      },
+      "app": {
+        "stage": "applied",
+        "note": "Reached out via recruiters; no response. Role fits the wedge but company fails your high-growth bar — low priority."
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "SoFi",
+      "role": "Senior Manager, Data Science",
+      "loc": "San Francisco, CA",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Public fintech · lending/banking",
+      "url": "https://www.linkedin.com/jobs/view/4399470189/",
+      "note": "Was the sharpest domain match on the board — lending, banking, monetization, financial products is exactly your wedge. The req has since been pulled. Worth watching for a reopen or a sibling lending/growth req.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": false,
+        "v": "Closed — req pulled (per SoFi) · confirmed 2026-06-09"
+      },
+      "app": {
+        "stage": "closed",
+        "since": "2026-06-09",
+        "note": "Role closed per SoFi. Strongest domain fit on the list — set an alert for a reopen or adjacent lending/growth req."
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Superhuman",
+      "role": "Director, Data Science",
+      "loc": "San Francisco, CA (Hybrid)",
+      "track": "stepup",
+      "trackLabel": "Step-up title",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Email productivity · Grammarly-acquired",
+      "url": "https://www.linkedin.com/jobs/view/4417695458/",
+      "note": "Director title was the appeal, but post-Grammarly-acquisition trajectory and DS-org scope are murky, and it was your weakest Director bet. Recruiter passed. Closed out.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": false,
+        "v": "Rejected · 2026-06-09"
+      },
+      "app": {
+        "stage": "rejected",
+        "since": "2026-06-09",
+        "note": "Recruiter passed. Weakest Director bet anyway — limited downside to losing it."
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
+      "co": "Adobe",
+      "role": "Senior Manager, GTM Data Science",
+      "loc": "San Jose, CA",
+      "track": "lateral",
+      "trackLabel": "Lateral → better co",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Public (~$240B)",
+      "url": "https://www.linkedin.com/jobs/view/4389864311/",
+      "note": "GTM Data Science is sales/marketing-ops analytics — off your product/monetization wedge. Triaged as a pass. Note: the Adobe *Director, Data Science & Analytics* role (also tracked here) is the better Adobe target.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "LinkedIn · added 2026-06-09"
+      },
+      "app": {
+        "stage": "passed",
+        "since": "2026-06-09",
+        "note": "Passed — GTM/marketing analytics, off-wedge. Pursue the Adobe Director, DS & Analytics role instead."
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": false,
+      "isNew": false
+    }
+  ],
+  "overrides": {
+    "Mercury|Senior Data Science Manager": {
+      "pinned": true,
+      "app": {
+        "stage": "in-process",
+        "since": "2026-06-03",
+        "note": "HM round with Leanne Fretz (Head of Data Science). The 6/9 attempt failed on a Zoom host/waiting-room issue on Mercury's side — rescheduling in progress, flagged promptly, not your fault. Two full mock rounds done; well-prepped."
+      }
+    }
+  }
+}

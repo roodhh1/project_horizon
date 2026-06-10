@@ -32,7 +32,9 @@ import urllib.request
 import urllib.error
 
 DATA = "roles.json"
-UA = {"User-Agent": "ProjectHorizon-verifier/2.1 (+github actions)"}
+PIPELINE = "pipeline.json"   # YOU own this: pinned applications + app stages. Merged into
+                             # roles.json every run; the bot never overwrites it (clobber-proof).
+UA = {"User-Agent": "ProjectHorizon-verifier/2.2 (+github actions)"}
 TODAY = datetime.date.today().isoformat()
 
 # --- Discovery tuning --------------------------------------------------------
@@ -139,6 +141,50 @@ def posted_for(cfg):
     return ""
 
 
+def load_pipeline():
+    """Read the user-owned application pipeline. Returns {} on any problem so a
+    bad/missing pipeline.json never breaks the daily run."""
+    try:
+        return json.load(open(PIPELINE, encoding="utf-8"))
+    except FileNotFoundError:
+        return {}
+    except Exception as e:
+        print(f"  WARN pipeline.json unreadable ({e!r}) -> skipping merge")
+        return {}
+
+
+def merge_pipeline(kept):
+    """Merge YOUR pipeline.json into the bot's auto set:
+      - overrides: attach pinned + app stage to an auto-discovered role you've applied to.
+      - pinned_roles: full manually-tracked applications — verified for display but NEVER
+        pruned (so closed/rejected applications stay in your history)."""
+    pipe = load_pipeline()
+    if not pipe:
+        return kept
+    by_key = {r["co"] + "|" + r["role"]: r for r in kept}
+    for key, ov in (pipe.get("overrides") or {}).items():
+        if key in by_key:
+            by_key[key]["pinned"] = True
+            if "app" in ov:
+                by_key[key]["app"] = ov["app"]
+            print(f"  PIPE  override {key}")
+    for pr in (pipe.get("pinned_roles") or []):
+        pr = dict(pr)
+        pr["pinned"] = True
+        live, v = verify_one(pr)
+        pr["status"] = {"live": live, "v": v}
+        p = posted_for(pr.get("verify"))
+        if p:
+            pr["posted"] = p
+        key = pr["co"] + "|" + pr["role"]
+        if key in by_key:
+            by_key[key].update(pr)
+        else:
+            kept.append(pr)
+        print(f"  PIPE  pinned {key} (status: {v or 'n/a'})")
+    return kept
+
+
 def norm_title(s):
     s = s.lower().replace("&", "and")
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", s)).strip()
@@ -234,6 +280,10 @@ def main():
 
     new_roles = discover(kept, token_to_co) if DISCOVER else []
     kept.extend(new_roles)
+
+    # Merge YOUR application pipeline last, so pinned applications + stages survive
+    # even if roles.json was clobbered by a manual upload.
+    kept = merge_pipeline(kept)
 
     data["verified_on"] = TODAY
     data["roles"] = kept
