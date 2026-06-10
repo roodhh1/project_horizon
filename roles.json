@@ -156,7 +156,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-10)"
+        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-10) (recheck failed 2026-06-10)"
       },
       "referral": {
         "level": "bridge",
@@ -553,88 +553,6 @@
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       },
       "posted": "2026-04-22"
-    },
-    {
-      "co": "Anthropic",
-      "role": "Workforce Planning Lead, People Analytics",
-      "loc": "San Francisco, CA | New York City, NY",
-      "track": "stretch",
-      "trackLabel": "Stretch / AI-native",
-      "extraTrack": "",
-      "score": 4.6,
-      "domain": 1,
-      "comp": "Not posted (Anthropic comp typically high)",
-      "compFit": "at",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5202462008",
-      "note": "Frontier-AI brand and strong comp, but this is HR/people analytics + workforce planning (HRIS/FP&A) — a domain you have no background in. Low fit.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "anthropic",
-        "id": "5202462008"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-06-10"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "No 1st°, but reachable 2nd° to the exact team: <b>Shehzad B.</b> (Head of People Analytics at Anthropic — likely the hiring leader; via Sai Rakesh Ghanta &amp; Aurélien Vautier) and <b>Krishna Sounderrajan</b> (People Data at Anthropic, 3 mutuals)."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 2,
-        "level": 5,
-        "experience": 3,
-        "company": 10,
-        "comp": "at",
-        "score": 4.6,
-        "confidence": "high",
-        "yoe_req": "7+ yrs people analytics / workforce planning",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      }
-    },
-    {
-      "co": "Chime",
-      "role": "Director, Marketing Analytics",
-      "loc": "San Francisco, CA, USA",
-      "track": "stepup",
-      "trackLabel": "Step-up title",
-      "extraTrack": "domain",
-      "score": 8.0,
-      "domain": 4,
-      "comp": "Not posted (Director band, est. ~$230K–$300K base)",
-      "compFit": "border",
-      "tier": "",
-      "url": "https://boards.greenhouse.io/chime/jobs/8443192002?gh_jid=8443192002",
-      "note": "Director step-up at a fintech where you have 1st-degree contacts. Growth/lifecycle fit is strong; the one stretch is the 8+ yrs of *marketing-analytics-specific* experience (you're more product/monetization).",
-      "verify": {
-        "type": "greenhouse",
-        "token": "chime",
-        "id": "8443192002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-06-10"
-      },
-      "referral": {
-        "level": "direct",
-        "text": "<b>1st°:</b> Mirna Ortiz Treviño (Sr PM, 15 mutuals) &amp; Ashwanth Draksha (Sr Data Analyst, Financial Crimes, 19 mutuals) — warm intros/intel. <b>2nd° leadership:</b> <b>Philip Denkabe</b> (Head of AI/ML/Data Science at Chime — likely above this role; via Dr. Ramla Jarrar &amp; Rafael Coss, 11 mutuals), Ekampreet Singh Kalsy (Product Analytics Lead), Rohith Devarasetty (Lead DS, Growth — experimentation/causal)."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 8,
-        "level": 9,
-        "experience": 7,
-        "company": 9,
-        "comp": "border",
-        "score": 8.0,
-        "confidence": "high",
-        "yoe_req": "10+ yrs analytics, 8+ in marketing analytics",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      }
     },
     {
       "co": "DoorDash",
@@ -1166,7 +1084,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-06-10"
+        "v": "Board API · checked 2026-06-10"
       },
       "referral": {
         "level": "pending",
@@ -1395,6 +1313,37 @@
       },
       "discovered": false,
       "isNew": false
+    },
+    {
+      "co": "Chime",
+      "role": "Director, Marketing Analytics",
+      "loc": "San Francisco, CA, USA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://boards.greenhouse.io/chime/jobs/8579395002?gh_jid=8579395002",
+      "posted": "2026-06-04",
+      "note": "Auto-discovered on Chime's job board 2026-06-10. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "chime",
+        "id": "8579395002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-10"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
     }
   ]
 }
