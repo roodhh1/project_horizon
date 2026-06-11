@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-06-10",
+  "verified_on": "2026-06-11",
   "roles": [
     {
       "co": "Mercury",
@@ -23,7 +23,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "active",
@@ -71,7 +71,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -113,7 +113,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -156,7 +156,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-10) (recheck failed 2026-06-10)"
+        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-10) (recheck failed 2026-06-10) (recheck failed 2026-06-11)"
       },
       "referral": {
         "level": "bridge",
@@ -197,7 +197,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Live (closing? unconfirmed) · 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -239,7 +239,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -281,7 +281,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -323,7 +323,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -365,7 +365,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -407,7 +407,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -449,7 +449,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -491,7 +491,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -533,7 +533,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -575,7 +575,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "direct",
@@ -617,7 +617,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "direct",
@@ -659,7 +659,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "direct",
@@ -701,7 +701,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "direct",
@@ -743,7 +743,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "direct",
@@ -785,7 +785,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "direct",
@@ -827,7 +827,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "direct",
@@ -869,7 +869,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "direct",
@@ -912,7 +912,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-10"
+        "v": "LinkedIn posting · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -955,7 +955,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-10"
+        "v": "LinkedIn posting · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -998,7 +998,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-10"
+        "v": "LinkedIn posting · checked 2026-06-11"
       },
       "referral": {
         "level": "direct",
@@ -1041,7 +1041,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-10"
+        "v": "LinkedIn posting · checked 2026-06-11"
       },
       "referral": {
         "level": "bridge",
@@ -1084,7 +1084,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-10"
+        "v": "Board API · checked 2026-06-11"
       },
       "referral": {
         "level": "pending",
@@ -1336,7 +1336,38 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-06-10"
+        "v": "Live (closing? unconfirmed) · 2026-06-11"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Chime",
+      "role": "Director, Marketing Data Science",
+      "loc": "San Francisco, CA, USA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://boards.greenhouse.io/chime/jobs/8586472002?gh_jid=8586472002",
+      "posted": "2026-06-10",
+      "note": "Auto-discovered on Chime's job board 2026-06-11. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "chime",
+        "id": "8586472002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-06-11"
       },
       "referral": {
         "level": "pending",
