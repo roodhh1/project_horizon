@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-06-11",
+  "verified_on": "2026-06-12",
   "roles": [
     {
       "co": "Mercury",
@@ -23,7 +23,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "active",
@@ -71,7 +71,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -113,7 +113,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -156,7 +156,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-10) (recheck failed 2026-06-10) (recheck failed 2026-06-11)"
+        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-10) (recheck failed 2026-06-10) (recheck failed 2026-06-11) (recheck failed 2026-06-12)"
       },
       "referral": {
         "level": "bridge",
@@ -175,48 +175,6 @@
         "yoe_req": "Leads a DS team; experimentation/causal/modeling rigor",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       }
-    },
-    {
-      "co": "Affirm",
-      "role": "Director, Analytics, Strategic Insights",
-      "loc": "Remote — US",
-      "track": "stepup",
-      "trackLabel": "Step-up title",
-      "extraTrack": "domain",
-      "score": 7.8,
-      "domain": 4,
-      "comp": "$245K–$325K base (CA/NY/WA)",
-      "compFit": "border",
-      "tier": "Public BNPL lender (~$20B)",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7718616003",
-      "note": "Director step-up at a pure lending company — your lending/revenue narrative is the JD. But it leans exec strategy/BizOps over hands-on DS, and prefers a consulting/IB/PE background; your 11 yrs are DS, so the years-and-type fit is slightly under.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7718616003"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-06-11"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "No 1st°, but multiple manager-level 2nd° paths: <b>Joohyeun Yi</b> (Sr. Manager, Data Science — peer/hiring level; via Favio Vazquez &amp; Arun Chandramouli, 8 mutuals). Credit/risk: <b>Kaihua Zhang</b> (Credit Analytics Manager), <b>Andres Arcila</b> (Lead DS, Risk &amp; Analytics — causal/ML). Full-stack/marketing: <b>Norb Duniecki</b> (Marketing Analytics Manager, Full Stack). MLE: <b>Jorge Valhondo Rama</b> (EM, MLE). Domain ICs: Cathy Wu (Growth &amp; Monetization DS), Peter Chen (Product Analytics, A/B &amp; causal)."
-      },
-      "discovered": false,
-      "isNew": false,
-      "fit": {
-        "relevance": 8,
-        "level": 9,
-        "experience": 7,
-        "company": 8,
-        "comp": "border",
-        "score": 7.8,
-        "confidence": "high",
-        "yoe_req": "12+ yrs strategy/ops/analytics (consulting/IB/PE ideal)",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-30"
     },
     {
       "co": "Affirm",
@@ -239,7 +197,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -281,7 +239,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -323,7 +281,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -365,7 +323,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -407,7 +365,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -449,7 +407,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -491,7 +449,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -533,7 +491,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -575,7 +533,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "direct",
@@ -617,7 +575,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "direct",
@@ -659,7 +617,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "direct",
@@ -701,7 +659,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "direct",
@@ -743,7 +701,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "direct",
@@ -785,7 +743,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "direct",
@@ -827,7 +785,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "direct",
@@ -869,7 +827,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "direct",
@@ -912,7 +870,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-11"
+        "v": "LinkedIn posting · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -955,7 +913,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-11"
+        "v": "LinkedIn posting · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -998,7 +956,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-11"
+        "v": "LinkedIn posting · checked 2026-06-12"
       },
       "referral": {
         "level": "direct",
@@ -1041,7 +999,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-11"
+        "v": "LinkedIn posting · checked 2026-06-12"
       },
       "referral": {
         "level": "bridge",
@@ -1084,7 +1042,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "pending",
@@ -1316,37 +1274,6 @@
     },
     {
       "co": "Chime",
-      "role": "Director, Marketing Analytics",
-      "loc": "San Francisco, CA, USA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://boards.greenhouse.io/chime/jobs/8579395002?gh_jid=8579395002",
-      "posted": "2026-06-04",
-      "note": "Auto-discovered on Chime's job board 2026-06-10. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "chime",
-        "id": "8579395002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-06-11"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Chime",
       "role": "Director, Marketing Data Science",
       "loc": "San Francisco, CA, USA",
       "track": "new",
@@ -1367,7 +1294,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-06-11"
+        "v": "Board API · checked 2026-06-12"
       },
       "referral": {
         "level": "pending",
