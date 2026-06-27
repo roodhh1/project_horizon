@@ -2,6 +2,70 @@
   "_comment": "YOUR application pipeline — you own this file. verify.py merges it into roles.json each run; the bot never overwrites it. pinned_roles = manually-tracked applications (kept even when closed). overrides = auto-discovered roles you've applied to (attaches pinned + app stage).",
   "pinned_roles": [
     {
+      "co": "Waymo",
+      "role": "Senior Data Science Manager, Driving Quality",
+      "loc": "Mountain View, CA / Remote (see posting)",
+      "track": "lateral",
+      "trackLabel": "Lateral → elite brand",
+      "extraTrack": "stretch",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Alphabet · autonomous vehicles (top brand)",
+      "url": "https://www.linkedin.com/jobs/view/4301393798/",
+      "note": "Top-tier brand and an Alphabet balance sheet, but be clear-eyed: 'Driving Quality' is AV safety/operational DS — measuring autonomy performance — not the product/growth/monetization wedge you sell best. Sell transferable 0→1 leadership + measurement/north-star rigor (your Mercury final-panel material maps well here). Strong optionality bet; not a domain-perfect fit. No referral mapped yet — worth a Waymo/Google network sweep before the recruiter screen.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "LinkedIn · applied 2026-06-27"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-06-27",
+        "note": "APPLIED 6/27 (confirmation + candidate survey received from Waymo TA). Next: sweep LinkedIn for 1st/2nd° at Waymo/Google to warm a referral before recruiter contact. Lead with measurement rigor and 0→1 org-building, not 'product analytics.'"
+      },
+      "referral": {
+        "level": "pending",
+        "text": "No referral mapped yet — run a Waymo/Google network sweep."
+      },
+      "discovered": false,
+      "isNew": true
+    },
+    {
+      "co": "Mercury",
+      "role": "Senior Data Science Manager",
+      "loc": "SF / NY / Portland / Remote US–CA",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 8.8,
+      "domain": 5,
+      "comp": "$239K–$298.8K base",
+      "compFit": "below",
+      "tier": "High-growth fintech (~$3.5B+)",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/5973037004",
+      "note": "CLOSED — rejected after final panel (6/24). Your highest-conviction, best-fit role of the search: full process through HM (Leanne Fretz), peer, cross-functional, and final panel. Ryan Atkins (recruiter) was genuinely complimentary and explicitly asked to stay connected for future roles — keep that relationship warm, it's a real asset. Lesson to carry: the wedge fit was perfect; refine the final-panel narrative (team restructure / north-star / contingency) for the next at-bat.",
+      "pinned": true,
+      "source": "greenhouse",
+      "status": {
+        "live": true,
+        "v": "Greenhouse · in process → closed 2026-06-26"
+      },
+      "app": {
+        "stage": "rejected",
+        "since": "2026-06-26",
+        "note": "Rejected 6/26 by Ryan Atkins after the 6/24 final panel. 'Genuinely impressed by the depth of your experience… you stood out in a competitive process.' Wants to keep you in mind for future Mercury roles. Send a gracious keep-in-touch reply to Ryan; reconnect in ~6–8 weeks."
+      },
+      "referral": {
+        "level": "active",
+        "text": "Ran full process. <b>1st° backchannel:</b> Oneida Dueñas (Risk, ex-Intuit). <b>2nd° intel:</b> Prateek Parashar (Staff DS, Growth), Katja Wittfoth (Sr DS), Shannon Hees (Sr DS, Product Analytics). Keep Ryan Atkins (recruiter) warm for re-entry."
+      },
+      "discovered": false,
+      "isNew": false
+    },
+    {
       "co": "Snowflake",
       "role": "Senior Manager, Product Data Science",
       "loc": "Menlo Park, CA",
@@ -14,17 +78,17 @@
       "compFit": null,
       "tier": "Public · data cloud (~$60B+)",
       "url": "https://www.linkedin.com/jobs/view/4425460224/",
-      "note": "Recommended next apply. Top-tier brand and a consumption-monetization model that genuinely rewards your pricing/monetization work; product DS fits your wedge. Freshest of the saved roles and the strongest bridge now that SoFi closed. No referral mapped yet — worth a network sweep before applying cold.",
+      "note": "CLOSED — rejected. Was your recommended bridge: top-tier brand, consumption-monetization model that fit your pricing/monetization wedge, applied via Mario Heredia (1st°). Didn't reach a screen despite the warm referral. Mario remains a valuable channel — keep him in the network, this one just didn't land.",
       "pinned": true,
       "source": "linkedin",
       "status": {
         "live": true,
-        "v": "LinkedIn · added 2026-06-09"
+        "v": "LinkedIn · applied 6/9 → rejected 2026-06-27"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-06-09",
-        "note": "APPLIED 6/9 via Mario Heredia referral (1st°). Next: ask Mario to confirm the hiring manager; line up warm 2nd° intel via Hamin Oh (Dir, Data/Analytics/AI) or Kamer Toker-Yildiz (DS Leader) before the recruiter screen. Lead with monetization, not 'product analytics.'"
+        "stage": "rejected",
+        "since": "2026-06-27",
+        "note": "REJECTED (reported by Rodrigo 6/27; no rejection email in Gmail — likely came via recruiter/LinkedIn). Came in via Mario Heredia's 1st° referral and still didn't convert to a recruiter screen — a real signal the Product DS req was either filled or not a fit. Keep Mario warm (strong ongoing referral channel); thank him regardless of outcome."
       },
       "referral": {
         "level": "direct",
@@ -221,16 +285,39 @@
       },
       "discovered": false,
       "isNew": false
+    },
+    {
+      "co": "Liberty Mutual",
+      "role": "Senior Director II, Data Science — USRM Complex Components",
+      "loc": "Boston, MA / Remote US (see posting)",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Sr Director)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Legacy insurer (Fortune 100)",
+      "url": "https://jobs.libertymutualgroup.com/job/2026-76408/",
+      "note": "Senior Director II is a real title/scope step-up, but flag the trade-offs honestly: USRM (US Retail Markets) insurance DS is off your fintech/product/growth wedge, and Liberty Mutual fails your own high-growth / strong-trajectory bar (mature, slow-moving carrier). Optionality and AI exposure are limited. Treat as a title-and-comp volume play, not a focus — useful as a Director-level interview rep if it converts.",
+      "pinned": true,
+      "source": "icims",
+      "status": {
+        "live": true,
+        "v": "iCIMS · applied 2026-06-18 (req 2026-76408)"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-06-18",
+        "note": "APPLIED 6/18 (auto-confirmation via iCIMS, req 2026-76408). No recruiter contact yet. Low priority — off-wedge domain + fails growth bar. Don't invest beyond a screen unless they move fast."
+      },
+      "referral": {
+        "level": "pending",
+        "text": "No referral mapped."
+      },
+      "discovered": false,
+      "isNew": true
     }
   ],
-  "overrides": {
-    "Mercury|Senior Data Science Manager": {
-      "pinned": true,
-      "app": {
-        "stage": "in-process",
-        "since": "2026-06-03",
-        "note": "HM round with Leanne Fretz (Head of Data Science). The 6/9 attempt failed on a Zoom host/waiting-room issue on Mercury's side — rescheduling in progress, flagged promptly, not your fault. Two full mock rounds done; well-prepped."
-      }
-    }
-  }
+  "overrides": {}
 }
