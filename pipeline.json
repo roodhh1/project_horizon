@@ -2,6 +2,49 @@
   "_comment": "YOUR application pipeline — you own this file. verify.py merges it into roles.json each run; the bot never overwrites it. pinned_roles = manually-tracked applications (kept even when closed). overrides = auto-discovered roles you've applied to (attaches pinned + app stage).",
   "pinned_roles": [
     {
+      "co": "Root",
+      "role": "Director of Data Science, Performance Marketing",
+      "loc": "Remote (US) · HQ Columbus, OH",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Director)",
+      "extraTrack": "domain",
+      "score": 9.0,
+      "domain": 4,
+      "comp": "$250K–$300K base + bonus + equity",
+      "compFit": "below",
+      "tier": "Insurtech · public, newly profitable (NASDAQ: ROOT)",
+      "url": "https://ats.rippling.com/joinroot/jobs/34bba6e3-fb48-4863-bc74-960494fad925",
+      "note": "YOUR #1 ACTIVE ROLE and arguably the best of the whole search. Director title = the scope step-up you want, and the mandate is a bullseye on your wedge: lead the DS team running Root's performance-marketing engine — owning a NINE-FIGURE marketing budget, LTV-based bidding, incrementality/MMM measurement, experimentation. This is monetization + growth + experimentation + 0→1 leadership, exactly your story. Warm INBOUND from the hiring manager (Annie Yang sourced you on LinkedIn), not a cold app — a strong signal. Honest caveats: (1) company trajectory — Root is a small-cap public insurtech, but it just turned profitable (sub-100% combined ratio, record Q1'26), so the story is improving; (2) JD says PhD-preferred + full-funnel paid-acquisition experience — manage that gap by leaning on quant depth + actuarial-science degree + experimentation/monetization work. Frame everything as marketing spend → LTV-positive (profitable-risk) policies, not raw volume.",
+      "pinned": true,
+      "source": "linkedin (HM inbound)",
+      "status": {
+        "live": true,
+        "v": "In process · recruiter screen done 2026-06-29"
+      },
+      "app": {
+        "stage": "in-process",
+        "since": "2026-06-29",
+        "note": "Warm inbound: Annie Yang (Sr Director DS & Head of B2C Marketing) cold-messaged you 6/13 → recruiter screen with Kristin Simmons done Mon 6/29 (you sent resume + asked for prep materials). NEXT round is almost certainly the HM conversation with Annie. Prep dossier already built (root_annie_prep.html): lead with LTV-positive acquisition, incrementality/MMM, nine-figure budget allocation; Annie values stats/predictive modeling (GLMs, causal) over LLMs and prizes an ownership mentality. On-camera required for all interviews."
+      },
+      "referral": {
+        "level": "direct",
+        "text": "<b>Warm inbound — better than a referral.</b> Hiring manager <b>Annie Yang</b> (Sr Director of Data Science &amp; Head of B2C Marketing; came up through insurance pricing, MS Math) sourced you directly on LinkedIn 6/13. Recruiter: Kristin Simmons. Annie owns Marketing + LTV DS; this role sits in/under her org."
+      },
+      "discovered": false,
+      "isNew": true,
+      "fit": {
+        "relevance": 10,
+        "level": 9,
+        "experience": 8,
+        "company": 6,
+        "comp": "below",
+        "score": 9.0,
+        "confidence": "high",
+        "yoe_req": "8+ yrs, 4+ leading; PhD preferred",
+        "candidate": "you: ~11 yrs DS, ~5 leading; actuarial-science degree (strong fit), no PhD"
+      }
+    },
+    {
       "co": "Waymo",
       "role": "Senior Data Science Manager, Driving Quality",
       "loc": "Mountain View, CA / Remote (see posting)",
@@ -110,16 +153,17 @@
       "compFit": null,
       "tier": "Healthcare AI · high-growth",
       "url": "https://www.linkedin.com/jobs/view/4402990454/",
-      "note": "Your best Director swing. AI-native with strong trajectory; the Director title is the scope upgrade you want. The cost is a domain pivot to clinical/healthcare — sell transferable 0→1 leadership, not domain depth. Applied and reached out to contacts; awaiting response.",
+      "note": "CLOSED — rejected 6/29. Your best Director-title swing, but the healthcare/clinical domain pivot was always the risk and the application didn't break through a competitive pool. Lesson: Director swings need a warm referral, not a cold app + light outreach.",
       "pinned": true,
       "source": "linkedin",
       "status": {
         "live": true,
-        "v": "LinkedIn · added 2026-06-09"
+        "v": "Ashby · applied → rejected 2026-06-29"
       },
       "app": {
-        "stage": "applied",
-        "note": "Applied + reached out to contacts; no response yet. Best Director bet on the board — worth a follow-up nudge."
+        "stage": "rejected",
+        "note": "REJECTED 6/29 via Ashby ('applicant pool quite competitive, decided not to proceed'). Was your best Director swing but a domain pivot to clinical/healthcare; the cold-app + contact outreach didn't convert. No further action.",
+        "since": "2026-06-29"
       },
       "referral": {
         "level": "bridge",
@@ -314,6 +358,87 @@
       "referral": {
         "level": "pending",
         "text": "No referral mapped."
+      },
+      "discovered": false,
+      "isNew": true
+    },
+    {
+      "co": "Ramp",
+      "role": "Data Science / Analytics Leadership (target)",
+      "loc": "New York / SF / Remote",
+      "track": "target",
+      "trackLabel": "Referral target",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "See postings",
+      "compFit": null,
+      "tier": "Elite pre-IPO · spend management",
+      "url": "https://ramp.com/careers",
+      "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "Referral target · mapped 2026-06-27"
+      },
+      "referral": {
+        "level": "bridge",
+        "text": "<b>No 1st°.</b> Best 2nd° data path: James Rizkallah (Data at Ramp — 11 mutuals incl. Pablo Lerdo de Tejada, Anubhav Aggarwal). Also Ben Geist (ML Eng), Avinash Gopinathan (Risk, 11 mut), Harry Channing (Fraud, 9 mut). Direct recruiter: Nicole Hansen (TA). Approach: warm intro via James, or DM Nicole on a specific req."
+      },
+      "discovered": false,
+      "isNew": true
+    },
+    {
+      "co": "Brex",
+      "role": "Data Science / Analytics Leadership (target)",
+      "loc": "SF / NY / Remote",
+      "track": "target",
+      "trackLabel": "Referral target",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "See postings",
+      "compFit": null,
+      "tier": "Pre-IPO · AI finance platform",
+      "url": "https://www.brex.com/careers",
+      "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "Referral target · mapped 2026-06-27"
+      },
+      "referral": {
+        "level": "bridge",
+        "text": "<b>No 1st°.</b> Standout 2nd°: Sumeet Marwaha (Data @ Brex — 44 mutuals; likely data leader) = top path. Also Bhavna Sinha (Senior Data Scientist, 10 mut, via Favio Vazquez). Recruiter: Natalie Endres (GTM Recruiting). Even CEO Pedro Franceschi is 2nd°. Approach: intro to Sumeet via a high-mutual broker."
+      },
+      "discovered": false,
+      "isNew": true
+    },
+    {
+      "co": "Plaid",
+      "role": "Data Science / Analytics Leadership (target)",
+      "loc": "SF / NY / Remote",
+      "track": "target",
+      "trackLabel": "Referral target",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "See postings",
+      "compFit": null,
+      "tier": "Pre-IPO · fintech infrastructure",
+      "url": "https://plaid.com/careers/",
+      "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "Referral target · mapped 2026-06-27"
+      },
+      "referral": {
+        "level": "direct",
+        "text": "<b>1st°: Amy Smith</b> (TPM / Data Scientist, AI Governance — 140 mutuals) — DM directly for the lay of the land + referral. 2nd°: Akash Kulkarni (Analytics &amp; DS, 7 mut), Milav Shah (Eng Leadership, Data &amp; AI, 9 mut), Kanak Chavda (Data Eng). Recruiters: Sydney Busch Weber (Head of Tech Recruiting), Rico Curry (11 mut)."
       },
       "discovered": false,
       "isNew": true
