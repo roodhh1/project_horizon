@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02) (recheck failed 2026-07-02)"
+        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -174,47 +174,6 @@
         "score": 7.8,
         "confidence": "high",
         "yoe_req": "Leads a DS team; experimentation/causal/modeling rigor",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      }
-    },
-    {
-      "co": "Affirm",
-      "role": "Director, Analytics, Strategic Insights",
-      "loc": "Remote — US",
-      "track": "stepup",
-      "trackLabel": "Step-up title",
-      "extraTrack": "domain",
-      "score": 7.8,
-      "domain": 4,
-      "comp": "$245K–$325K base (CA/NY/WA)",
-      "compFit": "border",
-      "tier": "Public BNPL lender (~$20B)",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7718616003",
-      "note": "Director step-up at a pure lending company — your lending/revenue narrative is the JD. But it leans exec strategy/BizOps over hands-on DS, and prefers a consulting/IB/PE background; your 11 yrs are DS, so the years-and-type fit is slightly under.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7718616003"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-02"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>No 1st°.</b> <b>NEW — Director-level:</b> Karan Shah (Director, Analytics — 14 mutuals incl. Anita Bowers, Raj Iranyan) = top hiring-chain/intel. <b>Wedge-relevant 2nd°:</b> Aastha (Growth Analytics, 4 mut), Sean Zhong (Analytics Manager, 3 mut), Winnie Xin (Strategy &amp; Analytics), Vinay Buddharaju (Growth Strategy &amp; Analytics). <b>DS:</b> Joohyeun Yi (DS &amp; Analytics, 8 mut), Ruixiang 'James' Fan (DS &amp; Risk Analytics). Recurring broker across fintech: Favio Vazquez."
-      },
-      "discovered": false,
-      "isNew": false,
-      "fit": {
-        "relevance": 8,
-        "level": 9,
-        "experience": 7,
-        "company": 8,
-        "comp": "border",
-        "score": 7.8,
-        "confidence": "high",
-        "yoe_req": "12+ yrs strategy/ops/analytics (consulting/IB/PE ideal)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       }
     },
@@ -343,47 +302,6 @@
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       },
       "posted": "2026-05-26"
-    },
-    {
-      "co": "Affirm",
-      "role": "Analytics Manager, Full Stack (Credit Risk)",
-      "loc": "Remote US",
-      "track": "domain",
-      "trackLabel": "Domain-perfect",
-      "extraTrack": "lateral",
-      "score": 7.0,
-      "domain": 4,
-      "comp": "Not posted (est. ~$200K–$250K base)",
-      "compFit": "below",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7704631003",
-      "note": "Owns end-to-end credit strategy for the Shopify portfolio — strong lending domain, manager scope. The 7+ yrs is credit-risk-specific, where your background is lending analytics/monetization (adjacent, not identical).",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7704631003"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-02"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>No 1st°.</b> <b>NEW — Director-level:</b> Karan Shah (Director, Analytics — 14 mutuals incl. Anita Bowers, Raj Iranyan) = top hiring-chain/intel. <b>Wedge-relevant 2nd°:</b> Aastha (Growth Analytics, 4 mut), Sean Zhong (Analytics Manager, 3 mut), Winnie Xin (Strategy &amp; Analytics), Vinay Buddharaju (Growth Strategy &amp; Analytics). <b>DS:</b> Joohyeun Yi (DS &amp; Analytics, 8 mut), Ruixiang 'James' Fan (DS &amp; Risk Analytics). Recurring broker across fintech: Favio Vazquez."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 8,
-        "level": 7,
-        "experience": 6,
-        "company": 8,
-        "comp": "below",
-        "score": 7.0,
-        "confidence": "high",
-        "yoe_req": "7+ yrs credit risk",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      }
     },
     {
       "co": "Affirm",
@@ -552,88 +470,6 @@
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       },
       "posted": "2026-04-22"
-    },
-    {
-      "co": "Anthropic",
-      "role": "Workforce Planning Lead, People Analytics",
-      "loc": "San Francisco, CA | New York City, NY",
-      "track": "stretch",
-      "trackLabel": "Stretch / AI-native",
-      "extraTrack": "",
-      "score": 4.6,
-      "domain": 1,
-      "comp": "Not posted (Anthropic comp typically high)",
-      "compFit": "at",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5202462008",
-      "note": "Frontier-AI brand and strong comp, but this is HR/people analytics + workforce planning (HRIS/FP&A) — a domain you have no background in. Low fit.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "anthropic",
-        "id": "5202462008"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-02"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "No 1st°, but reachable 2nd° to the exact team: <b>Shehzad B.</b> (Head of People Analytics at Anthropic — likely the hiring leader; via Sai Rakesh Ghanta &amp; Aurélien Vautier) and <b>Krishna Sounderrajan</b> (People Data at Anthropic, 3 mutuals)."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 2,
-        "level": 5,
-        "experience": 3,
-        "company": 10,
-        "comp": "at",
-        "score": 4.6,
-        "confidence": "high",
-        "yoe_req": "7+ yrs people analytics / workforce planning",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      }
-    },
-    {
-      "co": "Chime",
-      "role": "Director, Marketing Analytics",
-      "loc": "San Francisco, CA, USA",
-      "track": "stepup",
-      "trackLabel": "Step-up title",
-      "extraTrack": "domain",
-      "score": 8.0,
-      "domain": 4,
-      "comp": "Not posted (Director band, est. ~$230K–$300K base)",
-      "compFit": "border",
-      "tier": "",
-      "url": "https://boards.greenhouse.io/chime/jobs/8443192002?gh_jid=8443192002",
-      "note": "Director step-up at a fintech where you have 1st-degree contacts. Growth/lifecycle fit is strong; the one stretch is the 8+ yrs of *marketing-analytics-specific* experience (you're more product/monetization).",
-      "verify": {
-        "type": "greenhouse",
-        "token": "chime",
-        "id": "8443192002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-02"
-      },
-      "referral": {
-        "level": "direct",
-        "text": "<b>1st°:</b> Mirna Ortiz Treviño (+1) — warm intro/intel. <b>NEW — top target:</b> Andrew Chamberlain, PhD (Director of Product Analytics — 45 mutuals incl. sahithi visvanathan) = wedge-perfect + hiring-chain for the Marketing/Product Analytics roles. <b>Growth/experimentation:</b> Rohith Devarasetty (DS, Growth — causal). <b>Other 2nd°:</b> Stuti Jain (Analytics/Risk Product, 9 mut), Adai Narayanan (Analytics/Product Strategy), Sanford Morrow (Data Leader), Chloe W. (Product DS, 11 mut). AI/ML head: Philip Denkabe."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 8,
-        "level": 9,
-        "experience": 7,
-        "company": 9,
-        "comp": "border",
-        "score": 8.0,
-        "confidence": "high",
-        "yoe_req": "10+ yrs analytics, 8+ in marketing analytics",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      }
     },
     {
       "co": "DoorDash",
@@ -930,47 +766,6 @@
       "posted": "2026-03-27"
     },
     {
-      "co": "DoorDash",
-      "role": "Senior Manager, Ads & Promotions Analytics",
-      "loc": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York, NY; Los Angeles, CA; Chicago, IL",
-      "track": "domain",
-      "trackLabel": "Domain-perfect",
-      "extraTrack": "lateral",
-      "score": 8.7,
-      "domain": 5,
-      "comp": "Not posted (est. ~$200K–$280K base; RSUs → border)",
-      "compFit": "border",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7454878",
-      "note": "Sr Manager over ads & promotions analytics — monetization + funnel + experimentation is a near-mirror of your wedge, at your exact level. You clear the 8+ yrs + people-management bar. RSUs push toward target.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "doordashusa",
-        "id": "7454878"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-02"
-      },
-      "referral": {
-        "level": "direct",
-        "text": "<b>1st°:</b> Jasper + Maximiliano Medina García (DS) — warm intros. <b>NEW — leadership 2nd°:</b> Ethan Zhu (DS &amp; Analytics Leadership / Sunnyvale Site Lead — 32 mutuals incl. sahithi visvanathan) = strong hiring-chain; Mandy Leung (Director of Analytics, ex-Google/McKinsey). <b>Peer/IC 2nd°:</b> Yu Dong (DS, 29 mut), Ravi Singh (DS, 10 mut), Coki Metcalfe (Analytics &amp; DS). Recruiters: Lianna Falkenstein (S&amp;O TA), Ani A."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 9,
-        "level": 9,
-        "experience": 9,
-        "company": 9,
-        "comp": "border",
-        "score": 8.7,
-        "confidence": "high",
-        "yoe_req": "8+ yrs analytics, people management",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      }
-    },
-    {
       "co": "Airbnb",
       "role": "Lead, Advanced Analytics, Acquisition",
       "loc": "Remote — US",
@@ -1010,49 +805,6 @@
         "score": 7.4,
         "confidence": "high",
         "yoe_req": "8+ yrs, quant degree (IC 'Lead', no people-mgmt in JD)",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      }
-    },
-    {
-      "co": "Asana",
-      "role": "Senior Data Science Manager",
-      "loc": "San Francisco · hybrid",
-      "track": "lateral",
-      "trackLabel": "Lateral → better co",
-      "extraTrack": "domain",
-      "score": 8.0,
-      "domain": 4,
-      "comp": "Not posted (est. ~$210K–$290K base)",
-      "compFit": "border",
-      "tier": "Public SaaS",
-      "url": "https://www.linkedin.com/jobs/view/4411915992/",
-      "note": "JD confirms: manage a DS team partnering with Product/Design/Eng on strategy — a clean lateral at your level (wants 5+ yrs / 2+ managing, which you exceed). Domain is product/SaaS strategy with experimentation; less monetization/lending than your wedge.",
-      "verify": {
-        "type": "url",
-        "url": "https://www.linkedin.com/jobs/view/4411915992/",
-        "live_label": "LinkedIn posting",
-        "dead_label": "LinkedIn: closed"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-02"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "No 1st°, but strong 2nd° leadership: <b>Yena Kim</b> (VP, Data Science &amp; Analytics — likely above this role; via Sagar Ganapaneni &amp; Carlos Hernández Mireles) and <b>Yi An</b> (DS Director, Revenue &amp; Growth — likely hiring manager). Domain peer: <b>Dana I.</b> (leads Billing &amp; Monetization DS — your wedge, 5 mutuals); also Ankit Agarwal (Growth Analytics, 15 mutuals)."
-      },
-      "discovered": true,
-      "isNew": false,
-      "source": "linkedin",
-      "fit": {
-        "relevance": 8,
-        "level": 9,
-        "experience": 8,
-        "company": 8,
-        "comp": "border",
-        "score": 8.0,
-        "confidence": "high",
-        "yoe_req": "5+ yrs DS, 2+ yrs managing a DS team",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       }
     },
@@ -1617,7 +1369,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-02"
+        "v": "Board API · checked 2026-07-02"
       },
       "referral": {
         "level": "pending",
@@ -1648,7 +1400,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-02"
+        "v": "Board API · checked 2026-07-02"
       },
       "referral": {
         "level": "pending",
@@ -1679,7 +1431,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-02"
+        "v": "Board API · checked 2026-07-02"
       },
       "referral": {
         "level": "pending",
@@ -1710,7 +1462,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-02"
+        "v": "Board API · checked 2026-07-02"
       },
       "referral": {
         "level": "pending",
