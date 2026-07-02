@@ -64,7 +64,8 @@ DISCOVER_TOKENS = {
     "robinhood": "Robinhood",
     "coinbase": "Coinbase",
     "brex": "Brex",
-    "plaid": "Plaid",
+    # Plaid removed: it is NOT on Greenhouse (token 404s) — different ATS, can't be
+    # auto-discovered here; Plaid stays a manually-tracked referral target.
     "instacart": "Instacart",
     "reddit": "Reddit",
     "airbnb": "Airbnb",
@@ -74,6 +75,52 @@ DISCOVER_TOKENS = {
     "stripe": "Stripe",
     "sofi": "SoFi",
 }
+
+# --- Wedge curation ----------------------------------------------------------
+# Keep the board a focused decision tool aligned to Rodrigo's wedge (product /
+# growth / monetization / marketing analytics & DS leadership). Applied ONLY to
+# auto-discovered roles — never to pinned applications or the hand-curated base set.
+# HARD_NEGATIVE drops a role outright (off-wedge domain). SOFT_NEGATIVE (a wrong
+# FUNCTION — ML/data engineering, program/product mgmt) drops only when the title
+# lacks an analytics/DS signal, so "Data Science Manager, ..." survives but
+# "ML Engineering Manager, ..." does not.
+HARD_NEGATIVE = ("fraud", "safety", "mapping", " audit", "internal audit",
+                 "contracts", "compliance", "strategic finance",
+                 "finance and strategy", "market insights")
+SOFT_NEGATIVE = ("machine learning", "ml engineer", "software engineer",
+                 "engineering manager", "program manager", "technical program",
+                 "product manager")
+PROTECT = ("analytics", "data science", "data scientist")
+EXCLUDE_KEYS = {
+    "Airbnb|Lead, Advanced Analytics, Services",
+    "Databricks|Principal Data Scientist",        # generic IC, not leadership
+    "Reddit|Principal Data Scientist, Ads",        # IC, not leadership
+}
+# Review scores (0-10) stamped onto the discovered wedge-fits we're keeping.
+DISCOVERED_SCORES = {
+    "Instacart|Senior Director, Media Analytics, Commercial Strategy & Acceleration": 8.6,
+    "Reddit|Senior Data Science Manager, Marketing": 8.2,
+    "SoFi|Data Science Manager, Borrow": 7.9,
+    "Airbnb|Senior Manager, Advanced Analytics": 7.6,
+    "Airbnb|Lead, Advanced Analytics, Product": 7.4,
+    "Instacart|Media Analytics Manager, Measurement & Attribution": 7.3,
+    "Anthropic|Lead Data Scientist, Platform Product": 7.2,
+    "Airbnb|Lead, Advanced Analytics, Payments": 7.0,
+    "Instacart|Ads AI Analytics Lead II": 7.0,
+    "Lyft|Data Science Manager, Machine Learning — Lyft Ads": 7.0,
+    "Lyft|Data Science Manager, Machine Learning – Lyft Ads": 7.0,
+    "Lyft|Data Science Manager, Machine Learning - Lyft Ads": 7.0,
+}
+
+
+def _off_wedge(tl):
+    """True if a (lowercased) title is off Rodrigo's analytics/DS-leadership wedge."""
+    if any(h in tl for h in HARD_NEGATIVE):
+        return True
+    if any(s in tl for s in SOFT_NEGATIVE) and not any(p in tl for p in PROTECT):
+        return True
+    return False
+
 
 _board_cache = {}  # token -> {"jobs":[...], "ids":set, "titles":[...], "pub":{id:date}}
 
@@ -244,6 +291,8 @@ def discover(existing_roles, token_to_co):
                 continue
             if not any(s in tl for s in LEAD_SIGNAL):
                 continue
+            if _off_wedge(tl):          # keep discovery on Rodrigo's wedge
+                continue
             if not any(h in ll for h in US_HINTS):
                 continue
             if added >= MAX_NEW_PER_COMPANY:
@@ -288,6 +337,17 @@ def main():
         p = posted_for(role.get("verify"))   # stamp posting date when available
         if p:
             role["posted"] = p
+        # Curate auto-discovered finds to Rodrigo's wedge (never pinned apps / base set):
+        # drop off-wedge titles; stamp review scores onto the keepers.
+        if role.get("discovered") and not role.get("pinned"):
+            key = role["co"] + "|" + role["role"]
+            if key in EXCLUDE_KEYS or _off_wedge(role["role"].lower()):
+                pruned.append(role)
+                print(f"  DROP  {key} (off-wedge — curated out)")
+                continue
+            if key in DISCOVERED_SCORES:
+                role["score"] = DISCOVERED_SCORES[key]
+                role["isNew"] = False
         # PINNED roles (manually tracked in the application pipeline) are never
         # pruned, even when read as closed — we still record their live/closed
         # status for display, but they stay in roles.json so the pipeline keeps
