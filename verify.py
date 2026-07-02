@@ -53,6 +53,28 @@ US_HINTS = ("united states", "remote", "u.s", " us", "new york", "san francisco"
             "oregon", "new york city", "nyc")
 MAX_NEW_PER_COMPANY = 8
 
+# Bullseye companies to actively DISCOVER on every run, beyond whatever is already
+# tracked in roles.json. Maps a Greenhouse board token -> company label. Tokens are
+# validated live each run: a bad/unknown token just logs a WARN and is skipped (see
+# discover()), so this list is safe to extend. Curated for Rodrigo's wedge: high-growth
+# fintech, top consumer/marketplace tech, and AI-adjacent data orgs at Director / Sr-Mgr
+# scope. (Companies on Ashby/Lever boards — e.g. Ramp, OpenAI, Perplexity — aren't
+# Greenhouse and can't be discovered here; they stay LinkedIn-sourced.)
+DISCOVER_TOKENS = {
+    "robinhood": "Robinhood",
+    "coinbase": "Coinbase",
+    "brex": "Brex",
+    "plaid": "Plaid",
+    "instacart": "Instacart",
+    "reddit": "Reddit",
+    "airbnb": "Airbnb",
+    "databricks": "Databricks",
+    "lyft": "Lyft",
+    "pinterest": "Pinterest",
+    "stripe": "Stripe",
+    "sofi": "SoFi",
+}
+
 _board_cache = {}  # token -> {"jobs":[...], "ids":set, "titles":[...], "pub":{id:date}}
 
 
@@ -253,8 +275,11 @@ def main():
     data = json.load(open(DATA, encoding="utf-8"))
     roles = data.get("roles", [])
 
-    token_to_co = {r["verify"]["token"]: r["co"] for r in roles
-                   if r.get("verify", {}).get("type") == "greenhouse"}
+    # Discover across (a) every company already tracked via a Greenhouse role, plus
+    # (b) the curated bullseye board list. Existing labels win on token collisions.
+    token_to_co = {**DISCOVER_TOKENS,
+                   **{r["verify"]["token"]: r["co"] for r in roles
+                      if r.get("verify", {}).get("type") == "greenhouse"}}
 
     kept, pruned = [], []
     for role in roles:
