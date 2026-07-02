@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02)"
+        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -302,174 +302,6 @@
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       },
       "posted": "2026-05-26"
-    },
-    {
-      "co": "Affirm",
-      "role": "Analytics Manager, Full Stack (Fraud Analytics)",
-      "loc": "Remote UK",
-      "track": "lateral",
-      "trackLabel": "Lateral → better co",
-      "extraTrack": "",
-      "score": 5.3,
-      "domain": 3,
-      "comp": "Not posted (est. ~$200K–$250K base)",
-      "compFit": "below",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7532268003",
-      "note": "Fraud analytics manager — risk-adjacent but the JD wants 7+ yrs of fraud-specific experience you don't have. Off your monetization/growth wedge.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7532268003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-02"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>No 1st°.</b> <b>NEW — Director-level:</b> Karan Shah (Director, Analytics — 14 mutuals incl. Anita Bowers, Raj Iranyan) = top hiring-chain/intel. <b>Wedge-relevant 2nd°:</b> Aastha (Growth Analytics, 4 mut), Sean Zhong (Analytics Manager, 3 mut), Winnie Xin (Strategy &amp; Analytics), Vinay Buddharaju (Growth Strategy &amp; Analytics). <b>DS:</b> Joohyeun Yi (DS &amp; Analytics, 8 mut), Ruixiang 'James' Fan (DS &amp; Risk Analytics). Recurring broker across fintech: Favio Vazquez."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 5,
-        "level": 6,
-        "experience": 4,
-        "company": 8,
-        "comp": "below",
-        "score": 5.3,
-        "confidence": "high",
-        "yoe_req": "7+ yrs fraud",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2025-11-26"
-    },
-    {
-      "co": "Affirm",
-      "role": "Manager, Machine Learning Engineering (Fraud)",
-      "loc": "Remote Canada",
-      "track": "stretch",
-      "trackLabel": "Stretch / AI-native",
-      "extraTrack": "",
-      "score": 4.9,
-      "domain": 2,
-      "comp": "Not posted (ENG band — likely borderline)",
-      "compFit": "border",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7710180003",
-      "note": "ML-engineering leadership (building/shipping fraud models) — wants 3+ yrs managing engineers, not data scientists. Off your product-DS track; pursue only for an ML-org pivot.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7710180003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-02"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>No 1st°.</b> <b>NEW — Director-level:</b> Karan Shah (Director, Analytics — 14 mutuals incl. Anita Bowers, Raj Iranyan) = top hiring-chain/intel. <b>Wedge-relevant 2nd°:</b> Aastha (Growth Analytics, 4 mut), Sean Zhong (Analytics Manager, 3 mut), Winnie Xin (Strategy &amp; Analytics), Vinay Buddharaju (Growth Strategy &amp; Analytics). <b>DS:</b> Joohyeun Yi (DS &amp; Analytics, 8 mut), Ruixiang 'James' Fan (DS &amp; Risk Analytics). Recurring broker across fintech: Favio Vazquez."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 3,
-        "level": 6,
-        "experience": 4,
-        "company": 8,
-        "comp": "border",
-        "score": 4.9,
-        "confidence": "high",
-        "yoe_req": "8+ yrs industry, 3+ managing ENGINEERS",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-23"
-    },
-    {
-      "co": "Affirm",
-      "role": "Manager, Machine Learning Engineering (Underwriting) ",
-      "loc": "Remote US",
-      "track": "stretch",
-      "trackLabel": "Stretch / AI-native",
-      "extraTrack": "",
-      "score": 5.2,
-      "domain": 2,
-      "comp": "Not posted (ENG band — likely borderline)",
-      "compFit": "border",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7723636003",
-      "note": "Underwriting ML-engineering — lending-adjacent but an engineering-management role (deep ML/eng required); your DS-management experience doesn't map directly.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7723636003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-02"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>No 1st°.</b> <b>NEW — Director-level:</b> Karan Shah (Director, Analytics — 14 mutuals incl. Anita Bowers, Raj Iranyan) = top hiring-chain/intel. <b>Wedge-relevant 2nd°:</b> Aastha (Growth Analytics, 4 mut), Sean Zhong (Analytics Manager, 3 mut), Winnie Xin (Strategy &amp; Analytics), Vinay Buddharaju (Growth Strategy &amp; Analytics). <b>DS:</b> Joohyeun Yi (DS &amp; Analytics, 8 mut), Ruixiang 'James' Fan (DS &amp; Risk Analytics). Recurring broker across fintech: Favio Vazquez."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 4,
-        "level": 6,
-        "experience": 4,
-        "company": 8,
-        "comp": "border",
-        "score": 5.2,
-        "confidence": "high",
-        "yoe_req": "8+ yrs industry, 3+ managing ENGINEERS",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-07"
-    },
-    {
-      "co": "Affirm",
-      "role": "Senior Engineering Manager, Machine Learning Platform",
-      "loc": "Remote US",
-      "track": "stretch",
-      "trackLabel": "Stretch / AI-native",
-      "extraTrack": "stepup",
-      "score": 4.8,
-      "domain": 1,
-      "comp": "Not posted (Sr EM ENG band — likely near/clears anchor)",
-      "compFit": "at",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7705033003",
-      "note": "ML-platform engineering leadership (managing managers) — comp likely clears your target, but it requires 12+ yrs of software/ML engineering you don't have. Off-domain.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7705033003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-02"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>No 1st°.</b> <b>NEW — Director-level:</b> Karan Shah (Director, Analytics — 14 mutuals incl. Anita Bowers, Raj Iranyan) = top hiring-chain/intel. <b>Wedge-relevant 2nd°:</b> Aastha (Growth Analytics, 4 mut), Sean Zhong (Analytics Manager, 3 mut), Winnie Xin (Strategy &amp; Analytics), Vinay Buddharaju (Growth Strategy &amp; Analytics). <b>DS:</b> Joohyeun Yi (DS &amp; Analytics, 8 mut), Ruixiang 'James' Fan (DS &amp; Risk Analytics). Recurring broker across fintech: Favio Vazquez."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 2,
-        "level": 7,
-        "experience": 3,
-        "company": 8,
-        "comp": "at",
-        "score": 4.8,
-        "confidence": "high",
-        "yoe_req": "12+ yrs SWE/ML eng, 4+ managing managers",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-22"
     },
     {
       "co": "DoorDash",
@@ -722,48 +554,6 @@
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       },
       "posted": "2026-02-05"
-    },
-    {
-      "co": "DoorDash",
-      "role": "Principal Machine Learning Engineer, Ads & Promos Delivery",
-      "loc": "Sunnyvale, CA",
-      "track": "stretch",
-      "trackLabel": "Stretch / AI-native",
-      "extraTrack": "",
-      "score": 4.6,
-      "domain": 2,
-      "comp": "Not posted (Principal ENG band — likely border)",
-      "compFit": "border",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7760003",
-      "note": "Hands-on ML-engineering IC (PyTorch, LLM/RAG, ranking) — off your domain and an IC track. Comp is decent but the role doesn't advance your leadership narrative.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "doordashusa",
-        "id": "7760003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-02"
-      },
-      "referral": {
-        "level": "direct",
-        "text": "<b>1st°:</b> Jasper + Maximiliano Medina García (DS) — warm intros. <b>NEW — leadership 2nd°:</b> Ethan Zhu (DS &amp; Analytics Leadership / Sunnyvale Site Lead — 32 mutuals incl. sahithi visvanathan) = strong hiring-chain; Mandy Leung (Director of Analytics, ex-Google/McKinsey). <b>Peer/IC 2nd°:</b> Yu Dong (DS, 29 mut), Ravi Singh (DS, 10 mut), Coki Metcalfe (Analytics &amp; DS). Recruiters: Lianna Falkenstein (S&amp;O TA), Ani A."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 3,
-        "level": 4,
-        "experience": 4,
-        "company": 9,
-        "comp": "border",
-        "score": 4.6,
-        "confidence": "high",
-        "yoe_req": "5+ yrs building/deploying ML (IC Principal)",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-03-27"
     },
     {
       "co": "Airbnb",
@@ -1348,75 +1138,13 @@
       "isNew": true
     },
     {
-      "co": "Affirm",
-      "role": "Manager, Machine Learning Engineering (Repayment & Recovery)",
-      "loc": "Remote UK",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7778532003",
-      "posted": "2026-06-23",
-      "note": "Auto-discovered on Affirm's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7778532003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Affirm",
-      "role": "Model Risk Management Lead, Machine Learning",
-      "loc": "Remote Canada",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7775355003",
-      "posted": "2026-06-19",
-      "note": "Auto-discovered on Affirm's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7775355003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
       "co": "Anthropic",
       "role": "Lead Data Scientist, Platform Product",
       "loc": "New York City, NY | Seattle, WA; San Francisco, CA",
       "track": "new",
       "trackLabel": "New find",
       "extraTrack": "",
-      "score": null,
+      "score": 7.2,
       "domain": null,
       "comp": "Not posted",
       "compFit": null,
@@ -1438,100 +1166,7 @@
         "text": ""
       },
       "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "DoorDash",
-      "role": "Associate Manager, Indirect Tax Audit Analytics",
-      "loc": "United States - Remote",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8011756",
-      "posted": "2026-06-18",
-      "note": "Auto-discovered on DoorDash's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "doordashusa",
-        "id": "8011756"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Airbnb",
-      "role": "Associate Principal, Strategic Finance & Analytics",
-      "loc": "United States ",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.airbnb.com/positions/8043588?gh_jid=8043588",
-      "posted": "2026-07-02",
-      "note": "Auto-discovered on Airbnb's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "airbnb",
-        "id": "8043588"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Airbnb",
-      "role": "Lead, Advanced Analytics, Fraud and Safety Operations",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.airbnb.com/positions/8011165?gh_jid=8011165",
-      "posted": "2026-06-18",
-      "note": "Auto-discovered on Airbnb's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "airbnb",
-        "id": "8011165"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Airbnb",
@@ -1540,7 +1175,7 @@
       "track": "new",
       "trackLabel": "New find",
       "extraTrack": "",
-      "score": null,
+      "score": 7.0,
       "domain": null,
       "comp": "Not posted",
       "compFit": null,
@@ -1555,14 +1190,14 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-02"
+        "v": "Board API · checked 2026-07-02"
       },
       "referral": {
         "level": "pending",
         "text": ""
       },
       "discovered": true,
-      "isNew": true
+      "isNew": false
     },
     {
       "co": "Airbnb",
@@ -1571,7 +1206,7 @@
       "track": "new",
       "trackLabel": "New find",
       "extraTrack": "",
-      "score": null,
+      "score": 7.4,
       "domain": null,
       "comp": "Not posted",
       "compFit": null,
@@ -1586,7 +1221,193 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-02"
+        "v": "Board API · checked 2026-07-02"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false
+    },
+    {
+      "co": "Airbnb",
+      "role": "Senior Manager, Advanced Analytics",
+      "loc": "United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": 7.6,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/7627054?gh_jid=7627054",
+      "posted": "2026-03-19",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "7627054"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-07-02"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false
+    },
+    {
+      "co": "Instacart",
+      "role": "Ads AI Analytics Lead II",
+      "loc": "Canada - Remote (ON, AB, BC, or NS Only)",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": 7.0,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=7658241",
+      "posted": "2026-02-26",
+      "note": "Auto-discovered on Instacart's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "7658241"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-07-02"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false
+    },
+    {
+      "co": "Instacart",
+      "role": "Media Analytics Manager, Measurement & Attribution",
+      "loc": "Canada - Remote (ON, AB, BC, or NS Only)",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": 7.3,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=7951046",
+      "posted": "2026-05-21",
+      "note": "Auto-discovered on Instacart's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "7951046"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-07-02"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false
+    },
+    {
+      "co": "Instacart",
+      "role": "Senior Director, Media Analytics, Commercial Strategy & Acceleration",
+      "loc": "United States - Remote",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": 8.6,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=7875637",
+      "posted": "2026-05-01",
+      "note": "Auto-discovered on Instacart's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "7875637"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-07-02"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false
+    },
+    {
+      "co": "Lyft",
+      "role": "Data Science Manager, Machine Learning - Lyft Ads",
+      "loc": "New York, NY",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": 7.0,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8504137002?gh_jid=8504137002",
+      "posted": "2026-04-14",
+      "note": "Auto-discovered on Lyft's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "lyft",
+        "id": "8504137002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-07-02"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false
+    },
+    {
+      "co": "Pinterest",
+      "role": "Staff Technical Program Manager, Monetization Data Science",
+      "loc": "San Francisco, CA, US; Remote, US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7494686",
+      "posted": "2026-04-14",
+      "note": "Auto-discovered on Pinterest's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "pinterest",
+        "id": "7494686"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-07-02"
       },
       "referral": {
         "level": "pending",
@@ -1594,6 +1415,68 @@
       },
       "discovered": true,
       "isNew": true
+    },
+    {
+      "co": "Reddit",
+      "role": "Senior Data Science Manager, Marketing",
+      "loc": "Remote - Ontario, Canada",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": 8.2,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7931010",
+      "posted": "2026-05-15",
+      "note": "Auto-discovered on Reddit's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7931010"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-07-02"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false
+    },
+    {
+      "co": "SoFi",
+      "role": "Data Science Manager, Borrow",
+      "loc": "CA - San Francisco; NY - New York City ",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": 7.9,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://sofi.com/careers/job/7601581003?gh_jid=7601581003",
+      "posted": "2026-01-23",
+      "note": "Auto-discovered on SoFi's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "sofi",
+        "id": "7601581003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-07-02"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": false
     },
     {
       "co": "Airbnb",
@@ -1628,7 +1511,7 @@
     },
     {
       "co": "Airbnb",
-      "role": "Principal Machine Learning Engineer- LLM Fine-tuning and Optimization ",
+      "role": "Sr Manager, Advanced Analytics, FSI",
       "loc": "United States",
       "track": "new",
       "trackLabel": "New find",
@@ -1638,106 +1521,13 @@
       "comp": "Not posted",
       "compFit": null,
       "tier": "",
-      "url": "https://careers.airbnb.com/positions/7955579?gh_jid=7955579",
-      "posted": "2026-05-24",
+      "url": "https://careers.airbnb.com/positions/7926527?gh_jid=7926527",
+      "posted": "2026-05-14",
       "note": "Auto-discovered on Airbnb's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
       "verify": {
         "type": "greenhouse",
         "token": "airbnb",
-        "id": "7955579"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Airbnb",
-      "role": "Senior Manager, Advanced Analytics",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.airbnb.com/positions/7627054?gh_jid=7627054",
-      "posted": "2026-03-19",
-      "note": "Auto-discovered on Airbnb's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "airbnb",
-        "id": "7627054"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Airbnb",
-      "role": "Senior Manager, Advanced Analytics, Fraud & Safety Operations",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.airbnb.com/positions/7788160?gh_jid=7788160",
-      "posted": "2026-04-09",
-      "note": "Auto-discovered on Airbnb's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "airbnb",
-        "id": "7788160"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Coinbase",
-      "role": "Senior Program Manager, Contracts & Analytics",
-      "loc": "Remote - USA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.coinbase.com/careers/positions/8008047?gh_jid=8008047",
-      "posted": "2026-06-17",
-      "note": "Auto-discovered on Coinbase's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "coinbase",
-        "id": "8008047"
+        "id": "7926527"
       },
       "status": {
         "live": true,
@@ -1782,502 +1572,6 @@
       "isNew": true
     },
     {
-      "co": "Databricks",
-      "role": "Sr. Product Manager, Data Engineering",
-      "loc": "San Francisco, California",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6322654002",
-      "posted": "2022-08-11",
-      "note": "Auto-discovered on Databricks's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "databricks",
-        "id": "6322654002"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Instacart",
-      "role": "Ads AI Analytics Lead II",
-      "loc": "Canada - Remote (ON, AB, BC, or NS Only)",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://instacart.careers/job/?gh_jid=7658241",
-      "posted": "2026-02-26",
-      "note": "Auto-discovered on Instacart's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "instacart",
-        "id": "7658241"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Instacart",
-      "role": "Media Analytics Manager, Measurement & Attribution",
-      "loc": "Canada - Remote (ON, AB, BC, or NS Only)",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://instacart.careers/job/?gh_jid=7951046",
-      "posted": "2026-05-21",
-      "note": "Auto-discovered on Instacart's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "instacart",
-        "id": "7951046"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Instacart",
-      "role": "Senior Director, Media Analytics, Commercial Strategy & Acceleration",
-      "loc": "United States - Remote",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://instacart.careers/job/?gh_jid=7875637",
-      "posted": "2026-05-01",
-      "note": "Auto-discovered on Instacart's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "instacart",
-        "id": "7875637"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Lyft",
-      "role": "Analytics Lead, Market Insights",
-      "loc": "San Francisco, CA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://app.careerpuck.com/job-board/lyft/job/8503985002?gh_jid=8503985002",
-      "posted": "2026-04-14",
-      "note": "Auto-discovered on Lyft's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "lyft",
-        "id": "8503985002"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Lyft",
-      "role": "Analytics Lead, Safety & Customer Care",
-      "loc": "San Francisco, CA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://app.careerpuck.com/job-board/lyft/job/8474660002?gh_jid=8474660002",
-      "posted": "2026-03-24",
-      "note": "Auto-discovered on Lyft's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "lyft",
-        "id": "8474660002"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Lyft",
-      "role": "Data Science Manager, Machine Learning - Lyft Ads",
-      "loc": "New York, NY",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://app.careerpuck.com/job-board/lyft/job/8504137002?gh_jid=8504137002",
-      "posted": "2026-04-14",
-      "note": "Auto-discovered on Lyft's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "lyft",
-        "id": "8504137002"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Lyft",
-      "role": "Data Science Manager, Mapping",
-      "loc": "San Francisco, CA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://app.careerpuck.com/job-board/lyft/job/8448175002?gh_jid=8448175002",
-      "posted": "2026-03-10",
-      "note": "Auto-discovered on Lyft's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "lyft",
-        "id": "8448175002"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Pinterest",
-      "role": "Director, Machine Learning Engineering – Content & User Understanding",
-      "loc": "San Francisco, CA, US; Remote, US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7908460",
-      "posted": "2026-05-26",
-      "note": "Auto-discovered on Pinterest's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "pinterest",
-        "id": "7908460"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Pinterest",
-      "role": "Manager II, Machine Learning – Conversion Visibility",
-      "loc": "Seattle, WA, US; Remote, US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8010903",
-      "posted": "2026-07-01",
-      "note": "Auto-discovered on Pinterest's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "pinterest",
-        "id": "8010903"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Pinterest",
-      "role": "Manager II, Machine Learning Engineering, Core Engineering ",
-      "loc": "San Francisco, CA, US;  Remote, US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7075176",
-      "posted": "2025-07-16",
-      "note": "Auto-discovered on Pinterest's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "pinterest",
-        "id": "7075176"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Pinterest",
-      "role": "Principal Machine Learning Engineer, Ads Delivery",
-      "loc": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=6963868",
-      "posted": "2025-09-23",
-      "note": "Auto-discovered on Pinterest's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "pinterest",
-        "id": "6963868"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Pinterest",
-      "role": "Staff Technical Program Manager, Monetization Data Science",
-      "loc": "San Francisco, CA, US; Remote, US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7494686",
-      "posted": "2026-04-14",
-      "note": "Auto-discovered on Pinterest's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "pinterest",
-        "id": "7494686"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Reddit",
-      "role": "Ads Conversion Modeling, Machine Learning Engineering Manager",
-      "loc": "Remote - United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7792848",
-      "posted": "2026-04-14",
-      "note": "Auto-discovered on Reddit's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "reddit",
-        "id": "7792848"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Reddit",
-      "role": "Machine Learning Engineering Manager - Ads Engagement Modeling ",
-      "loc": "Remote - United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7993514",
-      "posted": "2026-06-14",
-      "note": "Auto-discovered on Reddit's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "reddit",
-        "id": "7993514"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Reddit",
-      "role": "Machine Learning Manager, Notifications Relevance",
-      "loc": "Remote - United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7846885",
-      "posted": "2026-04-23",
-      "note": "Auto-discovered on Reddit's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "reddit",
-        "id": "7846885"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
       "co": "Reddit",
       "role": "Principal Data Scientist, Ads",
       "loc": "Remote - United States",
@@ -2296,130 +1590,6 @@
         "type": "greenhouse",
         "token": "reddit",
         "id": "7330347"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Reddit",
-      "role": "Senior Data Science Manager, Marketing",
-      "loc": "Remote - Ontario, Canada",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7931010",
-      "posted": "2026-05-15",
-      "note": "Auto-discovered on Reddit's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "reddit",
-        "id": "7931010"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "SoFi",
-      "role": "Data Science Manager, Borrow",
-      "loc": "CA - San Francisco; NY - New York City ",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://sofi.com/careers/job/7601581003?gh_jid=7601581003",
-      "posted": "2026-01-23",
-      "note": "Auto-discovered on SoFi's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "sofi",
-        "id": "7601581003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Stripe",
-      "role": "Data Science Manager, Finance and Strategy",
-      "loc": "Seattle, WA OR New York, NY OR Remote North America",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=7440963",
-      "posted": "2026-04-22",
-      "note": "Auto-discovered on Stripe's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "stripe",
-        "id": "7440963"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-02"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Stripe",
-      "role": "Internal Audit Data Analytics Lead",
-      "loc": "Toronto, New York, San Francisco",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=8026689",
-      "posted": "2026-06-26",
-      "note": "Auto-discovered on Stripe's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "stripe",
-        "id": "8026689"
       },
       "status": {
         "live": true,
