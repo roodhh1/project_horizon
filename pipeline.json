@@ -19,12 +19,12 @@
       "source": "linkedin (HM inbound)",
       "status": {
         "live": true,
-        "v": "In process · recruiter screen done 2026-06-29"
+        "v": "In process · HM technical round (scheduling) 2026-07-02"
       },
       "app": {
         "stage": "in-process",
         "since": "2026-06-29",
-        "note": "Warm inbound: Annie Yang (Sr Director DS & Head of B2C Marketing) cold-messaged you 6/13 → recruiter screen with Kristin Simmons done Mon 6/29 (you sent resume + asked for prep materials). NEXT round is almost certainly the HM conversation with Annie. Prep dossier already built (root_annie_prep.html): lead with LTV-positive acquisition, incrementality/MMM, nine-figure budget allocation; Annie values stats/predictive modeling (GLMs, causal) over LLMs and prizes an ownership mentality. On-camera required for all interviews."
+        "note": "ADVANCED 7/2: invited to the next round — a 60-min video interview with the hiring manager (Annie Yang), technical + discussion-based on experience, problem-solving, and core concepts, with a few APPLIED questions (have a notebook ready). Kristin Simmons sent a prep guide for the full process and asked for availability over the next 10 days. ACTION: send availability promptly; prep with root_annie_prep.html — lead with LTV-positive acquisition, incrementality/MMM, nine-figure budget allocation; refresh stats/predictive modeling (GLMs, causal) that Annie values over LLMs."
       },
       "referral": {
         "level": "direct",
@@ -43,6 +43,49 @@
         "yoe_req": "8+ yrs, 4+ leading; PhD preferred",
         "candidate": "you: ~11 yrs DS, ~5 leading; actuarial-science degree (strong fit), no PhD"
       }
+    },
+    {
+      "co": "Coupang",
+      "role": "Director of Data Science",
+      "loc": "Mountain View, CA (Hybrid) · SF-commutable",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Director)",
+      "extraTrack": "lateral",
+      "score": 8.5,
+      "domain": null,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Public e-commerce giant (NYSE: CPNG, ~$30B rev)",
+      "url": "https://www.coupang.jobs/en/",
+      "note": "Strong second Director-level swing, and a company-quality standout: Coupang is a large, profitable, still-growing public e-commerce/logistics giant (the 'Amazon of Korea') with a serious Mountain View tech hub — a more stable, higher-scale platform than Root even if less wedge-perfect. Director title = the scope step-up you want; consumer growth/retention/experimentation/ML-decisioning at massive scale maps well to your Intuit story. Domain is e-commerce/retail/logistics rather than fintech, so sell transferable 0→1 leadership + experimentation/monetization rigor. WARM referral in motion (Naren Barve, Coupang, checking with the hiring manager) — nurture it.",
+      "pinned": true,
+      "source": "linkedin (applied + referral)",
+      "status": {
+        "live": true,
+        "v": "Applied 2026-07-01"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-07-01",
+        "note": "APPLIED 7/1 (Greenhouse confirmation). Reached out to Naren Barve (2nd°, at Coupang, 30+ mutuals, 'we're hiring') — he replied 7/1 he'll circle back once he hears from the hiring manager. ACTION: keep Naren warm; if no word in ~1 wk, send a light nudge. Confirm exact team/level/comp when the recruiter engages."
+      },
+      "referral": {
+        "level": "bridge",
+        "text": "<b>Warm 2nd° referral in motion:</b> Naren Barve (at Coupang, 30+ mutual connections; 'We're hiring!!!') — you messaged him 7/1 about the Director of DS, Mountain View role; he's circling back with the hiring manager. Nurture this before/around recruiter contact."
+      },
+      "fit": {
+        "relevance": 8,
+        "level": 9,
+        "experience": 8,
+        "company": 9,
+        "comp": "unknown",
+        "score": 8.5,
+        "confidence": "medium",
+        "yoe_req": "Director-level DS leadership",
+        "candidate": "you: ~11 yrs DS, ~5 leading; consumer/growth at scale (Intuit)"
+      },
+      "discovered": false,
+      "isNew": true
     },
     {
       "co": "Waymo",

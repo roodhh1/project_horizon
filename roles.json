@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-06-30",
+  "verified_on": "2026-07-02",
   "roles": [
     {
       "co": "Mercury",
@@ -48,8 +48,7 @@
         "stage": "rejected",
         "since": "2026-06-26",
         "note": "Rejected 6/26 by Ryan Atkins after the 6/24 final panel. 'Genuinely impressed by the depth of your experience… you stood out in a competitive process.' Wants to keep you in mind for future Mercury roles. Send a gracious keep-in-touch reply to Ryan; reconnect in ~6–8 weeks."
-      },
-      "posted": "2026-04-16"
+      }
     },
     {
       "co": "Gusto",
@@ -72,7 +71,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · checked 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -90,8 +89,7 @@
         "confidence": "high",
         "yoe_req": "Leads MLE / ML-platform / Risk-DS / AI orgs (engineering leadership)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-21"
+      }
     },
     {
       "co": "Anthropic",
@@ -114,7 +112,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · checked 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -132,8 +130,7 @@
         "confidence": "high",
         "yoe_req": "8+ yrs total, 5+ managing AE/DE teams",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-02-19"
+      }
     },
     {
       "co": "OpenAI",
@@ -157,7 +154,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30)"
+        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -198,7 +195,7 @@
       },
       "status": {
         "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-06-30"
+        "v": "Board API · checked 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -239,7 +236,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -257,8 +254,7 @@
         "confidence": "high",
         "yoe_req": "7+ yrs (marketplaces/ads/two-sided)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-18"
+      }
     },
     {
       "co": "Affirm",
@@ -281,7 +277,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -299,8 +295,7 @@
         "confidence": "high",
         "yoe_req": "4+ yrs (credit strategy, unsecured lending)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-26"
+      }
     },
     {
       "co": "Affirm",
@@ -323,7 +318,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -341,8 +336,7 @@
         "confidence": "high",
         "yoe_req": "7+ yrs FRAUD management",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-26"
+      }
     },
     {
       "co": "Affirm",
@@ -365,7 +359,7 @@
       },
       "status": {
         "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -406,7 +400,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -424,8 +418,7 @@
         "confidence": "high",
         "yoe_req": "7+ yrs fraud",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2025-11-26"
+      }
     },
     {
       "co": "Affirm",
@@ -448,7 +441,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -466,8 +459,7 @@
         "confidence": "high",
         "yoe_req": "8+ yrs industry, 3+ managing ENGINEERS",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-23"
+      }
     },
     {
       "co": "Affirm",
@@ -490,7 +482,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -508,8 +500,7 @@
         "confidence": "high",
         "yoe_req": "8+ yrs industry, 3+ managing ENGINEERS",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-07"
+      }
     },
     {
       "co": "Affirm",
@@ -532,7 +523,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -550,8 +541,7 @@
         "confidence": "high",
         "yoe_req": "12+ yrs SWE/ML eng, 4+ managing managers",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-22"
+      }
     },
     {
       "co": "Anthropic",
@@ -574,7 +564,7 @@
       },
       "status": {
         "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -615,7 +605,7 @@
       },
       "status": {
         "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "direct",
@@ -656,7 +646,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "direct",
@@ -674,8 +664,7 @@
         "confidence": "high",
         "yoe_req": "10+ yrs, leading senior teams & developing managers",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-12"
+      }
     },
     {
       "co": "DoorDash",
@@ -698,7 +687,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "direct",
@@ -716,8 +705,7 @@
         "confidence": "high",
         "yoe_req": "8+ yrs DS/product analytics (IC)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2025-11-06"
+      }
     },
     {
       "co": "DoorDash",
@@ -740,7 +728,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "direct",
@@ -758,8 +746,7 @@
         "confidence": "high",
         "yoe_req": "6+ yrs BI/analytics-eng (B2B SaaS), 2+ mgmt",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-06-01"
+      }
     },
     {
       "co": "DoorDash",
@@ -782,7 +769,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "direct",
@@ -800,8 +787,7 @@
         "confidence": "high",
         "yoe_req": "6+ yrs, managing DS/analysts",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-14"
+      }
     },
     {
       "co": "DoorDash",
@@ -824,7 +810,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "direct",
@@ -842,8 +828,7 @@
         "confidence": "high",
         "yoe_req": "6+ yrs, managing DS/analysts",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-04-16"
+      }
     },
     {
       "co": "DoorDash",
@@ -866,7 +851,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "direct",
@@ -884,8 +869,7 @@
         "confidence": "high",
         "yoe_req": "6-8+ yrs marketing analytics, managing a team",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-02-05"
+      }
     },
     {
       "co": "DoorDash",
@@ -908,7 +892,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "direct",
@@ -926,8 +910,7 @@
         "confidence": "high",
         "yoe_req": "5+ yrs building/deploying ML (IC Principal)",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-03-27"
+      }
     },
     {
       "co": "DoorDash",
@@ -950,7 +933,7 @@
       },
       "status": {
         "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-06-30"
+        "v": "Board API · discovered 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "direct",
@@ -992,7 +975,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-30"
+        "v": "LinkedIn posting · checked 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -1035,7 +1018,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-30"
+        "v": "LinkedIn posting · checked 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -1078,7 +1061,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-30"
+        "v": "LinkedIn posting · checked 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "direct",
@@ -1121,7 +1104,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-06-30"
+        "v": "LinkedIn posting · checked 2026-06-04 (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02)"
       },
       "referral": {
         "level": "bridge",
@@ -1527,12 +1510,12 @@
       "source": "linkedin (HM inbound)",
       "status": {
         "live": true,
-        "v": "In process · recruiter screen done 2026-06-29"
+        "v": "In process · HM technical round (scheduling) 2026-07-02"
       },
       "app": {
         "stage": "in-process",
         "since": "2026-06-29",
-        "note": "Warm inbound: Annie Yang (Sr Director DS & Head of B2C Marketing) cold-messaged you 6/13 → recruiter screen with Kristin Simmons done Mon 6/29 (you sent resume + asked for prep materials). NEXT round is almost certainly the HM conversation with Annie. Prep dossier already built (root_annie_prep.html): lead with LTV-positive acquisition, incrementality/MMM, nine-figure budget allocation; Annie values stats/predictive modeling (GLMs, causal) over LLMs and prizes an ownership mentality. On-camera required for all interviews."
+        "note": "ADVANCED 7/2: invited to the next round — a 60-min video interview with the hiring manager (Annie Yang), technical + discussion-based on experience, problem-solving, and core concepts, with a few APPLIED questions (have a notebook ready). Kristin Simmons sent a prep guide for the full process and asked for availability over the next 10 days. ACTION: send availability promptly; prep with root_annie_prep.html — lead with LTV-positive acquisition, incrementality/MMM, nine-figure budget allocation; refresh stats/predictive modeling (GLMs, causal) that Annie values over LLMs."
       },
       "referral": {
         "level": "direct",
@@ -1553,127 +1536,46 @@
       }
     },
     {
-      "co": "Affirm",
-      "role": "Manager, Machine Learning Engineering (Repayment & Recovery)",
-      "loc": "Remote UK",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
+      "co": "Coupang",
+      "role": "Director of Data Science",
+      "loc": "Mountain View, CA (Hybrid) · SF-commutable",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Director)",
+      "extraTrack": "lateral",
+      "score": 8.5,
       "domain": null,
-      "comp": "Not posted",
+      "comp": "See posting",
       "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7778532003",
-      "posted": "2026-06-23",
-      "note": "Auto-discovered on Affirm's job board 2026-06-30. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7778532003"
-      },
+      "tier": "Public e-commerce giant (NYSE: CPNG, ~$30B rev)",
+      "url": "https://www.coupang.jobs/en/",
+      "note": "Strong second Director-level swing, and a company-quality standout: Coupang is a large, profitable, still-growing public e-commerce/logistics giant (the 'Amazon of Korea') with a serious Mountain View tech hub — a more stable, higher-scale platform than Root even if less wedge-perfect. Director title = the scope step-up you want; consumer growth/retention/experimentation/ML-decisioning at massive scale maps well to your Intuit story. Domain is e-commerce/retail/logistics rather than fintech, so sell transferable 0→1 leadership + experimentation/monetization rigor. WARM referral in motion (Naren Barve, Coupang, checking with the hiring manager) — nurture it.",
+      "pinned": true,
+      "source": "linkedin (applied + referral)",
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-06-30"
+        "v": "Applied 2026-07-01"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-07-01",
+        "note": "APPLIED 7/1 (Greenhouse confirmation). Reached out to Naren Barve (2nd°, at Coupang, 30+ mutuals, 'we're hiring') — he replied 7/1 he'll circle back once he hears from the hiring manager. ACTION: keep Naren warm; if no word in ~1 wk, send a light nudge. Confirm exact team/level/comp when the recruiter engages."
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "<b>Warm 2nd° referral in motion:</b> Naren Barve (at Coupang, 30+ mutual connections; 'We're hiring!!!') — you messaged him 7/1 about the Director of DS, Mountain View role; he's circling back with the hiring manager. Nurture this before/around recruiter contact."
       },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Affirm",
-      "role": "Model Risk Management Lead, Machine Learning",
-      "loc": "Remote US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7775353003",
-      "posted": "2026-06-19",
-      "note": "Auto-discovered on Affirm's job board 2026-06-30. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7775353003"
+      "fit": {
+        "relevance": 8,
+        "level": 9,
+        "experience": 8,
+        "company": 9,
+        "comp": "unknown",
+        "score": 8.5,
+        "confidence": "medium",
+        "yoe_req": "Director-level DS leadership",
+        "candidate": "you: ~11 yrs DS, ~5 leading; consumer/growth at scale (Intuit)"
       },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-06-30"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Anthropic",
-      "role": "Lead Data Scientist, Platform Product",
-      "loc": "New York City, NY | Seattle, WA; San Francisco, CA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5116820008",
-      "posted": "2026-05-25",
-      "note": "Auto-discovered on Anthropic's job board 2026-06-30. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "anthropic",
-        "id": "5116820008"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-06-30"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "DoorDash",
-      "role": "Associate Manager, Indirect Tax Audit Analytics",
-      "loc": "United States - Remote",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8011756",
-      "posted": "2026-06-18",
-      "note": "Auto-discovered on DoorDash's job board 2026-06-30. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "doordashusa",
-        "id": "8011756"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-06-30"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
+      "discovered": false,
       "isNew": true
     }
   ]
