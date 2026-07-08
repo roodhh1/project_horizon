@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-08)"
+        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-08) (recheck failed 2026-07-08)"
       },
       "referral": {
         "level": "bridge",
@@ -176,48 +176,6 @@
         "yoe_req": "Leads a DS team; experimentation/causal/modeling rigor",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       }
-    },
-    {
-      "co": "Affirm",
-      "role": "Analytics Lead, Full Stack (Consumer Analytics)",
-      "loc": "Remote US",
-      "track": "domain",
-      "trackLabel": "Domain-perfect",
-      "extraTrack": "lateral",
-      "score": 6.6,
-      "domain": 4,
-      "comp": "Not posted (est. ~$190K–$250K base)",
-      "compFit": "below",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7732706003",
-      "note": "JD is Affirm's marketplace/ads side (two-sided platforms), not lending-core, and reads as an individual-contributor 'Lead' (no people-management) — a scope step-down for you, though experimentation overlaps.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7732706003"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-08"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>No 1st°.</b> <b>NEW — Director-level:</b> Karan Shah (Director, Analytics — 14 mutuals incl. Anita Bowers, Raj Iranyan) = top hiring-chain/intel. <b>Wedge-relevant 2nd°:</b> Aastha (Growth Analytics, 4 mut), Sean Zhong (Analytics Manager, 3 mut), Winnie Xin (Strategy &amp; Analytics), Vinay Buddharaju (Growth Strategy &amp; Analytics). <b>DS:</b> Joohyeun Yi (DS &amp; Analytics, 8 mut), Ruixiang 'James' Fan (DS &amp; Risk Analytics). Recurring broker across fintech: Favio Vazquez."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 7,
-        "level": 6,
-        "experience": 7,
-        "company": 8,
-        "comp": "below",
-        "score": 6.6,
-        "confidence": "high",
-        "yoe_req": "7+ yrs (marketplaces/ads/two-sided)",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-18"
     },
     {
       "co": "Affirm",
@@ -512,48 +470,6 @@
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       },
       "posted": "2026-04-16"
-    },
-    {
-      "co": "DoorDash",
-      "role": "Manager, Rx Advertiser Analytics - Ads & Promotions",
-      "loc": "New York, NY; San Francisco, CA; Los Angeles, CA; Chicago, IL; Seattle, WA; Washington, DC; Tempe, AZ",
-      "track": "domain",
-      "trackLabel": "Domain-perfect",
-      "extraTrack": "lateral",
-      "score": 7.7,
-      "domain": 4,
-      "comp": "Not posted (est. ~$190K–$270K base)",
-      "compFit": "below",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7580412",
-      "note": "Manager over advertiser analytics with incrementality/attribution/experimentation — monetization-and-growth adjacency, and you clear the years + people-management bar.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "doordashusa",
-        "id": "7580412"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-08"
-      },
-      "referral": {
-        "level": "direct",
-        "text": "<b>1st°:</b> Jasper + Maximiliano Medina García (DS) — warm intros. <b>NEW — leadership 2nd°:</b> Ethan Zhu (DS &amp; Analytics Leadership / Sunnyvale Site Lead — 32 mutuals incl. sahithi visvanathan) = strong hiring-chain; Mandy Leung (Director of Analytics, ex-Google/McKinsey). <b>Peer/IC 2nd°:</b> Yu Dong (DS, 29 mut), Ravi Singh (DS, 10 mut), Coki Metcalfe (Analytics &amp; DS). Recruiters: Lianna Falkenstein (S&amp;O TA), Ani A."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 8,
-        "level": 8,
-        "experience": 8,
-        "company": 9,
-        "comp": "below",
-        "score": 7.7,
-        "confidence": "high",
-        "yoe_req": "6-8+ yrs marketing analytics, managing a team",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-02-05"
     },
     {
       "co": "Airbnb",
@@ -1357,37 +1273,6 @@
       "isNew": false
     },
     {
-      "co": "Lyft",
-      "role": "Data Science Manager, Machine Learning - Lyft Ads",
-      "loc": "New York, NY",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": 7.0,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://app.careerpuck.com/job-board/lyft/job/8504137002?gh_jid=8504137002",
-      "posted": "2026-04-14",
-      "note": "Auto-discovered on Lyft's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "lyft",
-        "id": "8504137002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-08"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": false
-    },
-    {
       "co": "Pinterest",
       "role": "Staff Technical Program Manager, Monetization Data Science",
       "loc": "San Francisco, CA, US; Remote, US",
@@ -1512,6 +1397,111 @@
       "isNew": true
     },
     {
+      "co": "DoorDash",
+      "role": "Director of Vertical Data Engineering",
+      "loc": "San Francisco, CA; New York, NY; Seattle, WA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8003571",
+      "posted": "2026-07-02",
+      "note": "Auto-discovered on DoorDash's job board 2026-07-08. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "8003571"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-07-08"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Mercury",
+      "role": "Customer Support Systems & Analytics Lead",
+      "loc": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/6110905004",
+      "posted": "2026-07-07",
+      "note": "Auto-discovered on Mercury's job board 2026-07-08. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "mercury",
+        "id": "6110905004"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · checked 2026-07-08"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
+      "co": "Brigit",
+      "role": "Director of Data Science",
+      "loc": "San Francisco, CA",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Director)",
+      "extraTrack": "domain",
+      "score": 8.3,
+      "domain": 4,
+      "comp": "Not posted (applications managed off LinkedIn)",
+      "compFit": null,
+      "tier": "Consumer fintech · subsidiary of Upbound Group (NASDAQ: UPBD)",
+      "url": "https://www.linkedin.com/jobs/view/4434052322/",
+      "note": "NEW FIND (LinkedIn sweep 7/8). Director of DS at Brigit — a consumer financial-health app (instant cash advances, credit-building, subscription) that Upbound Group (NASDAQ: UPBD, ex-Rent-A-Center) acquired Jan 2025 for up to $460M. Brigit is GROWING and profitable-adjacent: ~1M+ paying subscribers, ~$215–230M rev in 2025, guided to ~$350–400M in 2026, now backed by a public parent (stability + resources). WEDGE BULLSEYE: consumer fintech, subscription monetization, credit/lending, customer-lifecycle + growth — exactly your story. Director title = the scope step-up you want, and an SF role for an NYC-HQ company likely means building/leading a new West-Coast DS footprint (0→1 team-building, your strength). CAVEATS: (1) it's now a subsidiary of Upbound — some prestige discount vs a pure venture fintech, though the financials are stronger for it; (2) apps are managed off LinkedIn, and there's a $60M 2026 earnout on Brigit's performance, so the org is under real growth pressure — frame yourself as the monetization/growth leader who hits those numbers.",
+      "pinned": true,
+      "source": "linkedin (saved + sweep 2026-07-08)",
+      "status": {
+        "live": true,
+        "v": "New find · LinkedIn sweep 2026-07-08"
+      },
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-07-08",
+        "note": "TO APPLY. Best move is the warm path, not the portal: VP of Data & Analytics Lauren Stoller (SF, actively '#Hiring') is almost certainly the hiring exec — reach her via mutual Dr. Ramla Jarrar. Backup: Brigit Sr Technical Recruiter Aidan Schliesmann via mutual Akhil Rathod. Lead with LTV/subscription monetization + 0→1 team-building; position for the SF DS build-out."
+      },
+      "referral": {
+        "level": "bridge",
+        "text": "<b>Warm 2nd° path to the hiring exec.</b> <b>Lauren Stoller</b> — <b>VP of Data &amp; Analytics at Brigit</b> (SF, headline 'Analytics | Product - #Hiring') — reachable via mutual <b>Dr. Ramla Jarrar</b>. Secondary: <b>Aidan Schliesmann</b>, Sr Technical Recruiter at Brigit, via mutual <b>Akhil Rathod</b>."
+      },
+      "fit": {
+        "relevance": 9,
+        "level": 9,
+        "experience": 8,
+        "company": 6,
+        "comp": "unknown",
+        "score": 8.3,
+        "confidence": "medium",
+        "yoe_req": "Director-level DS leadership (see posting)",
+        "candidate": "you: ~11 yrs DS, ~5 leading; consumer-fintech monetization/growth (Intuit) — strong wedge match"
+      },
+      "discovered": true,
+      "isNew": true
+    },
+    {
       "co": "Airbnb",
       "role": "Lead, Advanced Analytics, Services",
       "loc": "United States",
@@ -1574,68 +1564,6 @@
       "isNew": true
     },
     {
-      "co": "DoorDash",
-      "role": "Director of Vertical Data Engineering",
-      "loc": "San Francisco, CA; New York, NY; Seattle, WA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8003571",
-      "posted": "2026-07-02",
-      "note": "Auto-discovered on DoorDash's job board 2026-07-08. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "doordashusa",
-        "id": "8003571"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-08"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Mercury",
-      "role": "Customer Support Systems & Analytics Lead",
-      "loc": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/mercury/jobs/6110905004",
-      "posted": "2026-07-07",
-      "note": "Auto-discovered on Mercury's job board 2026-07-08. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "mercury",
-        "id": "6110905004"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-08"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
       "co": "Reddit",
       "role": "Principal Data Scientist, Ads",
       "loc": "Remote - United States",
@@ -1662,49 +1590,6 @@
       "referral": {
         "level": "pending",
         "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
-      "co": "Brigit",
-      "role": "Director of Data Science",
-      "loc": "San Francisco, CA",
-      "track": "stepup",
-      "trackLabel": "Step-up title (Director)",
-      "extraTrack": "domain",
-      "score": 8.3,
-      "domain": 4,
-      "comp": "Not posted (applications managed off LinkedIn)",
-      "compFit": null,
-      "tier": "Consumer fintech · subsidiary of Upbound Group (NASDAQ: UPBD)",
-      "url": "https://www.linkedin.com/jobs/view/4434052322/",
-      "note": "NEW FIND (LinkedIn sweep 7/8). Director of DS at Brigit — a consumer financial-health app (instant cash advances, credit-building, subscription) that Upbound Group (NASDAQ: UPBD, ex-Rent-A-Center) acquired Jan 2025 for up to $460M. Brigit is GROWING and profitable-adjacent: ~1M+ paying subscribers, ~$215–230M rev in 2025, guided to ~$350–400M in 2026, now backed by a public parent (stability + resources). WEDGE BULLSEYE: consumer fintech, subscription monetization, credit/lending, customer-lifecycle + growth — exactly your story. Director title = the scope step-up you want, and an SF role for an NYC-HQ company likely means building/leading a new West-Coast DS footprint (0→1 team-building, your strength). CAVEATS: (1) it's now a subsidiary of Upbound — some prestige discount vs a pure venture fintech, though the financials are stronger for it; (2) apps are managed off LinkedIn, and there's a $60M 2026 earnout on Brigit's performance, so the org is under real growth pressure — frame yourself as the monetization/growth leader who hits those numbers.",
-      "pinned": true,
-      "source": "linkedin (saved + sweep 2026-07-08)",
-      "status": {
-        "live": true,
-        "v": "New find · LinkedIn sweep 2026-07-08"
-      },
-      "app": {
-        "stage": "to-apply",
-        "since": "2026-07-08",
-        "note": "TO APPLY. Best move is the warm path, not the portal: VP of Data & Analytics Lauren Stoller (SF, actively '#Hiring') is almost certainly the hiring exec — reach her via mutual Dr. Ramla Jarrar. Backup: Brigit Sr Technical Recruiter Aidan Schliesmann via mutual Akhil Rathod. Lead with LTV/subscription monetization + 0→1 team-building; position for the SF DS build-out."
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>Warm 2nd° path to the hiring exec.</b> <b>Lauren Stoller</b> — <b>VP of Data &amp; Analytics at Brigit</b> (SF, headline 'Analytics | Product - #Hiring') — reachable via mutual <b>Dr. Ramla Jarrar</b>. Secondary: <b>Aidan Schliesmann</b>, Sr Technical Recruiter at Brigit, via mutual <b>Akhil Rathod</b>."
-      },
-      "fit": {
-        "relevance": 9,
-        "level": 9,
-        "experience": 8,
-        "company": 6,
-        "comp": "unknown",
-        "score": 8.3,
-        "confidence": "medium",
-        "yoe_req": "Director-level DS leadership (see posting)",
-        "candidate": "you: ~11 yrs DS, ~5 leading; consumer-fintech monetization/growth (Intuit) — strong wedge match"
       },
       "discovered": true,
       "isNew": true
