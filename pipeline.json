@@ -497,8 +497,8 @@
    "extraTrack": "domain",
    "score": 8.3,
    "domain": 4,
-   "comp": "Not posted (applications managed off LinkedIn)",
-   "compFit": null,
+   "comp": "$225K–$250K base + benefits (bonus/equity TBD)",
+   "compFit": "below",
    "tier": "Consumer fintech · subsidiary of Upbound Group (NASDAQ: UPBD)",
    "url": "https://www.linkedin.com/jobs/view/4434052322/",
    "note": "NEW FIND (LinkedIn sweep 7/8). Director of DS at Brigit — a consumer financial-health app (instant cash advances, credit-building, subscription) that Upbound Group (NASDAQ: UPBD, ex-Rent-A-Center) acquired Jan 2025 for up to $460M. Brigit is GROWING and profitable-adjacent: ~1M+ paying subscribers, ~$215–230M rev in 2025, guided to ~$350–400M in 2026, now backed by a public parent (stability + resources). WEDGE BULLSEYE: consumer fintech, subscription monetization, credit/lending, customer-lifecycle + growth — exactly your story. Director title = the scope step-up you want, and an SF role for an NYC-HQ company likely means building/leading a new West-Coast DS footprint (0→1 team-building, your strength). CAVEATS: (1) it's now a subsidiary of Upbound — some prestige discount vs a pure venture fintech, though the financials are stronger for it; (2) apps are managed off LinkedIn, and there's a $60M 2026 earnout on Brigit's performance, so the org is under real growth pressure — frame yourself as the monetization/growth leader who hits those numbers.",
@@ -506,30 +506,30 @@
    "source": "linkedin (saved + sweep 2026-07-08)",
    "status": {
     "live": true,
-    "v": "New find · LinkedIn sweep 2026-07-08"
+    "v": "Applied 2026-07-08 · outreach to HM + recruiter sent"
    },
    "app": {
-    "stage": "to-apply",
+    "stage": "applied",
     "since": "2026-07-08",
-    "note": "TO APPLY. Best move is the warm path, not the portal: VP of Data & Analytics Lauren Stoller (SF, actively '#Hiring') is almost certainly the hiring exec — reach her via mutual Dr. Ramla Jarrar. Backup: Brigit Sr Technical Recruiter Aidan Schliesmann via mutual Akhil Rathod. Lead with LTV/subscription monetization + 0→1 team-building; position for the SF DS build-out."
+    "note": "APPLIED 7/8 (LinkedIn/Greenhouse — comp posted $225K–$250K base + benefits). Direct outreach sent 7/8: (1) connection note to VP of Data & Analytics Lauren Stoller (the hiring exec, actively #Hiring); (2) InMail to Principal Recruiter Kris H. Went direct rather than via the shared connection Dr. Ramla — Rodrigo doesn't actually know her, so a borrowed intro would've read hollow. NEXT: give it a few days; if Kris engages, confirm team/level and push on comp (band is well below your Intuit baseline). If quiet by ~7/15, one light follow-up to Kris."
    },
    "referral": {
-    "level": "bridge",
-    "text": "<b>Warm 2nd° path to the hiring exec.</b> <b>Lauren Stoller</b> — <b>VP of Data &amp; Analytics at Brigit</b> (SF, headline 'Analytics | Product - #Hiring') — reachable via mutual <b>Dr. Ramla Jarrar</b>. Secondary: <b>Aidan Schliesmann</b>, Sr Technical Recruiter at Brigit, via mutual <b>Akhil Rathod</b>."
+    "level": "direct",
+    "text": "<b>Direct outreach in motion (applied 7/8).</b> Contacted the hiring exec <b>Lauren Stoller</b> — <b>VP of Data &amp; Analytics at Brigit</b> (SF, '#Hiring') — via a LinkedIn connection note, and <b>Kris H.</b>, Principal Recruiter (fintech/SaaS), via InMail. No warm referral used: the shared connection (Dr. Ramla) isn't a real relationship, so Rodrigo went direct."
    },
    "fit": {
     "relevance": 9,
     "level": 9,
     "experience": 8,
     "company": 6,
-    "comp": "unknown",
+    "comp": "below",
     "score": 8.3,
     "confidence": "medium",
     "yoe_req": "Director-level DS leadership (see posting)",
     "candidate": "you: ~11 yrs DS, ~5 leading; consumer-fintech monetization/growth (Intuit) — strong wedge match"
    },
    "discovered": true,
-   "isNew": true
+   "isNew": false
   }
  ],
  "overrides": {}
