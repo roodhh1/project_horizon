@@ -1,31 +1,37 @@
-name: Refresh job dashboard
+name: Refresh & deploy Beacon
+
+# One flow: verify/prune/discover -> commit any data changes -> publish to GitHub
+# Pages via the Actions deployment API. Deploys are serialized by the `pages`
+# concurrency group, so they no longer race and time out the way the classic
+# "deploy from a branch" builds did ("Timeout reached, aborting!").
 
 on:
-  # No scheduled/daily run — refresh is MANUAL only (run from the Actions tab),
-  # plus an auto-heal on upload so committing roles.json/pipeline.json re-verifies.
-  workflow_dispatch: {}          # manual runs from the Actions tab
+  # Manual run from the Actions tab, plus auto-heal when the data files change.
+  workflow_dispatch: {}
   push:
     branches: [main]
     paths:
-      - "roles.json"             # auto-heal: a manual upload that clobbers the data
-                                 # file instantly re-runs the bot, which re-merges
-                                 # pipeline.json and re-verifies (clobber self-heals).
-      - "pipeline.json"          # editing an application stage updates the live app
-                                 # in seconds instead of waiting for the daily run.
+      - "roles.json"                     # auto-heal: a manual upload re-verifies + re-merges
+      - "pipeline.json"                  # editing an application stage updates the live app fast
+      - "index.html"                     # dashboard markup changes republish
+      - ".github/workflows/refresh.yml"  # changes to this workflow republish
 
 permissions:
-  contents: write                # let the default GITHUB_TOKEN commit the refreshed file
+  contents: write   # commit the refreshed roles.json / index.html
+  pages: write      # deploy to GitHub Pages
+  id-token: write   # OIDC token required by actions/deploy-pages
 
+# Serialize all Pages work: one deployment at a time, and let an in-flight
+# deployment finish rather than cancelling it. This is what removes the races.
 concurrency:
-  group: refresh-dashboard
+  group: pages
   cancel-in-progress: false
 
 jobs:
-  refresh:
+  build:
     runs-on: ubuntu-latest
     # Never re-trigger on the bot's own refresh commit. (Belt-and-suspenders:
-    # pushes made with GITHUB_TOKEN already don't spawn new workflow runs, so
-    # there is no infinite loop — this just makes that explicit.)
+    # pushes made with GITHUB_TOKEN already don't spawn new workflow runs.)
     if: "github.event_name != 'push' || !contains(github.event.head_commit.message, 'chore: daily refresh')"
     steps:
       - name: Checkout
@@ -50,3 +56,23 @@ jobs:
           else
             echo "No role changes."
           fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Publish the freshly-verified site (index.html + roles.json at root).
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
