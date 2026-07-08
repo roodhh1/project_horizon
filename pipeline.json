@@ -1,491 +1,536 @@
 {
-  "_comment": "YOUR application pipeline — you own this file. verify.py merges it into roles.json each run; the bot never overwrites it. pinned_roles = manually-tracked applications (kept even when closed). overrides = auto-discovered roles you've applied to (attaches pinned + app stage).",
-  "pinned_roles": [
-    {
-      "co": "Root",
-      "role": "Director of Data Science, Performance Marketing",
-      "loc": "Remote (US) · HQ Columbus, OH",
-      "track": "stepup",
-      "trackLabel": "Step-up title (Director)",
-      "extraTrack": "domain",
-      "score": 9.0,
-      "domain": 4,
-      "comp": "$250K–$300K base + bonus + equity",
-      "compFit": "below",
-      "tier": "Insurtech · public, newly profitable (NASDAQ: ROOT)",
-      "url": "https://ats.rippling.com/joinroot/jobs/34bba6e3-fb48-4863-bc74-960494fad925",
-      "note": "YOUR #1 ACTIVE ROLE and arguably the best of the whole search. Director title = the scope step-up you want, and the mandate is a bullseye on your wedge: lead the DS team running Root's performance-marketing engine — owning a NINE-FIGURE marketing budget, LTV-based bidding, incrementality/MMM measurement, experimentation. This is monetization + growth + experimentation + 0→1 leadership, exactly your story. Warm INBOUND from the hiring manager (Annie Yang sourced you on LinkedIn), not a cold app — a strong signal. Honest caveats: (1) company trajectory — Root is a small-cap public insurtech, but it just turned profitable (sub-100% combined ratio, record Q1'26), so the story is improving; (2) JD says PhD-preferred + full-funnel paid-acquisition experience — manage that gap by leaning on quant depth + actuarial-science degree + experimentation/monetization work. Frame everything as marketing spend → LTV-positive (profitable-risk) policies, not raw volume.",
-      "pinned": true,
-      "source": "linkedin (HM inbound)",
-      "status": {
-        "live": true,
-        "v": "In process · HM technical round (scheduling) 2026-07-02"
-      },
-      "app": {
-        "stage": "in-process",
-        "since": "2026-06-29",
-        "note": "ADVANCED 7/2: invited to the next round — a 60-min video interview with the hiring manager (Annie Yang), technical + discussion-based on experience, problem-solving, and core concepts, with a few APPLIED questions (have a notebook ready). Kristin Simmons sent a prep guide for the full process and asked for availability over the next 10 days. ACTION: send availability promptly; prep with root_annie_prep.html — lead with LTV-positive acquisition, incrementality/MMM, nine-figure budget allocation; refresh stats/predictive modeling (GLMs, causal) that Annie values over LLMs."
-      },
-      "referral": {
-        "level": "direct",
-        "text": "<b>Warm inbound — better than a referral.</b> Hiring manager <b>Annie Yang</b> (Sr Director of Data Science &amp; Head of B2C Marketing; came up through insurance pricing, MS Math) sourced you directly on LinkedIn 6/13. Recruiter: Kristin Simmons. Annie owns Marketing + LTV DS; this role sits in/under her org."
-      },
-      "discovered": false,
-      "isNew": true,
-      "fit": {
-        "relevance": 10,
-        "level": 9,
-        "experience": 8,
-        "company": 6,
-        "comp": "below",
-        "score": 9.0,
-        "confidence": "high",
-        "yoe_req": "8+ yrs, 4+ leading; PhD preferred",
-        "candidate": "you: ~11 yrs DS, ~5 leading; actuarial-science degree (strong fit), no PhD"
-      }
-    },
-    {
-      "co": "Coupang",
-      "role": "Director of Data Science",
-      "loc": "Mountain View, CA (Hybrid) · SF-commutable",
-      "track": "stepup",
-      "trackLabel": "Step-up title (Director)",
-      "extraTrack": "lateral",
-      "score": 8.5,
-      "domain": null,
-      "comp": "See posting",
-      "compFit": null,
-      "tier": "Public e-commerce giant (NYSE: CPNG, ~$30B rev)",
-      "url": "https://www.coupang.jobs/en/",
-      "note": "Strong second Director-level swing, and a company-quality standout: Coupang is a large, profitable, still-growing public e-commerce/logistics giant (the 'Amazon of Korea') with a serious Mountain View tech hub — a more stable, higher-scale platform than Root even if less wedge-perfect. Director title = the scope step-up you want; consumer growth/retention/experimentation/ML-decisioning at massive scale maps well to your Intuit story. Domain is e-commerce/retail/logistics rather than fintech, so sell transferable 0→1 leadership + experimentation/monetization rigor. WARM referral in motion (Naren Barve, Coupang, checking with the hiring manager) — nurture it.",
-      "pinned": true,
-      "source": "linkedin (applied + referral)",
-      "status": {
-        "live": true,
-        "v": "Applied 2026-07-01"
-      },
-      "app": {
-        "stage": "applied",
-        "since": "2026-07-01",
-        "note": "APPLIED 7/1 (Greenhouse confirmation). Reached out to Naren Barve (2nd°, at Coupang, 30+ mutuals, 'we're hiring') — he replied 7/1 he'll circle back once he hears from the hiring manager. ACTION: keep Naren warm; if no word in ~1 wk, send a light nudge. Confirm exact team/level/comp when the recruiter engages."
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>Warm 2nd° referral in motion:</b> Naren Barve (at Coupang, 30+ mutual connections; 'We're hiring!!!') — you messaged him 7/1 about the Director of DS, Mountain View role; he's circling back with the hiring manager. Nurture this before/around recruiter contact."
-      },
-      "fit": {
-        "relevance": 8,
-        "level": 9,
-        "experience": 8,
-        "company": 9,
-        "comp": "unknown",
-        "score": 8.5,
-        "confidence": "medium",
-        "yoe_req": "Director-level DS leadership",
-        "candidate": "you: ~11 yrs DS, ~5 leading; consumer/growth at scale (Intuit)"
-      },
-      "discovered": false,
-      "isNew": true
-    },
-    {
-      "co": "Waymo",
-      "role": "Senior Data Science Manager, Driving Quality",
-      "loc": "Mountain View, CA / Remote (see posting)",
-      "track": "lateral",
-      "trackLabel": "Lateral → elite brand",
-      "extraTrack": "stretch",
-      "score": null,
-      "domain": null,
-      "comp": "See posting",
-      "compFit": null,
-      "tier": "Alphabet · autonomous vehicles (top brand)",
-      "url": "https://www.linkedin.com/jobs/view/4301393798/",
-      "note": "Top-tier brand and an Alphabet balance sheet, but be clear-eyed: 'Driving Quality' is AV safety/operational DS — measuring autonomy performance — not the product/growth/monetization wedge you sell best. Sell transferable 0→1 leadership + measurement/north-star rigor (your Mercury final-panel material maps well here). Strong optionality bet; not a domain-perfect fit. No referral mapped yet — worth a Waymo/Google network sweep before the recruiter screen.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": true,
-        "v": "LinkedIn · applied 2026-06-27"
-      },
-      "app": {
-        "stage": "applied",
-        "since": "2026-06-27",
-        "note": "APPLIED 6/27 (confirmation + candidate survey received from Waymo TA). Next: sweep LinkedIn for 1st/2nd° at Waymo/Google to warm a referral before recruiter contact. Lead with measurement rigor and 0→1 org-building, not 'product analytics.'"
-      },
-      "referral": {
-        "level": "pending",
-        "text": "No referral mapped yet — run a Waymo/Google network sweep."
-      },
-      "discovered": false,
-      "isNew": true
-    },
-    {
-      "co": "Mercury",
-      "role": "Senior Data Science Manager",
-      "loc": "SF / NY / Portland / Remote US–CA",
-      "track": "domain",
-      "trackLabel": "Domain-perfect",
-      "extraTrack": "lateral",
-      "score": 8.8,
-      "domain": 5,
-      "comp": "$239K–$298.8K base",
-      "compFit": "below",
-      "tier": "High-growth fintech (~$3.5B+)",
-      "url": "https://job-boards.greenhouse.io/mercury/jobs/5973037004",
-      "note": "CLOSED — rejected after final panel (6/24). Your highest-conviction, best-fit role of the search: full process through HM (Leanne Fretz), peer, cross-functional, and final panel. Ryan Atkins (recruiter) was genuinely complimentary and explicitly asked to stay connected for future roles — keep that relationship warm, it's a real asset. Lesson to carry: the wedge fit was perfect; refine the final-panel narrative (team restructure / north-star / contingency) for the next at-bat.",
-      "pinned": true,
-      "source": "greenhouse",
-      "status": {
-        "live": true,
-        "v": "Greenhouse · in process → closed 2026-06-26"
-      },
-      "app": {
-        "stage": "rejected",
-        "since": "2026-06-26",
-        "note": "Rejected 6/26 by Ryan Atkins after the 6/24 final panel. 'Genuinely impressed by the depth of your experience… you stood out in a competitive process.' Wants to keep you in mind for future Mercury roles. Send a gracious keep-in-touch reply to Ryan; reconnect in ~6–8 weeks."
-      },
-      "referral": {
-        "level": "active",
-        "text": "Ran full process. <b>1st° backchannel:</b> Oneida Dueñas (Risk, ex-Intuit). <b>2nd° intel:</b> Prateek Parashar (Staff DS, Growth), Katja Wittfoth (Sr DS), Shannon Hees (Sr DS, Product Analytics). Keep Ryan Atkins (recruiter) warm for re-entry."
-      },
-      "discovered": false,
-      "isNew": false
-    },
-    {
-      "co": "Snowflake",
-      "role": "Senior Manager, Product Data Science",
-      "loc": "Menlo Park, CA",
-      "track": "lateral",
-      "trackLabel": "Lateral → better co",
-      "extraTrack": "domain",
-      "score": null,
-      "domain": null,
-      "comp": "See posting",
-      "compFit": null,
-      "tier": "Public · data cloud (~$60B+)",
-      "url": "https://www.linkedin.com/jobs/view/4425460224/",
-      "note": "CLOSED — rejected. Was your recommended bridge: top-tier brand, consumption-monetization model that fit your pricing/monetization wedge, applied via Mario Heredia (1st°). Didn't reach a screen despite the warm referral. Mario remains a valuable channel — keep him in the network, this one just didn't land.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": true,
-        "v": "LinkedIn · applied 6/9 → rejected 2026-06-27"
-      },
-      "app": {
-        "stage": "rejected",
-        "since": "2026-06-27",
-        "note": "REJECTED (reported by Rodrigo 6/27; no rejection email in Gmail — likely came via recruiter/LinkedIn). Came in via Mario Heredia's 1st° referral and still didn't convert to a recruiter screen — a real signal the Product DS req was either filled or not a fit. Keep Mario warm (strong ongoing referral channel); thank him regardless of outcome."
-      },
-      "referral": {
-        "level": "direct",
-        "text": "<b>Confirmed referral.</b> <b>1st°:</b> Mario Heredia (Data Science / AI / Leadership, 60+ mutuals) — your referrer + intel channel. <b>2nd° likely hiring chain:</b> <b>Hamin Oh</b> (Director, Data, Analytics &amp; AI; via sahithi visvanathan &amp; Trevor Scollins — top person to understand), <b>Kamer Toker-Yildiz</b> (Data Science Leader, Bay Area; via Abhishek Ghuwalewala), <b>Satya Kota</b> (Director, Data Engineering — adjacent). Peers: Peter L. (Sr DS), Si Peng (DS&amp;AI, ex-Apple)."
-      },
-      "discovered": false,
-      "isNew": false
-    },
-    {
-      "co": "Abridge",
-      "role": "Director, Data Science",
-      "loc": "San Francisco, CA (Hybrid)",
-      "track": "stepup",
-      "trackLabel": "Step-up title",
-      "extraTrack": "stretch",
-      "score": null,
-      "domain": null,
-      "comp": "See posting",
-      "compFit": null,
-      "tier": "Healthcare AI · high-growth",
-      "url": "https://www.linkedin.com/jobs/view/4402990454/",
-      "note": "CLOSED — rejected 6/29. Your best Director-title swing, but the healthcare/clinical domain pivot was always the risk and the application didn't break through a competitive pool. Lesson: Director swings need a warm referral, not a cold app + light outreach.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": true,
-        "v": "Ashby · applied → rejected 2026-06-29"
-      },
-      "app": {
-        "stage": "rejected",
-        "note": "REJECTED 6/29 via Ashby ('applicant pool quite competitive, decided not to proceed'). Was your best Director swing but a domain pivot to clinical/healthcare; the cold-app + contact outreach didn't convert. No further action.",
-        "since": "2026-06-29"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "Reached out to contacts at Abridge (pending reply)."
-      },
-      "discovered": false,
-      "isNew": false
-    },
-    {
-      "co": "Databricks",
-      "role": "Senior Manager, Infrastructure Data Science",
-      "loc": "Mountain View, CA (On-site)",
-      "track": "lateral",
-      "trackLabel": "Lateral → better co",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "See posting",
-      "compFit": null,
-      "tier": "Elite pre-IPO (~$60B+)",
-      "url": "https://www.linkedin.com/jobs/view/4297756002/",
-      "note": "Elite company, but Infrastructure DS is platform/internal-reliability work — off your product/growth/monetization wedge. You applied with an internal referral and got no recruiter contact, which confirms the fit was thin. Don't invest further.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": true,
-        "v": "LinkedIn · added 2026-06-09"
-      },
-      "app": {
-        "stage": "applied",
-        "note": "Applied + internal referral; no recruiter contact. Off-wedge (infra, not product/growth) — low expected pull. Treat as cold."
-      },
-      "referral": {
-        "level": "direct",
-        "text": "You have an internal referral here (applied)."
-      },
-      "discovered": false,
-      "isNew": false
-    },
-    {
-      "co": "Checkr",
-      "role": "Senior Manager Data Science, Revenue & Growth",
-      "loc": "San Francisco, CA (Hybrid)",
-      "track": "domain",
-      "trackLabel": "Domain-perfect",
-      "extraTrack": "lateral",
-      "score": null,
-      "domain": null,
-      "comp": "See posting",
-      "compFit": null,
-      "tier": "Fintech-adjacent · background checks",
-      "url": "https://www.linkedin.com/jobs/view/4397418124/",
-      "note": "The Revenue & Growth mandate fits your monetization/growth wedge well, but you graded the company as failing your own high-growth bar. Reached out via recruiters with no response. Keep as low-priority volume, not a focus.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": true,
-        "v": "LinkedIn · added 2026-06-09"
-      },
-      "app": {
-        "stage": "applied",
-        "note": "Reached out via recruiters; no response. Role fits the wedge but company fails your high-growth bar — low priority."
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": false,
-      "isNew": false
-    },
-    {
-      "co": "SoFi",
-      "role": "Senior Manager, Data Science",
-      "loc": "San Francisco, CA",
-      "track": "domain",
-      "trackLabel": "Domain-perfect",
-      "extraTrack": "lateral",
-      "score": null,
-      "domain": null,
-      "comp": "See posting",
-      "compFit": null,
-      "tier": "Public fintech · lending/banking",
-      "url": "https://www.linkedin.com/jobs/view/4399470189/",
-      "note": "Was the sharpest domain match on the board — lending, banking, monetization, financial products is exactly your wedge. The req has since been pulled. Worth watching for a reopen or a sibling lending/growth req.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": false,
-        "v": "Closed — req pulled (per SoFi) · confirmed 2026-06-09"
-      },
-      "app": {
-        "stage": "closed",
-        "since": "2026-06-09",
-        "note": "Role closed per SoFi. Strongest domain fit on the list — set an alert for a reopen or adjacent lending/growth req."
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": false,
-      "isNew": false
-    },
-    {
-      "co": "Superhuman",
-      "role": "Director, Data Science",
-      "loc": "San Francisco, CA (Hybrid)",
-      "track": "stepup",
-      "trackLabel": "Step-up title",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "See posting",
-      "compFit": null,
-      "tier": "Email productivity · Grammarly-acquired",
-      "url": "https://www.linkedin.com/jobs/view/4417695458/",
-      "note": "Director title was the appeal, but post-Grammarly-acquisition trajectory and DS-org scope are murky, and it was your weakest Director bet. Recruiter passed. Closed out.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": false,
-        "v": "Rejected · 2026-06-09"
-      },
-      "app": {
-        "stage": "rejected",
-        "since": "2026-06-09",
-        "note": "Recruiter passed. Weakest Director bet anyway — limited downside to losing it."
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": false,
-      "isNew": false
-    },
-    {
-      "co": "Adobe",
-      "role": "Senior Manager, GTM Data Science",
-      "loc": "San Jose, CA",
-      "track": "lateral",
-      "trackLabel": "Lateral → better co",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "See posting",
-      "compFit": null,
-      "tier": "Public (~$240B)",
-      "url": "https://www.linkedin.com/jobs/view/4389864311/",
-      "note": "GTM Data Science is sales/marketing-ops analytics — off your product/monetization wedge. Triaged as a pass. Note: the Adobe *Director, Data Science & Analytics* role (also tracked here) is the better Adobe target.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": true,
-        "v": "LinkedIn · added 2026-06-09"
-      },
-      "app": {
-        "stage": "passed",
-        "since": "2026-06-09",
-        "note": "Passed — GTM/marketing analytics, off-wedge. Pursue the Adobe Director, DS & Analytics role instead."
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": false,
-      "isNew": false
-    },
-    {
-      "co": "Liberty Mutual",
-      "role": "Senior Director II, Data Science — USRM Complex Components",
-      "loc": "Boston, MA / Remote US (see posting)",
-      "track": "stepup",
-      "trackLabel": "Step-up title (Sr Director)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "See posting",
-      "compFit": null,
-      "tier": "Legacy insurer (Fortune 100)",
-      "url": "https://jobs.libertymutualgroup.com/job/2026-76408/",
-      "note": "Senior Director II is a real title/scope step-up, but flag the trade-offs honestly: USRM (US Retail Markets) insurance DS is off your fintech/product/growth wedge, and Liberty Mutual fails your own high-growth / strong-trajectory bar (mature, slow-moving carrier). Optionality and AI exposure are limited. Treat as a title-and-comp volume play, not a focus — useful as a Director-level interview rep if it converts.",
-      "pinned": true,
-      "source": "icims",
-      "status": {
-        "live": true,
-        "v": "iCIMS · applied 2026-06-18 (req 2026-76408)"
-      },
-      "app": {
-        "stage": "applied",
-        "since": "2026-06-18",
-        "note": "APPLIED 6/18 (auto-confirmation via iCIMS, req 2026-76408). No recruiter contact yet. Low priority — off-wedge domain + fails growth bar. Don't invest beyond a screen unless they move fast."
-      },
-      "referral": {
-        "level": "pending",
-        "text": "No referral mapped."
-      },
-      "discovered": false,
-      "isNew": true
-    },
-    {
-      "co": "Ramp",
-      "role": "Data Science / Analytics Leadership (target)",
-      "loc": "New York / SF / Remote",
-      "track": "target",
-      "trackLabel": "Referral target",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "See postings",
-      "compFit": null,
-      "tier": "Elite pre-IPO · spend management",
-      "url": "https://ramp.com/careers",
-      "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": true,
-        "v": "Referral target · mapped 2026-06-27"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>No 1st°.</b> Best 2nd° data path: James Rizkallah (Data at Ramp — 11 mutuals incl. Pablo Lerdo de Tejada, Anubhav Aggarwal). Also Ben Geist (ML Eng), Avinash Gopinathan (Risk, 11 mut), Harry Channing (Fraud, 9 mut). Direct recruiter: Nicole Hansen (TA). Approach: warm intro via James, or DM Nicole on a specific req."
-      },
-      "discovered": false,
-      "isNew": true
-    },
-    {
-      "co": "Brex",
-      "role": "Data Science / Analytics Leadership (target)",
-      "loc": "SF / NY / Remote",
-      "track": "target",
-      "trackLabel": "Referral target",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "See postings",
-      "compFit": null,
-      "tier": "Pre-IPO · AI finance platform",
-      "url": "https://www.brex.com/careers",
-      "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": true,
-        "v": "Referral target · mapped 2026-06-27"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>No 1st°.</b> Standout 2nd°: Sumeet Marwaha (Data @ Brex — 44 mutuals; likely data leader) = top path. Also Bhavna Sinha (Senior Data Scientist, 10 mut, via Favio Vazquez). Recruiter: Natalie Endres (GTM Recruiting). Even CEO Pedro Franceschi is 2nd°. Approach: intro to Sumeet via a high-mutual broker."
-      },
-      "discovered": false,
-      "isNew": true
-    },
-    {
-      "co": "Plaid",
-      "role": "Data Science / Analytics Leadership (target)",
-      "loc": "SF / NY / Remote",
-      "track": "target",
-      "trackLabel": "Referral target",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "See postings",
-      "compFit": null,
-      "tier": "Pre-IPO · fintech infrastructure",
-      "url": "https://plaid.com/careers/",
-      "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
-      "pinned": true,
-      "source": "linkedin",
-      "status": {
-        "live": true,
-        "v": "Referral target · mapped 2026-06-27"
-      },
-      "referral": {
-        "level": "direct",
-        "text": "<b>1st°: Amy Smith</b> (TPM / Data Scientist, AI Governance — 140 mutuals) — DM directly for the lay of the land + referral. 2nd°: Akash Kulkarni (Analytics &amp; DS, 7 mut), Milav Shah (Eng Leadership, Data &amp; AI, 9 mut), Kanak Chavda (Data Eng). Recruiters: Sydney Busch Weber (Head of Tech Recruiting), Rico Curry (11 mut)."
-      },
-      "discovered": false,
-      "isNew": true
-    }
-  ],
-  "overrides": {}
+ "_comment": "YOUR application pipeline — you own this file. verify.py merges it into roles.json each run; the bot never overwrites it. pinned_roles = manually-tracked applications (kept even when closed). overrides = auto-discovered roles you've applied to (attaches pinned + app stage).",
+ "pinned_roles": [
+  {
+   "co": "Root",
+   "role": "Director of Data Science, Performance Marketing",
+   "loc": "Remote (US) · HQ Columbus, OH",
+   "track": "stepup",
+   "trackLabel": "Step-up title (Director)",
+   "extraTrack": "domain",
+   "score": 9.0,
+   "domain": 4,
+   "comp": "$250K–$300K base + bonus + equity",
+   "compFit": "below",
+   "tier": "Insurtech · public, newly profitable (NASDAQ: ROOT)",
+   "url": "https://ats.rippling.com/joinroot/jobs/34bba6e3-fb48-4863-bc74-960494fad925",
+   "note": "YOUR #1 ACTIVE ROLE and arguably the best of the whole search. Director title = the scope step-up you want, and the mandate is a bullseye on your wedge: lead the DS team running Root's performance-marketing engine — owning a NINE-FIGURE marketing budget, LTV-based bidding, incrementality/MMM measurement, experimentation. This is monetization + growth + experimentation + 0→1 leadership, exactly your story. Warm INBOUND from the hiring manager (Annie Yang sourced you on LinkedIn), not a cold app — a strong signal. Honest caveats: (1) company trajectory — Root is a small-cap public insurtech, but it just turned profitable (sub-100% combined ratio, record Q1'26), so the story is improving; (2) JD says PhD-preferred + full-funnel paid-acquisition experience — manage that gap by leaning on quant depth + actuarial-science degree + experimentation/monetization work. Frame everything as marketing spend → LTV-positive (profitable-risk) policies, not raw volume.",
+   "pinned": true,
+   "source": "linkedin (HM inbound)",
+   "status": {
+    "live": true,
+    "v": "In process · HM technical round (scheduling) 2026-07-02"
+   },
+   "app": {
+    "stage": "in-process",
+    "since": "2026-06-29",
+    "note": "ADVANCED 7/2: invited to the next round — a 60-min video interview with the hiring manager (Annie Yang), technical + discussion-based on experience, problem-solving, and core concepts, with a few APPLIED questions (have a notebook ready). Kristin Simmons sent a prep guide for the full process and asked for availability over the next 10 days. ACTION: send availability promptly; prep with root_annie_prep.html — lead with LTV-positive acquisition, incrementality/MMM, nine-figure budget allocation; refresh stats/predictive modeling (GLMs, causal) that Annie values over LLMs."
+   },
+   "referral": {
+    "level": "direct",
+    "text": "<b>Warm inbound — better than a referral.</b> Hiring manager <b>Annie Yang</b> (Sr Director of Data Science &amp; Head of B2C Marketing; came up through insurance pricing, MS Math) sourced you directly on LinkedIn 6/13. Recruiter: Kristin Simmons. Annie owns Marketing + LTV DS; this role sits in/under her org."
+   },
+   "discovered": false,
+   "isNew": true,
+   "fit": {
+    "relevance": 10,
+    "level": 9,
+    "experience": 8,
+    "company": 6,
+    "comp": "below",
+    "score": 9.0,
+    "confidence": "high",
+    "yoe_req": "8+ yrs, 4+ leading; PhD preferred",
+    "candidate": "you: ~11 yrs DS, ~5 leading; actuarial-science degree (strong fit), no PhD"
+   }
+  },
+  {
+   "co": "Coupang",
+   "role": "Director of Data Science",
+   "loc": "Mountain View, CA (Hybrid) · SF-commutable",
+   "track": "stepup",
+   "trackLabel": "Step-up title (Director)",
+   "extraTrack": "lateral",
+   "score": 8.5,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Public e-commerce giant (NYSE: CPNG, ~$30B rev)",
+   "url": "https://www.coupang.jobs/en/",
+   "note": "Strong second Director-level swing, and a company-quality standout: Coupang is a large, profitable, still-growing public e-commerce/logistics giant (the 'Amazon of Korea') with a serious Mountain View tech hub — a more stable, higher-scale platform than Root even if less wedge-perfect. Director title = the scope step-up you want; consumer growth/retention/experimentation/ML-decisioning at massive scale maps well to your Intuit story. Domain is e-commerce/retail/logistics rather than fintech, so sell transferable 0→1 leadership + experimentation/monetization rigor. WARM referral in motion (Naren Barve, Coupang, checking with the hiring manager) — nurture it.",
+   "pinned": true,
+   "source": "linkedin (applied + referral)",
+   "status": {
+    "live": true,
+    "v": "Applied 2026-07-01 · cooling — no reply after 1 week"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-07-01",
+    "note": "APPLIED 7/1 (Greenhouse confirmation). Referral was Naren Barve (2nd°, at Coupang), who said 7/1 he'd circle back once he heard from the hiring manager — but as of 7/8 it's been a full week with NO word from Naren or the recruiter. COOLING to backburner: this is no longer an active hot lead. Root is your only hot lead at the moment. OPTIONAL: send Naren one light, low-pressure nudge; if still silent, let it sit — don't chase. Keep your energy on Root. Confirm team/level/comp only if the recruiter re-engages."
+   },
+   "referral": {
+    "level": "bridge",
+    "text": "<b>Warm 2nd° referral in motion:</b> Naren Barve (at Coupang, 30+ mutual connections; 'We're hiring!!!') — you messaged him 7/1 about the Director of DS, Mountain View role; he's circling back with the hiring manager. Nurture this before/around recruiter contact."
+   },
+   "fit": {
+    "relevance": 8,
+    "level": 9,
+    "experience": 8,
+    "company": 9,
+    "comp": "unknown",
+    "score": 8.5,
+    "confidence": "medium",
+    "yoe_req": "Director-level DS leadership",
+    "candidate": "you: ~11 yrs DS, ~5 leading; consumer/growth at scale (Intuit)"
+   },
+   "discovered": false,
+   "isNew": true,
+   "cooling": true
+  },
+  {
+   "co": "Waymo",
+   "role": "Senior Data Science Manager, Driving Quality",
+   "loc": "Mountain View, CA / Remote (see posting)",
+   "track": "lateral",
+   "trackLabel": "Lateral → elite brand",
+   "extraTrack": "stretch",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Alphabet · autonomous vehicles (top brand)",
+   "url": "https://www.linkedin.com/jobs/view/4301393798/",
+   "note": "Top-tier brand and an Alphabet balance sheet, but be clear-eyed: 'Driving Quality' is AV safety/operational DS — measuring autonomy performance — not the product/growth/monetization wedge you sell best. Sell transferable 0→1 leadership + measurement/north-star rigor (your Mercury final-panel material maps well here). Strong optionality bet; not a domain-perfect fit. No referral mapped yet — worth a Waymo/Google network sweep before the recruiter screen.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": true,
+    "v": "LinkedIn · applied 2026-06-27"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-06-27",
+    "note": "APPLIED 6/27 (confirmation + candidate survey received from Waymo TA). Next: sweep LinkedIn for 1st/2nd° at Waymo/Google to warm a referral before recruiter contact. Lead with measurement rigor and 0→1 org-building, not 'product analytics.'"
+   },
+   "referral": {
+    "level": "pending",
+    "text": "No referral mapped yet — run a Waymo/Google network sweep."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Mercury",
+   "role": "Senior Data Science Manager",
+   "loc": "SF / NY / Portland / Remote US–CA",
+   "track": "domain",
+   "trackLabel": "Domain-perfect",
+   "extraTrack": "lateral",
+   "score": 8.8,
+   "domain": 5,
+   "comp": "$239K–$298.8K base",
+   "compFit": "below",
+   "tier": "High-growth fintech (~$3.5B+)",
+   "url": "https://job-boards.greenhouse.io/mercury/jobs/5973037004",
+   "note": "CLOSED — rejected after final panel (6/24). Your highest-conviction, best-fit role of the search: full process through HM (Leanne Fretz), peer, cross-functional, and final panel. Ryan Atkins (recruiter) was genuinely complimentary and explicitly asked to stay connected for future roles — keep that relationship warm, it's a real asset. Lesson to carry: the wedge fit was perfect; refine the final-panel narrative (team restructure / north-star / contingency) for the next at-bat.",
+   "pinned": true,
+   "source": "greenhouse",
+   "status": {
+    "live": true,
+    "v": "Greenhouse · in process → closed 2026-06-26"
+   },
+   "app": {
+    "stage": "rejected",
+    "since": "2026-06-26",
+    "note": "Rejected 6/26 by Ryan Atkins after the 6/24 final panel. 'Genuinely impressed by the depth of your experience… you stood out in a competitive process.' Wants to keep you in mind for future Mercury roles. Send a gracious keep-in-touch reply to Ryan; reconnect in ~6–8 weeks."
+   },
+   "referral": {
+    "level": "active",
+    "text": "Ran full process. <b>1st° backchannel:</b> Oneida Dueñas (Risk, ex-Intuit). <b>2nd° intel:</b> Prateek Parashar (Staff DS, Growth), Katja Wittfoth (Sr DS), Shannon Hees (Sr DS, Product Analytics). Keep Ryan Atkins (recruiter) warm for re-entry."
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Snowflake",
+   "role": "Senior Manager, Product Data Science",
+   "loc": "Menlo Park, CA",
+   "track": "lateral",
+   "trackLabel": "Lateral → better co",
+   "extraTrack": "domain",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Public · data cloud (~$60B+)",
+   "url": "https://www.linkedin.com/jobs/view/4425460224/",
+   "note": "CLOSED — rejected. Was your recommended bridge: top-tier brand, consumption-monetization model that fit your pricing/monetization wedge, applied via Mario Heredia (1st°). Didn't reach a screen despite the warm referral. Mario remains a valuable channel — keep him in the network, this one just didn't land.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": true,
+    "v": "LinkedIn · applied 6/9 → rejected 2026-06-27"
+   },
+   "app": {
+    "stage": "rejected",
+    "since": "2026-06-27",
+    "note": "REJECTED (reported by Rodrigo 6/27; no rejection email in Gmail — likely came via recruiter/LinkedIn). Came in via Mario Heredia's 1st° referral and still didn't convert to a recruiter screen — a real signal the Product DS req was either filled or not a fit. Keep Mario warm (strong ongoing referral channel); thank him regardless of outcome."
+   },
+   "referral": {
+    "level": "direct",
+    "text": "<b>Confirmed referral.</b> <b>1st°:</b> Mario Heredia (Data Science / AI / Leadership, 60+ mutuals) — your referrer + intel channel. <b>2nd° likely hiring chain:</b> <b>Hamin Oh</b> (Director, Data, Analytics &amp; AI; via sahithi visvanathan &amp; Trevor Scollins — top person to understand), <b>Kamer Toker-Yildiz</b> (Data Science Leader, Bay Area; via Abhishek Ghuwalewala), <b>Satya Kota</b> (Director, Data Engineering — adjacent). Peers: Peter L. (Sr DS), Si Peng (DS&amp;AI, ex-Apple)."
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Abridge",
+   "role": "Director, Data Science",
+   "loc": "San Francisco, CA (Hybrid)",
+   "track": "stepup",
+   "trackLabel": "Step-up title",
+   "extraTrack": "stretch",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Healthcare AI · high-growth",
+   "url": "https://www.linkedin.com/jobs/view/4402990454/",
+   "note": "CLOSED — rejected 6/29. Your best Director-title swing, but the healthcare/clinical domain pivot was always the risk and the application didn't break through a competitive pool. Lesson: Director swings need a warm referral, not a cold app + light outreach.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": true,
+    "v": "Ashby · applied → rejected 2026-06-29"
+   },
+   "app": {
+    "stage": "rejected",
+    "note": "REJECTED 6/29 via Ashby ('applicant pool quite competitive, decided not to proceed'). Was your best Director swing but a domain pivot to clinical/healthcare; the cold-app + contact outreach didn't convert. No further action.",
+    "since": "2026-06-29"
+   },
+   "referral": {
+    "level": "bridge",
+    "text": "Reached out to contacts at Abridge (pending reply)."
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Databricks",
+   "role": "Senior Manager, Infrastructure Data Science",
+   "loc": "Mountain View, CA (On-site)",
+   "track": "lateral",
+   "trackLabel": "Lateral → better co",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Elite pre-IPO (~$60B+)",
+   "url": "https://www.linkedin.com/jobs/view/4297756002/",
+   "note": "Elite company, but Infrastructure DS is platform/internal-reliability work — off your product/growth/monetization wedge. You applied with an internal referral and got no recruiter contact, which confirms the fit was thin. Don't invest further.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": true,
+    "v": "LinkedIn · added 2026-06-09"
+   },
+   "app": {
+    "stage": "applied",
+    "note": "Applied + internal referral; no recruiter contact. Off-wedge (infra, not product/growth) — low expected pull. Treat as cold."
+   },
+   "referral": {
+    "level": "direct",
+    "text": "You have an internal referral here (applied)."
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Checkr",
+   "role": "Senior Manager Data Science, Revenue & Growth",
+   "loc": "San Francisco, CA (Hybrid)",
+   "track": "domain",
+   "trackLabel": "Domain-perfect",
+   "extraTrack": "lateral",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Fintech-adjacent · background checks",
+   "url": "https://www.linkedin.com/jobs/view/4397418124/",
+   "note": "The Revenue & Growth mandate fits your monetization/growth wedge well, but you graded the company as failing your own high-growth bar. Reached out via recruiters with no response. Keep as low-priority volume, not a focus.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": false,
+    "v": "Closed — role filled (per Checkr) · confirmed 2026-07-06"
+   },
+   "app": {
+    "stage": "closed",
+    "note": "CLOSED 7/6/2026 — Checkr recruiting emailed that the Senior Manager Data Science, Revenue & Growth role 'has recently been filled.' This is a req closure, not a merit rejection. No loss: Checkr already failed your high-growth-company bar and was low priority. No further action.",
+    "since": "2026-07-06"
+   },
+   "referral": {
+    "level": "pending",
+    "text": ""
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "SoFi",
+   "role": "Senior Manager, Data Science",
+   "loc": "San Francisco, CA",
+   "track": "domain",
+   "trackLabel": "Domain-perfect",
+   "extraTrack": "lateral",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Public fintech · lending/banking",
+   "url": "https://www.linkedin.com/jobs/view/4399470189/",
+   "note": "Was the sharpest domain match on the board — lending, banking, monetization, financial products is exactly your wedge. The req has since been pulled. Worth watching for a reopen or a sibling lending/growth req.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": false,
+    "v": "Closed — req pulled (per SoFi) · confirmed 2026-06-09"
+   },
+   "app": {
+    "stage": "closed",
+    "since": "2026-06-09",
+    "note": "Role closed per SoFi. Strongest domain fit on the list — set an alert for a reopen or adjacent lending/growth req."
+   },
+   "referral": {
+    "level": "pending",
+    "text": ""
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Superhuman",
+   "role": "Director, Data Science",
+   "loc": "San Francisco, CA (Hybrid)",
+   "track": "stepup",
+   "trackLabel": "Step-up title",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Email productivity · Grammarly-acquired",
+   "url": "https://www.linkedin.com/jobs/view/4417695458/",
+   "note": "Director title was the appeal, but post-Grammarly-acquisition trajectory and DS-org scope are murky, and it was your weakest Director bet. Recruiter passed. Closed out.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": false,
+    "v": "Rejected · 2026-06-09"
+   },
+   "app": {
+    "stage": "rejected",
+    "since": "2026-06-09",
+    "note": "Recruiter passed. Weakest Director bet anyway — limited downside to losing it."
+   },
+   "referral": {
+    "level": "pending",
+    "text": ""
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Adobe",
+   "role": "Senior Manager, GTM Data Science",
+   "loc": "San Jose, CA",
+   "track": "lateral",
+   "trackLabel": "Lateral → better co",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Public (~$240B)",
+   "url": "https://www.linkedin.com/jobs/view/4389864311/",
+   "note": "GTM Data Science is sales/marketing-ops analytics — off your product/monetization wedge. Triaged as a pass. Note: the Adobe *Director, Data Science & Analytics* role (also tracked here) is the better Adobe target.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": true,
+    "v": "LinkedIn · added 2026-06-09"
+   },
+   "app": {
+    "stage": "passed",
+    "since": "2026-06-09",
+    "note": "Passed — GTM/marketing analytics, off-wedge. Pursue the Adobe Director, DS & Analytics role instead."
+   },
+   "referral": {
+    "level": "pending",
+    "text": ""
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Liberty Mutual",
+   "role": "Senior Director II, Data Science — USRM Complex Components",
+   "loc": "Boston, MA / Remote US (see posting)",
+   "track": "stepup",
+   "trackLabel": "Step-up title (Sr Director)",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Legacy insurer (Fortune 100)",
+   "url": "https://jobs.libertymutualgroup.com/job/2026-76408/",
+   "note": "Senior Director II is a real title/scope step-up, but flag the trade-offs honestly: USRM (US Retail Markets) insurance DS is off your fintech/product/growth wedge, and Liberty Mutual fails your own high-growth / strong-trajectory bar (mature, slow-moving carrier). Optionality and AI exposure are limited. Treat as a title-and-comp volume play, not a focus — useful as a Director-level interview rep if it converts.",
+   "pinned": true,
+   "source": "icims",
+   "status": {
+    "live": true,
+    "v": "iCIMS · applied 2026-06-18 (req 2026-76408)"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-06-18",
+    "note": "APPLIED 6/18 (auto-confirmation via iCIMS, req 2026-76408). No recruiter contact yet. Low priority — off-wedge domain + fails growth bar. Don't invest beyond a screen unless they move fast."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "No referral mapped."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Ramp",
+   "role": "Data Science / Analytics Leadership (target)",
+   "loc": "New York / SF / Remote",
+   "track": "target",
+   "trackLabel": "Referral target",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See postings",
+   "compFit": null,
+   "tier": "Elite pre-IPO · spend management",
+   "url": "https://ramp.com/careers",
+   "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": true,
+    "v": "Referral target · mapped 2026-06-27"
+   },
+   "referral": {
+    "level": "bridge",
+    "text": "<b>No 1st°.</b> Best 2nd° data path: James Rizkallah (Data at Ramp — 11 mutuals incl. Pablo Lerdo de Tejada, Anubhav Aggarwal). Also Ben Geist (ML Eng), Avinash Gopinathan (Risk, 11 mut), Harry Channing (Fraud, 9 mut). Direct recruiter: Nicole Hansen (TA). Approach: warm intro via James, or DM Nicole on a specific req."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Brex",
+   "role": "Data Science / Analytics Leadership (target)",
+   "loc": "SF / NY / Remote",
+   "track": "target",
+   "trackLabel": "Referral target",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See postings",
+   "compFit": null,
+   "tier": "Pre-IPO · AI finance platform",
+   "url": "https://www.brex.com/careers",
+   "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": true,
+    "v": "Referral target · mapped 2026-06-27"
+   },
+   "referral": {
+    "level": "bridge",
+    "text": "<b>No 1st°.</b> Standout 2nd°: Sumeet Marwaha (Data @ Brex — 44 mutuals; likely data leader) = top path. Also Bhavna Sinha (Senior Data Scientist, 10 mut, via Favio Vazquez). Recruiter: Natalie Endres (GTM Recruiting). Even CEO Pedro Franceschi is 2nd°. Approach: intro to Sumeet via a high-mutual broker."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Plaid",
+   "role": "Data Science / Analytics Leadership (target)",
+   "loc": "SF / NY / Remote",
+   "track": "target",
+   "trackLabel": "Referral target",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See postings",
+   "compFit": null,
+   "tier": "Pre-IPO · fintech infrastructure",
+   "url": "https://plaid.com/careers/",
+   "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": true,
+    "v": "Referral target · mapped 2026-06-27"
+   },
+   "referral": {
+    "level": "direct",
+    "text": "<b>1st°: Amy Smith</b> (TPM / Data Scientist, AI Governance — 140 mutuals) — DM directly for the lay of the land + referral. 2nd°: Akash Kulkarni (Analytics &amp; DS, 7 mut), Milav Shah (Eng Leadership, Data &amp; AI, 9 mut), Kanak Chavda (Data Eng). Recruiters: Sydney Busch Weber (Head of Tech Recruiting), Rico Curry (11 mut)."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Brigit",
+   "role": "Director of Data Science",
+   "loc": "San Francisco, CA",
+   "track": "stepup",
+   "trackLabel": "Step-up title (Director)",
+   "extraTrack": "domain",
+   "score": 8.3,
+   "domain": 4,
+   "comp": "Not posted (applications managed off LinkedIn)",
+   "compFit": null,
+   "tier": "Consumer fintech · subsidiary of Upbound Group (NASDAQ: UPBD)",
+   "url": "https://www.linkedin.com/jobs/view/4434052322/",
+   "note": "NEW FIND (LinkedIn sweep 7/8). Director of DS at Brigit — a consumer financial-health app (instant cash advances, credit-building, subscription) that Upbound Group (NASDAQ: UPBD, ex-Rent-A-Center) acquired Jan 2025 for up to $460M. Brigit is GROWING and profitable-adjacent: ~1M+ paying subscribers, ~$215–230M rev in 2025, guided to ~$350–400M in 2026, now backed by a public parent (stability + resources). WEDGE BULLSEYE: consumer fintech, subscription monetization, credit/lending, customer-lifecycle + growth — exactly your story. Director title = the scope step-up you want, and an SF role for an NYC-HQ company likely means building/leading a new West-Coast DS footprint (0→1 team-building, your strength). CAVEATS: (1) it's now a subsidiary of Upbound — some prestige discount vs a pure venture fintech, though the financials are stronger for it; (2) apps are managed off LinkedIn, and there's a $60M 2026 earnout on Brigit's performance, so the org is under real growth pressure — frame yourself as the monetization/growth leader who hits those numbers.",
+   "pinned": true,
+   "source": "linkedin (saved + sweep 2026-07-08)",
+   "status": {
+    "live": true,
+    "v": "New find · LinkedIn sweep 2026-07-08"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-07-08",
+    "note": "TO APPLY. Best move is the warm path, not the portal: VP of Data & Analytics Lauren Stoller (SF, actively '#Hiring') is almost certainly the hiring exec — reach her via mutual Dr. Ramla Jarrar. Backup: Brigit Sr Technical Recruiter Aidan Schliesmann via mutual Akhil Rathod. Lead with LTV/subscription monetization + 0→1 team-building; position for the SF DS build-out."
+   },
+   "referral": {
+    "level": "bridge",
+    "text": "<b>Warm 2nd° path to the hiring exec.</b> <b>Lauren Stoller</b> — <b>VP of Data &amp; Analytics at Brigit</b> (SF, headline 'Analytics | Product - #Hiring') — reachable via mutual <b>Dr. Ramla Jarrar</b>. Secondary: <b>Aidan Schliesmann</b>, Sr Technical Recruiter at Brigit, via mutual <b>Akhil Rathod</b>."
+   },
+   "fit": {
+    "relevance": 9,
+    "level": 9,
+    "experience": 8,
+    "company": 6,
+    "comp": "unknown",
+    "score": 8.3,
+    "confidence": "medium",
+    "yoe_req": "Director-level DS leadership (see posting)",
+    "candidate": "you: ~11 yrs DS, ~5 leading; consumer-fintech monetization/growth (Intuit) — strong wedge match"
+   },
+   "discovered": true,
+   "isNew": true
+  }
+ ],
+ "overrides": {}
 }
