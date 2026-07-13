@@ -49,7 +49,9 @@ DISCOVER = True
 # Location widened to anywhere in the US (+ remote) AND Mexico City (genuine
 # relocation option). New finds are still flagged for review, not trusted blindly.
 DATA_SIGNAL = ("data scien", "analytics", "machine learning",
-               "ml engineer", "applied scien", "data engineer")
+               "ml engineer", "applied scien")
+# NOTE: "data engineer" dropped from DATA_SIGNAL 2026-07-13 — Rodrigo is DS/analytics,
+# not data-engineering; DE roles were adding noise. Also hard-negatived below.
 # "staff" added so Staff / Senior Staff DS ICs qualify as senior-scope leadership.
 LEAD_SIGNAL = ("manager", " lead", "lead,", "lead ", "head of", "head,",
                "director", "principal", "vp ", "vp,", "staff")
@@ -77,6 +79,28 @@ LOC_HINTS = ("united states", "remote", "u.s", " us", "usa", "new york",
              # Mexico City (genuine relocation option, full weight):
              "mexico city", "ciudad de mexico", "ciudad de méxico", "cdmx",
              "mexico", "méxico")
+# Reject roles really based in a non-target country even though a loose hint (e.g.
+# bare "remote") matched — e.g. "Remote Canada". A non-target location is rescued
+# only if the string ALSO names an explicit US/Mexico-City place (open in both).
+NON_TARGET_LOC = ("canada", "ontario", "british columbia", "alberta",
+                  "nova scotia", "quebec", "toronto", "vancouver",
+                  "united kingdom", " u.k", "ireland", "india", "singapore",
+                  "australia", "germany", "france", "netherlands", "poland",
+                  "brazil", "brasil", "argentina", "colombia", "chile",
+                  "europe", "emea", "apac", "latam")
+STRONG_TARGET = tuple(t for t in LOC_HINTS if t != "remote")
+
+
+def _loc_ok(ll):
+    """Location is US / remote-US or Mexico City. Bare-'remote' matches are kept
+    only if the string isn't actually a non-target country ('Remote Canada')."""
+    if not any(t in ll for t in LOC_HINTS):
+        return False
+    if any(n in ll for n in NON_TARGET_LOC) and not any(s in ll for s in STRONG_TARGET):
+        return False
+    return True
+
+
 MAX_NEW_PER_COMPANY = 10
 
 # Bullseye companies to actively DISCOVER on every run, beyond whatever is already
@@ -120,9 +144,11 @@ DISCOVER_TOKENS = {
 # FUNCTION — ML/data engineering, program/product mgmt) drops only when the title
 # lacks an analytics/DS signal, so "Data Science Manager, ..." survives but
 # "ML Engineering Manager, ..." does not.
-HARD_NEGATIVE = ("fraud", "safety", "mapping", " audit", "internal audit",
-                 "contracts", "compliance", "strategic finance",
-                 "finance and strategy", "market insights")
+HARD_NEGATIVE = ("fraud", "safety", "security", "mapping", " audit",
+                 "internal audit", "contracts", "compliance",
+                 "strategic finance", "finance and strategy", "market insights",
+                 "program manager", "technical program",
+                 "data engineer", "data engineering")
 SOFT_NEGATIVE = ("machine learning", "ml engineer", "software engineer",
                  "engineering manager", "program manager", "technical program",
                  "product manager")
@@ -330,10 +356,11 @@ def discover(existing_roles, token_to_co):
                           and not _off_wedge(tl))   # DS/analytics leadership or Sr-IC
             is_pm = (any(p in tl for p in PM_TITLE)
                      and any(w in tl for w in PM_WEDGE)
-                     and any(s in tl for s in PM_SENIOR))  # data/AI/growth Sr PM
+                     and any(s in tl for s in PM_SENIOR)
+                     and not any(h in tl for h in HARD_NEGATIVE))  # data/AI/growth Sr PM
             if not (is_ds_lead or is_pm):
                 continue
-            if not any(h in ll for h in LOC_HINTS):
+            if not _loc_ok(ll):
                 continue
             if added >= MAX_NEW_PER_COMPANY:
                 print(f"  NOTE discover {token}: capped at {MAX_NEW_PER_COMPANY}, more may exist")
