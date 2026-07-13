@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13)"
       },
       "referral": {
         "level": "bridge",
@@ -1306,10 +1306,10 @@
       "track": "pm",
       "trackLabel": "Product (data/AI/growth)",
       "extraTrack": "",
-      "score": null,
+      "score": 7.7,
       "domain": null,
       "comp": "Not posted",
-      "compFit": null,
+      "compFit": "below",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7605850003",
       "posted": "2026-01-28",
@@ -1324,11 +1324,11 @@
         "v": "Board API · checked 2026-07-13"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "Angela Z. (Pricing PM, 2nd°) via Amy Smith; Jeff Lee (Staff PM, 2nd°)."
       },
       "discovered": true,
-      "isNew": true,
+      "isNew": false,
       "kind": "pm",
       "pinned": true,
       "app": {
@@ -1600,10 +1600,10 @@
       "track": "pm",
       "trackLabel": "Product (data/AI/growth)",
       "extraTrack": "",
-      "score": null,
+      "score": 8.5,
       "domain": null,
       "comp": "Not posted",
-      "compFit": null,
+      "compFit": "border",
       "tier": "",
       "url": "https://www.brex.com/careers/8433470002?gh_jid=8433470002",
       "posted": "2026-02-23",
@@ -1618,11 +1618,11 @@
         "v": "Board API · checked 2026-07-13"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "Shone Barton (‘Hiring Product @Brex’, 2nd°) / Jessica Hansen Vi (Brex product recruiter, 2nd°)."
       },
       "discovered": true,
-      "isNew": true,
+      "isNew": false,
       "kind": "pm",
       "pinned": true,
       "app": {
@@ -1702,10 +1702,10 @@
       "track": "pm",
       "trackLabel": "Product (data/AI/growth)",
       "extraTrack": "",
-      "score": null,
+      "score": 7.8,
       "domain": null,
       "comp": "Not posted",
-      "compFit": null,
+      "compFit": "below",
       "tier": "",
       "url": "https://www.brex.com/careers/8436528002?gh_jid=8436528002",
       "posted": "2026-02-24",
@@ -1720,11 +1720,11 @@
         "v": "Board API · checked 2026-07-13"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "Shone Barton / Jessica Hansen Vi (Brex, 2nd°)."
       },
       "discovered": true,
-      "isNew": true,
+      "isNew": false,
       "kind": "pm",
       "pinned": true,
       "app": {
@@ -1740,10 +1740,10 @@
       "track": "new",
       "trackLabel": "New find",
       "extraTrack": "",
-      "score": null,
+      "score": 7.6,
       "domain": null,
       "comp": "Not posted",
-      "compFit": null,
+      "compFit": "below",
       "tier": "",
       "url": "https://boards.greenhouse.io/chime/jobs/8624510002?gh_jid=8624510002",
       "posted": "2026-07-08",
@@ -1758,11 +1758,11 @@
         "v": "Board API · checked 2026-07-13"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño."
       },
       "discovered": true,
-      "isNew": true,
+      "isNew": false,
       "kind": "ds",
       "pinned": true,
       "app": {
@@ -2098,10 +2098,10 @@
       "track": "new",
       "trackLabel": "New find",
       "extraTrack": "",
-      "score": null,
+      "score": 8.4,
       "domain": null,
       "comp": "Not posted",
-      "compFit": null,
+      "compFit": "border",
       "tier": "",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8052254",
       "posted": "2026-07-10",
@@ -2116,11 +2116,11 @@
         "v": "Board API · checked 2026-07-13"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "Ethan Zhu (DS&A lead, 2nd° ~32 mut); 1st° Jasper (referral requested 7/13) + Maximiliano Medina García."
       },
       "discovered": true,
-      "isNew": true,
+      "isNew": false,
       "kind": "ds",
       "pinned": true,
       "app": {
@@ -2759,7 +2759,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-13"
+        "v": "Live (closing? unconfirmed) · 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -2776,10 +2776,10 @@
       "track": "new",
       "trackLabel": "New find",
       "extraTrack": "",
-      "score": null,
+      "score": 7.9,
       "domain": null,
       "comp": "Not posted",
-      "compFit": null,
+      "compFit": "below",
       "tier": "",
       "url": "https://sofi.com/careers/job/7602838003?gh_jid=7602838003",
       "posted": "2026-07-10",
@@ -2794,11 +2794,11 @@
         "v": "Board API · checked 2026-07-13"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "Kerstin Brümann (Mgr Marketing DS, 2nd°) via Saurabh Kumar; Kang Jian (Sr DS Mgr, 2nd°)."
       },
       "discovered": true,
-      "isNew": true,
+      "isNew": false,
       "kind": "ds",
       "pinned": true,
       "app": {
@@ -2846,10 +2846,10 @@
       "track": "pm",
       "trackLabel": "Product (data/AI/growth)",
       "extraTrack": "",
-      "score": null,
+      "score": 8.0,
       "domain": null,
       "comp": "Not posted",
-      "compFit": null,
+      "compFit": "border",
       "tier": "",
       "url": "https://stripe.com/jobs/search?gh_jid=8014786",
       "posted": "2026-06-18",
@@ -2864,11 +2864,11 @@
         "v": "Board API · checked 2026-07-13"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "Stripe DS path: Matt DeLand via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd°)."
       },
       "discovered": true,
-      "isNew": true,
+      "isNew": false,
       "kind": "pm",
       "pinned": true,
       "app": {
@@ -2884,10 +2884,10 @@
       "track": "pm",
       "trackLabel": "Product (data/AI/growth)",
       "extraTrack": "",
-      "score": null,
+      "score": 8.2,
       "domain": null,
       "comp": "Not posted",
-      "compFit": null,
+      "compFit": "border",
       "tier": "",
       "url": "https://stripe.com/jobs/search?gh_jid=7980498",
       "posted": "2026-06-03",
@@ -2902,11 +2902,11 @@
         "v": "Board API · checked 2026-07-13"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "Matt DeLand (Head of DS, 2nd°) via Karan Kushwaha; sweep Stripe product org."
       },
       "discovered": true,
-      "isNew": true,
+      "isNew": false,
       "kind": "pm",
       "pinned": true,
       "app": {
@@ -3690,10 +3690,10 @@
       "track": "new",
       "trackLabel": "New find",
       "extraTrack": "",
-      "score": null,
+      "score": 8.3,
       "domain": null,
       "comp": "Not posted",
-      "compFit": null,
+      "compFit": "border",
       "tier": "",
       "url": "https://boards.greenhouse.io/figma/jobs/5983820004?gh_jid=5983820004",
       "posted": "2026-04-30",
@@ -3708,11 +3708,11 @@
         "v": "Board API · checked 2026-07-13"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "Joe Mandozzi (1st°, inside Figma) → Parth Patel (DS Mgr, ex-Meta, 2nd°) / Sharath Chandra (Data Leader, 2nd°)."
       },
       "discovered": true,
-      "isNew": true,
+      "isNew": false,
       "kind": "ds",
       "pinned": true,
       "app": {
@@ -4368,10 +4368,10 @@
       "track": "new",
       "trackLabel": "New find",
       "extraTrack": "",
-      "score": null,
+      "score": 8.4,
       "domain": null,
       "comp": "Not posted",
-      "compFit": null,
+      "compFit": "border",
       "tier": "",
       "url": "https://careers.roblox.com/jobs/7376352?gh_jid=7376352",
       "posted": "2025-11-06",
@@ -4386,11 +4386,11 @@
         "v": "Board API · checked 2026-07-13"
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "bridge",
+        "text": "Jose Abelenda (Director DS, ex-Lyft, 2nd°) via Saurabh Kumar; Henry Lin (Creator DS, 2nd°)."
       },
       "discovered": true,
-      "isNew": true,
+      "isNew": false,
       "kind": "ds",
       "pinned": true,
       "app": {
@@ -4656,6 +4656,38 @@
       "kind": "pm"
     },
     {
+      "co": "Affirm",
+      "role": "Staff Software Engineer, Backend (Lake Analytics Platform)",
+      "loc": "Remote US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7801694003",
+      "posted": "2026-07-13",
+      "note": "Auto-discovered on Affirm's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7801694003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
       "co": "Airbnb",
       "role": "Lead, Advanced Analytics, Services",
       "loc": "United States",
@@ -4674,6 +4706,38 @@
         "type": "greenhouse",
         "token": "airbnb",
         "id": "7936532"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Oscar Health",
+      "role": "Product Lead, People Analytics",
+      "loc": "New York, New York, United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "http://www.hioscar.com/careers/8056691?gh_jid=8056691",
+      "posted": "2026-07-13",
+      "note": "Auto-discovered on Oscar Health's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "oscar",
+        "id": "8056691"
       },
       "status": {
         "live": true,
