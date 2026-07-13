@@ -39,19 +39,45 @@ TODAY = datetime.date.today().isoformat()
 
 # --- Discovery tuning --------------------------------------------------------
 DISCOVER = True
-# A discovered role must show a data/ML signal AND a leadership signal, and be
-# US-based / remote. Conservative on purpose — new finds are flagged for review,
-# not trusted blindly.
+# EXPANDED 2026-07-13 (Rodrigo widened the search): three qualifying lanes now —
+#   (A) DS / Analytics LEADERSHIP  (data signal + people-leadership signal)
+#   (B) SENIOR-IC data science     (Staff / Senior Staff / Principal DS — no team,
+#       but senior scope; Rodrigo explicitly opened the IC lane)
+#   (C) DATA / AI / GROWTH PM       (senior Product Manager adjacent to his wedge —
+#       data products, AI/ML products, growth/experimentation, monetization,
+#       analytics/data platforms). Pure/off-wedge PM is NOT surfaced.
+# Location widened to anywhere in the US (+ remote) AND Mexico City (genuine
+# relocation option). New finds are still flagged for review, not trusted blindly.
 DATA_SIGNAL = ("data scien", "analytics", "machine learning",
                "ml engineer", "applied scien", "data engineer")
+# "staff" added so Staff / Senior Staff DS ICs qualify as senior-scope leadership.
 LEAD_SIGNAL = ("manager", " lead", "lead,", "lead ", "head of", "head,",
-               "director", "principal", "vp ", "vp,")
-US_HINTS = ("united states", "remote", "u.s", " us", "new york", "san francisco",
-            "sf", "bay area", "seattle", "los angeles", "austin", "denver",
-            "chicago", "boston", "washington", "atlanta", "mountain view",
-            "palo alto", "sunnyvale", "menlo park", "california", "texas",
-            "oregon", "new york city", "nyc")
-MAX_NEW_PER_COMPANY = 8
+               "director", "principal", "vp ", "vp,", "staff")
+
+# --- Senior PM lane (Data / AI / Growth only) --------------------------------
+# A role qualifies as a PM find only if it is (title says PM) AND (wedge-adjacent
+# domain) AND (senior level). This keeps pure/junior PM off the board.
+PM_TITLE = ("product manager", "product management", "group product manager",
+            "product lead", "head of product", "director of product",
+            "director, product", "vp of product", "vp, product")
+PM_WEDGE = ("data", "analytics", " ai", "ai ", "artificial intelligence",
+            "machine learning", " ml", "ml ", "growth", "experimentation",
+            "monetization", "monetisation", "pricing", "platform", "payments",
+            "fintech", "lifecycle", "activation", "acquisition", "retention",
+            "personalization", "personalisation")
+PM_SENIOR = ("senior", "sr.", "sr ", "staff", "principal", "lead", "group",
+             "head", "director", "vp ", "vp,", "gpm", "ii", "iii")
+
+# Location: anywhere in the US / remote, PLUS Mexico City (relocation option).
+LOC_HINTS = ("united states", "remote", "u.s", " us", "usa", "new york",
+             "san francisco", "sf", "bay area", "seattle", "los angeles",
+             "austin", "denver", "chicago", "boston", "washington", "atlanta",
+             "mountain view", "palo alto", "sunnyvale", "menlo park",
+             "california", "texas", "oregon", "new york city", "nyc",
+             # Mexico City (genuine relocation option, full weight):
+             "mexico city", "ciudad de mexico", "ciudad de méxico", "cdmx",
+             "mexico", "méxico")
+MAX_NEW_PER_COMPANY = 10
 
 # Bullseye companies to actively DISCOVER on every run, beyond whatever is already
 # tracked in roles.json. Maps a Greenhouse board token -> company label. Tokens are
@@ -74,6 +100,16 @@ DISCOVER_TOKENS = {
     "pinterest": "Pinterest",
     "stripe": "Stripe",
     "sofi": "SoFi",
+    # Added 2026-07-13 with the widened search. Bad/unknown tokens just log a WARN
+    # and are skipped, so this list is safe to extend. Several chosen for strong
+    # Mexico City / LatAm engineering presence now that CDMX is in play.
+    "gusto": "Gusto",
+    "affirm": "Affirm",
+    "doordash": "DoorDash",
+    "chime": "Chime",
+    "nubank": "Nubank",      # major CDMX/LatAm fintech hub
+    "uber": "Uber",          # large CDMX data/PM org
+    "mercadolibre": "MercadoLibre",  # LatAm marketplace/fintech (may be non-GH)
 }
 
 # --- Wedge curation ----------------------------------------------------------
@@ -93,8 +129,9 @@ SOFT_NEGATIVE = ("machine learning", "ml engineer", "software engineer",
 PROTECT = ("analytics", "data science", "data scientist")
 EXCLUDE_KEYS = {
     "Airbnb|Lead, Advanced Analytics, Services",
-    "Databricks|Principal Data Scientist",        # generic IC, not leadership
-    "Reddit|Principal Data Scientist, Ads",        # IC, not leadership
+    # NOTE: the two "generic IC" excludes (Databricks / Reddit Principal DS) were
+    # REMOVED 2026-07-13 — Rodrigo opened the Senior-IC (Staff/Principal DS) lane,
+    # so senior individual-contributor DS roles should now surface for review.
 }
 # Review scores (0-10) stamped onto the discovered wedge-fits we're keeping.
 DISCOVERED_SCORES = {
@@ -287,30 +324,37 @@ def discover(existing_roles, token_to_co):
             tl = title.lower()
             loc = str((j.get("location") or {}).get("name", ""))
             ll = loc.lower()
-            if not any(s in tl for s in DATA_SIGNAL):
+            # --- classify into one of the three qualifying lanes ---------------
+            is_ds_lead = (any(s in tl for s in DATA_SIGNAL)
+                          and any(s in tl for s in LEAD_SIGNAL)
+                          and not _off_wedge(tl))   # DS/analytics leadership or Sr-IC
+            is_pm = (any(p in tl for p in PM_TITLE)
+                     and any(w in tl for w in PM_WEDGE)
+                     and any(s in tl for s in PM_SENIOR))  # data/AI/growth Sr PM
+            if not (is_ds_lead or is_pm):
                 continue
-            if not any(s in tl for s in LEAD_SIGNAL):
-                continue
-            if _off_wedge(tl):          # keep discovery on Rodrigo's wedge
-                continue
-            if not any(h in ll for h in US_HINTS):
+            if not any(h in ll for h in LOC_HINTS):
                 continue
             if added >= MAX_NEW_PER_COMPANY:
                 print(f"  NOTE discover {token}: capped at {MAX_NEW_PER_COMPANY}, more may exist")
                 break
+            kind = "pm" if (is_pm and not is_ds_lead) else "ds"
             found.append({
                 "co": co, "role": title, "loc": loc or "See posting",
-                "track": "new", "trackLabel": "New find", "extraTrack": "",
+                "track": ("pm" if kind == "pm" else "new"),
+                "trackLabel": ("Product (data/AI/growth)" if kind == "pm" else "New find"),
+                "extraTrack": "",
                 "score": None, "domain": None,
                 "comp": "Not posted", "compFit": None, "tier": "",
                 "url": j.get("absolute_url", ""),
                 "posted": (j.get("first_published") or "")[:10],
                 "note": (f"Auto-discovered on {co}'s job board {TODAY}. "
-                         "Not yet scored — review fit, comp, and referral path."),
+                         + ("Senior PM (data/AI/growth lane). " if kind == "pm" else "")
+                         + "Not yet scored — review fit, comp, and referral path."),
                 "verify": {"type": "greenhouse", "token": token, "id": jid},
                 "status": {"live": True, "v": f"Board API · discovered {TODAY}"},
                 "referral": {"level": "pending", "text": ""},
-                "discovered": True, "isNew": True,
+                "discovered": True, "isNew": True, "kind": kind,
             })
             seen.add((token, jid))
             seen_titles.add((co.lower(), norm_title(title)))
@@ -341,10 +385,14 @@ def main():
         # drop off-wedge titles; stamp review scores onto the keepers.
         if role.get("discovered") and not role.get("pinned"):
             key = role["co"] + "|" + role["role"]
-            if key in EXCLUDE_KEYS or _off_wedge(role["role"].lower()):
-                pruned.append(role)
-                print(f"  DROP  {key} (off-wedge — curated out)")
-                continue
+            # PM finds are curated at discovery time (their own 3-part test); do NOT
+            # run the DS off-wedge filter on them — "product manager" is a SOFT_NEGATIVE
+            # there and would wrongly drop every PM role.
+            if role.get("kind") != "pm":
+                if key in EXCLUDE_KEYS or _off_wedge(role["role"].lower()):
+                    pruned.append(role)
+                    print(f"  DROP  {key} (off-wedge — curated out)")
+                    continue
             if key in DISCOVERED_SCORES:
                 role["score"] = DISCOVERED_SCORES[key]
                 role["isNew"] = False
