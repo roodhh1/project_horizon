@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13)"
       },
       "referral": {
         "level": "bridge",
@@ -1097,68 +1097,6 @@
     },
     {
       "co": "Instacart",
-      "role": "Ads AI Analytics Lead II",
-      "loc": "Canada - Remote (ON, AB, BC, or NS Only)",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": 7.0,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://instacart.careers/job/?gh_jid=7658241",
-      "posted": "2026-02-26",
-      "note": "Auto-discovered on Instacart's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "instacart",
-        "id": "7658241"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": false
-    },
-    {
-      "co": "Instacart",
-      "role": "Media Analytics Manager, Measurement & Attribution",
-      "loc": "Canada - Remote (ON, AB, BC, or NS Only)",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": 7.3,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://instacart.careers/job/?gh_jid=7951046",
-      "posted": "2026-05-21",
-      "note": "Auto-discovered on Instacart's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "instacart",
-        "id": "7951046"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": false
-    },
-    {
-      "co": "Instacart",
       "role": "Senior Director, Media Analytics, Commercial Strategy & Acceleration",
       "loc": "United States - Remote",
       "track": "new",
@@ -1176,37 +1114,6 @@
         "type": "greenhouse",
         "token": "instacart",
         "id": "7875637"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": false
-    },
-    {
-      "co": "Reddit",
-      "role": "Senior Data Science Manager, Marketing",
-      "loc": "Remote - Ontario, Canada",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": 8.2,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7931010",
-      "posted": "2026-05-15",
-      "note": "Auto-discovered on Reddit's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "reddit",
-        "id": "7931010"
       },
       "status": {
         "live": true,
@@ -1385,70 +1292,6 @@
       },
       "discovered": true,
       "isNew": true
-    },
-    {
-      "co": "Affirm",
-      "role": "Director of Product Management, Financial Platforms",
-      "loc": "Remote Canada",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7718661003",
-      "posted": "2026-05-04",
-      "note": "Auto-discovered on Affirm's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7718661003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "Affirm",
-      "role": "Senior Product Manager, Credit & Pricing",
-      "loc": "Remote Canada",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7773693003",
-      "posted": "2026-06-29",
-      "note": "Auto-discovered on Affirm's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7773693003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
     },
     {
       "co": "Affirm",
@@ -2084,38 +1927,6 @@
     },
     {
       "co": "Databricks",
-      "role": "Sr. Product Manager, Data Engineering",
-      "loc": "San Francisco, California",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6322654002",
-      "posted": "2022-08-11",
-      "note": "Auto-discovered on Databricks's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "databricks",
-        "id": "6322654002"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "Databricks",
       "role": "Sr. Product Manager, Data Governance",
       "loc": "San Francisco, California",
       "track": "pm",
@@ -2346,38 +2157,6 @@
     },
     {
       "co": "Instacart",
-      "role": "Senior Product Manager, AI",
-      "loc": "Canada - Remote (ON, AB, BC, or NS Only)",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://instacart.careers/job/?gh_jid=8024430",
-      "posted": "2026-06-24",
-      "note": "Auto-discovered on Instacart's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "instacart",
-        "id": "8024430"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "Instacart",
       "role": "Senior Product Manager, Growth Marketing Platform",
       "loc": "United States - Remote",
       "track": "pm",
@@ -2395,38 +2174,6 @@
         "type": "greenhouse",
         "token": "instacart",
         "id": "8044197"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "Instacart",
-      "role": "Senior Product Manager, Retailer Platform",
-      "loc": "Canada - Remote (ON, AB, BC, or NS Only)",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://instacart.careers/job/?gh_jid=8014062",
-      "posted": "2026-06-17",
-      "note": "Auto-discovered on Instacart's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "instacart",
-        "id": "8014062"
       },
       "status": {
         "live": true,
@@ -2762,38 +2509,6 @@
     },
     {
       "co": "Pinterest",
-      "role": "Staff Product Manager, AI Safety",
-      "loc": "San Francisco, CA, US; Remote, US",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7718015",
-      "posted": "2026-03-31",
-      "note": "Auto-discovered on Pinterest's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "pinterest",
-        "id": "7718015"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "Pinterest",
       "role": "Staff Product Manager, Model Lifecycle & Management",
       "loc": "San Francisco, CA, US; Remote, US",
       "track": "pm",
@@ -2858,38 +2573,6 @@
     },
     {
       "co": "Reddit",
-      "role": "Senior Staff Data Scientist - Consumer Experimentation",
-      "loc": "Remote - Ontario, Canada",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7974507",
-      "posted": "2026-06-01",
-      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "reddit",
-        "id": "7974507"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Reddit",
       "role": "Senior Staff Data Scientist - Consumer Relevance",
       "loc": "Remote - United States",
       "track": "new",
@@ -2907,70 +2590,6 @@
         "type": "greenhouse",
         "token": "reddit",
         "id": "7974605"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Reddit",
-      "role": "Staff Data Scientist, Ads",
-      "loc": "Remote - Ontario, Canada",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7721851",
-      "posted": "2026-03-16",
-      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "reddit",
-        "id": "7721851"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Reddit",
-      "role": "Staff Data Scientist, Consumer",
-      "loc": "Remote - Ontario, Canada",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/7931007",
-      "posted": "2026-05-15",
-      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "reddit",
-        "id": "7931007"
       },
       "status": {
         "live": true,
@@ -3131,38 +2750,6 @@
         "type": "greenhouse",
         "token": "sofi",
         "id": "7697158003"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · checked 2026-07-13"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "SoFi",
-      "role": "Security Product Lead – Product & AI Security",
-      "loc": "WA - Seattle; UT - Cottonwood Heights; CA - San Francisco; NY - New York City; TX - Frisco",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://sofi.com/careers/job/7700757003?gh_jid=7700757003",
-      "posted": "2026-04-15",
-      "note": "Auto-discovered on SoFi's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "sofi",
-        "id": "7700757003"
       },
       "status": {
         "live": true,
@@ -3387,6 +2974,70 @@
       "kind": "pm"
     },
     {
+      "co": "Affirm",
+      "role": "Director of Product Management, Financial Platforms",
+      "loc": "Remote US",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7718659003",
+      "posted": "2026-05-04",
+      "note": "Auto-discovered on Affirm's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7718659003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Affirm",
+      "role": "Senior Product Manager, Credit & Pricing",
+      "loc": "Remote US",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7773691003",
+      "posted": "2026-06-29",
+      "note": "Auto-discovered on Affirm's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7773691003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
       "co": "Airbnb",
       "role": "Lead, Advanced Analytics, Services",
       "loc": "United States",
@@ -3405,6 +3056,230 @@
         "type": "greenhouse",
         "token": "airbnb",
         "id": "7936532"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Instacart",
+      "role": "Ads AI Analytics Lead II",
+      "loc": "United States - Remote",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=7495338",
+      "posted": "2025-12-23",
+      "note": "Auto-discovered on Instacart's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "7495338"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Instacart",
+      "role": "Senior Product Manager, AI",
+      "loc": "United States - Remote",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=8024428",
+      "posted": "2026-06-24",
+      "note": "Auto-discovered on Instacart's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "8024428"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Instacart",
+      "role": "Senior Product Manager, Retailer Platform",
+      "loc": "United States - Remote",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=8014060",
+      "posted": "2026-06-17",
+      "note": "Auto-discovered on Instacart's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "8014060"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Reddit",
+      "role": "Senior Data Science Manager, Marketing",
+      "loc": "Remote - United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7834671",
+      "posted": "2026-04-22",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7834671"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Reddit",
+      "role": "Senior Staff Data Scientist - Consumer Experimentation",
+      "loc": "Remote - United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7974504",
+      "posted": "2026-06-01",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7974504"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Reddit",
+      "role": "Staff Data Scientist, Ads",
+      "loc": "Remote - United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7721787",
+      "posted": "2026-03-16",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7721787"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Reddit",
+      "role": "Staff Data Scientist, Consumer",
+      "loc": "Remote - United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/6745284",
+      "posted": "2025-04-24",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "6745284"
       },
       "status": {
         "live": true,
