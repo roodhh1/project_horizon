@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-07-08",
+  "verified_on": "2026-07-13",
   "roles": [
     {
       "co": "Mercury",
@@ -72,7 +72,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "bridge",
@@ -114,7 +114,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "bridge",
@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-08) (recheck failed 2026-07-08) (recheck failed 2026-07-08)"
+        "v": "Careers page · checked 2026-06-04 (recheck failed 2026-06-04) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-27) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-06-30) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-02) (recheck failed 2026-07-08) (recheck failed 2026-07-08) (recheck failed 2026-07-08) (recheck failed 2026-07-13)"
       },
       "referral": {
         "level": "bridge",
@@ -198,7 +198,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "bridge",
@@ -240,7 +240,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Live (closing? unconfirmed) · 2026-07-13"
       },
       "referral": {
         "level": "bridge",
@@ -282,7 +282,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "direct",
@@ -324,7 +324,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "direct",
@@ -366,7 +366,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "direct",
@@ -408,7 +408,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "direct",
@@ -450,7 +450,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Live (closing? unconfirmed) · 2026-07-13"
       },
       "referral": {
         "level": "direct",
@@ -493,7 +493,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-07-08"
+        "v": "LinkedIn posting · checked 2026-07-13"
       },
       "referral": {
         "level": "bridge",
@@ -536,7 +536,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-07-08"
+        "v": "LinkedIn posting · checked 2026-07-13"
       },
       "referral": {
         "level": "direct",
@@ -579,7 +579,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-07-08"
+        "v": "LinkedIn posting · checked 2026-07-13"
       },
       "referral": {
         "level": "bridge",
@@ -1077,7 +1077,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1108,7 +1108,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1139,7 +1139,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1170,7 +1170,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1201,7 +1201,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1232,7 +1232,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1263,7 +1263,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1294,7 +1294,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1325,7 +1325,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1356,7 +1356,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Live (closing? unconfirmed) · 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1387,7 +1387,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1418,7 +1418,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1449,7 +1449,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1502,37 +1502,6 @@
       "isNew": false
     },
     {
-      "co": "Airbnb",
-      "role": "Lead, Advanced Analytics, Services",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.airbnb.com/positions/7936532?gh_jid=7936532",
-      "posted": "2026-05-19",
-      "note": "Auto-discovered on Airbnb's job board 2026-07-08. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "airbnb",
-        "id": "7936532"
-      },
-      "status": {
-        "live": true,
-        "v": "Board API · discovered 2026-07-08"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true
-    },
-    {
       "co": "Databricks",
       "role": "Principal Data Scientist",
       "loc": "Mountain View, California; San Francisco, California",
@@ -1554,7 +1523,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1585,7 +1554,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-08"
+        "v": "Board API · checked 2026-07-13"
       },
       "referral": {
         "level": "pending",
@@ -1593,6 +1562,2150 @@
       },
       "discovered": true,
       "isNew": true
+    },
+    {
+      "co": "Affirm",
+      "role": "Director of Product Management, Financial Platforms",
+      "loc": "Remote Canada",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7718661003",
+      "posted": "2026-05-04",
+      "note": "Auto-discovered on Affirm's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7718661003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Affirm",
+      "role": "Senior Product Manager, Credit & Pricing",
+      "loc": "Remote Canada",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7773693003",
+      "posted": "2026-06-29",
+      "note": "Auto-discovered on Affirm's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7773693003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Affirm",
+      "role": "Senior Product Manager, Financial Platforms",
+      "loc": "Remote US",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7605850003",
+      "posted": "2026-01-28",
+      "note": "Auto-discovered on Affirm's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7605850003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Affirm",
+      "role": "Staff Product Manager, App Platform & Experience",
+      "loc": "Remote US",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7776437003",
+      "posted": "2026-06-18",
+      "note": "Auto-discovered on Affirm's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7776437003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Airbnb",
+      "role": "Lead, Advanced Analytics, Hosting Services (Mexico)",
+      "loc": "Mexico",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/7964205?gh_jid=7964205",
+      "posted": "2026-06-02",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "7964205"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Airbnb",
+      "role": "Lead, Advanced Analytics, Services",
+      "loc": "United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/7936532?gh_jid=7936532",
+      "posted": "2026-05-19",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "7936532"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Airbnb",
+      "role": "Senior Staff, Advanced Analytics",
+      "loc": "United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/7943874?gh_jid=7943874",
+      "posted": "2026-05-20",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "7943874"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Airbnb",
+      "role": "Senior Staff Data Engineer - Data Stewardship",
+      "loc": "United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/7998356?gh_jid=7998356",
+      "posted": "2026-06-10",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "7998356"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Airbnb",
+      "role": "Senior Staff Data Scientist, Guest & Host Marketplace AI",
+      "loc": "Remote",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/7107054?gh_jid=7107054",
+      "posted": "2025-07-25",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "7107054"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Airbnb",
+      "role": "Staff, Advanced Analytics, Global Markets and Policy",
+      "loc": "United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/7822824?gh_jid=7822824",
+      "posted": "2026-04-16",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "7822824"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Airbnb",
+      "role": "Staff Analyst, Advanced Analytics, Payments",
+      "loc": "United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/8003341?gh_jid=8003341",
+      "posted": "2026-06-22",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "8003341"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Airbnb",
+      "role": "Staff Data Scientist, Guest & Host",
+      "loc": "United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/7705262?gh_jid=7705262",
+      "posted": "2026-03-11",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "7705262"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Airbnb",
+      "role": "Staff Data Scientist - Long Term Impact",
+      "loc": "Remote - USA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/8042680?gh_jid=8042680",
+      "posted": "2026-07-02",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "8042680"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Brex",
+      "role": "Director of Product, Growth/AI",
+      "loc": "Seattle, Washington, United States",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.brex.com/careers/8433470002?gh_jid=8433470002",
+      "posted": "2026-02-23",
+      "note": "Auto-discovered on Brex's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "brex",
+        "id": "8433470002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Brex",
+      "role": "Senior Product Manager, AI",
+      "loc": "Seattle, Washington, United States",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.brex.com/careers/8616327002?gh_jid=8616327002",
+      "posted": "2026-07-01",
+      "note": "Auto-discovered on Brex's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "brex",
+        "id": "8616327002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Brex",
+      "role": "Staff Product Manager, AI",
+      "loc": "New York, New York, United States",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.brex.com/careers/8616324002?gh_jid=8616324002",
+      "posted": "2026-07-01",
+      "note": "Auto-discovered on Brex's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "brex",
+        "id": "8616324002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Brex",
+      "role": "Staff Product Manager, Growth",
+      "loc": "New York, New York, United States",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.brex.com/careers/8436528002?gh_jid=8436528002",
+      "posted": "2026-02-24",
+      "note": "Auto-discovered on Brex's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "brex",
+        "id": "8436528002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Chime",
+      "role": "Staff Data Scientist, Finance Analytics",
+      "loc": "San Francisco, CA, USA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://boards.greenhouse.io/chime/jobs/8624510002?gh_jid=8624510002",
+      "posted": "2026-07-08",
+      "note": "Auto-discovered on Chime's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "chime",
+        "id": "8624510002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Coinbase",
+      "role": "Group Product Manager, Payments Core",
+      "loc": "Remote - USA",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.coinbase.com/careers/positions/7991474?gh_jid=7991474",
+      "posted": "2026-06-10",
+      "note": "Auto-discovered on Coinbase's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "coinbase",
+        "id": "7991474"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Coinbase",
+      "role": "Technical Program Manager, GFCO Analytics",
+      "loc": "Remote - USA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.coinbase.com/careers/positions/8024877?gh_jid=8024877",
+      "posted": "2026-07-08",
+      "note": "Auto-discovered on Coinbase's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "coinbase",
+        "id": "8024877"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Databricks",
+      "role": "Sr. Product Manager, Compute Platform",
+      "loc": "Seattle, Washington",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8200284002",
+      "posted": "2025-10-06",
+      "note": "Auto-discovered on Databricks's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "databricks",
+        "id": "8200284002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Databricks",
+      "role": "Sr. Product Manager, Databricks AI",
+      "loc": "San Francisco, California",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136071002",
+      "posted": "2025-08-25",
+      "note": "Auto-discovered on Databricks's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "databricks",
+        "id": "8136071002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Databricks",
+      "role": "Sr. Product Manager, Databricks Free Edition",
+      "loc": "San Francisco, California",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7680573002",
+      "posted": "2024-10-11",
+      "note": "Auto-discovered on Databricks's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "databricks",
+        "id": "7680573002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Databricks",
+      "role": "Sr. Product Manager, Databricks Repos",
+      "loc": "San Francisco, California",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002",
+      "posted": "2025-12-05",
+      "note": "Auto-discovered on Databricks's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "databricks",
+        "id": "8326513002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Databricks",
+      "role": "Sr. Product Manager, Data Engineering",
+      "loc": "San Francisco, California",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6322654002",
+      "posted": "2022-08-11",
+      "note": "Auto-discovered on Databricks's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "databricks",
+        "id": "6322654002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Databricks",
+      "role": "Sr. Product Manager, Data Governance",
+      "loc": "San Francisco, California",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7863365002",
+      "posted": "2025-02-13",
+      "note": "Auto-discovered on Databricks's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "databricks",
+        "id": "7863365002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Databricks",
+      "role": "Staff Data Scientist ",
+      "loc": "San Francisco, California",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5507088002",
+      "posted": "2021-08-27",
+      "note": "Auto-discovered on Databricks's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "databricks",
+        "id": "5507088002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Databricks",
+      "role": "Staff Data Scientist - Infrastructure",
+      "loc": "Mountain View, California",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7069793002",
+      "posted": "2023-12-19",
+      "note": "Auto-discovered on Databricks's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "databricks",
+        "id": "7069793002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Databricks",
+      "role": "Staff Product Manager, Agentic AI Applications",
+      "loc": "Mountain View, California; San Francisco, California",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560772002",
+      "posted": "2026-06-23",
+      "note": "Auto-discovered on Databricks's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "databricks",
+        "id": "8560772002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Databricks",
+      "role": "Staff Product Manager, AI Platform",
+      "loc": "Seattle, Washington",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8427940002",
+      "posted": "2026-02-18",
+      "note": "Auto-discovered on Databricks's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "databricks",
+        "id": "8427940002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "DoorDash",
+      "role": "Director, Analytics, New Verticals Consumer",
+      "loc": "New York, NY; San Francisco, CA; Seattle, WA; Sunnyvale, CA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8052254",
+      "posted": "2026-07-10",
+      "note": "Auto-discovered on DoorDash's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "doordashusa",
+        "id": "8052254"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Gusto",
+      "role": "Staff Data Scientist - Time Products",
+      "loc": "San Francisco, CA - Hybrid; New York, NY - Hybrid;",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/gusto/jobs/7524662",
+      "posted": "2026-01-09",
+      "note": "Auto-discovered on Gusto's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "gusto",
+        "id": "7524662"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Instacart",
+      "role": "Senior Product Manager, AI",
+      "loc": "Canada - Remote (ON, AB, BC, or NS Only)",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=8024430",
+      "posted": "2026-06-24",
+      "note": "Auto-discovered on Instacart's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "8024430"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Instacart",
+      "role": "Senior Product Manager, Growth Marketing Platform",
+      "loc": "United States - Remote",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=8044197",
+      "posted": "2026-07-02",
+      "note": "Auto-discovered on Instacart's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "8044197"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Instacart",
+      "role": "Senior Product Manager, Retailer Platform",
+      "loc": "Canada - Remote (ON, AB, BC, or NS Only)",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=8014062",
+      "posted": "2026-06-17",
+      "note": "Auto-discovered on Instacart's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "8014062"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Instacart",
+      "role": "Senior Product Manager, Risk Platform",
+      "loc": "United States - Remote",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=7769924",
+      "posted": "2026-03-31",
+      "note": "Auto-discovered on Instacart's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "7769924"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Lyft",
+      "role": "Staff Data Scientist",
+      "loc": "San Francisco, CA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8620855002?gh_jid=8620855002",
+      "posted": "2026-07-09",
+      "note": "Auto-discovered on Lyft's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "lyft",
+        "id": "8620855002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Lyft",
+      "role": "Staff Data Scientist, Decisions - Partnership, Loyalty & Pay",
+      "loc": "New York, NY",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8571591002?gh_jid=8571591002",
+      "posted": "2026-06-01",
+      "note": "Auto-discovered on Lyft's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "lyft",
+        "id": "8571591002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Lyft",
+      "role": "Staff Growth Product Manager, Lyft Business",
+      "loc": "New York, NY",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8547683002?gh_jid=8547683002",
+      "posted": "2026-05-13",
+      "note": "Auto-discovered on Lyft's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "lyft",
+        "id": "8547683002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Lyft",
+      "role": "Staff Product Manager, Lyft AI Platform & Marketplace Applications",
+      "loc": "San Francisco, CA",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8461144002?gh_jid=8461144002",
+      "posted": "2026-03-12",
+      "note": "Auto-discovered on Lyft's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "lyft",
+        "id": "8461144002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Nubank",
+      "role": "Lead ML Data Engineer, AI Core",
+      "loc": "USA, Durham; USA, Miami; USA, Palo Alto",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/nubank/jobs/7645916",
+      "posted": "2026-02-23",
+      "note": "Auto-discovered on Nubank's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "nubank",
+        "id": "7645916"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Pinterest",
+      "role": "Staff Data Scientist, Ads Delivery",
+      "loc": "Seattle, WA, US; Remote, US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7985294",
+      "posted": "2026-06-25",
+      "note": "Auto-discovered on Pinterest's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "pinterest",
+        "id": "7985294"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Pinterest",
+      "role": "Staff Data Scientist, Ads Product",
+      "loc": "San Francisco, CA, US; Seattle, WA, US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7963755",
+      "posted": "2026-06-10",
+      "note": "Auto-discovered on Pinterest's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "pinterest",
+        "id": "7963755"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Pinterest",
+      "role": "Staff Data Scientist, Finance & Business Ops",
+      "loc": "San Francisco, CA, US; Remote, US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8036273",
+      "posted": "2026-07-10",
+      "note": "Auto-discovered on Pinterest's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "pinterest",
+        "id": "8036273"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Pinterest",
+      "role": "Staff Data Scientist, Forecasting",
+      "loc": "San Francisco, CA, US; Remote, US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8001932",
+      "posted": "2026-06-23",
+      "note": "Auto-discovered on Pinterest's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "pinterest",
+        "id": "8001932"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Pinterest",
+      "role": "Staff Product Manager, AI/ML Personalization",
+      "loc": "San Francisco, CA, US; Remote, US",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7368194",
+      "posted": "2025-11-13",
+      "note": "Auto-discovered on Pinterest's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "pinterest",
+        "id": "7368194"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Pinterest",
+      "role": "Staff Product Manager, AI Safety",
+      "loc": "San Francisco, CA, US; Remote, US",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7718015",
+      "posted": "2026-03-31",
+      "note": "Auto-discovered on Pinterest's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "pinterest",
+        "id": "7718015"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Pinterest",
+      "role": "Staff Product Manager, Model Lifecycle & Management",
+      "loc": "San Francisco, CA, US; Remote, US",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7905508",
+      "posted": "2026-05-22",
+      "note": "Auto-discovered on Pinterest's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "pinterest",
+        "id": "7905508"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Reddit",
+      "role": "Senior Director of Product, Ads Platform",
+      "loc": "Remote - United States",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7746311",
+      "posted": "2026-03-24",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7746311"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Reddit",
+      "role": "Senior Staff Data Scientist - Consumer Experimentation",
+      "loc": "Remote - Ontario, Canada",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7974507",
+      "posted": "2026-06-01",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7974507"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Reddit",
+      "role": "Senior Staff Data Scientist - Consumer Relevance",
+      "loc": "Remote - United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7974605",
+      "posted": "2026-06-01",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7974605"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Reddit",
+      "role": "Staff Data Engineer, Corporate Engineering ",
+      "loc": "Remote - United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8039702",
+      "posted": "2026-07-02",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "8039702"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Reddit",
+      "role": "Staff Data Scientist, Ads",
+      "loc": "Remote - Ontario, Canada",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7721851",
+      "posted": "2026-03-16",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7721851"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Reddit",
+      "role": "Staff Data Scientist, Consumer",
+      "loc": "Remote - Ontario, Canada",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7931007",
+      "posted": "2026-05-15",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7931007"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Reddit",
+      "role": "Staff Data Scientist, Marketing",
+      "loc": "Remote - United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7445240",
+      "posted": "2026-05-05",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7445240"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Reddit",
+      "role": "Staff Product Manager, Growth",
+      "loc": "Remote - United States",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7997186",
+      "posted": "2026-06-15",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7997186"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Reddit",
+      "role": "Staff Technical Product Manager, Ads ML Platform ",
+      "loc": "Remote - United States",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7954001",
+      "posted": "2026-05-22",
+      "note": "Auto-discovered on Reddit's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "reddit",
+        "id": "7954001"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Robinhood",
+      "role": "Staff Data Scientist,  ML (Credit Risk)",
+      "loc": "Menlo Park, CA; New York, NY; Washington, DC",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7997218?t=gh_src=&gh_jid=7997218",
+      "posted": "2026-06-10",
+      "note": "Auto-discovered on Robinhood's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "robinhood",
+        "id": "7997218"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "SoFi",
+      "role": "Principal Product Manager, Real-Time Payments Platform",
+      "loc": "WA - Seattle; CA - San Francisco   ",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://sofi.com/careers/job/7697158003?gh_jid=7697158003",
+      "posted": "2026-04-14",
+      "note": "Auto-discovered on SoFi's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "sofi",
+        "id": "7697158003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "SoFi",
+      "role": "Security Product Lead – Product & AI Security",
+      "loc": "WA - Seattle; UT - Cottonwood Heights; CA - San Francisco; NY - New York City; TX - Frisco",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://sofi.com/careers/job/7700757003?gh_jid=7700757003",
+      "posted": "2026-04-15",
+      "note": "Auto-discovered on SoFi's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "sofi",
+        "id": "7700757003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "SoFi",
+      "role": "Staff Marketing Data Scientist",
+      "loc": "CA - San Francisco",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://sofi.com/careers/job/7602838003?gh_jid=7602838003",
+      "posted": "2026-07-10",
+      "note": "Auto-discovered on SoFi's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "sofi",
+        "id": "7602838003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "SoFi",
+      "role": "Staff Risk AI & Data Engineer",
+      "loc": "United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://sofi.com/careers/job/7704502003?gh_jid=7704502003",
+      "posted": "2026-04-20",
+      "note": "Auto-discovered on SoFi's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "sofi",
+        "id": "7704502003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Stripe",
+      "role": "Product Lead, AI",
+      "loc": "San Francisco, Seattle, New York, Chicago",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7655023",
+      "posted": "2026-02-25",
+      "note": "Auto-discovered on Stripe's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "stripe",
+        "id": "7655023"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Stripe",
+      "role": "Product Lead, Data Products",
+      "loc": "New York City, San Francisco ",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=8014786",
+      "posted": "2026-06-18",
+      "note": "Auto-discovered on Stripe's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "stripe",
+        "id": "8014786"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Stripe",
+      "role": "Staff Product Manager, Cards Monetization",
+      "loc": "Seattle, San Francisco, New York, US - Remote",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7980498",
+      "posted": "2026-06-03",
+      "note": "Auto-discovered on Stripe's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "stripe",
+        "id": "7980498"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Stripe",
+      "role": "Staff Product Manager, ML Foundations and GenAI",
+      "loc": "Seattle, San Francisco, New York, US - Remote",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7517535",
+      "posted": "2026-01-21",
+      "note": "Auto-discovered on Stripe's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "stripe",
+        "id": "7517535"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Stripe",
+      "role": "Staff Product Manager, Payments",
+      "loc": "SF, SEA, NYC, Remote",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7819059",
+      "posted": "2026-04-15",
+      "note": "Auto-discovered on Stripe's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "stripe",
+        "id": "7819059"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-13"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
     }
   ]
 }
