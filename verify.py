@@ -412,14 +412,27 @@ def main():
         # drop off-wedge titles; stamp review scores onto the keepers.
         if role.get("discovered") and not role.get("pinned"):
             key = role["co"] + "|" + role["role"]
-            # PM finds are curated at discovery time (their own 3-part test); do NOT
-            # run the DS off-wedge filter on them — "product manager" is a SOFT_NEGATIVE
-            # there and would wrongly drop every PM role.
-            if role.get("kind") != "pm":
-                if key in EXCLUDE_KEYS or _off_wedge(role["role"].lower()):
-                    pruned.append(role)
-                    print(f"  DROP  {key} (off-wedge — curated out)")
-                    continue
+            tl = role["role"].lower()
+            # Retroactive curation — re-apply the CURRENT criteria to roles discovered
+            # on earlier runs (older loosenings), so tightening the filters self-heals
+            # the board instead of only affecting brand-new finds:
+            #   (1) location must still be US / remote-US / Mexico City (drops e.g.
+            #       "Remote Canada" finds from a looser era);
+            #   (2) PM finds must clear HARD_NEGATIVE (drops AI-safety / security /
+            #       data-engineering PM that predate that rule);
+            #   (3) DS finds must still be on-wedge (EXCLUDE_KEYS / _off_wedge).
+            drop_reason = None
+            if not _loc_ok((role.get("loc") or "").lower()):
+                drop_reason = "off-geo (not US/MX)"
+            elif role.get("kind") == "pm":
+                if any(h in tl for h in HARD_NEGATIVE):
+                    drop_reason = "off-wedge PM"
+            elif key in EXCLUDE_KEYS or _off_wedge(tl):
+                drop_reason = "off-wedge"
+            if drop_reason:
+                pruned.append(role)
+                print(f"  DROP  {key} ({drop_reason} — curated out)")
+                continue
             if key in DISCOVERED_SCORES:
                 role["score"] = DISCOVERED_SCORES[key]
                 role["isNew"] = False
