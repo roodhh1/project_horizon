@@ -328,11 +328,20 @@ def merge_pipeline(kept):
     if not pipe:
         return kept
     by_key = {r["co"] + "|" + r["role"]: r for r in kept}
+    # Fields an override may stamp onto an auto-discovered role. Beyond app/pinned,
+    # an override can now carry a review score, comp-fit, referral, and fit block so
+    # pinned finds show a fit ring + comp tag + warm-path (instead of the "NEW" pill).
+    OV_FIELDS = ("app", "score", "compFit", "referral", "fit", "domain",
+                 "comp", "tier", "trackLabel")
     for key, ov in (pipe.get("overrides") or {}).items():
         if key in by_key:
-            by_key[key]["pinned"] = True
-            if "app" in ov:
-                by_key[key]["app"] = ov["app"]
+            r = by_key[key]
+            r["pinned"] = True
+            for fld in OV_FIELDS:
+                if fld in ov:
+                    r[fld] = ov[fld]
+            if "score" in ov:      # a scored pin is no longer an unreviewed "NEW"
+                r["isNew"] = False
             print(f"  PIPE  override {key}")
     for pr in (pipe.get("pinned_roles") or []):
         pr = dict(pr)

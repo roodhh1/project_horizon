@@ -538,6 +538,12 @@
     "stage": "to-apply",
     "since": "2026-07-13",
     "note": "TOP PICK — Director step-up that also clears the comp bar; growth+AI product at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) and Jessica Hansen Vi (Brex product recruiter, 2nd°). Sourced via the 7/13 expanded Beacon search (Sr-PM lane)."
+   },
+   "score": 8.5,
+   "compFit": "border",
+   "referral": {
+    "level": "bridge",
+    "text": "Shone Barton (‘Hiring Product @Brex’, 2nd°) / Jessica Hansen Vi (Brex product recruiter, 2nd°)."
    }
   },
   "DoorDash|Director, Analytics, New Verticals Consumer": {
@@ -545,6 +551,12 @@
     "stage": "applied",
     "since": "2026-07-13",
     "note": "APPLIED 7/13. Referral REQUESTED from 1st° Jasper (DoorDash) 7/13 — follow up if no reply in a few days. Also warm: Ethan Zhu (DS&A leadership / Sunnyvale site lead, 2nd° ~32 mut); Maximiliano Medina García (1st°). Director step-up, consumer growth/experimentation at scale, clears comp bar. Sourced via expanded Beacon search 7/13."
+   },
+   "score": 8.4,
+   "compFit": "border",
+   "referral": {
+    "level": "bridge",
+    "text": "Ethan Zhu (DS&A lead, 2nd° ~32 mut); 1st° Jasper (referral requested 7/13) + Maximiliano Medina García."
    }
   },
   "Affirm|Senior Product Manager, Financial Platforms": {
@@ -552,6 +564,12 @@
     "stage": "to-apply",
     "since": "2026-07-13",
     "note": "Fintech platform PM, US-based. WARM PATH: Angela Z. (Product, Marketplace Pricing & Incentives, 2nd°) via 1st° Amy Smith — your credit/pricing story lands; also Jeff Lee (Staff PM, 2nd°), Melissa L. via Julia Rezende. Expanded Beacon search 7/13."
+   },
+   "score": 7.7,
+   "compFit": "below",
+   "referral": {
+    "level": "bridge",
+    "text": "Angela Z. (Pricing PM, 2nd°) via Amy Smith; Jeff Lee (Staff PM, 2nd°)."
    }
   },
   "Stripe|Staff Product Manager, Cards Monetization": {
@@ -559,6 +577,12 @@
     "stage": "to-apply",
     "since": "2026-07-13",
     "note": "Core wedge — cards monetization + payments. WARM PATH (DS org): Matt DeLand (Head of DS, 2nd°) via broker Karan Kushwaha; Pierre Garrigues (Head of Core Payments DS). NOTE: sweep Stripe's PRODUCT org for a closer product-side intro before outreach. Expanded Beacon search 7/13."
+   },
+   "score": 8.2,
+   "compFit": "border",
+   "referral": {
+    "level": "bridge",
+    "text": "Matt DeLand (Head of DS, 2nd°) via Karan Kushwaha; sweep Stripe product org."
    }
   },
   "Stripe|Product Lead, Data Products": {
@@ -566,6 +590,12 @@
     "stage": "to-apply",
     "since": "2026-07-13",
     "note": "Data-product leadership, senior scope. WARM PATH: same Stripe DS path (Matt DeLand via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd°). Product-side intro would strengthen it. Expanded Beacon search 7/13."
+   },
+   "score": 8.0,
+   "compFit": "border",
+   "referral": {
+    "level": "bridge",
+    "text": "Stripe DS path: Matt DeLand via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd°)."
    }
   },
   "Brex|Staff Product Manager, Growth": {
@@ -573,6 +603,12 @@
     "stage": "to-apply",
     "since": "2026-07-13",
     "note": "Growth PM at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) / Jessica Hansen Vi (Brex product recruiter, 2nd°). Expanded Beacon search 7/13."
+   },
+   "score": 7.8,
+   "compFit": "below",
+   "referral": {
+    "level": "bridge",
+    "text": "Shone Barton / Jessica Hansen Vi (Brex, 2nd°)."
    }
   },
   "Chime|Staff Data Scientist, Finance Analytics": {
@@ -580,6 +616,12 @@
     "stage": "to-apply",
     "since": "2026-07-13",
     "note": "Fintech DS (senior-IC lane). WARM PATH: Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño. Expanded Beacon search 7/13."
+   },
+   "score": 7.6,
+   "compFit": "below",
+   "referral": {
+    "level": "bridge",
+    "text": "Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño."
    }
   },
   "SoFi|Staff Marketing Data Scientist": {
@@ -587,6 +629,12 @@
     "stage": "to-apply",
     "since": "2026-07-13",
     "note": "Marketing DS at a fintech — SoFi is your strongest historical domain fit. WARM PATH: Kerstin Brümann (Manager, Marketing Data Science @SoFi, 2nd°) via Saurabh Kumar; also Kang Jian (Sr DS Manager, 2nd°), Nate Belete (Sr Staff DS, 2nd°). Expanded Beacon search 7/13."
+   },
+   "score": 7.9,
+   "compFit": "below",
+   "referral": {
+    "level": "bridge",
+    "text": "Kerstin Brümann (Mgr Marketing DS, 2nd°) via Saurabh Kumar; Kang Jian (Sr DS Mgr, 2nd°)."
    }
   },
   "Figma|Manager, Data Science - AI Product": {
@@ -594,6 +642,12 @@
     "stage": "to-apply",
     "since": "2026-07-13",
     "note": "NEW-INDUSTRY TOP PICK — DS people-management on an AI product at a top design unicorn; product analytics + AI = your lane, likely clears comp. WARM PATH: Joe Mandozzi (1st° who works at Figma — inside) → Parth Patel (DS Manager, ex-Meta, 2nd°) / Sharath Chandra (Data Leader, 2nd°). Sourced via all-industry DS broadening 7/13."
+   },
+   "score": 8.3,
+   "compFit": "border",
+   "referral": {
+    "level": "bridge",
+    "text": "Joe Mandozzi (1st°, inside Figma) → Parth Patel (DS Mgr, ex-Meta, 2nd°) / Sharath Chandra (Data Leader, 2nd°)."
    }
   },
   "Roblox|Technical Director - Data Science (Discovery)": {
@@ -601,6 +655,12 @@
     "stage": "to-apply",
     "since": "2026-07-13",
     "note": "NEW-INDUSTRY TOP PICK — Director step-up; Discovery = recommendation/engagement/growth DS at massive consumer scale (gaming). WARM PATH: Jose Abelenda (Director of DS, ex-Lyft, 2nd°) via Saurabh Kumar; Henry Lin (Creator DS, 2nd°). All-industry DS broadening 7/13."
+   },
+   "score": 8.4,
+   "compFit": "border",
+   "referral": {
+    "level": "bridge",
+    "text": "Jose Abelenda (Director DS, ex-Lyft, 2nd°) via Saurabh Kumar; Henry Lin (Creator DS, 2nd°)."
    }
   },
   "OpenAI|Marketing Analytics Lead": {
