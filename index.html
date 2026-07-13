@@ -463,12 +463,16 @@ function homeView(){
   </div>`;
 }
 
-let listMode='top', listTrack='', listQuery='', listComp='', listConf='', listSort='fit';
+let listMode='top', listTrack='', listQuery='', listComp='', listConf='', listSort='fit', listLane='ds';
 const COMPRANK={at:0,border:1,below:2,null:3};
 function filteredRoles(){
   const rows=ROLES.filter(r=>{
     // Pipeline-tracked roles live on the Pipeline tab; only surface "to apply" here.
     if(stageOf(r) && stageOf(r)!=='to-apply') return false;
+    // Data Science vs Product (PM) lanes — DS is the default focus; PM lives behind its toggle.
+    const isPM = r.track==='pm' || r.kind==='pm';
+    if(listLane==='ds' && isPM) return false;
+    if(listLane==='pm' && !isPM) return false;
     if(listTrack && r.track!==listTrack && r.extraTrack!==listTrack) return false;
     if(listComp && r.compFit!==listComp) return false;
     if(listConf && (r.fit||{}).confidence!==listConf) return false;
@@ -490,11 +494,15 @@ function sel(label,key,opts){
 function rolesView(){
   setTimeout(()=>{const s=document.getElementById('q');if(s)s.value=listQuery;},0);
   const base=filteredRoles();
-  const rows=listMode==='top'?base.filter(r=>(r.score??0)>=7):base;
-  const lower=base.filter(r=>(r.score??0)<7).length;
+  const rows=(listLane==='pm')?base:(listMode==='top'?base.filter(r=>(r.score??0)>=7):base);
+  const lower=(listLane==='pm')?0:base.filter(r=>(r.score??0)<7).length;
   const tracks=[['','All'],['domain','Domain'],['lateral','Lateral'],['stepup','Step-up'],['stretch','Stretch']];
   return `<div class="view">
     <h1 class="display" style="font-size:30px">Opportunities</h1>
+    <div class="seg" style="margin-bottom:12px">
+      <button class="${listLane==='ds'?'on':''}" onclick="listLane='ds';listTrack='';router()">Data Science</button>
+      <button class="${listLane==='pm'?'on':''}" onclick="listLane='pm';listTrack='';router()">Product (PM)</button>
+    </div>
     <div class="controls">
       <div class="seg">
         <button class="${listMode==='top'?'on':''}" onclick="listMode='top';router()">Top matches</button>
@@ -502,7 +510,7 @@ function rolesView(){
       </div>
       <div class="search">${icon('search')}<input id="q" placeholder="Search company or role" oninput="listQuery=this.value;rerenderList()"></div>
     </div>
-    <div class="chiprow">${tracks.map(([v,l])=>`<button class="fchip ${listTrack===v?'on':''}" onclick="listTrack='${v}';router()">${l}</button>`).join('')}</div>
+    ${listLane==='ds'?`<div class="chiprow">${tracks.map(([v,l])=>`<button class="fchip ${listTrack===v?'on':''}" onclick="listTrack='${v}';router()">${l}</button>`).join('')}</div>`:''}
     <div class="fbar">
       ${sel('Comp','comp',[['','Any'],['at','Likely clears'],['border','Borderline'],['below','Below target']])}
       ${sel('Confidence','conf',[['','Any'],['high','High'],['med','Medium'],['low','Low']])}
@@ -514,8 +522,7 @@ function rolesView(){
 }
 function rerenderList(){
   const base=filteredRoles();
-  const rows=listMode==='top'?base.filter(r=>(r.score??0)>=7):base;
-  const lower=base.filter(r=>(r.score??0)<7).length;
+  const rows=(listLane==='pm')?base:(listMode==='top'?base.filter(r=>(r.score??0)>=7):base);
   const lc=document.getElementById('rolelist'); if(lc) lc.innerHTML=listView(rows,'Nothing matches these filters.');
   const cl=document.getElementById('cl'); if(cl) cl.textContent=`${rows.length} role${rows.length===1?'':'s'}`+(listMode==='top'&&lower?` · ${lower} more under 7 in All`:'');
 }

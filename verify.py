@@ -134,6 +134,40 @@ DISCOVER_TOKENS = {
     "nubank": "Nubank",      # major CDMX/LatAm fintech hub
     "uber": "Uber",          # large CDMX data/PM org
     "mercadolibre": "MercadoLibre",  # LatAm marketplace/fintech (may be non-GH)
+
+    # --- BROADENED 2026-07-13: DS beyond tech/fintech, across ALL industries and
+    # including large-cap/established names (Rodrigo widened the DS lane). Unknown
+    # or non-Greenhouse tokens just log a WARN and are skipped, so this list is
+    # deliberately generous — the wedge + level filters still keep it to
+    # DS/analytics leadership on his wedge.
+    # Healthcare / biotech / health-tech
+    "oscar": "Oscar Health", "devoted": "Devoted Health", "cedar": "Cedar",
+    "tempus": "Tempus", "hingehealth": "Hinge Health",
+    "includedhealth": "Included Health", "headway": "Headway",
+    "springhealth": "Spring Health", "benchling": "Benchling",
+    "komodohealth": "Komodo Health", "flatironhealth": "Flatiron Health",
+    "recursionpharmaceuticals": "Recursion", "grail": "GRAIL", "ro": "Ro",
+    # Media / gaming / streaming / entertainment
+    "roblox": "Roblox", "discord": "Discord", "draftkings": "DraftKings",
+    "scopely": "Scopely", "fanatics": "Fanatics", "sportradar": "Sportradar",
+    "warnerbrosdiscovery": "Warner Bros. Discovery",
+    # Retail / e-commerce / CPG / consumer brands
+    "wayfair": "Wayfair", "chewy": "Chewy", "warbyparker": "Warby Parker",
+    "sweetgreen": "Sweetgreen", "peloton": "Peloton", "faire": "Faire",
+    "whatnot": "Whatnot", "gopuff": "Gopuff", "thredup": "ThredUp",
+    "renttherunway": "Rent the Runway",
+    # Enterprise SaaS / dev-tools / AI-native / productivity
+    "figma": "Figma", "notion": "Notion", "airtable": "Airtable",
+    "amplitude": "Amplitude", "samsara": "Samsara", "gong": "Gong",
+    "vanta": "Vanta", "webflow": "Webflow", "scaleai": "Scale AI",
+    "retool": "Retool", "grammarly": "Grammarly", "miro": "Miro",
+    # Travel / mobility / marketplaces
+    "turo": "Turo", "hopper": "Hopper", "lime": "Lime",
+    # Adtech / martech
+    "klaviyo": "Klaviyo", "attentive": "Attentive", "braze": "Braze",
+    "iterable": "Iterable", "thetradedesk": "The Trade Desk",
+    # Insurance / proptech
+    "lemonade": "Lemonade", "opendoor": "Opendoor",
 }
 
 # --- Wedge curation ----------------------------------------------------------
