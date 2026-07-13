@@ -532,5 +532,62 @@
    "isNew": false
   }
  ],
- "overrides": {}
+ "overrides": {
+  "Brex|Director of Product, Growth/AI": {
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-07-13",
+    "note": "TOP PICK — Director step-up that also clears the comp bar; growth+AI product at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) and Jessica Hansen Vi (Brex product recruiter, 2nd°). Sourced via the 7/13 expanded Beacon search (Sr-PM lane)."
+   }
+  },
+  "DoorDash|Director, Analytics, New Verticals Consumer": {
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-07-13",
+    "note": "TOP PICK — Director step-up, consumer growth/experimentation at scale, clears comp bar. WARM PATH: Ethan Zhu (DS&A leadership / Sunnyvale site lead, 2nd° ~32 mut); 1st° Jasper + Maximiliano Medina García. Expanded Beacon search 7/13."
+   }
+  },
+  "Affirm|Senior Product Manager, Financial Platforms": {
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-07-13",
+    "note": "Fintech platform PM, US-based. WARM PATH: Angela Z. (Product, Marketplace Pricing & Incentives, 2nd°) via 1st° Amy Smith — your credit/pricing story lands; also Jeff Lee (Staff PM, 2nd°), Melissa L. via Julia Rezende. Expanded Beacon search 7/13."
+   }
+  },
+  "Stripe|Staff Product Manager, Cards Monetization": {
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-07-13",
+    "note": "Core wedge — cards monetization + payments. WARM PATH (DS org): Matt DeLand (Head of DS, 2nd°) via broker Karan Kushwaha; Pierre Garrigues (Head of Core Payments DS). NOTE: sweep Stripe's PRODUCT org for a closer product-side intro before outreach. Expanded Beacon search 7/13."
+   }
+  },
+  "Stripe|Product Lead, Data Products": {
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-07-13",
+    "note": "Data-product leadership, senior scope. WARM PATH: same Stripe DS path (Matt DeLand via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd°). Product-side intro would strengthen it. Expanded Beacon search 7/13."
+   }
+  },
+  "Brex|Staff Product Manager, Growth": {
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-07-13",
+    "note": "Growth PM at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) / Jessica Hansen Vi (Brex product recruiter, 2nd°). Expanded Beacon search 7/13."
+   }
+  },
+  "Chime|Staff Data Scientist, Finance Analytics": {
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-07-13",
+    "note": "Fintech DS (senior-IC lane). WARM PATH: Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño. Expanded Beacon search 7/13."
+   }
+  },
+  "SoFi|Staff Marketing Data Scientist": {
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-07-13",
+    "note": "Marketing DS at a fintech — SoFi is your strongest historical domain fit. WARM PATH: Kerstin Brümann (Manager, Marketing Data Science @SoFi, 2nd°) via Saurabh Kumar; also Kang Jian (Sr DS Manager, 2nd°), Nate Belete (Sr Staff DS, 2nd°). Expanded Beacon search 7/13."
+   }
+  }
+ }
 }
