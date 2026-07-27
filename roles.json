@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27)"
       },
       "referral": {
         "level": "bridge",
@@ -176,48 +176,6 @@
         "yoe_req": "Leads a DS team; experimentation/causal/modeling rigor",
         "candidate": "you: ~11 yrs DS, ~5 yrs leading"
       }
-    },
-    {
-      "co": "Affirm",
-      "role": "Analytics Lead, Full Stack (Credit Analytics)",
-      "loc": "Remote US",
-      "track": "domain",
-      "trackLabel": "Domain-perfect",
-      "extraTrack": "lateral",
-      "score": 6.8,
-      "domain": 4,
-      "comp": "Not posted (est. ~$190K–$250K base)",
-      "compFit": "below",
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7740918003",
-      "note": "Credit/lending domain is a bullseye, but the JD is credit-RISK strategy at an IC 'Lead' level requiring only 4+ yrs — you'd be overqualified and a level down.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "affirm",
-        "id": "7740918003"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-27"
-      },
-      "referral": {
-        "level": "bridge",
-        "text": "<b>No 1st°.</b> <b>NEW — Director-level:</b> Karan Shah (Director, Analytics — 14 mutuals incl. Anita Bowers, Raj Iranyan) = top hiring-chain/intel. <b>Wedge-relevant 2nd°:</b> Aastha (Growth Analytics, 4 mut), Sean Zhong (Analytics Manager, 3 mut), Winnie Xin (Strategy &amp; Analytics), Vinay Buddharaju (Growth Strategy &amp; Analytics). <b>DS:</b> Joohyeun Yi (DS &amp; Analytics, 8 mut), Ruixiang 'James' Fan (DS &amp; Risk Analytics). Recurring broker across fintech: Favio Vazquez."
-      },
-      "discovered": true,
-      "isNew": false,
-      "fit": {
-        "relevance": 8,
-        "level": 6,
-        "experience": 6,
-        "company": 8,
-        "comp": "below",
-        "score": 6.8,
-        "confidence": "high",
-        "yoe_req": "4+ yrs (credit strategy, unsecured lending)",
-        "candidate": "you: ~11 yrs DS, ~5 yrs leading"
-      },
-      "posted": "2026-05-26"
     },
     {
       "co": "DoorDash",
@@ -1405,38 +1363,6 @@
     },
     {
       "co": "Airbnb",
-      "role": "Staff, Advanced Analytics, Global Markets and Policy",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.airbnb.com/positions/7822824?gh_jid=7822824",
-      "posted": "2026-04-16",
-      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "airbnb",
-        "id": "7822824"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-27"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Airbnb",
       "role": "Staff Analyst, Advanced Analytics, Payments",
       "loc": "United States",
       "track": "new",
@@ -2195,38 +2121,6 @@
       "discovered": true,
       "isNew": true,
       "kind": "pm"
-    },
-    {
-      "co": "Pinterest",
-      "role": "Staff Data Scientist, Ads Delivery",
-      "loc": "Seattle, WA, US; Remote, US",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7985294",
-      "posted": "2026-06-25",
-      "note": "Auto-discovered on Pinterest's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "pinterest",
-        "id": "7985294"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-27"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
     },
     {
       "co": "Pinterest",
@@ -3553,38 +3447,6 @@
     },
     {
       "co": "Klaviyo",
-      "role": "Lead Product Designer, AI & Analytics",
-      "loc": "Boston, MA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.klaviyo.com/careers/jobs/7636105003?gh_jid=7636105003",
-      "posted": "2026-03-20",
-      "note": "Auto-discovered on Klaviyo's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "klaviyo",
-        "id": "7636105003"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-27"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Klaviyo",
       "role": "Lead Product Manager, Core Data",
       "loc": "Boston, MA",
       "track": "pm",
@@ -3713,38 +3575,6 @@
     },
     {
       "co": "Komodo Health",
-      "role": "Senior Director, Analytics Consulting",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8510632002",
-      "posted": "2026-04-27",
-      "note": "Auto-discovered on Komodo Health's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "komodohealth",
-        "id": "8510632002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-27"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Komodo Health",
       "role": "Staff Consultant, Analytics Consulting ",
       "loc": "United States",
       "track": "new",
@@ -3766,70 +3596,6 @@
       "status": {
         "live": true,
         "v": "Board API · checked 2026-07-27"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Oscar Health",
-      "role": "Director, Data Science - Risk Adjustment",
-      "loc": "New York, New York, United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "http://www.hioscar.com/careers/7961502?gh_jid=7961502",
-      "posted": "2026-05-28",
-      "note": "Auto-discovered on Oscar Health's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "oscar",
-        "id": "7961502"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-27"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Oscar Health",
-      "role": "Lead Analytics Engineer",
-      "loc": "New York, New York, United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "http://www.hioscar.com/careers/7809846?gh_jid=7809846",
-      "posted": "2026-04-13",
-      "note": "Auto-discovered on Oscar Health's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "oscar",
-        "id": "7809846"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3958,70 +3724,6 @@
       "status": {
         "live": true,
         "v": "Board API · checked 2026-07-27"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "Roblox",
-      "role": "Senior Product Manager - Consumer Platforms (Consoles)",
-      "loc": "San Mateo, CA, United States",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.roblox.com/jobs/7809292?gh_jid=7809292",
-      "posted": "2026-04-14",
-      "note": "Auto-discovered on Roblox's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "roblox",
-        "id": "7809292"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-27"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "Roblox",
-      "role": "Senior Product Manager - Consumer Platforms (Web & Backend)",
-      "loc": "San Mateo, CA, United States",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.roblox.com/jobs/7808950?gh_jid=7808950",
-      "posted": "2026-04-13",
-      "note": "Auto-discovered on Roblox's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "roblox",
-        "id": "7808950"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4444,38 +4146,6 @@
       "status": {
         "live": true,
         "v": "Board API · checked 2026-07-27"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Airbnb",
-      "role": "Lead, Advanced Analytics",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.airbnb.com/positions/7936532?gh_jid=7936532",
-      "posted": "2026-05-19",
-      "note": "Auto-discovered on Airbnb's job board 2026-07-20. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "airbnb",
-        "id": "7936532"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -5053,7 +4723,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-27"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -5085,7 +4755,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-27"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -5117,7 +4787,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-27"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -5149,7 +4819,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-27"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -5181,7 +4851,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-27"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -5213,7 +4883,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-27"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
