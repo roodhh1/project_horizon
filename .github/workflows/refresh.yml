@@ -8,12 +8,17 @@ name: Refresh & deploy Beacon
 on:
   # Manual run from the Actions tab, plus auto-heal when the data files change.
   workflow_dispatch: {}
+  # Daily refresh (restored 2026-07-27). The schedule trigger was dropped in the
+  # Pages-CI rework, so no scheduled run fired after 2026-06-30. Odd minute to
+  # reduce the chance GitHub silently drops the run during top-of-hour congestion.
+  schedule:
+    - cron: "22 15 * * *"
   push:
     branches: [main]
     paths:
-      - "roles.json"                     # auto-heal: a manual upload re-verifies + re-merges
-      - "pipeline.json"                  # editing an application stage updates the live app fast
-      - "index.html"                     # dashboard markup changes republish
+      - "roles.json"                    # auto-heal: a manual upload re-verifies + re-merges
+      - "pipeline.json"                 # editing an application stage updates the live app fast
+      - "index.html"                    # dashboard markup changes republish
       - ".github/workflows/refresh.yml"  # changes to this workflow republish
 
 permissions:
