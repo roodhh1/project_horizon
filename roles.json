@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-07-20",
+  "verified_on": "2026-07-27",
   "roles": [
     {
       "co": "Mercury",
@@ -72,7 +72,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -114,7 +114,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27)"
       },
       "referral": {
         "level": "bridge",
@@ -198,7 +198,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -240,7 +240,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "direct",
@@ -282,7 +282,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "direct",
@@ -324,7 +324,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "direct",
@@ -366,7 +366,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "direct",
@@ -409,7 +409,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-07-20"
+        "v": "LinkedIn posting · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -452,7 +452,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-07-20"
+        "v": "LinkedIn posting · checked 2026-07-27"
       },
       "referral": {
         "level": "direct",
@@ -495,7 +495,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-07-20"
+        "v": "LinkedIn posting · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -794,13 +794,13 @@
       "pinned": true,
       "source": "icims",
       "status": {
-        "live": true,
-        "v": "iCIMS · applied 2026-06-18 (req 2026-76408)"
+        "live": false,
+        "v": "Rejected 2026-07-23 (iCIMS, req 2026-76408)"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-06-18",
-        "note": "APPLIED 6/18 (auto-confirmation via iCIMS, req 2026-76408). No recruiter contact yet. Low priority — off-wedge domain + fails growth bar. Don't invest beyond a screen unless they move fast."
+        "stage": "rejected",
+        "since": "2026-07-23",
+        "note": "REJECTED 7/23 (iCIMS auto-status: 'decided to move forward with other applicants whose skills and experience better align'). No loss — off-wedge USRM insurance DS + failed your high-growth bar; was always a title/comp volume play. No further action."
       },
       "referral": {
         "level": "pending",
@@ -908,12 +908,12 @@
       "source": "linkedin (HM inbound)",
       "status": {
         "live": true,
-        "v": "In process · HM round done 7/9 · awaiting outcome (nudge Kristin ~7/20)"
+        "v": "Rejected 2026-07-24 after HM round (Annie Yang)"
       },
       "app": {
-        "stage": "in-process",
-        "since": "2026-06-29",
-        "note": "INTERVIEW DONE 7/9: completed the 60-min HM technical/discussion round with Annie Yang (Sr. Director, DS Marketing). As of 7/20 no next-round word (~11 days silent, past the 7/16 self-nudge date). ACTION NOW: send Kristin Simmons a short, warm status nudge reiterating strong interest. Still your #1 active role and best of the search (Director title + wedge-perfect: LTV bidding, incrementality/MMM, experimentation on a nine-figure budget). Keep framing spend → LTV-positive policies, not raw volume."
+        "stage": "rejected",
+        "since": "2026-07-24",
+        "note": "REJECTED 7/24 (Rippling ATS, warm boilerplate: 'enjoyed getting to know you... moving forward with candidates whose backgrounds more closely align... happy to stay in touch for future openings'). No specific feedback. This was your #1 role and best wedge-fit of the search — second perfect-fit role (after Mercury) to die at/after the HM stage. Likely gap: JD wanted PhD + hands-on paid-acquisition / LTV-bidding / MMM depth, and your monetization-pricing-lifecycle wedge is adjacent to that, not dead-center. Keep Annie warm (she liked you) — reconnect ~6-8 wks for future Root DS roles. Lesson: on paid-media-specific roles, pre-empt the 'have you owned paid media' question and lead with incrementality/measurement + budget-allocation framing."
       },
       "referral": {
         "level": "direct",
@@ -942,8 +942,8 @@
       "extraTrack": "domain",
       "score": 8.8,
       "domain": 4,
-      "comp": "See posting (Director DS, Ads) — confirm w/ Naren",
-      "compFit": null,
+      "comp": "$174K–$299K base + 0–20% bonus + equity (per posting)",
+      "compFit": "border",
       "tier": "Public e-commerce giant (NYSE: CPNG, ~$34.5B rev) · Coupang Ads",
       "url": "https://www.coupang.jobs/en/",
       "note": "REACTIVATED & HOT (7/20). What looked like a generic 'Director of DS' is really a DIRECTOR, ADS ANALYTICS role inside Coupang Ads — owning the financial goals of the ads product line: auction/monetization models, ad revenue & inventory forecasting, rigorous A/B testing, and advertiser adoption/churn KPIs across e-commerce + the Eats app. That is a WEDGE BULLSEYE for your monetization + experimentation + 0→1 story (auction = a monetization mechanism; the leadership problem is the same one you ran with TurboTax pricing and 5DE lending). Strategic tailwind: as Coupang's core retail margins compress (net loss in Q1'26), retail-media/ads is the highest-margin lever in the P&L — this org is a profit engine, not a cost center. HM = Siddharth Gupta (Director II, DS & Analytics, AdTech; ex-Meta / NerdWallet Head of Marketing Analytics / eBay — path overlaps yours). Domain gap = ad-tech/auctions; bridge it, don't hide it. See the prep cockpit: Coupang_HM_Prep_SiddharthGupta.html.",
@@ -951,12 +951,12 @@
       "source": "linkedin (applied 7/1) → recruiter engaged 7/15",
       "status": {
         "live": true,
-        "v": "In process · HM screen scheduled ~Aug 5–7 with Siddharth Gupta (Director, DS — Ads)"
+        "v": "In process · HM screen CONFIRMED Wed Aug 12, 11:30am PT w/ Sid Gupta (Director II, DS – Ads)"
       },
       "app": {
         "stage": "in-process",
         "since": "2026-07-01",
-        "note": "ADVANCED 7/20. Recruiter Naren Barve (Principal Talent Advisor, Coupang) reached out 7/15, did a recruiter screen (call 7/20, 3pm PT), and is moving you to a 30-MIN HIGH-LEVEL HM SCREEN with Siddharth Gupta (Director II, DS & Analytics, AdTech). HM is on PTO until 8/4, so the interview lands ~Aug 5–7 (TBD). ACTIONS: (1) prep with Coupang_HM_Prep_SiddharthGupta.html — lead with monetization/experimentation, get ahead of the ad-tech gap, land 'why Coupang Ads specifically'; (2) confirm exact date/format + COMP band with Naren; (3) send a short thank-you same day. This is now a top-2 active lead alongside Root."
+        "note": "#1 ACTIVE LEAD (as of 7/27, after Root's rejection). HM screen CONFIRMED: Wed Aug 12, 2026, 11:30am–12:00pm PT (30 min, solo w/ Siddharth 'Sid' Gupta, Director II, DS & Analytics, AdTech). Zoom coupang.zoom.us/j/97502012188. NDA completed 7/23; coordinator Annie Kim. Comp band on the posting: $174K–$299K base + 0–20% bonus + equity (confirm total w/ Naren). Coupang sent their Leadership Principles deck → expect LP-flavored behavioral answers. Prep with Coupang_HM_Prep_SiddharthGupta.html: lead with monetization + Meta-grade experimentation, bridge the ad-tech/auction gap, land 'why Coupang Ads specifically', send same-day thank-you referencing something Sid said."
       },
       "referral": {
         "level": "direct",
@@ -967,7 +967,7 @@
         "level": 9,
         "experience": 8,
         "company": 9,
-        "comp": "unknown",
+        "comp": "border",
         "score": 8.8,
         "confidence": "high",
         "yoe_req": "10+ yrs DS, 7+ managing (per Ads Analytics remit)",
@@ -999,7 +999,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1030,69 +1030,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": false
-    },
-    {
-      "co": "Airbnb",
-      "role": "Lead, Advanced Analytics, Product",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": 7.4,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.airbnb.com/positions/7612790?gh_jid=7612790",
-      "posted": "2026-02-13",
-      "note": "Auto-discovered on Airbnb's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "airbnb",
-        "id": "7612790"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": false
-    },
-    {
-      "co": "Airbnb",
-      "role": "Senior Manager, Advanced Analytics",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": 7.6,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.airbnb.com/positions/7627054?gh_jid=7627054",
-      "posted": "2026-03-19",
-      "note": "Auto-discovered on Airbnb's job board 2026-07-02. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "airbnb",
-        "id": "7627054"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1123,7 +1061,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1154,7 +1092,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1185,7 +1123,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1259,7 +1197,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1290,7 +1228,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1320,8 +1258,8 @@
         "id": "7605850003"
       },
       "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
+        "live": false,
+        "v": "Not on board · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -1359,7 +1297,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1391,7 +1329,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1423,7 +1361,7 @@
       },
       "status": {
         "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1455,7 +1393,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1487,7 +1425,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1519,39 +1457,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Airbnb",
-      "role": "Staff Data Scientist, Guest & Host",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.airbnb.com/positions/7705262?gh_jid=7705262",
-      "posted": "2026-03-11",
-      "note": "Auto-discovered on Airbnb's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "airbnb",
-        "id": "7705262"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1583,7 +1489,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1615,7 +1521,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -1653,7 +1559,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1685,7 +1591,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1717,7 +1623,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -1755,7 +1661,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -1793,7 +1699,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1825,7 +1731,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1857,7 +1763,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1889,7 +1795,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1921,7 +1827,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1953,7 +1859,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -1985,7 +1891,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2017,7 +1923,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2049,7 +1955,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2081,7 +1987,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2152,7 +2058,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2184,7 +2090,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2216,7 +2122,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2225,70 +2131,6 @@
       "discovered": true,
       "isNew": true,
       "kind": "pm"
-    },
-    {
-      "co": "Lyft",
-      "role": "Staff Data Scientist",
-      "loc": "San Francisco, CA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://app.careerpuck.com/job-board/lyft/job/8620855002?gh_jid=8620855002",
-      "posted": "2026-07-09",
-      "note": "Auto-discovered on Lyft's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "lyft",
-        "id": "8620855002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Lyft",
-      "role": "Staff Data Scientist, Decisions - Partnership, Loyalty & Pay",
-      "loc": "New York, NY",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://app.careerpuck.com/job-board/lyft/job/8571591002?gh_jid=8571591002",
-      "posted": "2026-06-01",
-      "note": "Auto-discovered on Lyft's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "lyft",
-        "id": "8571591002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
     },
     {
       "co": "Lyft",
@@ -2312,7 +2154,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2344,7 +2186,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2376,7 +2218,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2408,7 +2250,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2440,7 +2282,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2472,7 +2314,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2504,7 +2346,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2536,7 +2378,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2568,7 +2410,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2600,7 +2442,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2632,7 +2474,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2664,7 +2506,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2696,7 +2538,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2728,7 +2570,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2760,7 +2602,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -2798,7 +2640,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2830,7 +2672,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -2868,7 +2710,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -2906,7 +2748,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2938,7 +2780,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -2970,7 +2812,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3002,7 +2844,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3034,7 +2876,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3066,7 +2908,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3098,7 +2940,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3180,7 +3022,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3212,7 +3054,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3244,7 +3086,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3276,7 +3118,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3308,7 +3150,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3340,7 +3182,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3372,7 +3214,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3404,7 +3246,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3413,38 +3255,6 @@
       "discovered": true,
       "isNew": true,
       "kind": "pm"
-    },
-    {
-      "co": "Discord",
-      "role": "Senior Product Manager, Platform Analytics",
-      "loc": "San Francisco Bay Area ",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/discord/jobs/8529800002",
-      "posted": "2026-04-30",
-      "note": "Auto-discovered on Discord's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "discord",
-        "id": "8529800002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
     },
     {
       "co": "Faire",
@@ -3468,7 +3278,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3500,7 +3310,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3532,7 +3342,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3564,7 +3374,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3596,7 +3406,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3628,7 +3438,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3660,7 +3470,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3731,7 +3541,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3763,7 +3573,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3772,38 +3582,6 @@
       "discovered": true,
       "isNew": true,
       "kind": "ds"
-    },
-    {
-      "co": "Klaviyo",
-      "role": "Lead Product Manager, AI",
-      "loc": "Boston, MA",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.klaviyo.com/careers/jobs/7701796003?gh_jid=7701796003",
-      "posted": "2026-05-27",
-      "note": "Auto-discovered on Klaviyo's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "klaviyo",
-        "id": "7701796003"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
     },
     {
       "co": "Klaviyo",
@@ -3827,7 +3605,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3859,7 +3637,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3891,7 +3669,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3923,7 +3701,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -3932,38 +3710,6 @@
       "discovered": true,
       "isNew": true,
       "kind": "pm"
-    },
-    {
-      "co": "Komodo Health",
-      "role": "Manager, Analytics Services",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8531864002",
-      "posted": "2026-04-30",
-      "note": "Auto-discovered on Komodo Health's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "komodohealth",
-        "id": "8531864002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
     },
     {
       "co": "Komodo Health",
@@ -3987,7 +3733,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4019,7 +3765,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4051,7 +3797,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4083,7 +3829,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4115,7 +3861,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4124,38 +3870,6 @@
       "discovered": true,
       "isNew": true,
       "kind": "ds"
-    },
-    {
-      "co": "Oscar Health",
-      "role": "Staff Product Manager, Lucie Platform",
-      "loc": "New York, New York, United States",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "http://www.hioscar.com/careers/7977782?gh_jid=7977782",
-      "posted": "2026-06-08",
-      "note": "Auto-discovered on Oscar Health's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "oscar",
-        "id": "7977782"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-07-20"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
     },
     {
       "co": "Roblox",
@@ -4179,7 +3893,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4211,7 +3925,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4243,7 +3957,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4275,7 +3989,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4307,7 +4021,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4339,7 +4053,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4371,7 +4085,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "bridge",
@@ -4409,7 +4123,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4441,7 +4155,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4473,7 +4187,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4505,7 +4219,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4537,7 +4251,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4569,7 +4283,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4601,7 +4315,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4633,7 +4347,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4665,7 +4379,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4697,7 +4411,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4729,7 +4443,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4761,7 +4475,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-20"
+        "v": "Live (closing? unconfirmed) · 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4793,7 +4507,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4825,7 +4539,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4857,7 +4571,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4889,7 +4603,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4921,7 +4635,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4953,7 +4667,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -4985,7 +4699,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -5017,7 +4731,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-20"
+        "v": "Board API · checked 2026-07-27"
       },
       "referral": {
         "level": "pending",
@@ -5316,6 +5030,337 @@
       },
       "discovered": true,
       "isNew": false
+    },
+    {
+      "co": "Airbnb",
+      "role": "Lead Advanced Analytics, Guest Product",
+      "loc": "United States",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://careers.airbnb.com/positions/8080954?gh_jid=8080954",
+      "posted": "2026-07-24",
+      "note": "Auto-discovered on Airbnb's job board 2026-07-27. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "airbnb",
+        "id": "8080954"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-27"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Coinbase",
+      "role": "Staff Applied Data Scientist, Pricing",
+      "loc": "Remote - USA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.coinbase.com/careers/positions/8083051?gh_jid=8083051",
+      "posted": "2026-07-24",
+      "note": "Auto-discovered on Coinbase's job board 2026-07-27. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "coinbase",
+        "id": "8083051"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-27"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Lyft",
+      "role": "Staff Applied Scientist",
+      "loc": "San Francisco, CA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8649343002?gh_jid=8649343002",
+      "posted": "2026-07-26",
+      "note": "Auto-discovered on Lyft's job board 2026-07-27. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "lyft",
+        "id": "8649343002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-27"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Mercury",
+      "role": "Senior Product Manager - Activation",
+      "loc": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/6121369004",
+      "posted": "2026-07-21",
+      "note": "Auto-discovered on Mercury's job board 2026-07-27. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "mercury",
+        "id": "6121369004"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-27"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Oscar Health",
+      "role": "Group Product Manager, Lucie Platform",
+      "loc": "New York, New York, United States",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "http://www.hioscar.com/careers/8070624?gh_jid=8070624",
+      "posted": "2026-07-22",
+      "note": "Auto-discovered on Oscar Health's job board 2026-07-27. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "oscar",
+        "id": "8070624"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-27"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Robinhood",
+      "role": "Staff Product Manager, Platform Operations",
+      "loc": "Menlo Park, CA; New York, NY",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8079744?t=gh_src=&gh_jid=8079744",
+      "posted": "2026-07-23",
+      "note": "Auto-discovered on Robinhood's job board 2026-07-27. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "robinhood",
+        "id": "8079744"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-27"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "loc": "Remote / see posting",
+      "track": "domain",
+      "trackLabel": "Domain-perfect",
+      "extraTrack": "lateral",
+      "score": 8.5,
+      "domain": 5,
+      "comp": "See posting (confirm w/ Boris)",
+      "compFit": null,
+      "tier": "Elite fintech · largest digital bank in LatAm (NYSE: NU)",
+      "url": "https://nubank.com.br/en/careers/",
+      "note": "ACTIVE #2 LEAD. Warm inbound: recruiter Boris Tai reached out; intro call was Fri 7/24, resume sent to boris@nubank.com same day. Role centers on experimentation/metrics for the Private Banker (high-value customer) segment — a wedge bullseye (monetization, customer lifecycle, experimentation in fintech) at an elite, fast-growing bank. Push Boris on level/scope + comp band.",
+      "pinned": true,
+      "source": "linkedin (warm inbound recruiter)",
+      "status": {
+        "live": true,
+        "v": "In process · recruiter intro call 7/24 (Boris Tai) · resume sent"
+      },
+      "app": {
+        "stage": "in-process",
+        "since": "2026-07-24",
+        "note": "Intro call w/ recruiter Boris Tai on Fri 7/24; sent resume to boris@nubank.com 7/24. NEXT: confirm next-round logistics + level/comp with Boris; prep with Nubank_Recruiter_Prep_BorisTai.html. Lead with experimentation rigor + high-value-customer monetization/lifecycle (5DE, Core Monetization)."
+      },
+      "referral": {
+        "level": "direct",
+        "text": "<b>Warm inbound.</b> Recruiter <b>Boris Tai</b> (Recruiting @ Nubank) sourced you; owns your process. Intro call 7/24."
+      },
+      "discovered": false,
+      "isNew": true,
+      "co": "Nubank",
+      "role": "Data Science Manager, Private Banker",
+      "fit": {
+        "relevance": 9,
+        "level": 7,
+        "experience": 8,
+        "company": 9,
+        "comp": "unknown",
+        "score": 8.5,
+        "confidence": "medium",
+        "yoe_req": "DS Manager · experimentation/metrics",
+        "candidate": "you: ~11 yrs DS, ~5 leading; fintech monetization + experimentation — strong wedge"
+      }
+    },
+    {
+      "loc": "Cupertino, CA (see posting)",
+      "track": "lateral",
+      "trackLabel": "Lateral → elite brand",
+      "extraTrack": "domain",
+      "score": 8.2,
+      "domain": 4,
+      "comp": "Above baseline (Apple top-of-market)",
+      "compFit": "above",
+      "tier": "Apple · Worldwide Product Marketing analytics",
+      "url": "https://jobs.apple.com/",
+      "note": "Sr DS Manager over Worldwide Product Marketing — marketing/product analytics, measurement, and experimentation at the ultimate brand and comp ceiling. Marketing-analytics wedge (Credit Karma, Reddit-Marketing app). Manager scope; elite-brand lateral-plus.",
+      "pinned": true,
+      "source": "gmail application receipt 2026-07-24",
+      "status": {
+        "live": true,
+        "v": "Applied 2026-07-24 · confirmation received"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-07-24",
+        "note": "APPLIED 7/24 (Apple WW Recruiting confirmation, req 200671821). No warm path mapped yet — run an Apple marketing-analytics/DS network sweep. Apple's bar + internal-referral culture means a warm intro matters."
+      },
+      "referral": {
+        "level": "pending",
+        "text": "No referral mapped yet."
+      },
+      "discovered": false,
+      "isNew": true,
+      "co": "Apple",
+      "role": "Senior Data Science Manager, Worldwide Product Marketing"
+    },
+    {
+      "loc": "Remote / see posting",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Sr Director)",
+      "extraTrack": "domain",
+      "score": 8.0,
+      "domain": 4,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Public internet/media (Apollo-owned)",
+      "url": "https://www.yahooinc.com/careers/",
+      "note": "Sr Director, DS & EXPERIMENTATION — a real title step-up and experimentation is dead-center your wedge. Yahoo is a mature, turnaround-mode media co (fails the high-growth bar), so weigh trajectory vs. the scope/title rep. Good Director-level interview rep if it converts.",
+      "pinned": true,
+      "source": "gmail application receipt 2026-07-23",
+      "status": {
+        "live": true,
+        "v": "Applied 2026-07-23 · resume with recruiter (Workday)"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-07-23",
+        "note": "APPLIED 7/23 (Workday confirmation — 'resume made its way to a recruiter'). Step-up title + experimentation wedge. No warm path yet — sweep LinkedIn for a 1st/2nd° into Yahoo's DS/experimentation org. Frame 0→1 + experimentation + business-impact; de-emphasize consumer-fintech-only framing."
+      },
+      "referral": {
+        "level": "pending",
+        "text": "No referral mapped yet."
+      },
+      "discovered": false,
+      "isNew": true,
+      "co": "Yahoo",
+      "role": "Senior Director, Data Science & Experimentation"
+    },
+    {
+      "loc": "New York / Remote (see posting)",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Head)",
+      "extraTrack": "stretch",
+      "score": 7.6,
+      "domain": 3,
+      "comp": "See posting",
+      "compFit": null,
+      "tier": "Series B SaaS · event-marketing intelligence",
+      "url": "https://www.vendelux.com/careers",
+      "note": "HEAD OF ANALYTICS — top-of-function title + 0→1 org-building (your strength) at a growing Series B event-marketing-intelligence SaaS. Smaller/earlier company (prestige + comp-ceiling discount vs. bigger targets), and the domain (event marketing) is adjacent, not your fintech core — but the scope/title and build mandate are attractive. Weigh as a Track-A stretch on company size.",
+      "pinned": true,
+      "source": "gmail application receipt 2026-07-23",
+      "status": {
+        "live": true,
+        "v": "Applied 2026-07-23 · confirmation received (Ashby)"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-07-23",
+        "note": "APPLIED 7/23 (Ashby confirmation). Head-of-function title + build mandate. No warm path yet — sweep for a 1st/2nd° at Vendelux; at Series B a founder/exec intro carries a lot. Lead with 0→1 analytics org-building + measurable growth impact."
+      },
+      "referral": {
+        "level": "pending",
+        "text": "No referral mapped yet."
+      },
+      "discovered": false,
+      "isNew": true,
+      "co": "Vendelux",
+      "role": "Head of Analytics"
     }
   ]
 }
