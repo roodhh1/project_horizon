@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27)"
       },
       "referral": {
         "level": "bridge",
@@ -4438,7 +4438,7 @@
       },
       "referral": {
         "level": "bridge",
-        "text": "<b>1st°:</b> Paulina García Bueno (pinged 7/14). <b>Backups (2nd°, sweep 7/27):</b> Peter Morse (DS Manager @Netflix, via Mark Heynen) = peer/HM level; Tian Zhou (Netflix Ads DS leader, 28 mut via sahithi visvanathan); Julian Hsu (26 mut via Saurabh Kumar); Tomoya Sasaki (causal inference/experimentation)."
+        "text": "<b>1st°:</b> Paulina García Bueno (pinged 7/14) = primary referral path. Also <b>1st° Paolo Agostoni</b> — TA Manager, Spanish-speaking LATAM @Netflix (72+ mut): NOT the recruiter for this US DSE role, but use him to route to the right US-DS recruiter / flag your app + get process intel (not a DS referral). <b>Backups (2nd°, sweep 7/27):</b> Peter Morse (DS Manager @Netflix, via Mark Heynen) = peer/HM level; Tian Zhou (Netflix Ads DS leader, 28 mut via sahithi visvanathan); Julian Hsu (26 mut via Saurabh Kumar); Tomoya Sasaki (causal inference/experimentation)."
       },
       "discovered": true,
       "isNew": true
