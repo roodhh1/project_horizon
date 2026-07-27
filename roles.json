@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27)"
       },
       "referral": {
         "level": "bridge",
@@ -2870,7 +2870,7 @@
       },
       "referral": {
         "level": "bridge",
-        "text": "<b>Referral requested 7/20</b> — messaged <b>Liliya McLean</b> (Product leader @Reddit, PhD; both ex-Intuit) for a referral to the Sr DS Manager, Marketing role; pending."
+        "text": "<b>1st°:</b> Liliya McLean (Product leader, ex-Intuit — pinged 7/20). <b>Backups (2nd°, sweep 7/27):</b> Tomer Dekel (Director of DS & Analytics @Reddit, via John Fong/Justin Chiang) = likely hiring leader, key name to reach; Garrett Kravitz (Marketing Science / incremental-lift, via Julia Arndt) = wedge; Roelof van Zwol (EVP Ads Monetization & DS)."
       },
       "discovered": true,
       "isNew": true,
@@ -3400,7 +3400,7 @@
       },
       "referral": {
         "level": "bridge",
-        "text": "<b>Referral requested 7/13</b> — messaged <b>Joe Mandozzi</b> (1st°, inside Figma) for a referral; awaiting reply. Bench: Parth Patel (DS Mgr, ex-Meta, 2nd°) / Sharath Chandra (Data Leader, 2nd°)."
+        "text": "<b>Two 1st° inside (as of 7/27):</b> Joe Mandozzi (DS @Figma, 97 mut — pinged 7/13) and <b>Enrique Olivo (DS & AI @Figma)</b> — bullseye for the AI-product role; ask Enrique for a referral. <b>Named hiring chain (2nd° via Joe):</b> William Flahive (DS Manager @Figma = likely HM); Clancy Slack (Director, Product DS = hiring leader); Caitlin Hudon (Data, AI Product)."
       },
       "discovered": true,
       "isNew": true,
@@ -4438,7 +4438,7 @@
       },
       "referral": {
         "level": "bridge",
-        "text": "<b>Referral requested 7/14</b> — messaged <b>Paulina García Bueno</b> (1st°) asking for a referral to the Netflix role; awaiting reply. If she can't, sweep for a 1st/2nd° into Netflix DSE / personalization."
+        "text": "<b>1st°:</b> Paulina García Bueno (pinged 7/14). <b>Backups (2nd°, sweep 7/27):</b> Peter Morse (DS Manager @Netflix, via Mark Heynen) = peer/HM level; Tian Zhou (Netflix Ads DS leader, 28 mut via sahithi visvanathan); Julian Hsu (26 mut via Saurabh Kumar); Tomoya Sasaki (causal inference/experimentation)."
       },
       "discovered": true,
       "isNew": true
@@ -4957,11 +4957,11 @@
       "app": {
         "stage": "applied",
         "since": "2026-07-24",
-        "note": "APPLIED 7/24 (Apple WW Recruiting confirmation, req 200671821). No warm path mapped yet — run an Apple marketing-analytics/DS network sweep. Apple's bar + internal-referral culture means a warm intro matters."
+        "note": "APPLIED 7/24 (Apple WW Recruiting, req 200671821). WARM PATH FOUND (sweep 7/27): ask 1st° Rohit Choudhary or Sandra Perea for a referral; have them flag your app to Andre Rand (DS Manager, Marcom). Apple's internal-referral culture makes this matter."
       },
       "referral": {
-        "level": "pending",
-        "text": "No referral mapped yet."
+        "level": "bridge",
+        "text": "<b>Warm paths (sweep 2026-07-27).</b> <b>1st°:</b> Rohit Choudhary (Data Scientist @Apple) — direct ask; he's also the mutual to Tetiana Busel (Marketing DS @Apple). Sandra Perea (Sr TPM, AI/Marketing Measurement @Apple, 19+ mut) — insider in the exact function. <b>Target (2nd°):</b> Andre Rand (DS Manager, Marcom @Apple, 20+ mut) — closest to the hiring team; Ashutosh Panwar (Apple Ads DS)."
       },
       "discovered": false,
       "isNew": true,
@@ -4989,11 +4989,11 @@
       "app": {
         "stage": "applied",
         "since": "2026-07-23",
-        "note": "APPLIED 7/23 (Workday confirmation — 'resume made its way to a recruiter'). Step-up title + experimentation wedge. No warm path yet — sweep LinkedIn for a 1st/2nd° into Yahoo's DS/experimentation org. Frame 0→1 + experimentation + business-impact; de-emphasize consumer-fintech-only framing."
+        "note": "APPLIED 7/23 (Workday). WARM PATH FOUND (sweep 7/27): ping 1st° Shruti Kale (Analytics @Yahoo) for a referral + intel; target Ravit Weissman (Director DS & Analytics) in the hiring org. Step-up title + experimentation wedge."
       },
       "referral": {
-        "level": "pending",
-        "text": "No referral mapped yet."
+        "level": "bridge",
+        "text": "<b>Warm paths (sweep 2026-07-27).</b> <b>1st°:</b> Shruti Kale (Analytics @Yahoo) — referral + intel starter. <b>Target (2nd°):</b> Ravit Weissman (Director, DS & Analytics @Yahoo) — likely in the hiring org; Datong Chen (AI/DS exec, 7 mut incl. Sandra Perea)."
       },
       "discovered": false,
       "isNew": true,
