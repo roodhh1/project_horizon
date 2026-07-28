@@ -131,6 +131,49 @@
    }
   },
   {
+   "co": "Stripe",
+   "role": "Data Science Manager, Finance and Strategy",
+   "loc": "Chicago, IL / Remote (US)",
+   "track": "domain",
+   "trackLabel": "Domain-strong · elite brand",
+   "extraTrack": "lateral",
+   "score": 8.4,
+   "domain": 4,
+   "comp": "$210.9K–$316.3K base + bonus + equity (per posting)",
+   "compFit": "border",
+   "tier": "Elite pre-IPO fintech (Stripe) · Finance & Strategy DS",
+   "url": "https://stripe.com/jobs/listing/data-science-manager-finance-and-strategy/7440963",
+   "note": "NEW APPLICATION 7/27. DS Manager, Finance & Strategy at Stripe — own the forecasting infrastructure (hierarchical time-series + agentic models predicting payment volumes & revenue margins), set Stripe's budget in partnership with Finance execs, and govern the metrics platform feeding company-wide dashboards + exec reporting. WEDGE-STRONG: monetization + forecasting + metrics/measurement + financial products (Core Monetization, forms-based pricing, actuarial/stats rigor) at an elite pre-IPO brand. Comp base sits below the $500K TC anchor, but Stripe equity is a real lever. Manager scope (not Director), so a high-value lateral-plus with a clean wedge.",
+   "pinned": true,
+   "source": "stripe careers (applied 7/27)",
+   "status": {
+    "live": true,
+    "v": "Applied 2026-07-27 · HM Steve Wasik (actively recruiting)"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-07-27",
+    "note": "APPLIED 7/27 via stripe.com. HM = Steve Wasik (DS & Eng Manager @Stripe), who is actively recruiting (posted the role himself). NEXT: send Steve the drafted connection request + the fuller message once he accepts; a warm intro via mutual Sagar would land harder. Backup Stripe DS-org paths: Matt DeLand (Head of DS, 2nd°) via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd°). Lead with forecasting/metrics + monetization + exec business-partnership; Steve is CMU-technical, so be answer-first."
+   },
+   "referral": {
+    "level": "bridge",
+    "text": "<b>HM = Steve Wasik</b> — DS & Eng Manager @Stripe (Carnegie Mellon; long-tenured, built Revenue Mgmt / Connect / Global Selling DS teams), <b>2nd° via mutual Sagar</b>; actively recruiting for this exact role. Connection request + follow-up drafted 7/27 — a warm intro via Sagar would land harder. Backup Stripe DS-org: Matt DeLand (Head of DS, 2nd°) via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd°)."
+   },
+   "fit": {
+    "relevance": 8,
+    "level": 8,
+    "experience": 8,
+    "company": 9,
+    "comp": "border",
+    "score": 8.4,
+    "confidence": "high",
+    "yoe_req": "3+ yrs managing DS teams; 10+ yrs total DS",
+    "candidate": "you: ~11 yrs DS, ~5 leading; monetization/forecasting/metrics + financial products (Intuit) — strong wedge"
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
    "co": "Waymo",
    "role": "Senior Data Science Manager, Driving Quality",
    "loc": "Mountain View, CA / Remote (see posting)",
