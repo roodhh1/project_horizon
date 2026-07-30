@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30)"
       },
       "referral": {
         "level": "bridge",
@@ -4406,7 +4406,7 @@
       },
       "referral": {
         "level": "bridge",
-        "text": "<b>Referral requested 7/14</b> — messaged <b>Paulina García Bueno</b> (1st°) asking for a referral to the Netflix role; awaiting reply. If she can't, sweep for a 1st/2nd° into Netflix DSE / personalization."
+        "text": "<b>1st°:</b> Paulina García Bueno (pinged 7/14) = primary referral path. Also <b>1st° Paolo Agostoni</b> — TA Manager, Spanish-speaking LATAM @Netflix (72+ mut): NOT the recruiter for this US DSE role, but use him to route to the right US-DS recruiter / flag your app + get process intel (not a DS referral). <b>Backups (2nd°, sweep 7/27):</b> Peter Morse (DS Manager @Netflix, via Mark Heynen) = peer/HM level; Tian Zhou (Netflix Ads DS leader, 28 mut via sahithi visvanathan); Julian Hsu (26 mut via Saurabh Kumar); Tomoya Sasaki (causal inference/experimentation)."
       },
       "discovered": true,
       "isNew": true
@@ -5067,42 +5067,42 @@
     {
       "co": "Stripe",
       "role": "Data Science Manager, Finance and Strategy",
-      "loc": "United States (Remote)",
-      "track": "lateral",
-      "trackLabel": "Lateral → elite fintech",
-      "extraTrack": "domain",
-      "score": 8.2,
-      "domain": 5,
-      "comp": "Above baseline likely (Stripe pays top-of-market)",
+      "loc": "Chicago, IL / Remote (US)",
+      "track": "domain",
+      "trackLabel": "Domain-strong · elite brand",
+      "extraTrack": "lateral",
+      "score": 8.4,
+      "domain": 4,
+      "comp": "$210.9K–$316.3K base + bonus + equity (per posting)",
       "compFit": "border",
-      "tier": "Elite private fintech (~$100B+ val) · payments infrastructure",
-      "url": "https://stripe.com/jobs",
-      "note": "Elite fintech brand, fully remote, and the domain is the strongest in your search (payments/financial products). Finance & Strategy DS = revenue and margin forecasting, pricing/unit economics, and the quantitative backbone of company strategy — that is genuinely adjacent to your monetization/pricing work at Intuit, and 'DS partner to the CFO org' is a high-leverage seat. HONEST CAVEATS: (1) Manager scope = lateral, no title step-up; (2) Finance/Strategy DS is a different muscle from product DS — more forecasting/BI-adjacent, less experimentation, which is your sharpest edge; make sure you'd still be running experiments and shaping product monetization, not just building the forecast. Stripe's bar is famously high, so a warm path matters.",
+      "tier": "Elite pre-IPO fintech (Stripe) · Finance & Strategy DS",
+      "url": "https://stripe.com/jobs/listing/data-science-manager-finance-and-strategy/7440963",
+      "note": "NEW APPLICATION 7/27. DS Manager, Finance & Strategy at Stripe — own the forecasting infrastructure (hierarchical time-series + agentic models predicting payment volumes & revenue margins), set Stripe's budget in partnership with Finance execs, and govern the metrics platform feeding company-wide dashboards + exec reporting. WEDGE-STRONG: monetization + forecasting + metrics/measurement + financial products (Core Monetization, forms-based pricing, actuarial/stats rigor) at an elite pre-IPO brand. Comp base sits below the $500K TC anchor, but Stripe equity is a real lever. Manager scope (not Director), so a high-value lateral-plus with a clean wedge.",
       "pinned": true,
-      "source": "applied 7/28 (Stripe careers)",
+      "source": "stripe careers (applied 7/27)",
       "status": {
         "live": true,
-        "v": "Applied 2026-07-28 · confirmation received"
+        "v": "Applied 2026-07-27 · confirmation received 7/27 · HM Steve Wasik (actively recruiting)"
       },
       "app": {
         "stage": "applied",
-        "since": "2026-07-28",
-        "note": "APPLIED 7/28 (Stripe confirmation 7:05pm PT). Warm outreach sent 7/27 to <b>Steve Wasik</b> (#HIRING @ Stripe) referencing this exact req and leading with forecasting — no reply yet. NEXT: nudge Steve once ~7/31–8/1; in parallel, the existing Stripe overrides in this pipeline map a DS warm path (Matt DeLand, Head of DS, 2nd° via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd°) — activate that path for this req rather than letting it sit unused on the PM roles."
+        "since": "2026-07-27",
+        "note": "APPLIED 7/27 via stripe.com — Stripe confirmation email received 7/27 7:05pm PT ('our Recruiting team will review'). HM = Steve Wasik (DS & Eng Manager @Stripe), who is actively recruiting (posted the role himself); you sent him a LinkedIn message 7/27 referencing this exact req and leading with forecasting — NO REPLY as of 7/30. NEXT: nudge Steve once ~7/31–8/1, and in parallel activate the backup Stripe DS-org paths (Matt DeLand, Head of DS, 2nd° via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd°) — they're mapped in this pipeline but sitting unused. A warm intro via mutual Sagar would land harder. Lead with forecasting/metrics + monetization + exec business-partnership; Steve is CMU-technical, so be answer-first."
       },
       "referral": {
         "level": "bridge",
-        "text": "<b>Outreach sent, no reply yet.</b> Messaged <b>Steve Wasik</b> (Stripe, '#HIRING') 7/27 about this exact role. Unused bench already mapped in this pipeline: <b>Matt DeLand</b> (Head of DS, 2nd° via Karan Kushwaha) and <b>Paul Thoma</b> (Sr Mgr DS, 2nd°)."
+        "text": "<b>HM = Steve Wasik</b> — DS &amp; Eng Manager @Stripe (Carnegie Mellon; long-tenured, built Revenue Mgmt / Connect / Global Selling DS teams), <b>2nd° via mutual Sagar</b>; actively recruiting for this exact role. Message sent 7/27 — <b>no reply yet as of 7/30</b>, nudge due. Backup Stripe DS-org: Matt DeLand (Head of DS, 2nd°) via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd°)."
       },
       "fit": {
         "relevance": 8,
-        "level": 7,
+        "level": 8,
         "experience": 8,
         "company": 9,
         "comp": "border",
-        "score": 8.2,
-        "confidence": "medium",
-        "yoe_req": "DS Manager · finance/strategy analytics",
-        "candidate": "you: ~11 yrs DS, ~5 leading; fintech monetization + pricing + forecasting — strong domain, finance-org seat is the stretch"
+        "score": 8.4,
+        "confidence": "high",
+        "yoe_req": "3+ yrs managing DS teams; 10+ yrs total DS",
+        "candidate": "you: ~11 yrs DS, ~5 leading; monetization/forecasting/metrics + financial products (Intuit) — strong wedge"
       },
       "discovered": false,
       "isNew": true
@@ -5193,7 +5193,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-30"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -5225,7 +5225,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-07-30"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
