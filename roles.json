@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-07-29",
+  "verified_on": "2026-07-30",
   "roles": [
     {
       "co": "Mercury",
@@ -72,7 +72,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -114,7 +114,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30)"
       },
       "referral": {
         "level": "bridge",
@@ -198,7 +198,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "direct",
@@ -240,7 +240,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "direct",
@@ -282,7 +282,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "direct",
@@ -324,7 +324,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "direct",
@@ -367,7 +367,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-07-29"
+        "v": "LinkedIn posting · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -410,7 +410,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-07-29"
+        "v": "LinkedIn posting · checked 2026-07-30"
       },
       "referral": {
         "level": "direct",
@@ -453,7 +453,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-07-29"
+        "v": "LinkedIn posting · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -957,7 +957,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -988,7 +988,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1019,7 +1019,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1050,7 +1050,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1081,7 +1081,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1155,7 +1155,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1186,7 +1186,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1217,7 +1217,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-07-29"
+        "v": "Not on board · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -1255,7 +1255,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1287,7 +1287,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1319,7 +1319,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1351,7 +1351,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1383,7 +1383,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1415,7 +1415,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1447,7 +1447,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -1485,7 +1485,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1517,7 +1517,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1549,7 +1549,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -1587,7 +1587,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -1625,7 +1625,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1657,7 +1657,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1689,7 +1689,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1721,7 +1721,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1753,7 +1753,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1785,7 +1785,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1817,7 +1817,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1849,7 +1849,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1881,7 +1881,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1913,7 +1913,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -1984,7 +1984,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2016,7 +2016,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2048,7 +2048,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2080,7 +2080,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2112,7 +2112,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2144,7 +2144,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2176,7 +2176,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2208,7 +2208,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2240,7 +2240,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2272,7 +2272,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2304,7 +2304,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2336,7 +2336,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2368,7 +2368,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2400,7 +2400,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2432,7 +2432,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2464,7 +2464,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2496,7 +2496,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -2534,7 +2534,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2566,7 +2566,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -2604,7 +2604,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -2642,7 +2642,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2674,7 +2674,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2706,7 +2706,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2738,7 +2738,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2770,7 +2770,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2802,7 +2802,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2834,7 +2834,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2870,7 +2870,7 @@
       },
       "referral": {
         "level": "bridge",
-        "text": "<b>1st°:</b> Liliya McLean (Product leader, ex-Intuit — pinged 7/20). <b>Backups (2nd°, sweep 7/27):</b> Tomer Dekel (Director of DS & Analytics @Reddit, via John Fong/Justin Chiang) = likely hiring leader, key name to reach; Garrett Kravitz (Marketing Science / incremental-lift, via Julia Arndt) = wedge; Roelof van Zwol (EVP Ads Monetization & DS)."
+        "text": "<b>Referral requested 7/20</b> — messaged <b>Liliya McLean</b> (Product leader @Reddit, PhD; both ex-Intuit) for a referral to the Sr DS Manager, Marketing role; pending."
       },
       "discovered": true,
       "isNew": true,
@@ -2916,7 +2916,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2948,7 +2948,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -2980,7 +2980,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3012,7 +3012,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3044,7 +3044,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3076,7 +3076,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3108,7 +3108,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3140,7 +3140,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3172,7 +3172,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3204,7 +3204,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3236,7 +3236,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3268,7 +3268,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3300,7 +3300,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3332,7 +3332,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3364,7 +3364,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3381,14 +3381,14 @@
       "track": "lateral",
       "trackLabel": "Lateral → better co",
       "extraTrack": "domain",
-      "score": 8.3,
+      "score": 8.6,
       "domain": 4,
       "comp": "Likely at/above baseline (top unicorn)",
       "compFit": "border",
       "tier": "Design unicorn · post-IPO trajectory · AI product",
-      "url": "https://www.figma.com/careers/",
+      "url": "https://job-boards.greenhouse.io/figma/jobs/5983820004?gh_jid=5983820004",
       "posted": "2026-04-30",
-      "note": "DS people-management on an AI product at a top design unicorn — product analytics + AI is squarely your lane and likely clears comp. Manager scope (not Director), so a strong lateral-plus with elite brand and an AI-product mandate that builds your AI exposure.",
+      "note": "DS people-management on an AI product at a top design unicorn — product analytics + AI is squarely your lane and likely clears comp. Manager scope (not Director), so a strong lateral-plus with elite brand and an AI-product mandate that builds your AI exposure. — INSIDER READ (Enrique Olivo, 7/29): ~2,000 people total (~1,000 ex-sales), so you sit close to your teammates; startup-ish culture but professionally run; the company genuinely respects experimentation/measurement and DS is treated as a partner, not a service desk; product development is refreshingly un-hype-driven — practical AI that helps designers rather than bolted-on chatbots/agents (his explicit contrast with Meta and Intuit). That's a real signal on DS influence — use it in the interview and in your 'why Figma'.",
       "verify": {
         "type": "greenhouse",
         "token": "figma",
@@ -3396,11 +3396,11 @@
       },
       "status": {
         "live": true,
-        "v": "Applied 2026-07-13 · confirmation received"
+        "v": "Applied 7/13 · REFERRAL SECURED 7/29 (Enrique Olivo) · ACTION REQUIRED"
       },
       "referral": {
-        "level": "bridge",
-        "text": "<b>Two 1st° inside (as of 7/27):</b> Joe Mandozzi (DS @Figma, 97 mut — pinged 7/13) and <b>Enrique Olivo (DS & AI @Figma)</b> — bullseye for the AI-product role; ask Enrique for a referral. <b>Named hiring chain (2nd° via Joe):</b> William Flahive (DS Manager @Figma = likely HM); Clancy Slack (Director, Product DS = hiring leader); Caitlin Hudon (Data, AI Product)."
+        "level": "direct",
+        "text": "<b>Referral SECURED 7/29 — <u>action required from you</u>.</b> <b>Enrique Olivo</b> (He/Him; ex-Intuit → DS/AI @ Figma, ex-Meta) offered to refer you and tag your existing app as a referral. Waiting on: resume + 1-2 lines on (a) fit for the role, (b) how he can vouch for your work, (c) why Figma. His old manager <b>Hussein</b> vouched for you unprompted. Other ex-Intuit folks inside: Josie Zhang, Joe Mandozzi. Bench: Parth Patel, Sharath Chandra."
       },
       "discovered": true,
       "isNew": true,
@@ -3409,7 +3409,7 @@
       "app": {
         "stage": "applied",
         "since": "2026-07-13",
-        "note": "APPLIED 7/13 (confirmed by Figma). Referral REQUESTED 7/13 from Joe Mandozzi (1st°, inside Figma) — pending. NEXT: nudge Joe to flag your app to the hiring team; Parth Patel / Sharath Chandra are backup 2nd° paths."
+        "note": "APPLIED 7/13. ⚡ REFERRAL SECURED 7/29 — Enrique Olivo (ex-Intuit, now DS/AI @ Figma) replied to your 7/27 DM and offered to refer you AND tag your existing application as a referral in Figma's internal portal. HE IS BLOCKED ON YOU. He needs: (1) your resume, (2) 1-2 lines each on — why you're a good fit for the role / how he can vouch for your work / why you're interested in Figma, (3) confirmation of the exact posting (he already found it: Manager, DS - AI Product, GH 5983820004). He'll adapt your notes into his own voice. SEND TODAY — a referral tag on a 2.5-week-old application is the single cheapest resurrection in the pipeline. Bonus: he name-checked Hussein (his old manager) as having spoken highly of you — use that. Original Joe Mandozzi (7/13) referral ask went cold; Enrique supersedes it."
       },
       "source": "all-industry DS broadening 2026-07-13"
     },
@@ -3435,7 +3435,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3467,7 +3467,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3499,7 +3499,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3531,7 +3531,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3563,7 +3563,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3595,7 +3595,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3627,7 +3627,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3659,7 +3659,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3691,7 +3691,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3723,7 +3723,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3755,7 +3755,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3787,7 +3787,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "bridge",
@@ -3825,7 +3825,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3857,7 +3857,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3889,7 +3889,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3921,7 +3921,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3953,7 +3953,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -3985,7 +3985,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4017,7 +4017,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4049,7 +4049,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4081,7 +4081,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4113,7 +4113,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4145,7 +4145,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4177,7 +4177,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4209,7 +4209,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4241,7 +4241,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4273,7 +4273,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4305,7 +4305,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4337,7 +4337,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4369,7 +4369,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4406,7 +4406,7 @@
       },
       "referral": {
         "level": "bridge",
-        "text": "<b>1st°:</b> Paulina García Bueno (pinged 7/14) = primary referral path. Also <b>1st° Paolo Agostoni</b> — TA Manager, Spanish-speaking LATAM @Netflix (72+ mut): NOT the recruiter for this US DSE role, but use him to route to the right US-DS recruiter / flag your app + get process intel (not a DS referral). <b>Backups (2nd°, sweep 7/27):</b> Peter Morse (DS Manager @Netflix, via Mark Heynen) = peer/HM level; Tian Zhou (Netflix Ads DS leader, 28 mut via sahithi visvanathan); Julian Hsu (26 mut via Saurabh Kumar); Tomoya Sasaki (causal inference/experimentation)."
+        "text": "<b>Referral requested 7/14</b> — messaged <b>Paulina García Bueno</b> (1st°) asking for a referral to the Netflix role; awaiting reply. If she can't, sweep for a 1st/2nd° into Netflix DSE / personalization."
       },
       "discovered": true,
       "isNew": true
@@ -4691,7 +4691,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4723,7 +4723,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4755,7 +4755,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4787,7 +4787,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4819,7 +4819,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4851,7 +4851,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -4925,11 +4925,11 @@
       "app": {
         "stage": "applied",
         "since": "2026-07-24",
-        "note": "APPLIED 7/24 (Apple WW Recruiting, req 200671821). WARM PATH FOUND (sweep 7/27): ask 1st° Rohit Choudhary or Sandra Perea for a referral; have them flag your app to Andre Rand (DS Manager, Marcom). Apple's internal-referral culture makes this matter."
+        "note": "APPLIED 7/24 (Apple WW Recruiting confirmation, req 200671821). No warm path mapped yet — run an Apple marketing-analytics/DS network sweep. Apple's bar + internal-referral culture means a warm intro matters."
       },
       "referral": {
-        "level": "bridge",
-        "text": "<b>Warm paths (sweep 2026-07-27).</b> <b>1st°:</b> Rohit Choudhary (Data Scientist @Apple) — direct ask; he's also the mutual to Tetiana Busel (Marketing DS @Apple). Sandra Perea (Sr TPM, AI/Marketing Measurement @Apple, 19+ mut) — insider in the exact function. <b>Target (2nd°):</b> Andre Rand (DS Manager, Marcom @Apple, 20+ mut) — closest to the hiring team; Ashutosh Panwar (Apple Ads DS)."
+        "level": "pending",
+        "text": "No referral mapped yet."
       },
       "discovered": false,
       "isNew": true,
@@ -4952,16 +4952,16 @@
       "source": "gmail application receipt 2026-07-23",
       "status": {
         "live": true,
-        "v": "Applied 2026-07-23 · resume with recruiter (Workday)"
+        "v": "Rejected 2026-07-30 (Workday, no interview)"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-07-23",
-        "note": "APPLIED 7/23 (Workday). WARM PATH FOUND (sweep 7/27): ping 1st° Shruti Kale (Analytics @Yahoo) for a referral + intel; target Ravit Weissman (Director DS & Analytics) in the hiring org. Step-up title + experimentation wedge."
+        "stage": "rejected",
+        "since": "2026-07-30",
+        "note": "REJECTED 7/30 (Workday auto-rejection, 12:35am PT: 'the hiring team has decided to move forward with other candidates who are more...'). Never reached a human screen — died at resume review, 7 days after applying. No warm path was ever mapped (Shruti Kale DM 7/27 went unanswered), which is almost certainly why. LESSON: Sr Director postings at big mature cos are the highest-competition, lowest-yield lane for a cold app — Director+ titles at that scale essentially require an internal advocate. Deprioritize cold Sr Director applications; spend that time on warm paths instead."
       },
       "referral": {
-        "level": "bridge",
-        "text": "<b>Warm paths (sweep 2026-07-27).</b> <b>1st°:</b> Shruti Kale (Analytics @Yahoo) — referral + intel starter. <b>Target (2nd°):</b> Ravit Weissman (Director, DS & Analytics @Yahoo) — likely in the hiring org; Datong Chen (AI/DS exec, 7 mut incl. Sandra Perea)."
+        "level": "pending",
+        "text": "<b>Cold app, no advocate.</b> DM'd Shruti Kale (Yahoo, 7/27) asking for a pointer — no reply before the rejection landed."
       },
       "discovered": false,
       "isNew": true,
@@ -5022,7 +5022,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -5054,7 +5054,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -5067,42 +5067,42 @@
     {
       "co": "Stripe",
       "role": "Data Science Manager, Finance and Strategy",
-      "loc": "Chicago, IL / Remote (US)",
-      "track": "domain",
-      "trackLabel": "Domain-strong · elite brand",
-      "extraTrack": "lateral",
-      "score": 8.4,
-      "domain": 4,
-      "comp": "$210.9K–$316.3K base + bonus + equity (per posting)",
+      "loc": "United States (Remote)",
+      "track": "lateral",
+      "trackLabel": "Lateral → elite fintech",
+      "extraTrack": "domain",
+      "score": 8.2,
+      "domain": 5,
+      "comp": "Above baseline likely (Stripe pays top-of-market)",
       "compFit": "border",
-      "tier": "Elite pre-IPO fintech (Stripe) · Finance & Strategy DS",
-      "url": "https://stripe.com/jobs/listing/data-science-manager-finance-and-strategy/7440963",
-      "note": "NEW APPLICATION 7/27. DS Manager, Finance & Strategy at Stripe — own the forecasting infrastructure (hierarchical time-series + agentic models predicting payment volumes & revenue margins), set Stripe's budget in partnership with Finance execs, and govern the metrics platform feeding company-wide dashboards + exec reporting. WEDGE-STRONG: monetization + forecasting + metrics/measurement + financial products (Core Monetization, forms-based pricing, actuarial/stats rigor) at an elite pre-IPO brand. Comp base sits below the $500K TC anchor, but Stripe equity is a real lever. Manager scope (not Director), so a high-value lateral-plus with a clean wedge.",
+      "tier": "Elite private fintech (~$100B+ val) · payments infrastructure",
+      "url": "https://stripe.com/jobs",
+      "note": "Elite fintech brand, fully remote, and the domain is the strongest in your search (payments/financial products). Finance & Strategy DS = revenue and margin forecasting, pricing/unit economics, and the quantitative backbone of company strategy — that is genuinely adjacent to your monetization/pricing work at Intuit, and 'DS partner to the CFO org' is a high-leverage seat. HONEST CAVEATS: (1) Manager scope = lateral, no title step-up; (2) Finance/Strategy DS is a different muscle from product DS — more forecasting/BI-adjacent, less experimentation, which is your sharpest edge; make sure you'd still be running experiments and shaping product monetization, not just building the forecast. Stripe's bar is famously high, so a warm path matters.",
       "pinned": true,
-      "source": "stripe careers (applied 7/27)",
+      "source": "applied 7/28 (Stripe careers)",
       "status": {
         "live": true,
-        "v": "Applied 2026-07-27 · HM Steve Wasik (actively recruiting)"
+        "v": "Applied 2026-07-28 · confirmation received"
       },
       "app": {
         "stage": "applied",
-        "since": "2026-07-27",
-        "note": "APPLIED 7/27 via stripe.com. HM = Steve Wasik (DS & Eng Manager @Stripe), who is actively recruiting (posted the role himself). NEXT: send Steve the drafted connection request + the fuller message once he accepts; a warm intro via mutual Sagar would land harder. Backup Stripe DS-org paths: Matt DeLand (Head of DS, 2nd°) via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd°). Lead with forecasting/metrics + monetization + exec business-partnership; Steve is CMU-technical, so be answer-first."
+        "since": "2026-07-28",
+        "note": "APPLIED 7/28 (Stripe confirmation 7:05pm PT). Warm outreach sent 7/27 to <b>Steve Wasik</b> (#HIRING @ Stripe) referencing this exact req and leading with forecasting — no reply yet. NEXT: nudge Steve once ~7/31–8/1; in parallel, the existing Stripe overrides in this pipeline map a DS warm path (Matt DeLand, Head of DS, 2nd° via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd°) — activate that path for this req rather than letting it sit unused on the PM roles."
       },
       "referral": {
         "level": "bridge",
-        "text": "<b>HM = Steve Wasik</b> — DS & Eng Manager @Stripe (Carnegie Mellon; long-tenured, built Revenue Mgmt / Connect / Global Selling DS teams), <b>2nd° via mutual Sagar</b>; actively recruiting for this exact role. Connection request + follow-up drafted 7/27 — a warm intro via Sagar would land harder. Backup Stripe DS-org: Matt DeLand (Head of DS, 2nd°) via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd°)."
+        "text": "<b>Outreach sent, no reply yet.</b> Messaged <b>Steve Wasik</b> (Stripe, '#HIRING') 7/27 about this exact role. Unused bench already mapped in this pipeline: <b>Matt DeLand</b> (Head of DS, 2nd° via Karan Kushwaha) and <b>Paul Thoma</b> (Sr Mgr DS, 2nd°)."
       },
       "fit": {
         "relevance": 8,
-        "level": 8,
+        "level": 7,
         "experience": 8,
         "company": 9,
         "comp": "border",
-        "score": 8.4,
-        "confidence": "high",
-        "yoe_req": "3+ yrs managing DS teams; 10+ yrs total DS",
-        "candidate": "you: ~11 yrs DS, ~5 leading; monetization/forecasting/metrics + financial products (Intuit) — strong wedge"
+        "score": 8.2,
+        "confidence": "medium",
+        "yoe_req": "DS Manager · finance/strategy analytics",
+        "candidate": "you: ~11 yrs DS, ~5 leading; fintech monetization + pricing + forecasting — strong domain, finance-org seat is the stretch"
       },
       "discovered": false,
       "isNew": true
@@ -5129,7 +5129,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -5161,7 +5161,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-07-29"
+        "v": "Board API · checked 2026-07-30"
       },
       "referral": {
         "level": "pending",
@@ -5170,6 +5170,199 @@
       "discovered": true,
       "isNew": true,
       "kind": "pm"
+    },
+    {
+      "co": "Affirm",
+      "role": "Quantitative Analytics Manager, Affirm Bank Model Governance",
+      "loc": "Remote US",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7819441003",
+      "posted": "2026-07-29",
+      "note": "Auto-discovered on Affirm's job board 2026-07-30. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "affirm",
+        "id": "7819441003"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-30"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
+    },
+    {
+      "co": "Faire",
+      "role": "Staff Product Manager, Data & ML Platform",
+      "loc": "New York City, NY; San Francisco, CA",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://boards.greenhouse.io/faire/jobs/8656341002?gh_jid=8656341002",
+      "posted": "2026-07-29",
+      "note": "Auto-discovered on Faire's job board 2026-07-30. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "faire",
+        "id": "8656341002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-07-30"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Gusto",
+      "role": "Head of Sales Data Science & Analytics",
+      "loc": "San Francisco Bay Area (Hybrid)",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Head of)",
+      "extraTrack": "domain",
+      "score": 8.6,
+      "domain": 4,
+      "comp": "Not disclosed — push Ashleigh on the band on the 8/3 call",
+      "compFit": null,
+      "tier": "Late-stage private fintech/HR-payroll (~$9B+ val) · SMB business customers",
+      "url": "https://gusto.com/about/careers",
+      "note": "⚡ FASTEST INBOUND OF THE ENTIRE SEARCH — applied 7/29 ~8:51am, recruiter reached out 7/29 12:12pm (≈4 hrs), phone screen booked for Mon 8/3. That velocity means your resume read as an obvious fit for this req; treat Gusto as a top-3 live opportunity, not a flyer. WHY IT'S GOOD: 'Head of' is a genuine scope step-up (own the function, not a team inside one); Gusto serves SMB *business* customers on payroll/benefits/payments — dead-center on your 'business customer experiences' + financial-products positioning; strong company (durable SMB SaaS+fintech, real revenue, IPO-track). HONEST RISK — INTERROGATE ON THE CALL: this is *Sales* DS & Analytics, i.e. GTM/revenue analytics (pipeline, quota, territory, segmentation, forecasting), NOT product/monetization DS. That is adjacent to your wedge, not inside it, and there is a real career-narrowing risk: a 'Head of Sales Analytics' title can wall you off from product-DS leadership roles later. Ask Ashleigh directly: what's the team size and does it own product/monetization analytics too, does it report into Sales/RevOps or into a central DS/Data org, and what's the path to a broader Head-of-DS/Analytics remit. If it's a RevOps-reporting sales-support function, it's a comp/title play, not a career play — weigh accordingly.",
+      "pinned": true,
+      "source": "applied 7/29 → recruiter inbound same day",
+      "status": {
+        "live": true,
+        "v": "In process · recruiter phone screen Mon Aug 3, 2:30–3:00pm PT (Ashleigh Huffman)"
+      },
+      "app": {
+        "stage": "in-process",
+        "since": "2026-07-29",
+        "note": "APPLIED 7/29 (Gusto careers confirmation 8:51am PT). Recruiter <b>Ashleigh Huffman</b> reached out 12:12pm PT the same day; you booked via ModernLoop and confirmed 5:05pm PT. PHONE SCREEN: Mon Aug 3, 2:30–3:00pm PT — SHE CALLS YOU. PREP: (1) 90-second narrative anchored on business-customer + financial-products leadership (Intuit/Credit Karma, SMB-adjacent); (2) come with a crisp answer to 'why Gusto' that names the SMB payroll/benefits/payments wedge; (3) YOUR questions are the real work here — scope, team size, reporting line (Sales/RevOps vs central Data), whether product & monetization analytics are in remit, and the comp band; (4) get the interview loop mapped and the HM's name. Also DM'd Janielle Rodriguez (Gusto) 7/29 9:44am for a POC — no reply, and now moot since the recruiter came to you."
+      },
+      "referral": {
+        "level": "direct",
+        "text": "<b>Recruiter engaged — no referral needed.</b> <b>Ashleigh Huffman</b> (Recruiter, Gusto) owns the Head of Sales DS & Analytics search and is your POC. Cold outreach to <b>Janielle Rodriguez</b> (Gusto, 7/29) went unanswered — superseded."
+      },
+      "fit": {
+        "relevance": 7,
+        "level": 9,
+        "experience": 9,
+        "company": 8,
+        "comp": "unknown",
+        "score": 8.6,
+        "confidence": "medium",
+        "yoe_req": "Head-of scope · sales/GTM data science & analytics leadership",
+        "candidate": "you: ~11 yrs DS, ~5 leading; monetization/growth/lifecycle for business customers — leadership fit is strong, GTM-analytics domain is the stretch"
+      },
+      "discovered": false,
+      "isNew": true
+    },
+    {
+      "co": "Confidential Insurtech (via GAME ON! Recruiting)",
+      "role": "Head of Data Science",
+      "loc": "Ft. Lee NJ / Raleigh NC / Miami FL · Hybrid 2 days (Tue/Thu) · relocation provided",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Head of)",
+      "extraTrack": "domain",
+      "score": 7.4,
+      "domain": 3,
+      "comp": "Unknown — get the band on today's call before anything else",
+      "compFit": null,
+      "tier": "Insurtech (undisclosed) · agency-represented search",
+      "url": "https://www.linkedin.com/in/",
+      "note": "🔴 CALL TODAY — Thu 7/30, 11:00am PT; Sue Do calls your cell. Warm path in: your former colleague <b>Joey Pliskin</b> pointed the recruiter at you. WHAT'S GOOD: 'Head of Data Science' is the biggest title step-up on the board — own the function, set the roadmap, build the team, report high; the mandate (predictive/segmentation/forecasting models, personalization/targeting, influencing senior stakeholders) is real leadership scope, and marketing+sales analytics in insurance is close to the Root profile you already interviewed well for. WHAT'S HARD, BE CLEAR-EYED: (1) RELOCATION — Ft. Lee NJ / Raleigh / Miami with 2 days in office, relo provided; you are Bay Area. This is the gating question and it should be question #1 or #2, not question #6 — don't invest a loop into a role you'd decline on geography; (2) UNDISCLOSED COMPANY via a contingency/agency search (GAME ON! is a games-industry recruiting shop, so this is off their usual beat) — you cannot assess company quality, trajectory, funding, or manager quality until she names it, and all four are load-bearing for a Head-of role; (3) Root just rejected you on a near-identical insurtech + performance-marketing profile — pre-empt the 'have you owned paid media / insurance pricing' question with incrementality + budget-allocation framing and your actuarial-science degree. NET: high title, unknown everything else. Run today's call as YOUR diligence, not as a pitch.",
+      "pinned": true,
+      "source": "linkedin (agency recruiter inbound via Joey Pliskin referral)",
+      "status": {
+        "live": true,
+        "v": "In process · recruiter call TODAY Thu Jul 30, 11:00am PT (Sue Do — she calls you)"
+      },
+      "app": {
+        "stage": "in-process",
+        "since": "2026-07-29",
+        "note": "Inbound 7/29 7:20am PT from <b>Sue Do</b>, Principal Recruiter @ GAME ON! Recruiting — referred by <b>Joey Pliskin</b>. You replied 7:25am, she sent the full JD, you sent your resume 7:29am, call set for Thu 7/30 11:00am PT (she calls the number on your resume). ROLE: Head of Data Science at an undisclosed data-driven insurtech focused on marketing and sales — own the DS roadmap, lead/build the team, ship predictive/segmentation/forecasting models, drive personalization/targeting/optimization, influence senior stakeholders. REQS: 10+ yrs DS with deep marketing-analytics depth; attribution, experimentation, forecasting; advanced quant degree; DTC / financial services / insurance background. ASK IN THIS ORDER: (1) what company is it, (2) is any version of this Bay Area–remote or is relocation genuinely required, (3) comp band, (4) who does this role report to and what's the team today, (5) why is the seat open. If geography is hard and the comp band is below your $373K run-rate baseline, say so early and politely — an agency recruiter would rather know now, and you keep the relationship for the next search."
+      },
+      "referral": {
+        "level": "direct",
+        "text": "<b>Warm agency inbound.</b> <b>Sue Do</b> — Principal Recruiter, GAME ON! Recruiting — sourced you on the recommendation of <b>Joey Pliskin</b> (former colleague, who is himself engaged on the search). Sue owns the client relationship; company name still undisclosed."
+      },
+      "fit": {
+        "relevance": 8,
+        "level": 10,
+        "experience": 8,
+        "company": 4,
+        "comp": "unknown",
+        "score": 7.4,
+        "confidence": "low",
+        "yoe_req": "10+ yrs DS · deep marketing analytics · attribution/experimentation/forecasting · advanced quant degree",
+        "candidate": "you: ~11 yrs DS, ~5 leading; actuarial-science degree, marketing measurement + experimentation — strong on paper; geography and unknown company are the risks"
+      },
+      "discovered": false,
+      "isNew": true
+    },
+    {
+      "co": "Duolingo",
+      "role": "Senior Data Science Manager, User Growth",
+      "loc": "Pittsburgh, PA (see posting for hybrid/remote)",
+      "track": "lateral",
+      "trackLabel": "Lateral → elite consumer brand",
+      "extraTrack": "domain",
+      "score": 8.3,
+      "domain": 4,
+      "comp": "Above baseline likely (NASDAQ: DUOL, strong TC)",
+      "compFit": "border",
+      "tier": "Public consumer-tech (NASDAQ: DUOL) · best-in-class growth org",
+      "url": "https://www.linkedin.com/jobs/view/4446525677/",
+      "note": "USER GROWTH DS at arguably the best consumer growth-engineering org in tech — Duolingo is the canonical case study in experimentation, gamified retention, and freemium→subscription monetization. That is a wedge bullseye (growth + experimentation + monetization + lifecycle) at an elite public brand, and the AI/product story there is real. HONEST CAVEATS: (1) LOCATION — posting is Pittsburgh and Duolingo is notably office-centric; confirm remote/relocation expectations before investing, this could be the whole ballgame; (2) scope is Senior *Manager*, a lateral on title, so it's a brand/craft play rather than a step-up. Worth it if the growth mandate is broad.",
+      "pinned": true,
+      "source": "applied 7/29 (LinkedIn → company site)",
+      "status": {
+        "live": true,
+        "v": "Applied 2026-07-29 · confirmation received · referral in flight (Grey McCune)"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-07-29",
+        "note": "APPLIED 7/29 (Duolingo confirmation 9:45pm PT 7/28 / 7/29). REFERRAL IN FLIGHT: <b>Grey McCune</b> (Duolingo) agreed 7/29 9:12am to refer you; you sent email + resume (Rodrigo_Hernandez_Resume_Jun25.pdf) 7/29 9:37am. NEXT: give it to ~8/5, then send Grey one short nudge asking whether the referral went through and whether he can flag it to the growth DS hiring manager. Also confirm the location/remote question early — don't burn a referral favor on a role you can't take."
+      },
+      "referral": {
+        "level": "direct",
+        "text": "<b>Referral in flight.</b> <b>Grey McCune</b> (Duolingo) volunteered to refer you 7/29 after your cold-but-warm ask; you supplied email + resume the same morning. Awaiting confirmation it was submitted."
+      },
+      "fit": {
+        "relevance": 9,
+        "level": 7,
+        "experience": 8,
+        "company": 9,
+        "comp": "border",
+        "score": 8.3,
+        "confidence": "medium",
+        "yoe_req": "Sr DS Manager · growth/experimentation",
+        "candidate": "you: ~11 yrs DS, ~5 leading; growth + experimentation + freemium monetization — strong wedge, location is the risk"
+      },
+      "discovered": false,
+      "isNew": true
     }
   ]
 }
