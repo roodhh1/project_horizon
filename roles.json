@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04)"
       },
       "referral": {
         "level": "bridge",
@@ -3884,38 +3884,6 @@
       "kind": "pm"
     },
     {
-      "co": "The Trade Desk",
-      "role": "Staff Applied Scientist , Inventory & Marketplace Quality ",
-      "loc": "Bellevue; Denver; San Jose",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5020009007",
-      "posted": "2026-01-12",
-      "note": "Auto-discovered on The Trade Desk's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "thetradedesk",
-        "id": "5020009007"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-08-04"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
       "co": "Affirm",
       "role": "Staff Software Engineer, Backend (Lake Analytics Platform)",
       "loc": "Remote US",
@@ -5434,7 +5402,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-08-04"
+        "v": "Board API · checked 2026-08-04"
       },
       "referral": {
         "level": "pending",
@@ -5466,7 +5434,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-08-04"
+        "v": "Board API · checked 2026-08-04"
       },
       "referral": {
         "level": "pending",
