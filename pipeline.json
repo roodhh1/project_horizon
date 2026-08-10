@@ -1560,6 +1560,35 @@
     "since": "2026-08-06",
     "note": "Applied 8/6 (Workday) \u00b7 confirmation received"
    }
+  },
+  {
+   "co": "Credit Genie",
+   "role": "Director of Analytics",
+   "loc": "Plymouth Meeting, PA / New York, NY (on-site 5 days)",
+   "track": "stepup",
+   "trackLabel": "Director step-up",
+   "extraTrack": "domain",
+   "score": 7.6,
+   "domain": 4,
+   "comp": "$215\u2013260K base + bonus + equity (Series B)",
+   "compFit": "Below Intuit cash, but a solid Director base for Series B + equity upside \u2014 the comp/scope trade you're open to",
+   "tier": "Series B consumer fintech (Credit Genie, Khosla-backed) \u00b7 AI financial-wellness",
+   "url": "https://jobs.ashbyhq.com/creditgenie/5431fc01-b317-4d8b-b56c-9755f60306a1",
+   "source": "inbound recruiter 8/10 (Loreen Dinkelacker, Sr Tech Recruiter)",
+   "note": "INBOUND 8/10. Verified legit (real co/recruiter/posting; founder Ed Harycki, ex-Swift Capital\u2192PayPal; Khosla-backed; leaders ex-PayPal/Square/Cash App). STRONG FIT: JD is genuine leadership scope \u2014 own company-wide analytics strategy, build/mentor analyst team, experimentation frameworks, product KPIs (activation/retention/LTV), growth analytics. Dead-center on wedge (experimentation, monetization, growth, product analytics, fintech lifecycle). \u26a0 THE GATE = LOCATION: on-site 5 days/wk in Plymouth Meeting PA or NYC; Rodrigo is SF \u2014 real relocation decision (NYC plausibly OK, PA less so). \u26a0 CLARIFY reporting line: co already has Zachary Weller (Sr Director, Analytics) \u2014 confirm whether this owns the function or sits under him, and product- vs risk/credit-analytics split. Comp band respectable for Series B. Reply drafted 8/10; exploratory call TBD. Priority: keep-warm, do NOT divert from Coupang (HM screen 8/12).",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": "",
+   "status": {
+    "live": true,
+    "v": "Inbound 8/10 (Loreen Dinkelacker) \u00b7 reply drafted \u00b7 exploratory call TBD \u00b7 gate = 5-day on-site PA/NYC vs SF"
+   },
+   "app": {
+    "stage": "in-process",
+    "since": "2026-08-10",
+    "note": "Inbound recruiter 8/10; reply drafted, call TBD. Early-stage lead."
+   }
   }
  ],
  "overrides": {
