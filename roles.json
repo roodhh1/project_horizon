@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10)"
       },
       "referral": {
         "level": "bridge",
@@ -3010,38 +3010,6 @@
     },
     {
       "co": "Faire",
-      "role": "Staff Product Manager, Relationship Growth",
-      "loc": "New York City, NY; San Francisco, CA",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://boards.greenhouse.io/faire/jobs/8572160002?gh_jid=8572160002",
-      "posted": "2026-05-29",
-      "note": "Auto-discovered on Faire's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "faire",
-        "id": "8572160002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-08-10"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "Faire",
       "role": "Strategy & Analytics Lead",
       "loc": "New York City, NY; San Francisco, CA",
       "track": "new",
@@ -5865,6 +5833,35 @@
         "stage": "applied",
         "since": "2026-08-06",
         "note": "Applied 8/6 (Workday) · confirmation received"
+      }
+    },
+    {
+      "co": "Credit Genie",
+      "role": "Director of Analytics",
+      "loc": "Plymouth Meeting, PA / New York, NY (on-site 5 days)",
+      "track": "stepup",
+      "trackLabel": "Director step-up",
+      "extraTrack": "domain",
+      "score": 7.6,
+      "domain": 4,
+      "comp": "$215–260K base + bonus + equity (Series B)",
+      "compFit": "Below Intuit cash, but a solid Director base for Series B + equity upside — the comp/scope trade you're open to",
+      "tier": "Series B consumer fintech (Credit Genie, Khosla-backed) · AI financial-wellness",
+      "url": "https://jobs.ashbyhq.com/creditgenie/5431fc01-b317-4d8b-b56c-9755f60306a1",
+      "source": "inbound recruiter 8/10 (Loreen Dinkelacker, Sr Tech Recruiter)",
+      "note": "INBOUND 8/10. Verified legit (real co/recruiter/posting; founder Ed Harycki, ex-Swift Capital→PayPal; Khosla-backed; leaders ex-PayPal/Square/Cash App). STRONG FIT: JD is genuine leadership scope — own company-wide analytics strategy, build/mentor analyst team, experimentation frameworks, product KPIs (activation/retention/LTV), growth analytics. Dead-center on wedge (experimentation, monetization, growth, product analytics, fintech lifecycle). ⚠ THE GATE = LOCATION: on-site 5 days/wk in Plymouth Meeting PA or NYC; Rodrigo is SF — real relocation decision (NYC plausibly OK, PA less so). ⚠ CLARIFY reporting line: co already has Zachary Weller (Sr Director, Analytics) — confirm whether this owns the function or sits under him, and product- vs risk/credit-analytics split. Comp band respectable for Series B. Reply drafted 8/10; exploratory call TBD. Priority: keep-warm, do NOT divert from Coupang (HM screen 8/12).",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": "",
+      "status": {
+        "live": true,
+        "v": "Inbound 8/10 (Loreen Dinkelacker) · reply drafted · exploratory call TBD · gate = 5-day on-site PA/NYC vs SF"
+      },
+      "app": {
+        "stage": "in-process",
+        "since": "2026-08-10",
+        "note": "Inbound recruiter 8/10; reply drafted, call TBD. Early-stage lead."
       }
     }
   ]
