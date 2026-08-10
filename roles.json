@@ -157,7 +157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10)"
       },
       "referral": {
         "level": "bridge",
@@ -1556,38 +1556,6 @@
         "since": "2026-07-13",
         "note": "Fintech DS (senior-IC lane). WARM PATH: Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño. Expanded Beacon search 7/13."
       }
-    },
-    {
-      "co": "Coinbase",
-      "role": "Group Product Manager, Payments Core",
-      "loc": "Remote - USA",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://www.coinbase.com/careers/positions/7991474?gh_jid=7991474",
-      "posted": "2026-06-10",
-      "note": "Auto-discovered on Coinbase's job board 2026-07-13. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "coinbase",
-        "id": "7991474"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-08-10"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
     },
     {
       "co": "Databricks",
@@ -3062,7 +3030,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-08-10"
+        "v": "Live (closing? unconfirmed) · 2026-08-10"
       },
       "referral": {
         "level": "pending",
@@ -5018,13 +4986,13 @@
       "pinned": true,
       "source": "applied 7/29 → recruiter inbound same day",
       "status": {
-        "live": true,
-        "v": "In process · recruiter phone screen held Wed Aug 5 (9:30am MT / 8:30am PT) with Ashleigh Huffman — awaiting recruiter follow-up on next steps."
+        "live": false,
+        "v": "Rejected 2026-08-06 — Ashleigh Huffman email after 8/5 recruiter screen; not moving forward."
       },
       "app": {
-        "stage": "in-process",
-        "since": "2026-08-05",
-        "note": "In process · recruiter phone screen held Wed Aug 5 (9:30am MT / 8:30am PT) with Ashleigh Huffman — awaiting recruiter follow-up on next steps."
+        "stage": "rejected",
+        "since": "2026-08-06",
+        "note": "Rejected 2026-08-06 after recruiter screen (Ashleigh Huffman). Passed at first round."
       },
       "referral": {
         "level": "direct",
@@ -5707,13 +5675,13 @@
       "source": "applied 8/4 (Ashby)",
       "note": "PARIS TRACK. 'Head of Data' for BeReal (Voodoo-owned social app) — genuine Head-of scope; consumer growth/engagement/monetization is on-wedge, new-industry (social/gaming). France relocation + sponsorship the gating questions. Cold application.",
       "status": {
-        "live": true,
-        "v": "Applied 8/4 (Ashby) · confirmation received · Paris relocation track"
+        "live": false,
+        "v": "Rejected 2026-08-10 (Ashby) — BeReal not moving forward; cold application."
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-08-04",
-        "note": "Applied 8/4 (Ashby) · Paris relocation track"
+        "stage": "rejected",
+        "since": "2026-08-10",
+        "note": "Rejected 2026-08-10 (Ashby). Cold application, Paris track."
       }
     },
     {
@@ -5828,7 +5796,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-08-10"
+        "v": "Board API · checked 2026-08-10"
       },
       "referral": {
         "level": "pending",
@@ -5837,6 +5805,67 @@
       "discovered": true,
       "isNew": true,
       "kind": "pm"
+    },
+    {
+      "co": "Canva",
+      "role": "Head of Data — Finance",
+      "loc": "See posting (Canva; likely AU/remote)",
+      "track": "stepup",
+      "trackLabel": "Head of (step-up)",
+      "extraTrack": "domain",
+      "score": 7.4,
+      "domain": 4,
+      "comp": "Not disclosed",
+      "compFit": null,
+      "tier": "Design SaaS at scale (Canva, ~$40B private) · Finance data leadership",
+      "url": "https://www.canva.com/careers/",
+      "source": "applied 8/6 (Canva ATS)",
+      "note": "NEW 8/6. 'Head of Data - Finance' — genuine Head-of scope owning the finance data function at a top-tier private SaaS. Finance/financial-products domain is on-wedge; strong company. Cold application — no warm path mapped yet; per the Yahoo lesson, cold Head/Director apps at big mature cos are low-yield without an internal advocate. Worth mapping a referral if it advances.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "warm",
+        "text": "<b>Warm path in flight.</b> Direct LinkedIn outreach to <b>Chris Harris</b> (Recruiting @ Canva) sent 8/6 re: Head of Data - Finance — asked to be pointed to the right person / pass resume along. No reply yet as of 8/10."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 8/6 · confirmation received · warm outreach to Chris Harris (Recruiting @ Canva) 8/6, awaiting reply"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-08-06",
+        "note": "Applied 8/6 (Canva ATS) · confirmation received"
+      }
+    },
+    {
+      "co": "Shipt",
+      "role": "Director of Data Science",
+      "loc": "See posting (Shipt; Target-owned)",
+      "track": "stepup",
+      "trackLabel": "Director step-up",
+      "extraTrack": "domain",
+      "score": 6.4,
+      "domain": 3,
+      "comp": "Not disclosed",
+      "compFit": null,
+      "tier": "Retail/delivery marketplace (Shipt, Target-owned)",
+      "url": "https://www.shipt.com/careers/",
+      "source": "applied 8/6 (Workday)",
+      "note": "NEW 8/6. Director of Data Science at Shipt (Target-owned delivery marketplace). Director step-up; marketplace/growth domain adjacent to wedge. Cold Workday application, no warm path — lower-yield lane; keep warm, don't over-invest.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": "",
+      "status": {
+        "live": true,
+        "v": "Applied 8/6 (Workday) · confirmation received · in review"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-08-06",
+        "note": "Applied 8/6 (Workday) · confirmation received"
+      }
     }
   ]
 }
