@@ -48,12 +48,12 @@
    "source": "linkedin (applied 7/1) \u2192 recruiter engaged 7/15",
    "status": {
     "live": true,
-    "v": "In process \u00b7 HM screen CONFIRMED Wed Aug 12, 11:30am PT w/ Sid Gupta (Director II, DS \u2013 Ads)"
+    "v": "In process \u00b7 HM screen w/ Sid Gupta done 8/12 (positive); awaiting Naren on next steps (quiet ~3 wks \u2014 nudge due)"
    },
    "app": {
     "stage": "in-process",
     "since": false,
-    "note": "In process \u00b7 HM screen CONFIRMED Wed Aug 12, 11:30am PT w/ Sid Gupta (Director II, DS \u2013 Ads)"
+    "note": "HM screen w/ Sid Gupta DONE Wed 8/12 (went well \u2014 he focused on experience/monetization, no ad-tech grilling; ads/auction depth likely comes at panel). Sent momentum note to recruiter Naren; awaiting next steps. QUIET since ~8/12 \u2014 nudge due."
    },
    "referral": {
     "level": "direct",
@@ -71,7 +71,7 @@
     "candidate": "you: ~11 yrs DS, ~5 leading; monetization/experimentation at scale (Intuit) \u2014 strong wedge, ad-tech is the gap"
    },
    "discovered": false,
-   "isNew": true
+   "isNew": false
   },
   {
    "co": "Gusto",
@@ -132,12 +132,12 @@
    "source": "linkedin (warm inbound recruiter)",
    "status": {
     "live": true,
-    "v": "In process \u00b7 recruiter intro call 7/24 (Boris Tai) \u00b7 resume sent"
+    "v": "In process (dormant) \u00b7 role never firmed up; quiet since late July"
    },
    "app": {
     "stage": "in-process",
     "since": "2026-07-24",
-    "note": "In process \u00b7 recruiter intro call 7/24 (Boris Tai) \u00b7 resume sent"
+    "note": "Boris Tai intro call 7/24; role never firmed up. DORMANT \u2014 quiet since late July. Treat as effectively dead unless Boris re-engages."
    },
    "referral": {
     "level": "direct",
@@ -176,13 +176,13 @@
    "pinned": true,
    "source": "linkedin (agency recruiter inbound via Joey Pliskin referral)",
    "status": {
-    "live": true,
-    "v": "ADVANCED 8/5 \u2014 company revealed as TRANZACT. Passed HM interview with Alfredo Vizcarra (GM) on Wed 8/5 ('went well, moving forward'). 2nd HM interview with Jake Davidow (30\u201345min video) BOOKED Mon 8/17. Prep call with recruiter Sue Do set for Thu 8/13 12:30pm PT. Relocation (Ft. Lee NJ / Raleigh NC / Miami FL) still the gating question \u2014 confirm remote/relo and comp band before the Jake round."
+    "live": false,
+    "v": "Rejected \u00b7 reached Jake Davidow HM round (8/17), passed after"
    },
    "app": {
-    "stage": "in-process",
-    "since": "2026-08-05",
-    "note": "ADVANCED 8/5 \u2014 company revealed as TRANZACT. Passed HM interview with Alfredo Vizcarra (GM) on Wed 8/5 ('went well, moving forward'). 2nd HM interview with Jake Davidow (30\u201345min video) BOOKED Mon 8/17. Prep call with recruiter Sue Do set for Thu 8/13 12:30pm PT. Relocation (Ft. Lee NJ / Raleigh NC / Miami FL) still the gating question \u2014 confirm remote/relo and comp band before the Jake round."
+    "stage": "rejected",
+    "since": "2026-08-31",
+    "note": "Rejected (confirmed 8/31). Advanced through Alfredo Vizcarra (GM) round 8/5 and Jake Davidow HM round 8/17; recruiter Sue Do call 8/21, but did not move forward."
    },
    "referral": {
     "level": "direct",
@@ -200,7 +200,7 @@
     "candidate": "you: ~11 yrs DS, ~5 leading; actuarial-science degree, marketing measurement + experimentation \u2014 strong on paper; geography and unknown company are the risks"
    },
    "discovered": false,
-   "isNew": true
+   "isNew": false
   },
   {
    "co": "Figma",
@@ -252,12 +252,12 @@
    "source": "applied 7/29 (LinkedIn \u2192 company site)",
    "status": {
     "live": true,
-    "v": "ADVANCED 8/4 \u2014 Britt (TA) moving forward \u00b7 Recruiter First Chat scheduled Mon Aug 10, 1:00\u20131:30pm PDT (invite from bmezhir@duolingo.com, NOT yet accepted on calendar) \u00b7 Rodrigo replied in portal 8/4 \u00b7 Grey McCune referral converted \u00b7 BrightHire-recorded"
+    "v": "In process \u00b7 Leadership Presentation delivered 8/28 (strong); awaiting decision \u2192 Virtual Onsite"
    },
    "app": {
     "stage": "in-process",
     "since": "2026-08-04",
-    "note": "ADVANCED 8/4 \u2014 Britt (TA) moving forward \u00b7 Recruiter First Chat scheduled Mon Aug 10, 1:00\u20131:30pm PDT (invite from bmezhir@duolingo.com, NOT yet accepted on calendar) \u00b7 Rodrigo replied in portal 8/4 \u00b7 Grey McCune referral converted \u00b7 BrightHire-recorded"
+    "note": "Recruiter chat (Britt Mezhir) 8/10 \u2192 HM chat w/ Bronwyn Woods 8/17 \u2192 DS & Analytics Leadership Presentation DELIVERED Fri 8/28 (went well; panel engaged throughout). Thank-you sent to Britt. Awaiting decision; next = Virtual Onsite (final). Grey McCune referral. Deck live: roodhh1.github.io/duolingo-presentation/"
    },
    "referral": {
     "level": "direct",
@@ -275,7 +275,7 @@
     "candidate": "you: ~11 yrs DS, ~5 leading; growth + experimentation + freemium monetization \u2014 strong wedge, location is the risk"
    },
    "discovered": false,
-   "isNew": true
+   "isNew": false
   },
   {
    "co": "Stripe",
@@ -1484,20 +1484,20 @@
    "referral": "",
    "pinned": true,
    "discovered": false,
-   "isNew": true,
+   "isNew": false,
    "co": "FINN",
    "role": "Data Science / Analytics role (title TBC)",
    "loc": "Munich, Germany / EU (relocation)",
    "source": "applied 8/4 (Greenhouse EU)",
    "note": "EU TRACK. Applied 8/4; confirmation email did not name the specific role \u2014 VERIFY the title/scope before investing. Mobility scale-up, not fintech/consumer core. Low priority pending confirmation.",
    "status": {
-    "live": true,
-    "v": "Applied 8/4 (Greenhouse EU) \u00b7 role title unconfirmed \u00b7 EU relocation track"
+    "live": false,
+    "v": "Rejected 8/27"
    },
    "app": {
-    "stage": "applied",
-    "since": "2026-08-04",
-    "note": "Applied 8/4 (Greenhouse) \u00b7 title TBC \u00b7 verify scope"
+    "stage": "rejected",
+    "since": "2026-08-27",
+    "note": "Rejected 8/27 (via EWA Services \u2014 'decided to move ahead with another candidate'). Paris/EU cold app."
    }
   },
   {
@@ -1582,13 +1582,141 @@
    "referral": "",
    "status": {
     "live": true,
-    "v": "Inbound 8/10 (Loreen Dinkelacker) \u00b7 reply drafted \u00b7 exploratory call TBD \u00b7 gate = 5-day on-site PA/NYC vs SF"
+    "v": "In process (keep-warm) \u00b7 awaiting recruiter; relocation + reporting-line gates"
    },
    "app": {
     "stage": "in-process",
     "since": "2026-08-10",
-    "note": "Inbound recruiter 8/10; reply drafted, call TBD. Early-stage lead."
+    "note": "Inbound recruiter Loreen Dinkelacker 8/10; Rodrigo replied. Quiet since. GATES: on-site 5d/wk Plymouth Meeting PA or NYC (real relo); existing Sr Dir Analytics (Zachary Weller) \u2014 reporting line TBD. Keep-warm; don't divert from Coupang/Duolingo/Rocket."
    }
+  },
+  {
+   "loc": "Detroit HQ \u00b7 SF possible / San Diego relo option",
+   "track": "wedge",
+   "trackLabel": "Wedge bullseye (tax 0\u21921)",
+   "extraTrack": "domain",
+   "score": 8.5,
+   "domain": 9,
+   "comp": "TBD \u2014 anchor ~$370K+ TC (Intuit run-rate); make them state the band; don't accept IC-band w/ no mgmt path",
+   "compFit": "unknown",
+   "tier": "Rocket Companies (NYSE: RKT) \u00b7 new 'Rocket Tax' bet to rival TurboTax; ex-Intuit CEO Varun Krishna + ex-Intuit VP HM",
+   "url": "https://www.rocketcareers.com/",
+   "source": "warm referral (Jorge Segovia) \u2192 recruiter Matt Lane (Exec Recruiter @ Rocket); NDA signed 8/24",
+   "discovered": false,
+   "isNew": true,
+   "pinned": true,
+   "referral": {
+    "level": "direct",
+    "text": "Referred by <b>Jorge Segovia</b>. Recruiter <b>Matt Lane</b> (Exec Recruiter, Rocket, Detroit) owns the process. NEXT: HM = <b>VP of Product (ex-Intuit)</b>."
+   },
+   "app": {
+    "stage": "in-process",
+    "since": false,
+    "note": "Recruiter screen 8/25 done (role revealed under NDA: Rocket building 'Rocket Tax' to compete w/ TurboTax, launch next tax season). Wants a senior IC 'at the helm' of the data work, reporting to VP Product (ex-Intuit). Rodrigo open to relo (San Diego); SF possible. NEXT: HM conversation w/ VP (not yet scheduled)."
+   },
+   "note": "RARE WEDGE FIT \u2014 Rodrigo built tax products at the incumbent (Business Tax 0\u21921, TurboTax, E3B Lite, forms-based pricing); knows TurboTax product/monetization/lifecycle from inside. High leverage \u2014 don't undersell. TENSIONS: (1) 'senior IC' label vs Track-A Director/Head goal + comp \u2014 clarify real level/scope + growth path to leading the Rocket Tax data org; (2) strategic soundness vs entrenched TurboTax + Cash App Taxes; (3) timeline realism ('launch next tax season' \u2248 4-5 mo; one analyst likely insufficient); (4) downside if the bet is cut. For the VP convo: bring a POV on HOW Rocket Tax wins \u2014 reframes him from 'rusty IC' to 'founding data leader who knows how to beat TurboTax.'",
+   "status": {
+    "live": true,
+    "v": "In process \u00b7 recruiter screen 8/25 (NDA'd); awaiting HM convo w/ VP of Product (ex-Intuit)"
+   },
+   "co": "Rocket Companies (confidential \u2014 'Rocket Tax')",
+   "role": "Founding Senior Data Scientist \u2014 Rocket Tax (0\u21921)"
+  },
+  {
+   "loc": "Remote (in-office ~1x/quarter, Detroit)",
+   "track": "stepup",
+   "trackLabel": "Step-up title (VP)",
+   "extraTrack": "ai",
+   "score": 8.0,
+   "domain": 6,
+   "comp": "$295K\u2013$325K base + bonus + stock (at/above baseline once bonus+stock incl.)",
+   "compFit": "good",
+   "tier": "Undisclosed Detroit company (client of Europa Search) \u00b7 VP-level; build the AI & Data function from scratch",
+   "url": "https://europa-it-search.com/",
+   "source": "recruiter inbound \u2014 Tobias Chilton, Europa Search (screens, then shares w/ client)",
+   "discovered": false,
+   "isNew": true,
+   "pinned": true,
+   "referral": {
+    "level": "recruiter",
+    "text": "<b>Tobias Chilton</b>, Europa Search (tobias.chilton@europa-it-search.com, +1 628-223-0578). NOT the client \u2014 screens then shares r\u00e9sum\u00e9. Process could take ~3 months, series of interviews."
+   },
+   "app": {
+    "stage": "in-process",
+    "since": false,
+    "note": "20-min call w/ Tobias 8/26; tailored AI-forward r\u00e9sum\u00e9 sent 8/26; Tobias 8/27 'sending across to my client, we'll go from there.' Awaiting client feedback."
+   },
+   "note": "Build the AI & Data function from scratch then run it: (1) lead AI implementation/integration across internal systems (efficiency/automation); (2) own + optimize AI & Data Analytics long-term. VP = stretch up from Sr Mgr. GAP: JD leans infra-heavy (ML infra / LLM deployment / enterprise data architecture) \u2014 Rodrigo's strength is AI strategy/governance/adoption + business outcomes + team-building + in-product AI, NOT MLOps/platform eng. Frame around what he owns; partner w/ eng on infra. R\u00e9sum\u00e9: Rodrigo_Hernandez_Resume_VP_AI_Data.docx.",
+   "status": {
+    "live": true,
+    "v": "In process \u00b7 r\u00e9sum\u00e9 with recruiter's client since 8/27; awaiting client feedback"
+   },
+   "co": "Undisclosed (Detroit co. via Europa Search)",
+   "role": "VP of AI and Data"
+  },
+  {
+   "loc": "TBC (SF / NYC / remote)",
+   "track": "stepup",
+   "trackLabel": "DS/Applied Science leadership",
+   "extraTrack": "ai",
+   "score": 7.5,
+   "domain": 7,
+   "comp": "TBD",
+   "compFit": "unknown",
+   "tier": "Attentive \u00b7 AI-powered marketing / SMS+email platform",
+   "url": "https://job-boards.greenhouse.io/attentive",
+   "source": "cold app via Greenhouse (applied 8/31)",
+   "discovered": false,
+   "isNew": true,
+   "pinned": true,
+   "referral": {
+    "level": "none",
+    "text": "No warm path mapped yet. Map a LinkedIn 1st/2nd-degree referral to lift it above the cold pile (Yahoo lesson: cold Director+ apps at scaled cos are low-yield)."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-08-31",
+    "note": "Applied 8/31 via Greenhouse. Awaiting."
+   },
+   "note": "Applied Science / DS Leadership at Attentive (SMS/email marketing AI platform). On-wedge-adjacent: marketing/monetization + experimentation + customer lifecycle. Priority: find a warm path in.",
+   "status": {
+    "live": true,
+    "v": "Applied 8/31 (cold, via Greenhouse)"
+   },
+   "co": "Attentive",
+   "role": "Applied Science / Data Science Leader"
+  },
+  {
+   "loc": "San Francisco, CA (Remote)",
+   "track": "stepup",
+   "trackLabel": "Head-of title",
+   "extraTrack": "",
+   "score": 7.0,
+   "domain": 6,
+   "comp": "TBD",
+   "compFit": "unknown",
+   "tier": "Philo \u00b7 live-TV streaming service (consumer subscription)",
+   "url": "https://www.linkedin.com/jobs/",
+   "source": "sweep 8/31 (LinkedIn past-week; Rodrigo already viewed the posting)",
+   "discovered": false,
+   "isNew": true,
+   "pinned": true,
+   "referral": {
+    "level": "warm-possible",
+    "text": "1 Intuit alum works at Philo (per LinkedIn) \u2014 map that path before applying."
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": false,
+    "note": "Fresh sighting from 8/31 sweep. Consumer-subscription business = monetization/retention/experimentation wedge-adjacent. Rodrigo already viewed the posting. Map the Intuit-alum referral, then apply."
+   },
+   "note": "Head of Data at Philo (live-TV streaming, consumer subscription). Wedge-adjacent (subscription monetization + retention + experimentation). Smaller co = broader scope + Head-of title (Track-A optionality). Verify comp band & scope before investing.",
+   "status": {
+    "live": true,
+    "v": "To-apply (sweep 8/31) \u00b7 fresh; Intuit alum inside"
+   },
+   "co": "Philo",
+   "role": "Head of Data"
   }
  ],
  "overrides": {
