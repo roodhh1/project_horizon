@@ -115,7 +115,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-11) (recheck failed 2026-08-12) (recheck failed 2026-08-13) (recheck failed 2026-08-14) (recheck failed 2026-08-15) (recheck failed 2026-08-16) (recheck failed 2026-08-17) (recheck failed 2026-08-18) (recheck failed 2026-08-19) (recheck failed 2026-08-20) (recheck failed 2026-08-21) (recheck failed 2026-08-22) (recheck failed 2026-08-23) (recheck failed 2026-08-24) (recheck failed 2026-08-25) (recheck failed 2026-08-26) (recheck failed 2026-08-28) (recheck failed 2026-08-29) (recheck failed 2026-08-29) (recheck failed 2026-08-30) (recheck failed 2026-08-31) (recheck failed 2026-08-31) (recheck failed 2026-09-01) (recheck failed 2026-09-02) (recheck failed 2026-09-03) (recheck failed 2026-09-03)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-11) (recheck failed 2026-08-12) (recheck failed 2026-08-13) (recheck failed 2026-08-14) (recheck failed 2026-08-15) (recheck failed 2026-08-16) (recheck failed 2026-08-17) (recheck failed 2026-08-18) (recheck failed 2026-08-19) (recheck failed 2026-08-20) (recheck failed 2026-08-21) (recheck failed 2026-08-22) (recheck failed 2026-08-23) (recheck failed 2026-08-24) (recheck failed 2026-08-25) (recheck failed 2026-08-26) (recheck failed 2026-08-28) (recheck failed 2026-08-29) (recheck failed 2026-08-29) (recheck failed 2026-08-30) (recheck failed 2026-08-31) (recheck failed 2026-08-31) (recheck failed 2026-09-01) (recheck failed 2026-09-02) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-03)"
       },
       "referral": {
         "level": "bridge",
@@ -568,12 +568,12 @@
       "compFit": null,
       "tier": "Public fintech · lending/banking",
       "url": "https://www.linkedin.com/jobs/view/4399470189/",
-      "note": "Was the sharpest domain match on the board — lending, banking, monetization, financial products is exactly your wedge. The req has since been pulled. Worth watching for a reopen or a sibling lending/growth req.",
+      "note": "Sr Mgr DS at SoFi (re-applied 9/3). WARM: SoFi recruiter Justin Grulke is walking the profile to the HM. One of the few new apps with a live human in the loop — prioritize.",
       "pinned": true,
       "source": "linkedin",
       "status": {
         "live": true,
-        "v": "Applied 9/2 (Greenhouse) — confirmation received."
+        "v": "Applied 9/3 · WARM: recruiter Justin Grulke connecting to HM (9/3)."
       },
       "app": {
         "stage": "applied",
@@ -581,8 +581,8 @@
         "note": "Applied 9/2 via Greenhouse (fresh req). Prior interest closed 6/9."
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "warm",
+        "text": "<b>Warm path active (9/3).</b> <b>Justin Grulke</b> (Senior Technical Recruiter @ SoFi) replied 9/3: connecting Rodrigo to the hiring manager to gauge interest. Awaiting HM feedback — follow up in ~4-5 business days if quiet."
       },
       "discovered": false,
       "isNew": false
@@ -840,16 +840,16 @@
       "source": "linkedin (applied 7/1) → recruiter engaged 7/15",
       "status": {
         "live": true,
-        "v": "In process · HM screen w/ Sid Gupta done 8/12 (positive); awaiting Naren on next steps (quiet ~3 wks — nudge due)"
+        "v": "In-process but stalled: Sid Gupta HM screen 8/12 went well; 2 unanswered follow-ups to recruiter Naren Barve (8/12, 8/25). Awaiting Coupang — no further outreach planned."
       },
       "app": {
         "stage": "in-process",
         "since": false,
-        "note": "HM screen w/ Sid Gupta DONE Wed 8/12 (went well — he focused on experience/monetization, no ad-tech grilling; ads/auction depth likely comes at panel). Sent momentum note to recruiter Naren; awaiting next steps. QUIET since ~8/12 — nudge due."
+        "note": "HM screen w/ Sid Gupta done 8/12 (strong — monetization/experimentation focus). Rodrigo followed up 8/12 AND again 8/25; recruiter Naren Barve has not responded. Two nudges sent, no reply — NOT reaching out again. Ball is in Coupang court."
       },
       "referral": {
-        "level": "direct",
-        "text": "<b>Recruiter engaged (not just a referral).</b> <b>Naren Barve</b> — Principal Talent Advisor, Talent Acquisition @ Coupang (Mountain View, 30+ mutuals) — owns your process and set up the HM screen. HM: <b>Siddharth Gupta</b>, Director II, DS & Analytics, Advertising Technology (ex-Meta, NerdWallet Head of Marketing Analytics, eBay). Keep Naren as your comp/logistics channel."
+        "level": "none",
+        "text": "Naren Barve = Coupang recruiter (Principal Talent Advisor), not a referral. Process went quiet after the 8/12 Sid Gupta screen despite two follow-ups (8/12, 8/25). No warm internal advocate; do not chase the recruiter further."
       },
       "fit": {
         "relevance": 9,
@@ -4093,7 +4093,7 @@
       "compFit": "border",
       "tier": "Elite pre-IPO fintech (Stripe) · Finance & Strategy DS",
       "url": "https://stripe.com/jobs/listing/data-science-manager-finance-and-strategy/7440963",
-      "note": "NEW APPLICATION 7/27. DS Manager, Finance & Strategy at Stripe — own the forecasting infrastructure (hierarchical time-series + agentic models predicting payment volumes & revenue margins), set Stripe's budget in partnership with Finance execs, and govern the metrics platform feeding company-wide dashboards + exec reporting. WEDGE-STRONG: monetization + forecasting + metrics/measurement + financial products (Core Monetization, forms-based pricing, actuarial/stats rigor) at an elite pre-IPO brand. Comp base sits below the $500K TC anchor, but Stripe equity is a real lever. Manager scope (not Director), so a high-value lateral-plus with a clean wedge.",
+      "note": "Stripe DSM Finance & Strategy (reposted; re-applied 9/3 after 7/30 rejection). WARM: insider Somya Jain has the resume to refer. Bullseye wedge (fintech + finance/monetization). Second shot with a real internal advocate — prioritize.",
       "pinned": true,
       "source": "stripe careers (applied 7/27)",
       "status": {
@@ -4106,8 +4106,8 @@
         "note": "Re-applied 9/3 (role reposted). Earlier app rejected 7/30. Steve Wasik (HM) warm path still open."
       },
       "referral": {
-        "level": "bridge",
-        "text": "<b>HM = Steve Wasik</b> — DS &amp; Eng Manager @Stripe (Carnegie Mellon; long-tenured, built Revenue Mgmt / Connect / Global Selling DS teams), <b>2nd° via mutual Sagar</b>; actively recruiting for this exact role. Message sent 7/27 — <b>no reply yet as of 7/30</b>, nudge due. Backup Stripe DS-org: Matt DeLand (Head of DS, 2nd°) via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd°)."
+        "level": "warm",
+        "text": "<b>Warm referral in motion (9/3).</b> <b>Somya Jain</b> (Data Strategy / Applied AI @ Stripe) agreed to refer and Rodrigo sent his resume 9/3. Plus prior HM contact <b>Steve Wasik</b>. Re-applied to the reposted req 9/3."
       },
       "fit": {
         "relevance": 8,
@@ -4354,13 +4354,13 @@
       "pinned": true,
       "source": "applied 7/29 (LinkedIn → company site)",
       "status": {
-        "live": true,
-        "v": "In process · Leadership Presentation delivered 8/28 (strong); awaiting decision → Virtual Onsite"
+        "live": false,
+        "v": "Rejected (post leadership-presentation 8/28). Best-fit live role lost."
       },
       "app": {
-        "stage": "in-process",
-        "since": "2026-08-04",
-        "note": "Recruiter chat (Britt Mezhir) 8/10 → HM chat w/ Bronwyn Woods 8/17 → DS & Analytics Leadership Presentation DELIVERED Fri 8/28 (went well; panel engaged throughout). Thank-you sent to Britt. Awaiting decision; next = Virtual Onsite (final). Grey McCune referral. Deck live: roodhh1.github.io/duolingo-presentation/"
+        "stage": "rejected",
+        "since": "2026-09-03",
+        "note": "Rejected — cut after Leadership Presentation (delivered 8/28). Was the best-fit live role; no onsite, no detailed feedback."
       },
       "referral": {
         "level": "direct",
@@ -4896,13 +4896,13 @@
       "source": "LinkedIn inbound — recruiter Angie van Vuuren (LHi Group), 8/5",
       "note": "Inbound recruiter lead (Angie van Vuuren, Delivery Manager @ LHi Group). Intro call TODAY Thu 8/6 12:30pm PT (Zoom). ⚠ TWO honest flags: (1) COMP — quoted band $210–230K base + equity is well BELOW baseline ($373K run-rate / $500K realized at Intuit) and below the Brigit floor; (2) SCOPE — 'Senior Manager' is a lateral, not a step-up. Company still undisclosed (agency search). Use the call purely as diligence: learn the company/mission/trajectory and real scope before deciding it's worth any time. Low priority unless the company is exceptional.",
       "status": {
-        "live": true,
-        "v": "New inbound lead · intro call Thu 8/6 12:30pm PT · comp $210–230K+equity (below baseline) · company undisclosed"
+        "live": false,
+        "v": "Rejected. LHi/Angie van Vuuren SM lead; was below-baseline comp."
       },
       "app": {
-        "stage": "in-process",
-        "since": "2026-08-06",
-        "note": "Inbound recruiter (LHi Group) · intro/diligence call Thu 8/6 12:30pm PT · Senior Manager (lateral), comp below baseline"
+        "stage": "rejected",
+        "since": "2026-09-03",
+        "note": "Rejected. (Angie van Vuuren / LHi Group; comp was below baseline anyway.)"
       }
     },
     {
@@ -6073,8 +6073,8 @@
       "discovered": false,
       "isNew": true,
       "referral": {
-        "level": "none",
-        "text": "No warm path mapped. Media is off-wedge — low priority unless a referral surfaces."
+        "level": "direct",
+        "text": "Direct LinkedIn note to <b>Fredrik Linåker, PhD</b> (hiring side @ People/Meredith) sent 9/3 after applying — pitched 0→1 leadership + experimentation. Awaiting reply."
       },
       "app": {
         "stage": "applied",
@@ -6325,6 +6325,68 @@
       "status": {
         "live": true,
         "v": "Applied 9/2 (Workday) — off-wedge, low priority."
+      }
+    },
+    {
+      "co": "Instacart",
+      "role": "Senior Product Manager, Discounting Platform",
+      "loc": "United States - Remote",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://instacart.careers/job/?gh_jid=8175791",
+      "posted": "2026-09-03",
+      "note": "Auto-discovered on Instacart's job board 2026-09-03. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "instacart",
+        "id": "8175791"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-09-03"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
+    },
+    {
+      "co": "Coupang (2nd req)",
+      "role": "Sr. Director, Data Science & Data Engineering — Search",
+      "loc": "Mountain View, CA",
+      "track": "stepup",
+      "trackLabel": "DS leadership (TBC)",
+      "score": 6.5,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Coupang (NYSE: CPNG) · Korea e-commerce at scale",
+      "url": "https://www.coupang.jobs/",
+      "source": "direct app via Greenhouse (applied 9/1)",
+      "note": "2nd Coupang application (Sr Director DS & Data Eng, Search) — separate from the active Ads Director process. Reached the Coupang exec recruiter (Dave Davis) directly; role was a no. Keep Dave as a warm Coupang recruiter contact.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "direct",
+        "text": "Direct outreach to <b>Dave Davis</b> (Global Executive Tech Recruiter @ Coupang) 9/1 with resume — no response; role came back a no. Dave = a Coupang exec-recruiter contact worth keeping warm for future reqs."
+      },
+      "app": {
+        "stage": "rejected",
+        "since": "2026-09-03",
+        "note": "Rejected fast (applied 9/1). Separate from the active Ads Director process."
+      },
+      "status": {
+        "live": false,
+        "v": "Rejected 9/3 (applied 9/1). 2nd Coupang req — Ads process unaffected."
       }
     }
   ]
