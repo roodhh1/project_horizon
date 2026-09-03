@@ -115,7 +115,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-11) (recheck failed 2026-08-12) (recheck failed 2026-08-13) (recheck failed 2026-08-14) (recheck failed 2026-08-15) (recheck failed 2026-08-16) (recheck failed 2026-08-17) (recheck failed 2026-08-18) (recheck failed 2026-08-19) (recheck failed 2026-08-20) (recheck failed 2026-08-21) (recheck failed 2026-08-22) (recheck failed 2026-08-23) (recheck failed 2026-08-24) (recheck failed 2026-08-25) (recheck failed 2026-08-26) (recheck failed 2026-08-28) (recheck failed 2026-08-29) (recheck failed 2026-08-29) (recheck failed 2026-08-30) (recheck failed 2026-08-31) (recheck failed 2026-08-31) (recheck failed 2026-09-01) (recheck failed 2026-09-02) (recheck failed 2026-09-03)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-11) (recheck failed 2026-08-12) (recheck failed 2026-08-13) (recheck failed 2026-08-14) (recheck failed 2026-08-15) (recheck failed 2026-08-16) (recheck failed 2026-08-17) (recheck failed 2026-08-18) (recheck failed 2026-08-19) (recheck failed 2026-08-20) (recheck failed 2026-08-21) (recheck failed 2026-08-22) (recheck failed 2026-08-23) (recheck failed 2026-08-24) (recheck failed 2026-08-25) (recheck failed 2026-08-26) (recheck failed 2026-08-28) (recheck failed 2026-08-29) (recheck failed 2026-08-29) (recheck failed 2026-08-30) (recheck failed 2026-08-31) (recheck failed 2026-08-31) (recheck failed 2026-09-01) (recheck failed 2026-09-02) (recheck failed 2026-09-03) (recheck failed 2026-09-03)"
       },
       "referral": {
         "level": "bridge",
@@ -572,13 +572,13 @@
       "pinned": true,
       "source": "linkedin",
       "status": {
-        "live": false,
-        "v": "Closed — req pulled (per SoFi) · confirmed 2026-06-09"
+        "live": true,
+        "v": "Applied 9/2 (Greenhouse) — confirmation received."
       },
       "app": {
-        "stage": "closed",
-        "since": "2026-06-09",
-        "note": "Closed — req pulled (per SoFi) · confirmed 2026-06-09"
+        "stage": "applied",
+        "since": "2026-09-02",
+        "note": "Applied 9/2 via Greenhouse (fresh req). Prior interest closed 6/9."
       },
       "referral": {
         "level": "pending",
@@ -637,12 +637,12 @@
       "source": "linkedin",
       "status": {
         "live": true,
-        "v": "LinkedIn · added 2026-06-09 · passed (off-wedge)"
+        "v": "Applied 9/2 (Workday R170516) — confirmation received."
       },
       "app": {
-        "stage": "passed",
-        "since": "2026-06-09",
-        "note": "LinkedIn · added 2026-06-09"
+        "stage": "applied",
+        "since": "2026-09-02",
+        "note": "Applied 9/2 (Adobe Workday, req R170516). Reposted 5d ago."
       },
       "referral": {
         "level": "pending",
@@ -2012,8 +2012,8 @@
         "id": "7602838003"
       },
       "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-09-03"
+        "live": false,
+        "v": "Not on board · checked 2026-09-03"
       },
       "referral": {
         "level": "bridge",
@@ -2496,8 +2496,8 @@
         "id": "4308475009"
       },
       "status": {
-        "live": true,
-        "v": "Applied 8/31 (cold, via Greenhouse)"
+        "live": false,
+        "v": "Rejected 9/2 (applied 8/31, cold)."
       },
       "referral": {
         "level": "none",
@@ -2509,9 +2509,9 @@
       "source": "cold app via Greenhouse (applied 8/31)",
       "pinned": true,
       "app": {
-        "stage": "applied",
-        "since": "2026-08-31",
-        "note": "Applied 8/31 via Greenhouse. Awaiting."
+        "stage": "rejected",
+        "since": "2026-09-02",
+        "note": "Rejected 9/2 (cold Greenhouse app 8/31; no warm path landed in time)."
       }
     },
     {
@@ -3509,12 +3509,12 @@
       "source": "ladders 2026-07-20",
       "status": {
         "live": true,
-        "v": "Opportunity · found via Ladders 2026-07-20"
+        "v": "Applied 9/1 — confirmation received (exact OpenAI req TBC)."
       },
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-20",
-        "note": "Opportunity · found via Ladders 2026-07-20"
+        "stage": "applied",
+        "since": "2026-09-01",
+        "note": "Applied 9/1 (OpenAI careers) — confirmation received. Exact req TBC: generic confirmation; assumed the Founding DS, Pricing & Monetization target."
       },
       "referral": {
         "level": "bridge",
@@ -4081,38 +4081,6 @@
       "kind": "ds"
     },
     {
-      "co": "Scale AI",
-      "role": "Director of Product Strategy, Physical AI ",
-      "loc": "San Francisco, CA",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718559005",
-      "posted": "2026-07-27",
-      "note": "Auto-discovered on Scale AI's job board 2026-07-28. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "scaleai",
-        "id": "4718559005"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-09-03"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
       "co": "Stripe",
       "role": "Data Science Manager, Finance and Strategy",
       "loc": "Chicago, IL / Remote (US)",
@@ -4129,13 +4097,13 @@
       "pinned": true,
       "source": "stripe careers (applied 7/27)",
       "status": {
-        "live": false,
-        "v": "Rejected 2026-07-30 (referred app, no interview)"
+        "live": true,
+        "v": "Re-applied 9/3 (reposted role); prior app rejected 7/30. Warm path: Steve Wasik."
       },
       "app": {
-        "stage": "rejected",
-        "since": "2026-07-30",
-        "note": "Rejected 2026-07-30 (referred app, no interview)"
+        "stage": "applied",
+        "since": "2026-09-03",
+        "note": "Re-applied 9/3 (role reposted). Earlier app rejected 7/30. Steve Wasik (HM) warm path still open."
       },
       "referral": {
         "level": "bridge",
@@ -4563,38 +4531,6 @@
       "status": {
         "live": true,
         "v": "Board API · checked 2026-09-03"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "Instacart",
-      "role": "Senior Product Manager, Caper Recommendations & Personalization",
-      "loc": "United States - Remote",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://instacart.careers/job/?gh_jid=8100148",
-      "posted": "2026-08-03",
-      "note": "Auto-discovered on Instacart's job board 2026-08-04. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "instacart",
-        "id": "8100148"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-09-03"
       },
       "referral": {
         "level": "pending",
@@ -5143,13 +5079,13 @@
         "text": "<b>Warm path in flight.</b> Direct LinkedIn outreach to <b>Chris Harris</b> (Recruiting @ Canva) sent 8/6 re: Head of Data - Finance — asked to be pointed to the right person / pass resume along. No reply yet as of 8/10."
       },
       "status": {
-        "live": true,
-        "v": "Applied 8/6 · confirmation received · warm outreach to Chris Harris (Recruiting @ Canva) 8/6, awaiting reply"
+        "live": false,
+        "v": "Rejected 9/3 (applied 8/6)."
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-08-06",
-        "note": "Applied 8/6 (Canva ATS) · confirmation received"
+        "stage": "rejected",
+        "since": "2026-09-03",
+        "note": "Rejected 9/3 ('wasn't a match this time'). Applied 8/6; warm outreach to Chris Harris did not convert."
       }
     },
     {
@@ -5405,18 +5341,18 @@
     {
       "co": "DoorDash",
       "role": "Senior Manager, Analytics, Customer Experience",
-      "loc": "San Francisco, CA; Sunnyvale, CA; Seattle, WA; New York, NY; Los Angeles, CA; Chicago, IL",
-      "track": "new",
-      "trackLabel": "New find",
+      "loc": "Sunnyvale, CA",
+      "track": "lateral",
+      "trackLabel": "Senior Manager (lateral)",
       "extraTrack": "",
-      "score": null,
+      "score": 6.8,
       "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8127960",
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "DoorDash (NASDAQ: DASH) · local-commerce marketplace at scale",
+      "url": "https://www.linkedin.com/jobs/",
       "posted": "2026-08-13",
-      "note": "Auto-discovered on DoorDash's job board 2026-08-14. Not yet scored — review fit, comp, and referral path.",
+      "note": "Sr Mgr Analytics (CX) at DoorDash. Distinct from the Director New Verticals role rejected 7/20. Scaled marketplace + experimentation is a strong bridge (Track B); lateral level.",
       "verify": {
         "type": "greenhouse",
         "token": "doordashusa",
@@ -5424,15 +5360,22 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-03"
+        "v": "Applied 9/2 (LinkedIn Easy Apply)."
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "none",
+        "text": "Prior DoorDash Director app rejected 7/20 — an internal advocate matters here. Map a referral."
       },
-      "discovered": true,
+      "discovered": false,
       "isNew": true,
-      "kind": "ds"
+      "kind": "ds",
+      "source": "LinkedIn Easy Apply (applied 9/2)",
+      "pinned": true,
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-02",
+        "note": "Applied 9/2 (LinkedIn) — under review."
+      }
     },
     {
       "co": "Robinhood",
@@ -5469,34 +5412,41 @@
     {
       "co": "Gusto",
       "role": "Growth Data Science Leader",
-      "loc": "Denver, CO - Hybrid; New York, New York, United States; San Francisco, CA - Hybrid",
-      "track": "new",
-      "trackLabel": "New find",
+      "loc": "Remote (US)",
+      "track": "stepup",
+      "trackLabel": "DS leadership (growth)",
       "extraTrack": "",
-      "score": null,
+      "score": 0,
       "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/gusto/jobs/7357545",
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Gusto · SMB payroll/HR fintech",
+      "url": "https://gusto.com/about/careers",
       "posted": "2026-04-29",
-      "note": "Auto-discovered on Gusto's job board 2026-08-17. Not yet scored — review fit, comp, and referral path.",
+      "note": "2nd Gusto attempt — Growth DS Leader (distinct from the Head of Sales DS role rejected 8/6). On-wedge (growth + fintech) but no warm path; rejected fast.",
       "verify": {
         "type": "greenhouse",
         "token": "gusto",
         "id": "7357545"
       },
       "status": {
-        "live": true,
-        "v": "Board API · checked 2026-09-03"
+        "live": false,
+        "v": "Rejected 9/3 (applied 9/1). 2nd Gusto miss (Head of Sales DS rejected 8/6)."
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "warm",
+        "text": "Note to Ashleigh Huffman (Gusto) sent 9/1 asking for a pointer to the right recruiter — did not convert."
       },
-      "discovered": true,
+      "discovered": false,
       "isNew": true,
-      "kind": "ds"
+      "kind": "ds",
+      "source": "cold app via Gusto ATS (applied 9/1)",
+      "pinned": true,
+      "app": {
+        "stage": "rejected",
+        "since": "2026-09-03",
+        "note": "Applied 9/1; rejected 9/3 ('won't be moving forward')."
+      }
     },
     {
       "co": "Discord",
@@ -6032,7 +5982,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-09-03"
+        "v": "Board API · checked 2026-09-03"
       },
       "referral": {
         "level": "pending",
@@ -6064,7 +6014,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-09-03"
+        "v": "Board API · checked 2026-09-03"
       },
       "referral": {
         "level": "pending",
@@ -6096,7 +6046,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-09-03"
+        "v": "Board API · checked 2026-09-03"
       },
       "referral": {
         "level": "pending",
@@ -6105,6 +6055,277 @@
       "discovered": true,
       "isNew": true,
       "kind": "pm"
+    },
+    {
+      "co": "Meredith (People Inc.)",
+      "role": "Director, Data Science",
+      "loc": "United States (Remote)",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Director)",
+      "score": 6.5,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "People Inc. (fmr Dotdash Meredith) · digital media/publishing at scale",
+      "url": "https://www.linkedin.com/jobs/",
+      "source": "LinkedIn Easy Apply (applied 9/3)",
+      "note": "Director DS at People Inc. (Dotdash Meredith's rebrand) — large ad-supported digital media. Off-core-wedge (media, not fintech) but a real Director title with remote scope. Confirmation from Workday received.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "No warm path mapped. Media is off-wedge — low priority unless a referral surfaces."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-03",
+        "note": "Applied 9/3 (LinkedIn/Workday) — 'under review' confirmation received."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 9/3 (LinkedIn Easy Apply) — confirmation received."
+      }
+    },
+    {
+      "co": "Stitch Fix",
+      "role": "Director, Data Science & Algorithms — CX Product Experiences",
+      "loc": "United States (Remote)",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Director)",
+      "score": 7.0,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Stitch Fix (NASDAQ: SFIX) · consumer retail personalization",
+      "url": "https://www.linkedin.com/jobs/",
+      "source": "LinkedIn Easy Apply (applied 9/3)",
+      "note": "Director DS & Algorithms owning CX product experiences at Stitch Fix. Consumer product + personalization + experimentation = on-wedge-adjacent; Director title is the scope step-up. Turnaround company (watch trajectory/downside).",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "No warm path yet — map a LinkedIn 1st/2nd-degree in before it hits the cold pile."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-03",
+        "note": "Applied 9/3 (LinkedIn) — recruiter to review."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 9/3 (LinkedIn Easy Apply)."
+      }
+    },
+    {
+      "co": "Customer.io",
+      "role": "Senior Manager, Data Science & Analytics",
+      "loc": "United States (Remote)",
+      "track": "lateral",
+      "trackLabel": "Senior Manager (lateral)",
+      "score": 6.5,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Customer.io · martech / messaging automation SaaS",
+      "url": "https://job-boards.greenhouse.io/customerio",
+      "source": "cold app via Greenhouse (applied 9/3)",
+      "note": "Sr Mgr DS & Analytics at Customer.io (marketing automation SaaS). Lateral level; martech is adjacent to marketing/lifecycle wedge. Fully remote.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "No warm path. Lateral title — bridge lane, not aspirational."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-03",
+        "note": "Applied 9/3 (Greenhouse) — confirmation received."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 9/3 (Greenhouse) — confirmation received."
+      }
+    },
+    {
+      "co": "Harnham (recruiting agency)",
+      "role": "Director of Data Science",
+      "loc": "United States (Remote)",
+      "track": "stepup",
+      "trackLabel": "Director (via agency)",
+      "score": 5.0,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Harnham · data/analytics staffing agency (client undisclosed)",
+      "url": "https://www.linkedin.com/jobs/",
+      "source": "LinkedIn Easy Apply (applied 9/3)",
+      "note": "Applied via Harnham, a data/analytics recruiting AGENCY — the actual employer is undisclosed. Treat as a recruiter relationship, not a company app. Worth: get Harnham working for you across multiple client searches.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "Follow up with the Harnham recruiter directly to learn the client + open other roles they hold."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-03",
+        "note": "Applied 9/3 via LinkedIn — agency posting, client TBC."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 9/3 (Harnham agency) — client undisclosed."
+      }
+    },
+    {
+      "co": "Cohere",
+      "role": "Lead Data Scientist",
+      "loc": "San Francisco, CA (Remote)",
+      "track": "lateral",
+      "trackLabel": "Lead DS (IC)",
+      "score": 6.0,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Cohere · enterprise LLM/AI-native",
+      "url": "https://jobs.ashbyhq.com/cohere",
+      "source": "cold app via Ashby (applied 9/2)",
+      "note": "Lead Data Scientist at Cohere (enterprise AI). AI-native exposure = a positioning goal, BUT this is an IC 'Lead' title, not people-leadership — a step DOWN in management scope. Take only if AI-native brand + growth outweighs the level.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "No warm path. Weigh the IC-level tradeoff before investing."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-02",
+        "note": "Applied 9/2 (Ashby) — confirmation received."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 9/2 (Ashby) — confirmation received."
+      },
+      "extraTrack": "ai"
+    },
+    {
+      "co": "MoonPay",
+      "role": "Director, Data & Analytics",
+      "loc": "New York, NY (Hybrid)",
+      "track": "stepup",
+      "trackLabel": "Step-up title (Director)",
+      "score": 7.0,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "MoonPay · crypto payments/on-ramp fintech",
+      "url": "https://www.linkedin.com/jobs/",
+      "source": "LinkedIn Easy Apply (applied ~8/27)",
+      "note": "Director Data & Analytics at MoonPay (crypto/fintech payments). On-wedge (fintech + payments + growth); Director scope. NY hybrid = relocation question. Caught in LinkedIn tracker (applied ~1 week ago), not previously in Beacon.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "No warm path. NY-hybrid relo gate — clarify remote flexibility. Map a referral."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-08-27",
+        "note": "Applied ~8/27 (LinkedIn). Surfaced in LinkedIn tracker 9/3."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied ~8/27 (LinkedIn Easy Apply)."
+      }
+    },
+    {
+      "co": "Robinhood",
+      "role": "Data Science / Analytics leadership (exact req TBC)",
+      "loc": "Menlo Park, CA / Remote",
+      "track": "stepup",
+      "trackLabel": "DS leadership (TBC)",
+      "score": 7.0,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Robinhood (NASDAQ: HOOD) · consumer investing/fintech",
+      "url": "https://careers.robinhood.com/",
+      "source": "direct app (applied 9/2)",
+      "note": "Applied to Robinhood 9/2 — generic confirmation, exact req not captured. On-wedge (consumer fintech, monetization, growth). CONFIRM which role: needed for accurate tracking.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "No warm path. Confirm the exact req title, then map a referral (fintech is on-wedge — worth the effort)."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-02",
+        "note": "Applied 9/2 — confirmation received; exact role TBC (please confirm)."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 9/2 — confirmation received; exact req TBC."
+      }
+    },
+    {
+      "co": "Coupang (2nd req)",
+      "role": "DS leadership — Search (exact req TBC)",
+      "loc": "Mountain View, CA",
+      "track": "stepup",
+      "trackLabel": "DS leadership (TBC)",
+      "score": 6.5,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Coupang (NYSE: CPNG) · Korea e-commerce at scale",
+      "url": "https://www.coupang.jobs/",
+      "source": "direct app via Greenhouse (applied 9/1)",
+      "note": "SECOND Coupang application 9/1 (separate from the active Ads Director process where the HM screen was done 8/12). Likely the 'Sr Director DS & Data Eng – Search' req flagged in the 8/31 sweep. CONFIRM title. Don't let it dilute the live Ads process.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "Coupang is expanding DS leadership (positive signal). Keep the Ads process primary; confirm this req's title."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-01",
+        "note": "Applied 9/1 (Greenhouse) — confirmation received; exact req TBC (likely Search DS leadership)."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 9/1 — confirmation received; exact req TBC (2nd Coupang app)."
+      }
+    },
+    {
+      "co": "McDermott Will & Schulte",
+      "role": "Senior Manager, AI & Analytics",
+      "loc": "United States",
+      "track": "lateral",
+      "trackLabel": "Senior Manager (off-wedge)",
+      "score": 4.5,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "McDermott Will & Schulte · global law firm",
+      "url": "https://www.mwe.com/careers/",
+      "source": "cold app via Workday (applied 9/2)",
+      "note": "Sr Mgr AI & Analytics at a global law firm. OFF-WEDGE (professional-services internal analytics, not product/fintech) and lateral level. Lowest-priority in this batch — parked for completeness.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "Off-wedge. Do not invest unless it converts on its own."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-02",
+        "note": "Applied 9/2 (Workday) — confirmation received."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 9/2 (Workday) — off-wedge, low priority."
+      }
     }
   ]
 }
