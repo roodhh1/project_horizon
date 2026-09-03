@@ -1,18 +1,18 @@
 {
- "_comment": "YOUR application pipeline \u2014 you own this file. verify.py merges it into roles.json each run; the bot never overwrites it. pinned_roles = manually-tracked applications (kept even when closed). overrides = auto-discovered roles you've applied to (attaches pinned + app stage).",
+ "_comment": "YOUR application pipeline — you own this file. verify.py merges it into roles.json each run; the bot never overwrites it. pinned_roles = manually-tracked applications (kept even when closed). overrides = auto-discovered roles you've applied to (attaches pinned + app stage).",
  "pinned_roles": [
   {
    "co": "Inception / G42",
    "role": "Principal Applied Scientist",
-   "loc": "Abu Dhabi, UAE (on-site \u00b7 relocation required, no remote)",
+   "loc": "Abu Dhabi, UAE (on-site · relocation required, no remote)",
    "track": "ic",
-   "trackLabel": "Principal IC \u00b7 frontier AI R&D",
+   "trackLabel": "Principal IC · frontier AI R&D",
    "extraTrack": "ai",
    "score": 5.6,
    "domain": 2,
-   "comp": "Not disclosed \u00b7 UAE income tax-free \u00b7 G42 heavily capitalized (Microsoft $1.5B strategic investor, Mubadala-backed)",
+   "comp": "Not disclosed · UAE income tax-free · G42 heavily capitalized (Microsoft $1.5B strategic investor, Mubadala-backed)",
    "compFit": "unknown",
-   "tier": "G42 \u2014 Abu Dhabi national-scale AI conglomerate \u00b7 Inception = its GenAI/LLM arm (Jais Arabic LLM); Investment AI platform for PE/VC/RE",
+   "tier": "G42 — Abu Dhabi national-scale AI conglomerate · Inception = its GenAI/LLM arm (Jais Arabic LLM); Investment AI platform for PE/VC/RE",
    "url": "https://www.linkedin.com/messaging/thread/2-NDBmMzdkMjgtNTUyZC00MTYyLWFiMTMtYzg3M2FjZTRiOTg5XzEwMA==/",
    "source": "LinkedIn InMail (inbound)",
    "discovered": "2026-08-04",
@@ -22,42 +22,42 @@
    "app": {
     "stage": "to-apply",
     "since": "2026-08-04",
-    "note": "Inbound InMail 2026-08-04 (Ekta Sharma) \u00b7 exploratory call offered \u00b7 reply drafted, not yet sent"
+    "note": "Inbound InMail 2026-08-04 (Ekta Sharma) · exploratory call offered · reply drafted, not yet sent"
    },
-   "note": "INBOUND 8/4 from Ekta Sharma (Sr Specialist, Talent Sourcing @ G42, Abu Dhabi). OFF-LANE on two axes: (1) IC role, not org leadership \u2014 'Principal Applied Scientist' building deep-learning/generative-AI algorithms, no team-building/scope mandate stated; (2) technical wedge mismatch \u2014 frontier DL/LLM research, not Rodrigo's product-analytics/experimentation/monetization/causal wedge. Plus mandatory Abu Dhabi relocation, no remote. Upsides: G42 is real money + max AI exposure; UAE comp is tax-free; Investment-AI (PE/VC/RE decisioning) is intellectually adjacent to his fintech/decisioning work. Verdict: low priority; worth ONE exploratory call only to test whether a leadership-scoped version exists and to gauge comp \u2014 not a target-lane role.",
+   "note": "INBOUND 8/4 from Ekta Sharma (Sr Specialist, Talent Sourcing @ G42, Abu Dhabi). OFF-LANE on two axes: (1) IC role, not org leadership — 'Principal Applied Scientist' building deep-learning/generative-AI algorithms, no team-building/scope mandate stated; (2) technical wedge mismatch — frontier DL/LLM research, not Rodrigo's product-analytics/experimentation/monetization/causal wedge. Plus mandatory Abu Dhabi relocation, no remote. Upsides: G42 is real money + max AI exposure; UAE comp is tax-free; Investment-AI (PE/VC/RE decisioning) is intellectually adjacent to his fintech/decisioning work. Verdict: low priority; worth ONE exploratory call only to test whether a leadership-scoped version exists and to gauge comp — not a target-lane role.",
    "status": {
     "live": true,
-    "v": "Inbound InMail 2026-08-04 (Ekta Sharma) \u00b7 exploratory call offered \u00b7 reply drafted, not yet sent"
+    "v": "Inbound InMail 2026-08-04 (Ekta Sharma) · exploratory call offered · reply drafted, not yet sent"
    }
   },
   {
    "co": "Coupang",
    "role": "Director of Data Science",
-   "loc": "Mountain View, CA (Hybrid) \u00b7 SF-commutable",
+   "loc": "Mountain View, CA (Hybrid) · SF-commutable",
    "track": "stepup",
    "trackLabel": "Step-up title (Director)",
    "extraTrack": "domain",
    "score": 8.8,
    "domain": 4,
-   "comp": "$174K\u2013$299K base + 0\u201320% bonus + equity (per posting)",
+   "comp": "$174K–$299K base + 0–20% bonus + equity (per posting)",
    "compFit": "border",
-   "tier": "Public e-commerce giant (NYSE: CPNG, ~$34.5B rev) \u00b7 Coupang Ads",
+   "tier": "Public e-commerce giant (NYSE: CPNG, ~$34.5B rev) · Coupang Ads",
    "url": "https://www.coupang.jobs/en/",
-   "note": "REACTIVATED & HOT (7/20). What looked like a generic 'Director of DS' is really a DIRECTOR, ADS ANALYTICS role inside Coupang Ads \u2014 owning the financial goals of the ads product line: auction/monetization models, ad revenue & inventory forecasting, rigorous A/B testing, and advertiser adoption/churn KPIs across e-commerce + the Eats app. That is a WEDGE BULLSEYE for your monetization + experimentation + 0\u21921 story (auction = a monetization mechanism; the leadership problem is the same one you ran with TurboTax pricing and 5DE lending). Strategic tailwind: as Coupang's core retail margins compress (net loss in Q1'26), retail-media/ads is the highest-margin lever in the P&L \u2014 this org is a profit engine, not a cost center. HM = Siddharth Gupta (Director II, DS & Analytics, AdTech; ex-Meta / NerdWallet Head of Marketing Analytics / eBay \u2014 path overlaps yours). Domain gap = ad-tech/auctions; bridge it, don't hide it. See the prep cockpit: Coupang_HM_Prep_SiddharthGupta.html.",
+   "note": "REACTIVATED & HOT (7/20). What looked like a generic 'Director of DS' is really a DIRECTOR, ADS ANALYTICS role inside Coupang Ads — owning the financial goals of the ads product line: auction/monetization models, ad revenue & inventory forecasting, rigorous A/B testing, and advertiser adoption/churn KPIs across e-commerce + the Eats app. That is a WEDGE BULLSEYE for your monetization + experimentation + 0→1 story (auction = a monetization mechanism; the leadership problem is the same one you ran with TurboTax pricing and 5DE lending). Strategic tailwind: as Coupang's core retail margins compress (net loss in Q1'26), retail-media/ads is the highest-margin lever in the P&L — this org is a profit engine, not a cost center. HM = Siddharth Gupta (Director II, DS & Analytics, AdTech; ex-Meta / NerdWallet Head of Marketing Analytics / eBay — path overlaps yours). Domain gap = ad-tech/auctions; bridge it, don't hide it. See the prep cockpit: Coupang_HM_Prep_SiddharthGupta.html.",
    "pinned": true,
-   "source": "linkedin (applied 7/1) \u2192 recruiter engaged 7/15",
+   "source": "linkedin (applied 7/1) → recruiter engaged 7/15",
    "status": {
     "live": true,
-    "v": "In process \u00b7 HM screen w/ Sid Gupta done 8/12 (positive); awaiting Naren on next steps (quiet ~3 wks \u2014 nudge due)"
+    "v": "In process · HM screen w/ Sid Gupta done 8/12 (positive); awaiting Naren on next steps (quiet ~3 wks — nudge due)"
    },
    "app": {
     "stage": "in-process",
     "since": false,
-    "note": "HM screen w/ Sid Gupta DONE Wed 8/12 (went well \u2014 he focused on experience/monetization, no ad-tech grilling; ads/auction depth likely comes at panel). Sent momentum note to recruiter Naren; awaiting next steps. QUIET since ~8/12 \u2014 nudge due."
+    "note": "HM screen w/ Sid Gupta DONE Wed 8/12 (went well — he focused on experience/monetization, no ad-tech grilling; ads/auction depth likely comes at panel). Sent momentum note to recruiter Naren; awaiting next steps. QUIET since ~8/12 — nudge due."
    },
    "referral": {
     "level": "direct",
-    "text": "<b>Recruiter engaged (not just a referral).</b> <b>Naren Barve</b> \u2014 Principal Talent Advisor, Talent Acquisition @ Coupang (Mountain View, 30+ mutuals) \u2014 owns your process and set up the HM screen. HM: <b>Siddharth Gupta</b>, Director II, DS & Analytics, Advertising Technology (ex-Meta, NerdWallet Head of Marketing Analytics, eBay). Keep Naren as your comp/logistics channel."
+    "text": "<b>Recruiter engaged (not just a referral).</b> <b>Naren Barve</b> — Principal Talent Advisor, Talent Acquisition @ Coupang (Mountain View, 30+ mutuals) — owns your process and set up the HM screen. HM: <b>Siddharth Gupta</b>, Director II, DS & Analytics, Advertising Technology (ex-Meta, NerdWallet Head of Marketing Analytics, eBay). Keep Naren as your comp/logistics channel."
    },
    "fit": {
     "relevance": 9,
@@ -68,7 +68,7 @@
     "score": 8.8,
     "confidence": "high",
     "yoe_req": "10+ yrs DS, 7+ managing (per Ads Analytics remit)",
-    "candidate": "you: ~11 yrs DS, ~5 leading; monetization/experimentation at scale (Intuit) \u2014 strong wedge, ad-tech is the gap"
+    "candidate": "you: ~11 yrs DS, ~5 leading; monetization/experimentation at scale (Intuit) — strong wedge, ad-tech is the gap"
    },
    "discovered": false,
    "isNew": false
@@ -82,16 +82,16 @@
    "extraTrack": "domain",
    "score": 8.6,
    "domain": 4,
-   "comp": "Not disclosed \u2014 push Ashleigh on the band on the 8/3 call",
+   "comp": "Not disclosed — push Ashleigh on the band on the 8/3 call",
    "compFit": null,
-   "tier": "Late-stage private fintech/HR-payroll (~$9B+ val) \u00b7 SMB business customers",
+   "tier": "Late-stage private fintech/HR-payroll (~$9B+ val) · SMB business customers",
    "url": "https://gusto.com/about/careers",
-   "note": "\u26a1 FASTEST INBOUND OF THE ENTIRE SEARCH \u2014 applied 7/29 ~8:51am, recruiter reached out 7/29 12:12pm (\u22484 hrs), phone screen booked for Mon 8/3. That velocity means your resume read as an obvious fit for this req; treat Gusto as a top-3 live opportunity, not a flyer. WHY IT'S GOOD: 'Head of' is a genuine scope step-up (own the function, not a team inside one); Gusto serves SMB *business* customers on payroll/benefits/payments \u2014 dead-center on your 'business customer experiences' + financial-products positioning; strong company (durable SMB SaaS+fintech, real revenue, IPO-track). HONEST RISK \u2014 INTERROGATE ON THE CALL: this is *Sales* DS & Analytics, i.e. GTM/revenue analytics (pipeline, quota, territory, segmentation, forecasting), NOT product/monetization DS. That is adjacent to your wedge, not inside it, and there is a real career-narrowing risk: a 'Head of Sales Analytics' title can wall you off from product-DS leadership roles later. Ask Ashleigh directly: what's the team size and does it own product/monetization analytics too, does it report into Sales/RevOps or into a central DS/Data org, and what's the path to a broader Head-of-DS/Analytics remit. If it's a RevOps-reporting sales-support function, it's a comp/title play, not a career play \u2014 weigh accordingly.",
+   "note": "⚡ FASTEST INBOUND OF THE ENTIRE SEARCH — applied 7/29 ~8:51am, recruiter reached out 7/29 12:12pm (≈4 hrs), phone screen booked for Mon 8/3. That velocity means your resume read as an obvious fit for this req; treat Gusto as a top-3 live opportunity, not a flyer. WHY IT'S GOOD: 'Head of' is a genuine scope step-up (own the function, not a team inside one); Gusto serves SMB *business* customers on payroll/benefits/payments — dead-center on your 'business customer experiences' + financial-products positioning; strong company (durable SMB SaaS+fintech, real revenue, IPO-track). HONEST RISK — INTERROGATE ON THE CALL: this is *Sales* DS & Analytics, i.e. GTM/revenue analytics (pipeline, quota, territory, segmentation, forecasting), NOT product/monetization DS. That is adjacent to your wedge, not inside it, and there is a real career-narrowing risk: a 'Head of Sales Analytics' title can wall you off from product-DS leadership roles later. Ask Ashleigh directly: what's the team size and does it own product/monetization analytics too, does it report into Sales/RevOps or into a central DS/Data org, and what's the path to a broader Head-of-DS/Analytics remit. If it's a RevOps-reporting sales-support function, it's a comp/title play, not a career play — weigh accordingly.",
    "pinned": true,
-   "source": "applied 7/29 \u2192 recruiter inbound same day",
+   "source": "applied 7/29 → recruiter inbound same day",
    "status": {
     "live": false,
-    "v": "Rejected 2026-08-06 \u2014 Ashleigh Huffman email after 8/5 recruiter screen; not moving forward."
+    "v": "Rejected 2026-08-06 — Ashleigh Huffman email after 8/5 recruiter screen; not moving forward."
    },
    "app": {
     "stage": "rejected",
@@ -100,7 +100,7 @@
    },
    "referral": {
     "level": "direct",
-    "text": "<b>Recruiter engaged \u2014 no referral needed.</b> <b>Ashleigh Huffman</b> (Recruiter, Gusto) owns the Head of Sales DS & Analytics search and is your POC. Cold outreach to <b>Janielle Rodriguez</b> (Gusto, 7/29) went unanswered \u2014 superseded."
+    "text": "<b>Recruiter engaged — no referral needed.</b> <b>Ashleigh Huffman</b> (Recruiter, Gusto) owns the Head of Sales DS & Analytics search and is your POC. Cold outreach to <b>Janielle Rodriguez</b> (Gusto, 7/29) went unanswered — superseded."
    },
    "fit": {
     "relevance": 7,
@@ -110,8 +110,8 @@
     "comp": "unknown",
     "score": 8.6,
     "confidence": "medium",
-    "yoe_req": "Head-of scope \u00b7 sales/GTM data science & analytics leadership",
-    "candidate": "you: ~11 yrs DS, ~5 leading; monetization/growth/lifecycle for business customers \u2014 leadership fit is strong, GTM-analytics domain is the stretch"
+    "yoe_req": "Head-of scope · sales/GTM data science & analytics leadership",
+    "candidate": "you: ~11 yrs DS, ~5 leading; monetization/growth/lifecycle for business customers — leadership fit is strong, GTM-analytics domain is the stretch"
    },
    "discovered": false,
    "isNew": true
@@ -125,19 +125,19 @@
    "domain": 5,
    "comp": "See posting (confirm w/ Boris)",
    "compFit": null,
-   "tier": "Elite fintech \u00b7 largest digital bank in LatAm (NYSE: NU)",
+   "tier": "Elite fintech · largest digital bank in LatAm (NYSE: NU)",
    "url": "https://nubank.com.br/en/careers/",
-   "note": "ACTIVE #2 LEAD. Warm inbound: recruiter Boris Tai reached out; intro call was Fri 7/24, resume sent to boris@nubank.com same day. Role centers on experimentation/metrics for the Private Banker (high-value customer) segment \u2014 a wedge bullseye (monetization, customer lifecycle, experimentation in fintech) at an elite, fast-growing bank. Push Boris on level/scope + comp band.",
+   "note": "ACTIVE #2 LEAD. Warm inbound: recruiter Boris Tai reached out; intro call was Fri 7/24, resume sent to boris@nubank.com same day. Role centers on experimentation/metrics for the Private Banker (high-value customer) segment — a wedge bullseye (monetization, customer lifecycle, experimentation in fintech) at an elite, fast-growing bank. Push Boris on level/scope + comp band.",
    "pinned": true,
    "source": "linkedin (warm inbound recruiter)",
    "status": {
     "live": true,
-    "v": "In process (dormant) \u00b7 role never firmed up; quiet since late July"
+    "v": "In process (dormant) · role never firmed up; quiet since late July"
    },
    "app": {
     "stage": "in-process",
     "since": "2026-07-24",
-    "note": "Boris Tai intro call 7/24; role never firmed up. DORMANT \u2014 quiet since late July. Treat as effectively dead unless Boris re-engages."
+    "note": "Boris Tai intro call 7/24; role never firmed up. DORMANT — quiet since late July. Treat as effectively dead unless Boris re-engages."
    },
    "referral": {
     "level": "direct",
@@ -155,29 +155,29 @@
     "comp": "unknown",
     "score": 8.5,
     "confidence": "medium",
-    "yoe_req": "DS Manager \u00b7 experimentation/metrics",
-    "candidate": "you: ~11 yrs DS, ~5 leading; fintech monetization + experimentation \u2014 strong wedge"
+    "yoe_req": "DS Manager · experimentation/metrics",
+    "candidate": "you: ~11 yrs DS, ~5 leading; fintech monetization + experimentation — strong wedge"
    }
   },
   {
    "co": "TRANZACT (via GAME ON! Recruiting)",
    "role": "Head of Data Science",
-   "loc": "Ft. Lee NJ / Raleigh NC / Miami FL \u00b7 Hybrid 2 days (Tue/Thu) \u00b7 relocation provided",
+   "loc": "Ft. Lee NJ / Raleigh NC / Miami FL · Hybrid 2 days (Tue/Thu) · relocation provided",
    "track": "stepup",
    "trackLabel": "Step-up title (Head of)",
    "extraTrack": "domain",
    "score": 7.4,
    "domain": 3,
-   "comp": "Unknown \u2014 get the band on today's call before anything else",
+   "comp": "Unknown — get the band on today's call before anything else",
    "compFit": null,
-   "tier": "TRANZACT \u2014 direct-to-consumer insurance marketing (Willis Towers Watson) \u00b7 agency-represented via GAME ON!",
+   "tier": "TRANZACT — direct-to-consumer insurance marketing (Willis Towers Watson) · agency-represented via GAME ON!",
    "url": "https://www.linkedin.com/in/",
-   "note": "\ud83d\udd34 CALL TODAY \u2014 Thu 7/30, 11:00am PT; Sue Do calls your cell. Warm path in: your former colleague <b>Joey Pliskin</b> pointed the recruiter at you. WHAT'S GOOD: 'Head of Data Science' is the biggest title step-up on the board \u2014 own the function, set the roadmap, build the team, report high; the mandate (predictive/segmentation/forecasting models, personalization/targeting, influencing senior stakeholders) is real leadership scope, and marketing+sales analytics in insurance is close to the Root profile you already interviewed well for. WHAT'S HARD, BE CLEAR-EYED: (1) RELOCATION \u2014 Ft. Lee NJ / Raleigh / Miami with 2 days in office, relo provided; you are Bay Area. This is the gating question and it should be question #1 or #2, not question #6 \u2014 don't invest a loop into a role you'd decline on geography; (2) UNDISCLOSED COMPANY via a contingency/agency search (GAME ON! is a games-industry recruiting shop, so this is off their usual beat) \u2014 you cannot assess company quality, trajectory, funding, or manager quality until she names it, and all four are load-bearing for a Head-of role; (3) Root just rejected you on a near-identical insurtech + performance-marketing profile \u2014 pre-empt the 'have you owned paid media / insurance pricing' question with incrementality + budget-allocation framing and your actuarial-science degree. NET: high title, unknown everything else. Run today's call as YOUR diligence, not as a pitch. || 8/5 UPDATE: Company = TRANZACT. Alfredo Vizcarra (GM) round passed; Jake Davidow interview booked Mon 8/17; Sue Do prep call Thu 8/13 12:30pm PT.",
+   "note": "🔴 CALL TODAY — Thu 7/30, 11:00am PT; Sue Do calls your cell. Warm path in: your former colleague <b>Joey Pliskin</b> pointed the recruiter at you. WHAT'S GOOD: 'Head of Data Science' is the biggest title step-up on the board — own the function, set the roadmap, build the team, report high; the mandate (predictive/segmentation/forecasting models, personalization/targeting, influencing senior stakeholders) is real leadership scope, and marketing+sales analytics in insurance is close to the Root profile you already interviewed well for. WHAT'S HARD, BE CLEAR-EYED: (1) RELOCATION — Ft. Lee NJ / Raleigh / Miami with 2 days in office, relo provided; you are Bay Area. This is the gating question and it should be question #1 or #2, not question #6 — don't invest a loop into a role you'd decline on geography; (2) UNDISCLOSED COMPANY via a contingency/agency search (GAME ON! is a games-industry recruiting shop, so this is off their usual beat) — you cannot assess company quality, trajectory, funding, or manager quality until she names it, and all four are load-bearing for a Head-of role; (3) Root just rejected you on a near-identical insurtech + performance-marketing profile — pre-empt the 'have you owned paid media / insurance pricing' question with incrementality + budget-allocation framing and your actuarial-science degree. NET: high title, unknown everything else. Run today's call as YOUR diligence, not as a pitch. || 8/5 UPDATE: Company = TRANZACT. Alfredo Vizcarra (GM) round passed; Jake Davidow interview booked Mon 8/17; Sue Do prep call Thu 8/13 12:30pm PT.",
    "pinned": true,
    "source": "linkedin (agency recruiter inbound via Joey Pliskin referral)",
    "status": {
     "live": false,
-    "v": "Rejected \u00b7 reached Jake Davidow HM round (8/17), passed after"
+    "v": "Rejected · reached Jake Davidow HM round (8/17), passed after"
    },
    "app": {
     "stage": "rejected",
@@ -186,7 +186,7 @@
    },
    "referral": {
     "level": "direct",
-    "text": "<b>Warm agency inbound.</b> <b>Sue Do</b> \u2014 Principal Recruiter, GAME ON! Recruiting \u2014 sourced you on the recommendation of <b>Joey Pliskin</b> (former colleague, who is himself engaged on the search). Sue owns the client relationship; company name still undisclosed."
+    "text": "<b>Warm agency inbound.</b> <b>Sue Do</b> — Principal Recruiter, GAME ON! Recruiting — sourced you on the recommendation of <b>Joey Pliskin</b> (former colleague, who is himself engaged on the search). Sue owns the client relationship; company name still undisclosed."
    },
    "fit": {
     "relevance": 8,
@@ -196,8 +196,8 @@
     "comp": "unknown",
     "score": 7.4,
     "confidence": "medium",
-    "yoe_req": "10+ yrs DS \u00b7 deep marketing analytics \u00b7 attribution/experimentation/forecasting \u00b7 advanced quant degree",
-    "candidate": "you: ~11 yrs DS, ~5 leading; actuarial-science degree, marketing measurement + experimentation \u2014 strong on paper; geography and unknown company are the risks"
+    "yoe_req": "10+ yrs DS · deep marketing analytics · attribution/experimentation/forecasting · advanced quant degree",
+    "candidate": "you: ~11 yrs DS, ~5 leading; actuarial-science degree, marketing measurement + experimentation — strong on paper; geography and unknown company are the risks"
    },
    "discovered": false,
    "isNew": false
@@ -207,29 +207,29 @@
    "role": "Manager, Data Science - AI Product",
    "loc": "San Francisco, CA",
    "track": "lateral",
-   "trackLabel": "Lateral \u2192 better co",
+   "trackLabel": "Lateral → better co",
    "extraTrack": "domain",
    "score": 8.6,
    "domain": 4,
    "comp": "Likely at/above baseline (top unicorn)",
    "compFit": "border",
-   "tier": "Design unicorn \u00b7 post-IPO trajectory \u00b7 AI product",
+   "tier": "Design unicorn · post-IPO trajectory · AI product",
    "url": "https://job-boards.greenhouse.io/figma/jobs/5983820004?gh_jid=5983820004",
-   "note": "DS people-management on an AI product at a top design unicorn \u2014 product analytics + AI is squarely your lane and likely clears comp. Manager scope (not Director), so a strong lateral-plus with elite brand and an AI-product mandate that builds your AI exposure. \u2014 INSIDER READ (Enrique Olivo, 7/29): ~2,000 people total (~1,000 ex-sales), so you sit close to your teammates; startup-ish culture but professionally run; the company genuinely respects experimentation/measurement and DS is treated as a partner, not a service desk; product development is refreshingly un-hype-driven \u2014 practical AI that helps designers rather than bolted-on chatbots/agents (his explicit contrast with Meta and Intuit). That's a real signal on DS influence \u2014 use it in the interview and in your 'why Figma'.",
+   "note": "DS people-management on an AI product at a top design unicorn — product analytics + AI is squarely your lane and likely clears comp. Manager scope (not Director), so a strong lateral-plus with elite brand and an AI-product mandate that builds your AI exposure. — INSIDER READ (Enrique Olivo, 7/29): ~2,000 people total (~1,000 ex-sales), so you sit close to your teammates; startup-ish culture but professionally run; the company genuinely respects experimentation/measurement and DS is treated as a partner, not a service desk; product development is refreshingly un-hype-driven — practical AI that helps designers rather than bolted-on chatbots/agents (his explicit contrast with Meta and Intuit). That's a real signal on DS influence — use it in the interview and in your 'why Figma'.",
    "pinned": true,
    "source": "all-industry DS broadening 2026-07-13",
    "status": {
     "live": true,
-    "v": "Applied 7/13 \u00b7 REFERRAL SECURED 7/29 (Enrique Olivo) \u00b7 ACTION REQUIRED"
+    "v": "Applied 7/13 · REFERRAL SECURED 7/29 (Enrique Olivo) · ACTION REQUIRED"
    },
    "app": {
     "stage": "applied",
     "since": "2026-07-13",
-    "note": "Applied 7/13 \u00b7 REFERRAL SECURED 7/29 (Enrique Olivo) \u00b7 ACTION REQUIRED"
+    "note": "Applied 7/13 · REFERRAL SECURED 7/29 (Enrique Olivo) · ACTION REQUIRED"
    },
    "referral": {
     "level": "direct",
-    "text": "<b>Referral SECURED 7/29 \u2014 <u>action required from you</u>.</b> <b>Enrique Olivo</b> (He/Him; ex-Intuit \u2192 DS/AI @ Figma, ex-Meta) offered to refer you and tag your existing app as a referral. Waiting on: resume + 1-2 lines on (a) fit for the role, (b) how he can vouch for your work, (c) why Figma. His old manager <b>Hussein</b> vouched for you unprompted. Other ex-Intuit folks inside: Josie Zhang, Joe Mandozzi. Bench: Parth Patel, Sharath Chandra."
+    "text": "<b>Referral SECURED 7/29 — <u>action required from you</u>.</b> <b>Enrique Olivo</b> (He/Him; ex-Intuit → DS/AI @ Figma, ex-Meta) offered to refer you and tag your existing app as a referral. Waiting on: resume + 1-2 lines on (a) fit for the role, (b) how he can vouch for your work, (c) why Figma. His old manager <b>Hussein</b> vouched for you unprompted. Other ex-Intuit folks inside: Josie Zhang, Joe Mandozzi. Bench: Parth Patel, Sharath Chandra."
    },
    "discovered": true,
    "isNew": true
@@ -239,25 +239,25 @@
    "role": "Senior Data Science Manager, User Growth",
    "loc": "Pittsburgh, PA (see posting for hybrid/remote)",
    "track": "lateral",
-   "trackLabel": "Lateral \u2192 elite consumer brand",
+   "trackLabel": "Lateral → elite consumer brand",
    "extraTrack": "domain",
    "score": 8.3,
    "domain": 4,
    "comp": "Above baseline likely (NASDAQ: DUOL, strong TC)",
    "compFit": "border",
-   "tier": "Public consumer-tech (NASDAQ: DUOL) \u00b7 best-in-class growth org",
+   "tier": "Public consumer-tech (NASDAQ: DUOL) · best-in-class growth org",
    "url": "https://www.linkedin.com/jobs/view/4446525677/",
-   "note": "USER GROWTH DS at arguably the best consumer growth-engineering org in tech \u2014 Duolingo is the canonical case study in experimentation, gamified retention, and freemium\u2192subscription monetization. That is a wedge bullseye (growth + experimentation + monetization + lifecycle) at an elite public brand, and the AI/product story there is real. HONEST CAVEATS: (1) LOCATION \u2014 posting is Pittsburgh and Duolingo is notably office-centric; confirm remote/relocation expectations before investing, this could be the whole ballgame; (2) scope is Senior *Manager*, a lateral on title, so it's a brand/craft play rather than a step-up. Worth it if the growth mandate is broad. || 8/4 UPDATE: referral (Grey McCune) converted to recruiter screen. First Chat Mon 8/10 1pm PDT. ACTION: accept calendar invite.",
+   "note": "USER GROWTH DS at arguably the best consumer growth-engineering org in tech — Duolingo is the canonical case study in experimentation, gamified retention, and freemium→subscription monetization. That is a wedge bullseye (growth + experimentation + monetization + lifecycle) at an elite public brand, and the AI/product story there is real. HONEST CAVEATS: (1) LOCATION — posting is Pittsburgh and Duolingo is notably office-centric; confirm remote/relocation expectations before investing, this could be the whole ballgame; (2) scope is Senior *Manager*, a lateral on title, so it's a brand/craft play rather than a step-up. Worth it if the growth mandate is broad. || 8/4 UPDATE: referral (Grey McCune) converted to recruiter screen. First Chat Mon 8/10 1pm PDT. ACTION: accept calendar invite.",
    "pinned": true,
-   "source": "applied 7/29 (LinkedIn \u2192 company site)",
+   "source": "applied 7/29 (LinkedIn → company site)",
    "status": {
     "live": true,
-    "v": "In process \u00b7 Leadership Presentation delivered 8/28 (strong); awaiting decision \u2192 Virtual Onsite"
+    "v": "In process · Leadership Presentation delivered 8/28 (strong); awaiting decision → Virtual Onsite"
    },
    "app": {
     "stage": "in-process",
     "since": "2026-08-04",
-    "note": "Recruiter chat (Britt Mezhir) 8/10 \u2192 HM chat w/ Bronwyn Woods 8/17 \u2192 DS & Analytics Leadership Presentation DELIVERED Fri 8/28 (went well; panel engaged throughout). Thank-you sent to Britt. Awaiting decision; next = Virtual Onsite (final). Grey McCune referral. Deck live: roodhh1.github.io/duolingo-presentation/"
+    "note": "Recruiter chat (Britt Mezhir) 8/10 → HM chat w/ Bronwyn Woods 8/17 → DS & Analytics Leadership Presentation DELIVERED Fri 8/28 (went well; panel engaged throughout). Thank-you sent to Britt. Awaiting decision; next = Virtual Onsite (final). Grey McCune referral. Deck live: roodhh1.github.io/duolingo-presentation/"
    },
    "referral": {
     "level": "direct",
@@ -271,8 +271,8 @@
     "comp": "border",
     "score": 8.3,
     "confidence": "medium",
-    "yoe_req": "Sr DS Manager \u00b7 growth/experimentation",
-    "candidate": "you: ~11 yrs DS, ~5 leading; growth + experimentation + freemium monetization \u2014 strong wedge, location is the risk"
+    "yoe_req": "Sr DS Manager · growth/experimentation",
+    "candidate": "you: ~11 yrs DS, ~5 leading; growth + experimentation + freemium monetization — strong wedge, location is the risk"
    },
    "discovered": false,
    "isNew": false
@@ -282,29 +282,29 @@
    "role": "Data Science Manager, Finance and Strategy",
    "loc": "Chicago, IL / Remote (US)",
    "track": "domain",
-   "trackLabel": "Domain-strong \u00b7 elite brand",
+   "trackLabel": "Domain-strong · elite brand",
    "extraTrack": "lateral",
    "score": 8.4,
    "domain": 4,
-   "comp": "$210.9K\u2013$316.3K base + bonus + equity (per posting)",
+   "comp": "$210.9K–$316.3K base + bonus + equity (per posting)",
    "compFit": "border",
-   "tier": "Elite pre-IPO fintech (Stripe) \u00b7 Finance & Strategy DS",
+   "tier": "Elite pre-IPO fintech (Stripe) · Finance & Strategy DS",
    "url": "https://stripe.com/jobs/listing/data-science-manager-finance-and-strategy/7440963",
-   "note": "NEW APPLICATION 7/27. DS Manager, Finance & Strategy at Stripe \u2014 own the forecasting infrastructure (hierarchical time-series + agentic models predicting payment volumes & revenue margins), set Stripe's budget in partnership with Finance execs, and govern the metrics platform feeding company-wide dashboards + exec reporting. WEDGE-STRONG: monetization + forecasting + metrics/measurement + financial products (Core Monetization, forms-based pricing, actuarial/stats rigor) at an elite pre-IPO brand. Comp base sits below the $500K TC anchor, but Stripe equity is a real lever. Manager scope (not Director), so a high-value lateral-plus with a clean wedge.",
+   "note": "NEW APPLICATION 7/27. DS Manager, Finance & Strategy at Stripe — own the forecasting infrastructure (hierarchical time-series + agentic models predicting payment volumes & revenue margins), set Stripe's budget in partnership with Finance execs, and govern the metrics platform feeding company-wide dashboards + exec reporting. WEDGE-STRONG: monetization + forecasting + metrics/measurement + financial products (Core Monetization, forms-based pricing, actuarial/stats rigor) at an elite pre-IPO brand. Comp base sits below the $500K TC anchor, but Stripe equity is a real lever. Manager scope (not Director), so a high-value lateral-plus with a clean wedge.",
    "pinned": true,
    "source": "stripe careers (applied 7/27)",
    "status": {
-    "live": false,
-    "v": "Rejected 2026-07-30 (referred app, no interview)"
+    "live": true,
+    "v": "Re-applied 9/3 (reposted role); prior app rejected 7/30. Warm path: Steve Wasik."
    },
    "app": {
-    "stage": "rejected",
-    "since": "2026-07-30",
-    "note": "Rejected 2026-07-30 (referred app, no interview)"
+    "stage": "applied",
+    "since": "2026-09-03",
+    "note": "Re-applied 9/3 (role reposted). Earlier app rejected 7/30. Steve Wasik (HM) warm path still open."
    },
    "referral": {
     "level": "bridge",
-    "text": "<b>HM = Steve Wasik</b> \u2014 DS &amp; Eng Manager @Stripe (Carnegie Mellon; long-tenured, built Revenue Mgmt / Connect / Global Selling DS teams), <b>2nd\u00b0 via mutual Sagar</b>; actively recruiting for this exact role. Message sent 7/27 \u2014 <b>no reply yet as of 7/30</b>, nudge due. Backup Stripe DS-org: Matt DeLand (Head of DS, 2nd\u00b0) via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd\u00b0)."
+    "text": "<b>HM = Steve Wasik</b> — DS &amp; Eng Manager @Stripe (Carnegie Mellon; long-tenured, built Revenue Mgmt / Connect / Global Selling DS teams), <b>2nd° via mutual Sagar</b>; actively recruiting for this exact role. Message sent 7/27 — <b>no reply yet as of 7/30</b>, nudge due. Backup Stripe DS-org: Matt DeLand (Head of DS, 2nd°) via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd°)."
    },
    "fit": {
     "relevance": 8,
@@ -315,7 +315,7 @@
     "score": 8.4,
     "confidence": "high",
     "yoe_req": "3+ yrs managing DS teams; 10+ yrs total DS",
-    "candidate": "you: ~11 yrs DS, ~5 leading; monetization/forecasting/metrics + financial products (Intuit) \u2014 strong wedge"
+    "candidate": "you: ~11 yrs DS, ~5 leading; monetization/forecasting/metrics + financial products (Intuit) — strong wedge"
    },
    "discovered": false,
    "isNew": true
@@ -323,17 +323,17 @@
   {
    "co": "Root",
    "role": "Director of Data Science, Performance Marketing",
-   "loc": "Remote (US) \u00b7 HQ Columbus, OH",
+   "loc": "Remote (US) · HQ Columbus, OH",
    "track": "stepup",
    "trackLabel": "Step-up title (Director)",
    "extraTrack": "domain",
    "score": 9.0,
    "domain": 4,
-   "comp": "$250K\u2013$300K base + bonus + equity",
+   "comp": "$250K–$300K base + bonus + equity",
    "compFit": "below",
-   "tier": "Insurtech \u00b7 public, newly profitable (NASDAQ: ROOT)",
+   "tier": "Insurtech · public, newly profitable (NASDAQ: ROOT)",
    "url": "https://ats.rippling.com/joinroot/jobs/34bba6e3-fb48-4863-bc74-960494fad925",
-   "note": "YOUR #1 ACTIVE ROLE and arguably the best of the whole search. Director title = the scope step-up you want, and the mandate is a bullseye on your wedge: lead the DS team running Root's performance-marketing engine \u2014 owning a NINE-FIGURE marketing budget, LTV-based bidding, incrementality/MMM measurement, experimentation. This is monetization + growth + experimentation + 0\u21921 leadership, exactly your story. Warm INBOUND from the hiring manager (Annie Yang sourced you on LinkedIn), not a cold app \u2014 a strong signal. Honest caveats: (1) company trajectory \u2014 Root is a small-cap public insurtech, but it just turned profitable (sub-100% combined ratio, record Q1'26), so the story is improving; (2) JD says PhD-preferred + full-funnel paid-acquisition experience \u2014 manage that gap by leaning on quant depth + actuarial-science degree + experimentation/monetization work. Frame everything as marketing spend \u2192 LTV-positive (profitable-risk) policies, not raw volume.",
+   "note": "YOUR #1 ACTIVE ROLE and arguably the best of the whole search. Director title = the scope step-up you want, and the mandate is a bullseye on your wedge: lead the DS team running Root's performance-marketing engine — owning a NINE-FIGURE marketing budget, LTV-based bidding, incrementality/MMM measurement, experimentation. This is monetization + growth + experimentation + 0→1 leadership, exactly your story. Warm INBOUND from the hiring manager (Annie Yang sourced you on LinkedIn), not a cold app — a strong signal. Honest caveats: (1) company trajectory — Root is a small-cap public insurtech, but it just turned profitable (sub-100% combined ratio, record Q1'26), so the story is improving; (2) JD says PhD-preferred + full-funnel paid-acquisition experience — manage that gap by leaning on quant depth + actuarial-science degree + experimentation/monetization work. Frame everything as marketing spend → LTV-positive (profitable-risk) policies, not raw volume.",
    "pinned": true,
    "source": "linkedin (HM inbound)",
    "status": {
@@ -347,7 +347,7 @@
    },
    "referral": {
     "level": "direct",
-    "text": "<b>Warm inbound \u2014 better than a referral.</b> Hiring manager <b>Annie Yang</b> (Sr Director of Data Science &amp; Head of B2C Marketing; came up through insurance pricing, MS Math) sourced you directly on LinkedIn 6/13. Recruiter: Kristin Simmons. Annie owns Marketing + LTV DS; this role sits in/under her org."
+    "text": "<b>Warm inbound — better than a referral.</b> Hiring manager <b>Annie Yang</b> (Sr Director of Data Science &amp; Head of B2C Marketing; came up through insurance pricing, MS Math) sourced you directly on LinkedIn 6/13. Recruiter: Kristin Simmons. Annie owns Marketing + LTV DS; this role sits in/under her org."
    },
    "discovered": false,
    "isNew": true,
@@ -368,29 +368,29 @@
    "role": "Senior Data Science Manager, Driving Quality",
    "loc": "Mountain View, CA / Remote (see posting)",
    "track": "lateral",
-   "trackLabel": "Lateral \u2192 elite brand",
+   "trackLabel": "Lateral → elite brand",
    "extraTrack": "stretch",
    "score": null,
    "domain": null,
    "comp": "See posting",
    "compFit": null,
-   "tier": "Alphabet \u00b7 autonomous vehicles (top brand)",
+   "tier": "Alphabet · autonomous vehicles (top brand)",
    "url": "https://www.linkedin.com/jobs/view/4301393798/",
-   "note": "Top-tier brand and an Alphabet balance sheet, but be clear-eyed: 'Driving Quality' is AV safety/operational DS \u2014 measuring autonomy performance \u2014 not the product/growth/monetization wedge you sell best. Sell transferable 0\u21921 leadership + measurement/north-star rigor (your Mercury final-panel material maps well here). Strong optionality bet; not a domain-perfect fit. No referral mapped yet \u2014 worth a Waymo/Google network sweep before the recruiter screen.",
+   "note": "Top-tier brand and an Alphabet balance sheet, but be clear-eyed: 'Driving Quality' is AV safety/operational DS — measuring autonomy performance — not the product/growth/monetization wedge you sell best. Sell transferable 0→1 leadership + measurement/north-star rigor (your Mercury final-panel material maps well here). Strong optionality bet; not a domain-perfect fit. No referral mapped yet — worth a Waymo/Google network sweep before the recruiter screen.",
    "pinned": true,
    "source": "linkedin",
    "status": {
     "live": true,
-    "v": "Applied \u00b7 confirmation received 2026-07-14 (Sr DS Manager, Driving Quality)"
+    "v": "Applied · confirmation received 2026-07-14 (Sr DS Manager, Driving Quality)"
    },
    "app": {
     "stage": "applied",
     "since": "2026-07-14",
-    "note": "Applied \u00b7 confirmation received 2026-07-14 (Sr DS Manager, Driving Quality)"
+    "note": "Applied · confirmation received 2026-07-14 (Sr DS Manager, Driving Quality)"
    },
    "referral": {
     "level": "pending",
-    "text": "No referral mapped yet \u2014 run a Waymo/Google network sweep."
+    "text": "No referral mapped yet — run a Waymo/Google network sweep."
    },
    "discovered": false,
    "isNew": true
@@ -398,31 +398,31 @@
   {
    "co": "Mercury",
    "role": "Senior Data Science Manager",
-   "loc": "SF / NY / Portland / Remote US\u2013CA",
+   "loc": "SF / NY / Portland / Remote US–CA",
    "track": "domain",
    "trackLabel": "Domain-perfect",
    "extraTrack": "lateral",
    "score": 8.8,
    "domain": 5,
-   "comp": "$239K\u2013$298.8K base",
+   "comp": "$239K–$298.8K base",
    "compFit": "below",
    "tier": "High-growth fintech (~$3.5B+)",
    "url": "https://job-boards.greenhouse.io/mercury/jobs/5973037004",
-   "note": "CLOSED \u2014 rejected after final panel (6/24). Your highest-conviction, best-fit role of the search: full process through HM (Leanne Fretz), peer, cross-functional, and final panel. Ryan Atkins (recruiter) was genuinely complimentary and explicitly asked to stay connected for future roles \u2014 keep that relationship warm, it's a real asset. Lesson to carry: the wedge fit was perfect; refine the final-panel narrative (team restructure / north-star / contingency) for the next at-bat.",
+   "note": "CLOSED — rejected after final panel (6/24). Your highest-conviction, best-fit role of the search: full process through HM (Leanne Fretz), peer, cross-functional, and final panel. Ryan Atkins (recruiter) was genuinely complimentary and explicitly asked to stay connected for future roles — keep that relationship warm, it's a real asset. Lesson to carry: the wedge fit was perfect; refine the final-panel narrative (team restructure / north-star / contingency) for the next at-bat.",
    "pinned": true,
    "source": "greenhouse",
    "status": {
     "live": false,
-    "v": "Greenhouse \u00b7 in process \u2192 closed 2026-06-26"
+    "v": "Greenhouse · in process → closed 2026-06-26"
    },
    "app": {
     "stage": "closed",
     "since": "2026-06-26",
-    "note": "Greenhouse \u00b7 in process \u2192 closed 2026-06-26"
+    "note": "Greenhouse · in process → closed 2026-06-26"
    },
    "referral": {
     "level": "active",
-    "text": "Ran full process. <b>1st\u00b0 backchannel:</b> Oneida Due\u00f1as (Risk, ex-Intuit). <b>2nd\u00b0 intel:</b> Prateek Parashar (Staff DS, Growth), Katja Wittfoth (Sr DS), Shannon Hees (Sr DS, Product Analytics). Keep Ryan Atkins (recruiter) warm for re-entry."
+    "text": "Ran full process. <b>1st° backchannel:</b> Oneida Dueñas (Risk, ex-Intuit). <b>2nd° intel:</b> Prateek Parashar (Staff DS, Growth), Katja Wittfoth (Sr DS), Shannon Hees (Sr DS, Product Analytics). Keep Ryan Atkins (recruiter) warm for re-entry."
    },
    "discovered": false,
    "isNew": false
@@ -432,29 +432,29 @@
    "role": "Senior Manager, Product Data Science",
    "loc": "Menlo Park, CA",
    "track": "lateral",
-   "trackLabel": "Lateral \u2192 better co",
+   "trackLabel": "Lateral → better co",
    "extraTrack": "domain",
    "score": null,
    "domain": null,
    "comp": "See posting",
    "compFit": null,
-   "tier": "Public \u00b7 data cloud (~$60B+)",
+   "tier": "Public · data cloud (~$60B+)",
    "url": "https://www.linkedin.com/jobs/view/4425460224/",
-   "note": "CLOSED \u2014 rejected. Was your recommended bridge: top-tier brand, consumption-monetization model that fit your pricing/monetization wedge, applied via Mario Heredia (1st\u00b0). Didn't reach a screen despite the warm referral. Mario remains a valuable channel \u2014 keep him in the network, this one just didn't land.",
+   "note": "CLOSED — rejected. Was your recommended bridge: top-tier brand, consumption-monetization model that fit your pricing/monetization wedge, applied via Mario Heredia (1st°). Didn't reach a screen despite the warm referral. Mario remains a valuable channel — keep him in the network, this one just didn't land.",
    "pinned": true,
    "source": "linkedin",
    "status": {
     "live": false,
-    "v": "LinkedIn \u00b7 applied 6/9 \u2192 rejected 2026-06-27"
+    "v": "LinkedIn · applied 6/9 → rejected 2026-06-27"
    },
    "app": {
     "stage": "rejected",
     "since": "2026-06-27",
-    "note": "LinkedIn \u00b7 applied 6/9 \u2192 rejected 2026-06-27"
+    "note": "LinkedIn · applied 6/9 → rejected 2026-06-27"
    },
    "referral": {
     "level": "direct",
-    "text": "<b>Confirmed referral.</b> <b>1st\u00b0:</b> Mario Heredia (Data Science / AI / Leadership, 60+ mutuals) \u2014 your referrer + intel channel. <b>2nd\u00b0 likely hiring chain:</b> <b>Hamin Oh</b> (Director, Data, Analytics &amp; AI; via sahithi visvanathan &amp; Trevor Scollins \u2014 top person to understand), <b>Kamer Toker-Yildiz</b> (Data Science Leader, Bay Area; via Abhishek Ghuwalewala), <b>Satya Kota</b> (Director, Data Engineering \u2014 adjacent). Peers: Peter L. (Sr DS), Si Peng (DS&amp;AI, ex-Apple)."
+    "text": "<b>Confirmed referral.</b> <b>1st°:</b> Mario Heredia (Data Science / AI / Leadership, 60+ mutuals) — your referrer + intel channel. <b>2nd° likely hiring chain:</b> <b>Hamin Oh</b> (Director, Data, Analytics &amp; AI; via sahithi visvanathan &amp; Trevor Scollins — top person to understand), <b>Kamer Toker-Yildiz</b> (Data Science Leader, Bay Area; via Abhishek Ghuwalewala), <b>Satya Kota</b> (Director, Data Engineering — adjacent). Peers: Peter L. (Sr DS), Si Peng (DS&amp;AI, ex-Apple)."
    },
    "discovered": false,
    "isNew": false
@@ -470,19 +470,19 @@
    "domain": null,
    "comp": "See posting",
    "compFit": null,
-   "tier": "Healthcare AI \u00b7 high-growth",
+   "tier": "Healthcare AI · high-growth",
    "url": "https://www.linkedin.com/jobs/view/4402990454/",
-   "note": "CLOSED \u2014 rejected 6/29. Your best Director-title swing, but the healthcare/clinical domain pivot was always the risk and the application didn't break through a competitive pool. Lesson: Director swings need a warm referral, not a cold app + light outreach.",
+   "note": "CLOSED — rejected 6/29. Your best Director-title swing, but the healthcare/clinical domain pivot was always the risk and the application didn't break through a competitive pool. Lesson: Director swings need a warm referral, not a cold app + light outreach.",
    "pinned": true,
    "source": "linkedin",
    "status": {
     "live": false,
-    "v": "Ashby \u00b7 applied \u2192 rejected 2026-06-29"
+    "v": "Ashby · applied → rejected 2026-06-29"
    },
    "app": {
     "stage": "rejected",
     "since": "2026-06-29",
-    "note": "Ashby \u00b7 applied \u2192 rejected 2026-06-29"
+    "note": "Ashby · applied → rejected 2026-06-29"
    },
    "referral": {
     "level": "bridge",
@@ -496,7 +496,7 @@
    "role": "Senior Manager, Infrastructure Data Science",
    "loc": "Mountain View, CA (On-site)",
    "track": "lateral",
-   "trackLabel": "Lateral \u2192 better co",
+   "trackLabel": "Lateral → better co",
    "extraTrack": "",
    "score": null,
    "domain": null,
@@ -504,17 +504,17 @@
    "compFit": null,
    "tier": "Elite pre-IPO (~$60B+)",
    "url": "https://www.linkedin.com/jobs/view/4297756002/",
-   "note": "Elite company, but Infrastructure DS is platform/internal-reliability work \u2014 off your product/growth/monetization wedge. You applied with an internal referral and got no recruiter contact, which confirms the fit was thin. Don't invest further.",
+   "note": "Elite company, but Infrastructure DS is platform/internal-reliability work — off your product/growth/monetization wedge. You applied with an internal referral and got no recruiter contact, which confirms the fit was thin. Don't invest further.",
    "pinned": true,
    "source": "linkedin",
    "status": {
     "live": true,
-    "v": "LinkedIn \u00b7 added 2026-06-09"
+    "v": "LinkedIn · added 2026-06-09"
    },
    "app": {
     "stage": "applied",
     "since": "2026-06-09",
-    "note": "LinkedIn \u00b7 added 2026-06-09"
+    "note": "LinkedIn · added 2026-06-09"
    },
    "referral": {
     "level": "direct",
@@ -534,19 +534,19 @@
    "domain": null,
    "comp": "See posting",
    "compFit": null,
-   "tier": "Fintech-adjacent \u00b7 background checks",
+   "tier": "Fintech-adjacent · background checks",
    "url": "https://www.linkedin.com/jobs/view/4397418124/",
    "note": "The Revenue & Growth mandate fits your monetization/growth wedge well, but you graded the company as failing your own high-growth bar. Reached out via recruiters with no response. Keep as low-priority volume, not a focus.",
    "pinned": true,
    "source": "linkedin",
    "status": {
     "live": false,
-    "v": "Closed \u2014 role filled (per Checkr) \u00b7 confirmed 2026-07-06"
+    "v": "Closed — role filled (per Checkr) · confirmed 2026-07-06"
    },
    "app": {
     "stage": "closed",
     "since": "2026-07-06",
-    "note": "Closed \u2014 role filled (per Checkr) \u00b7 confirmed 2026-07-06"
+    "note": "Closed — role filled (per Checkr) · confirmed 2026-07-06"
    },
    "referral": {
     "level": "pending",
@@ -566,19 +566,19 @@
    "domain": null,
    "comp": "See posting",
    "compFit": null,
-   "tier": "Public fintech \u00b7 lending/banking",
+   "tier": "Public fintech · lending/banking",
    "url": "https://www.linkedin.com/jobs/view/4399470189/",
-   "note": "Was the sharpest domain match on the board \u2014 lending, banking, monetization, financial products is exactly your wedge. The req has since been pulled. Worth watching for a reopen or a sibling lending/growth req.",
+   "note": "Was the sharpest domain match on the board — lending, banking, monetization, financial products is exactly your wedge. The req has since been pulled. Worth watching for a reopen or a sibling lending/growth req.",
    "pinned": true,
    "source": "linkedin",
    "status": {
-    "live": false,
-    "v": "Closed \u2014 req pulled (per SoFi) \u00b7 confirmed 2026-06-09"
+    "live": true,
+    "v": "Applied 9/2 (Greenhouse) — confirmation received."
    },
    "app": {
-    "stage": "closed",
-    "since": "2026-06-09",
-    "note": "Closed \u2014 req pulled (per SoFi) \u00b7 confirmed 2026-06-09"
+    "stage": "applied",
+    "since": "2026-09-02",
+    "note": "Applied 9/2 via Greenhouse (fresh req). Prior interest closed 6/9."
    },
    "referral": {
     "level": "pending",
@@ -598,19 +598,19 @@
    "domain": null,
    "comp": "See posting",
    "compFit": null,
-   "tier": "Email productivity \u00b7 Grammarly-acquired",
+   "tier": "Email productivity · Grammarly-acquired",
    "url": "https://www.linkedin.com/jobs/view/4417695458/",
    "note": "Director title was the appeal, but post-Grammarly-acquisition trajectory and DS-org scope are murky, and it was your weakest Director bet. Recruiter passed. Closed out.",
    "pinned": true,
    "source": "linkedin",
    "status": {
     "live": false,
-    "v": "Rejected \u00b7 2026-06-09"
+    "v": "Rejected · 2026-06-09"
    },
    "app": {
     "stage": "rejected",
     "since": "2026-06-09",
-    "note": "Rejected \u00b7 2026-06-09"
+    "note": "Rejected · 2026-06-09"
    },
    "referral": {
     "level": "pending",
@@ -624,7 +624,7 @@
    "role": "Senior Manager, GTM Data Science",
    "loc": "San Jose, CA",
    "track": "lateral",
-   "trackLabel": "Lateral \u2192 better co",
+   "trackLabel": "Lateral → better co",
    "extraTrack": "",
    "score": null,
    "domain": null,
@@ -632,17 +632,17 @@
    "compFit": null,
    "tier": "Public (~$240B)",
    "url": "https://www.linkedin.com/jobs/view/4389864311/",
-   "note": "GTM Data Science is sales/marketing-ops analytics \u2014 off your product/monetization wedge. Triaged as a pass. Note: the Adobe *Director, Data Science & Analytics* role (also tracked here) is the better Adobe target.",
+   "note": "GTM Data Science is sales/marketing-ops analytics — off your product/monetization wedge. Triaged as a pass. Note: the Adobe *Director, Data Science & Analytics* role (also tracked here) is the better Adobe target.",
    "pinned": true,
    "source": "linkedin",
    "status": {
     "live": true,
-    "v": "LinkedIn \u00b7 added 2026-06-09 \u00b7 passed (off-wedge)"
+    "v": "Applied 9/2 (Workday R170516) — confirmation received."
    },
    "app": {
-    "stage": "passed",
-    "since": "2026-06-09",
-    "note": "LinkedIn \u00b7 added 2026-06-09"
+    "stage": "applied",
+    "since": "2026-09-02",
+    "note": "Applied 9/2 (Adobe Workday, req R170516). Reposted 5d ago."
    },
    "referral": {
     "level": "pending",
@@ -653,7 +653,7 @@
   },
   {
    "co": "Liberty Mutual",
-   "role": "Senior Director II, Data Science \u2014 USRM Complex Components",
+   "role": "Senior Director II, Data Science — USRM Complex Components",
    "loc": "Boston, MA / Remote US (see posting)",
    "track": "stepup",
    "trackLabel": "Step-up title (Sr Director)",
@@ -664,7 +664,7 @@
    "compFit": null,
    "tier": "Legacy insurer (Fortune 100)",
    "url": "https://jobs.libertymutualgroup.com/job/2026-76408/",
-   "note": "Senior Director II is a real title/scope step-up, but flag the trade-offs honestly: USRM (US Retail Markets) insurance DS is off your fintech/product/growth wedge, and Liberty Mutual fails your own high-growth / strong-trajectory bar (mature, slow-moving carrier). Optionality and AI exposure are limited. Treat as a title-and-comp volume play, not a focus \u2014 useful as a Director-level interview rep if it converts.",
+   "note": "Senior Director II is a real title/scope step-up, but flag the trade-offs honestly: USRM (US Retail Markets) insurance DS is off your fintech/product/growth wedge, and Liberty Mutual fails your own high-growth / strong-trajectory bar (mature, slow-moving carrier). Optionality and AI exposure are limited. Treat as a title-and-comp volume play, not a focus — useful as a Director-level interview rep if it converts.",
    "pinned": true,
    "source": "icims",
    "status": {
@@ -694,25 +694,25 @@
    "domain": null,
    "comp": "See postings",
    "compFit": null,
-   "tier": "Elite pre-IPO \u00b7 spend management",
+   "tier": "Elite pre-IPO · spend management",
    "url": "https://ramp.com/careers",
-   "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet \u2014 pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+   "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
    "pinned": true,
    "source": "linkedin",
    "status": {
     "live": true,
-    "v": "Referral target \u00b7 mapped 2026-06-27"
+    "v": "Referral target · mapped 2026-06-27"
    },
    "referral": {
     "level": "bridge",
-    "text": "<b>No 1st\u00b0.</b> Best 2nd\u00b0 data path: James Rizkallah (Data at Ramp \u2014 11 mutuals incl. Pablo Lerdo de Tejada, Anubhav Aggarwal). Also Ben Geist (ML Eng), Avinash Gopinathan (Risk, 11 mut), Harry Channing (Fraud, 9 mut). Direct recruiter: Nicole Hansen (TA). Approach: warm intro via James, or DM Nicole on a specific req."
+    "text": "<b>No 1st°.</b> Best 2nd° data path: James Rizkallah (Data at Ramp — 11 mutuals incl. Pablo Lerdo de Tejada, Anubhav Aggarwal). Also Ben Geist (ML Eng), Avinash Gopinathan (Risk, 11 mut), Harry Channing (Fraud, 9 mut). Direct recruiter: Nicole Hansen (TA). Approach: warm intro via James, or DM Nicole on a specific req."
    },
    "discovered": false,
    "isNew": true,
    "app": {
     "stage": "to-apply",
     "since": "2026-06-27",
-    "note": "Referral target \u00b7 mapped 2026-06-27"
+    "note": "Referral target · mapped 2026-06-27"
    }
   },
   {
@@ -726,25 +726,25 @@
    "domain": null,
    "comp": "See postings",
    "compFit": null,
-   "tier": "Pre-IPO \u00b7 AI finance platform",
+   "tier": "Pre-IPO · AI finance platform",
    "url": "https://www.brex.com/careers",
-   "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet \u2014 pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+   "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
    "pinned": true,
    "source": "linkedin",
    "status": {
     "live": true,
-    "v": "Referral target \u00b7 mapped 2026-06-27"
+    "v": "Referral target · mapped 2026-06-27"
    },
    "referral": {
     "level": "bridge",
-    "text": "<b>No 1st\u00b0.</b> Standout 2nd\u00b0: Sumeet Marwaha (Data @ Brex \u2014 44 mutuals; likely data leader) = top path. Also Bhavna Sinha (Senior Data Scientist, 10 mut, via Favio Vazquez). Recruiter: Natalie Endres (GTM Recruiting). Even CEO Pedro Franceschi is 2nd\u00b0. Approach: intro to Sumeet via a high-mutual broker."
+    "text": "<b>No 1st°.</b> Standout 2nd°: Sumeet Marwaha (Data @ Brex — 44 mutuals; likely data leader) = top path. Also Bhavna Sinha (Senior Data Scientist, 10 mut, via Favio Vazquez). Recruiter: Natalie Endres (GTM Recruiting). Even CEO Pedro Franceschi is 2nd°. Approach: intro to Sumeet via a high-mutual broker."
    },
    "discovered": false,
    "isNew": true,
    "app": {
     "stage": "to-apply",
     "since": "2026-06-27",
-    "note": "Referral target \u00b7 mapped 2026-06-27"
+    "note": "Referral target · mapped 2026-06-27"
    }
   },
   {
@@ -758,25 +758,25 @@
    "domain": null,
    "comp": "See postings",
    "compFit": null,
-   "tier": "Pre-IPO \u00b7 fintech infrastructure",
+   "tier": "Pre-IPO · fintech infrastructure",
    "url": "https://plaid.com/careers/",
-   "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet \u2014 pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+   "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
    "pinned": true,
    "source": "linkedin",
    "status": {
     "live": true,
-    "v": "Referral target \u00b7 mapped 2026-06-27"
+    "v": "Referral target · mapped 2026-06-27"
    },
    "referral": {
     "level": "direct",
-    "text": "<b>1st\u00b0: Amy Smith</b> (TPM / Data Scientist, AI Governance \u2014 140 mutuals) \u2014 DM directly for the lay of the land + referral. 2nd\u00b0: Akash Kulkarni (Analytics &amp; DS, 7 mut), Milav Shah (Eng Leadership, Data &amp; AI, 9 mut), Kanak Chavda (Data Eng). Recruiters: Sydney Busch Weber (Head of Tech Recruiting), Rico Curry (11 mut)."
+    "text": "<b>1st°: Amy Smith</b> (TPM / Data Scientist, AI Governance — 140 mutuals) — DM directly for the lay of the land + referral. 2nd°: Akash Kulkarni (Analytics &amp; DS, 7 mut), Milav Shah (Eng Leadership, Data &amp; AI, 9 mut), Kanak Chavda (Data Eng). Recruiters: Sydney Busch Weber (Head of Tech Recruiting), Rico Curry (11 mut)."
    },
    "discovered": false,
    "isNew": true,
    "app": {
     "stage": "to-apply",
     "since": "2026-06-27",
-    "note": "Referral target \u00b7 mapped 2026-06-27"
+    "note": "Referral target · mapped 2026-06-27"
    }
   },
   {
@@ -788,25 +788,25 @@
    "extraTrack": "domain",
    "score": 8.3,
    "domain": 4,
-   "comp": "$225K\u2013$250K base + benefits (bonus/equity TBD)",
+   "comp": "$225K–$250K base + benefits (bonus/equity TBD)",
    "compFit": "below",
-   "tier": "Consumer fintech \u00b7 subsidiary of Upbound Group (NASDAQ: UPBD)",
+   "tier": "Consumer fintech · subsidiary of Upbound Group (NASDAQ: UPBD)",
    "url": "https://www.linkedin.com/jobs/view/4434052322/",
-   "note": "NEW FIND (LinkedIn sweep 7/8). Director of DS at Brigit \u2014 a consumer financial-health app (instant cash advances, credit-building, subscription) that Upbound Group (NASDAQ: UPBD, ex-Rent-A-Center) acquired Jan 2025 for up to $460M. Brigit is GROWING and profitable-adjacent: ~1M+ paying subscribers, ~$215\u2013230M rev in 2025, guided to ~$350\u2013400M in 2026, now backed by a public parent (stability + resources). WEDGE BULLSEYE: consumer fintech, subscription monetization, credit/lending, customer-lifecycle + growth \u2014 exactly your story. Director title = the scope step-up you want, and an SF role for an NYC-HQ company likely means building/leading a new West-Coast DS footprint (0\u21921 team-building, your strength). CAVEATS: (1) it's now a subsidiary of Upbound \u2014 some prestige discount vs a pure venture fintech, though the financials are stronger for it; (2) apps are managed off LinkedIn, and there's a $60M 2026 earnout on Brigit's performance, so the org is under real growth pressure \u2014 frame yourself as the monetization/growth leader who hits those numbers.",
+   "note": "NEW FIND (LinkedIn sweep 7/8). Director of DS at Brigit — a consumer financial-health app (instant cash advances, credit-building, subscription) that Upbound Group (NASDAQ: UPBD, ex-Rent-A-Center) acquired Jan 2025 for up to $460M. Brigit is GROWING and profitable-adjacent: ~1M+ paying subscribers, ~$215–230M rev in 2025, guided to ~$350–400M in 2026, now backed by a public parent (stability + resources). WEDGE BULLSEYE: consumer fintech, subscription monetization, credit/lending, customer-lifecycle + growth — exactly your story. Director title = the scope step-up you want, and an SF role for an NYC-HQ company likely means building/leading a new West-Coast DS footprint (0→1 team-building, your strength). CAVEATS: (1) it's now a subsidiary of Upbound — some prestige discount vs a pure venture fintech, though the financials are stronger for it; (2) apps are managed off LinkedIn, and there's a $60M 2026 earnout on Brigit's performance, so the org is under real growth pressure — frame yourself as the monetization/growth leader who hits those numbers.",
    "pinned": true,
    "source": "linkedin (saved + sweep 2026-07-08)",
    "status": {
     "live": true,
-    "v": "Applied 2026-07-08 \u00b7 outreach to HM + recruiter sent"
+    "v": "Applied 2026-07-08 · outreach to HM + recruiter sent"
    },
    "app": {
     "stage": "applied",
     "since": "2026-07-08",
-    "note": "Applied 2026-07-08 \u00b7 outreach to HM + recruiter sent"
+    "note": "Applied 2026-07-08 · outreach to HM + recruiter sent"
    },
    "referral": {
     "level": "direct",
-    "text": "<b>Direct outreach in motion (applied 7/8).</b> Contacted the hiring exec <b>Lauren Stoller</b> \u2014 <b>VP of Data &amp; Analytics at Brigit</b> (SF, '#Hiring') \u2014 via a LinkedIn connection note, and <b>Kris H.</b>, Principal Recruiter (fintech/SaaS), via InMail. No warm referral used: the shared connection (Dr. Ramla) isn't a real relationship, so Rodrigo went direct."
+    "text": "<b>Direct outreach in motion (applied 7/8).</b> Contacted the hiring exec <b>Lauren Stoller</b> — <b>VP of Data &amp; Analytics at Brigit</b> (SF, '#Hiring') — via a LinkedIn connection note, and <b>Kris H.</b>, Principal Recruiter (fintech/SaaS), via InMail. No warm referral used: the shared connection (Dr. Ramla) isn't a real relationship, so Rodrigo went direct."
    },
    "fit": {
     "relevance": 9,
@@ -817,7 +817,7 @@
     "score": 8.3,
     "confidence": "medium",
     "yoe_req": "Director-level DS leadership (see posting)",
-    "candidate": "you: ~11 yrs DS, ~5 leading; consumer-fintech monetization/growth (Intuit) \u2014 strong wedge match"
+    "candidate": "you: ~11 yrs DS, ~5 leading; consumer-fintech monetization/growth (Intuit) — strong wedge match"
    },
    "discovered": true,
    "isNew": false
@@ -833,23 +833,23 @@
    "domain": 4,
    "comp": "Above baseline (Director, big-tech scale)",
    "compFit": "border",
-   "tier": "Public marketplace \u00b7 New Verticals (grocery/retail) growth",
+   "tier": "Public marketplace · New Verticals (grocery/retail) growth",
    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8052254",
-   "note": "Director-level analytics leadership over DoorDash's New Verticals consumer business (grocery/retail/new categories) \u2014 consumer growth + experimentation at massive scale, a Director step-up that clears the comp bar. Wedge fit: 0\u21921 growth, experimentation, monetization on a still-maturing part of the business.",
+   "note": "Director-level analytics leadership over DoorDash's New Verticals consumer business (grocery/retail/new categories) — consumer growth + experimentation at massive scale, a Director step-up that clears the comp bar. Wedge fit: 0→1 growth, experimentation, monetization on a still-maturing part of the business.",
    "pinned": true,
    "source": "expanded Beacon search 2026-07-13",
    "status": {
     "live": false,
-    "v": "Applied 7/13 \u2192 rejected 2026-07-20"
+    "v": "Applied 7/13 → rejected 2026-07-20"
    },
    "app": {
     "stage": "rejected",
     "since": "2026-07-20",
-    "note": "Applied 7/13 \u2192 rejected 2026-07-20"
+    "note": "Applied 7/13 → rejected 2026-07-20"
    },
    "referral": {
     "level": "direct",
-    "text": "<b>Referral CONFIRMED 7/13</b> \u2014 Jasper (1st\u00b0) submitted an employee referral. Bench: Ethan Zhu (DS&A lead, 2nd\u00b0 ~32 mut), Maximiliano Medina Garc\u00eda (1st\u00b0)."
+    "text": "<b>Referral CONFIRMED 7/13</b> — Jasper (1st°) submitted an employee referral. Bench: Ethan Zhu (DS&A lead, 2nd° ~32 mut), Maximiliano Medina García (1st°)."
    },
    "discovered": true,
    "isNew": true
@@ -859,29 +859,29 @@
    "role": "Sr. Data Science Manager, Member & Algo Intelligence DSE",
    "loc": "Los Gatos, CA (or remote US)",
    "track": "lateral",
-   "trackLabel": "Lateral \u2192 better co",
+   "trackLabel": "Lateral → better co",
    "extraTrack": "domain",
    "score": 8.5,
    "domain": 4,
    "comp": "Above baseline (Netflix top-of-market comp)",
    "compFit": "above",
-   "tier": "Streaming leader \u00b7 elite DS bar \u00b7 personalization",
+   "tier": "Streaming leader · elite DS bar · personalization",
    "url": "https://jobs.netflix.com/",
-   "note": "Sr DS Manager on Member & Algo Intelligence (DSE) \u2014 personalization/recommendation + experimentation at enormous scale, a strong fit for your experimentation + growth + product-analytics wedge, at a top-of-market brand and comp ceiling. Manager scope (not Director), so treat as a high-value lateral-plus.",
+   "note": "Sr DS Manager on Member & Algo Intelligence (DSE) — personalization/recommendation + experimentation at enormous scale, a strong fit for your experimentation + growth + product-analytics wedge, at a top-of-market brand and comp ceiling. Manager scope (not Director), so treat as a high-value lateral-plus.",
    "pinned": true,
    "source": "gmail application receipt 2026-07-14",
    "status": {
     "live": true,
-    "v": "Applied 2026-07-14 \u00b7 confirmation received"
+    "v": "Applied 2026-07-14 · confirmation received"
    },
    "app": {
     "stage": "applied",
     "since": "2026-07-14",
-    "note": "Applied 2026-07-14 \u00b7 confirmation received"
+    "note": "Applied 2026-07-14 · confirmation received"
    },
    "referral": {
     "level": "bridge",
-    "text": "<b>1st\u00b0:</b> Paulina Garc\u00eda Bueno (pinged 7/14) = primary referral path. Also <b>1st\u00b0 Paolo Agostoni</b> \u2014 TA Manager, Spanish-speaking LATAM @Netflix (72+ mut): NOT the recruiter for this US DSE role, but use him to route to the right US-DS recruiter / flag your app + get process intel (not a DS referral). <b>Backups (2nd\u00b0, sweep 7/27):</b> Peter Morse (DS Manager @Netflix, via Mark Heynen) = peer/HM level; Tian Zhou (Netflix Ads DS leader, 28 mut via sahithi visvanathan); Julian Hsu (26 mut via Saurabh Kumar); Tomoya Sasaki (causal inference/experimentation)."
+    "text": "<b>1st°:</b> Paulina García Bueno (pinged 7/14) = primary referral path. Also <b>1st° Paolo Agostoni</b> — TA Manager, Spanish-speaking LATAM @Netflix (72+ mut): NOT the recruiter for this US DSE role, but use him to route to the right US-DS recruiter / flag your app + get process intel (not a DS referral). <b>Backups (2nd°, sweep 7/27):</b> Peter Morse (DS Manager @Netflix, via Mark Heynen) = peer/HM level; Tian Zhou (Netflix Ads DS leader, 28 mut via sahithi visvanathan); Julian Hsu (26 mut via Saurabh Kumar); Tomoya Sasaki (causal inference/experimentation)."
    },
    "discovered": true,
    "isNew": true
@@ -891,29 +891,29 @@
    "role": "Senior Data Science Manager, Marketing",
    "loc": "San Francisco, CA / Remote (US)",
    "track": "lateral",
-   "trackLabel": "Lateral \u2192 better co",
+   "trackLabel": "Lateral → better co",
    "extraTrack": "domain",
    "score": 8.2,
    "domain": 4,
    "comp": "Above baseline (Reddit competitive TC)",
    "compFit": "border",
-   "tier": "Public social platform (NYSE: RDDT) \u00b7 marketing DS",
+   "tier": "Public social platform (NYSE: RDDT) · marketing DS",
    "url": "https://www.redditinc.com/careers",
-   "note": "Sr DS Manager over Marketing \u2014 causal measurement, LTV modeling, and marketing analytics at consumer scale, which you called out as squarely what your Intuit teams did. Manager scope (not Director) but a top brand with strong comp and a clean wedge fit (growth/measurement/experimentation).",
+   "note": "Sr DS Manager over Marketing — causal measurement, LTV modeling, and marketing analytics at consumer scale, which you called out as squarely what your Intuit teams did. Manager scope (not Director) but a top brand with strong comp and a clean wedge fit (growth/measurement/experimentation).",
    "pinned": true,
    "source": "gmail application receipt 2026-07-20",
    "status": {
     "live": true,
-    "v": "Applied 2026-07-20 \u00b7 confirmation received"
+    "v": "Applied 2026-07-20 · confirmation received"
    },
    "app": {
     "stage": "applied",
     "since": "2026-07-20",
-    "note": "Applied 2026-07-20 \u00b7 confirmation received"
+    "note": "Applied 2026-07-20 · confirmation received"
    },
    "referral": {
     "level": "bridge",
-    "text": "<b>Referral requested 7/20</b> \u2014 messaged <b>Liliya McLean</b> (Product leader @Reddit, PhD; both ex-Intuit) for a referral to the Sr DS Manager, Marketing role; pending."
+    "text": "<b>Referral requested 7/20</b> — messaged <b>Liliya McLean</b> (Product leader @Reddit, PhD; both ex-Intuit) for a referral to the Sr DS Manager, Marketing role; pending."
    },
    "fit": {
     "relevance": 9,
@@ -923,8 +923,8 @@
     "comp": "border",
     "score": 8.2,
     "confidence": "medium",
-    "yoe_req": "Sr DS Manager \u00b7 marketing/causal measurement",
-    "candidate": "you: ~11 yrs DS, ~5 leading; marketing/LTV/experimentation (Credit Karma) \u2014 strong wedge"
+    "yoe_req": "Sr DS Manager · marketing/causal measurement",
+    "candidate": "you: ~11 yrs DS, ~5 leading; marketing/LTV/experimentation (Credit Karma) — strong wedge"
    },
    "discovered": true,
    "isNew": true
@@ -938,25 +938,25 @@
    "extraTrack": "stretch",
    "score": 8.6,
    "domain": 5,
-   "comp": "Ladders est. ~$130\u2013180K* base (understated \u2014 OpenAI TC far higher w/ equity)",
+   "comp": "Ladders est. ~$130–180K* base (understated — OpenAI TC far higher w/ equity)",
    "compFit": "border",
-   "tier": "Elite AI-native (OpenAI) \u00b7 pricing & monetization",
+   "tier": "Elite AI-native (OpenAI) · pricing & monetization",
    "url": "https://openai.com/careers/search/",
-   "note": "BULLSEYE + AI-native. 'Founding' pricing & monetization DS \u2014 partner with senior leaders to build the pricing analyses, models, and frameworks and define the standards, i.e. 0\u21921 monetization at OpenAI. This is your exact wedge (TurboTax forms-based pricing, Core Monetization, 5DE) at the highest-AI-brand possible. Distinct from the OpenAI Marketing Analytics Lead already on the board \u2014 pursue both. Found via Ladders 7/20 (~3 days old).",
+   "note": "BULLSEYE + AI-native. 'Founding' pricing & monetization DS — partner with senior leaders to build the pricing analyses, models, and frameworks and define the standards, i.e. 0→1 monetization at OpenAI. This is your exact wedge (TurboTax forms-based pricing, Core Monetization, 5DE) at the highest-AI-brand possible. Distinct from the OpenAI Marketing Analytics Lead already on the board — pursue both. Found via Ladders 7/20 (~3 days old).",
    "pinned": true,
    "source": "ladders 2026-07-20",
    "status": {
     "live": true,
-    "v": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "v": "Applied 9/1 — confirmation received (exact OpenAI req TBC)."
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-20",
-    "note": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "stage": "applied",
+    "since": "2026-09-01",
+    "note": "Applied 9/1 (OpenAI careers) — confirmation received. Exact req TBC: generic confirmation; assumed the Founding DS, Pricing & Monetization target."
    },
    "referral": {
     "level": "bridge",
-    "text": "<b>Warm paths (mapped 7/13):</b> David Sasaki (VP Analytics & Insights, 2nd\u00b0) via Saurabh Kumar/Gabriel Pila; Karim Jahangir (GTM Data, 2nd\u00b0); Varghese George (Analytics Lead, 2nd\u00b0)."
+    "text": "<b>Warm paths (mapped 7/13):</b> David Sasaki (VP Analytics & Insights, 2nd°) via Saurabh Kumar/Gabriel Pila; Karim Jahangir (GTM Data, 2nd°); Varghese George (Analytics Lead, 2nd°)."
    },
    "fit": {
     "relevance": 10,
@@ -967,7 +967,7 @@
     "score": 8.6,
     "confidence": "medium",
     "yoe_req": "PhD/MS quant + DS & pricing experience",
-    "candidate": "you: ~11 yrs DS; monetization/pricing (forms-based pricing, Core Monetization, 5DE) \u2014 bullseye"
+    "candidate": "you: ~11 yrs DS; monetization/pricing (forms-based pricing, Core Monetization, 5DE) — bullseye"
    },
    "discovered": true,
    "isNew": false
@@ -981,25 +981,25 @@
    "extraTrack": "lateral",
    "score": 8.1,
    "domain": 3,
-   "comp": "$197K\u2013$313K (Ladders)",
+   "comp": "$197K–$313K (Ladders)",
    "compFit": "border",
    "tier": "Public enterprise SaaS (NYSE: CRM)",
    "url": "https://careers.salesforce.com/en/jobs/",
-   "note": "DIRECTOR step-up at a top-tier brand \u2014 lead the Decision Science team driving data strategy & insights for Customer 360 Apps, influencing product and business strategy. More enterprise/product-analytics than consumer-growth (a lateral on domain), but a genuine Director-level rep with a strong comp band. Found via Ladders 7/20.",
+   "note": "DIRECTOR step-up at a top-tier brand — lead the Decision Science team driving data strategy & insights for Customer 360 Apps, influencing product and business strategy. More enterprise/product-analytics than consumer-growth (a lateral on domain), but a genuine Director-level rep with a strong comp band. Found via Ladders 7/20.",
    "pinned": true,
    "source": "ladders 2026-07-20",
    "status": {
     "live": true,
-    "v": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "v": "Opportunity · found via Ladders 2026-07-20"
    },
    "app": {
     "stage": "to-apply",
     "since": "2026-07-20",
-    "note": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "note": "Opportunity · found via Ladders 2026-07-20"
    },
    "referral": {
     "level": "pending",
-    "text": "No warm path yet \u2014 run a Salesforce Data/Decision-Science network sweep."
+    "text": "No warm path yet — run a Salesforce Data/Decision-Science network sweep."
    },
    "fit": {
     "relevance": 7,
@@ -1024,25 +1024,25 @@
    "extraTrack": "stretch",
    "score": 8.0,
    "domain": 5,
-   "comp": "$215K\u2013$263K (Ladders)",
+   "comp": "$215K–$263K (Ladders)",
    "compFit": "border",
-   "tier": "Consumer fintech \u00b7 earned-wage access",
+   "tier": "Consumer fintech · earned-wage access",
    "url": "https://www.earnin.com/careers",
-   "note": "Consumer-fintech (earned-wage access / cash advance) analytics leadership across product + marketing, building AI-driven workflows and mentoring a cross-functional team \u2014 squarely your monetization/growth/lifecycle wedge in your exact domain. Staff/lead scope rather than manager, but strong domain + comp and MV-local. Found via Ladders 7/20.",
+   "note": "Consumer-fintech (earned-wage access / cash advance) analytics leadership across product + marketing, building AI-driven workflows and mentoring a cross-functional team — squarely your monetization/growth/lifecycle wedge in your exact domain. Staff/lead scope rather than manager, but strong domain + comp and MV-local. Found via Ladders 7/20.",
    "pinned": true,
    "source": "ladders 2026-07-20",
    "status": {
     "live": true,
-    "v": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "v": "Opportunity · found via Ladders 2026-07-20"
    },
    "app": {
     "stage": "to-apply",
     "since": "2026-07-20",
-    "note": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "note": "Opportunity · found via Ladders 2026-07-20"
    },
    "referral": {
     "level": "pending",
-    "text": "No warm path yet \u2014 run an Earnin network sweep."
+    "text": "No warm path yet — run an Earnin network sweep."
    },
    "fit": {
     "relevance": 9,
@@ -1053,7 +1053,7 @@
     "score": 8.0,
     "confidence": "medium",
     "yoe_req": "7+ yrs analytics; product+marketing; AI workflows",
-    "candidate": "you: ~11 yrs DS; consumer-fintech monetization/growth \u2014 bullseye domain"
+    "candidate": "you: ~11 yrs DS; consumer-fintech monetization/growth — bullseye domain"
    },
    "discovered": true,
    "isNew": false
@@ -1063,29 +1063,29 @@
    "role": "Staff Product Data Scientist Manager, Search Ads",
    "loc": "Mountain View, CA (In-person)",
    "track": "lateral",
-   "trackLabel": "Lateral \u2192 elite brand",
+   "trackLabel": "Lateral → elite brand",
    "extraTrack": "domain",
    "score": 8.0,
    "domain": 4,
-   "comp": "$192K\u2013$279K (Ladders)",
+   "comp": "$192K–$279K (Ladders)",
    "compFit": "border",
-   "tier": "Alphabet \u00b7 Search Ads DS (people-management)",
+   "tier": "Alphabet · Search Ads DS (people-management)",
    "url": "https://www.google.com/about/careers/applications/",
-   "note": "People-manager DS over Search Ads \u2014 ads monetization + experimentation at the largest scale there is. Directly adjacent to the Coupang Ads Director role you're now interviewing for: pursuing it builds real ad-tech domain credibility while staying in your monetization/experimentation wedge. Manager scope, top-tier brand + comp. Found via Ladders 7/20.",
+   "note": "People-manager DS over Search Ads — ads monetization + experimentation at the largest scale there is. Directly adjacent to the Coupang Ads Director role you're now interviewing for: pursuing it builds real ad-tech domain credibility while staying in your monetization/experimentation wedge. Manager scope, top-tier brand + comp. Found via Ladders 7/20.",
    "pinned": true,
    "source": "ladders 2026-07-20",
    "status": {
     "live": true,
-    "v": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "v": "Opportunity · found via Ladders 2026-07-20"
    },
    "app": {
     "stage": "to-apply",
     "since": "2026-07-20",
-    "note": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "note": "Opportunity · found via Ladders 2026-07-20"
    },
    "referral": {
     "level": "pending",
-    "text": "No warm path yet \u2014 run a Google Ads DS network sweep."
+    "text": "No warm path yet — run a Google Ads DS network sweep."
    },
    "fit": {
     "relevance": 8,
@@ -1110,25 +1110,25 @@
    "extraTrack": "stretch",
    "score": 7.8,
    "domain": 3,
-   "comp": "$180K\u2013$250K+ (Ladders; Meta TC higher w/ equity)",
+   "comp": "$180K–$250K+ (Ladders; Meta TC higher w/ equity)",
    "compFit": "border",
-   "tier": "Meta \u00b7 DS leadership (elite bar)",
+   "tier": "Meta · DS leadership (elite bar)",
    "url": "https://www.metacareers.com/jobs",
-   "note": "Director-level DS leadership at Meta \u2014 top brand and the experimentation gold standard (also HM Siddharth Gupta's alma mater, a useful signal in the Coupang loop). JD implies ~15+ yrs analytics leadership, so a genuine stretch on tenure/scale \u2014 pursue with a warm path, not a cold app. Strong optionality/comp bet. Found via Ladders 7/20.",
+   "note": "Director-level DS leadership at Meta — top brand and the experimentation gold standard (also HM Siddharth Gupta's alma mater, a useful signal in the Coupang loop). JD implies ~15+ yrs analytics leadership, so a genuine stretch on tenure/scale — pursue with a warm path, not a cold app. Strong optionality/comp bet. Found via Ladders 7/20.",
    "pinned": true,
    "source": "ladders 2026-07-20",
    "status": {
     "live": true,
-    "v": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "v": "Opportunity · found via Ladders 2026-07-20"
    },
    "app": {
     "stage": "to-apply",
     "since": "2026-07-20",
-    "note": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "note": "Opportunity · found via Ladders 2026-07-20"
    },
    "referral": {
     "level": "pending",
-    "text": "No warm path yet \u2014 run a Meta DS-leadership network sweep (high mutual-count brokers)."
+    "text": "No warm path yet — run a Meta DS-leadership network sweep (high mutual-count brokers)."
    },
    "fit": {
     "relevance": 7,
@@ -1139,7 +1139,7 @@
     "score": 7.8,
     "confidence": "low",
     "yoe_req": "~15+ yrs analytics leadership",
-    "candidate": "you: ~11 yrs DS, ~5 leading \u2014 stretch on tenure/scale"
+    "candidate": "you: ~11 yrs DS, ~5 leading — stretch on tenure/scale"
    },
    "discovered": true,
    "isNew": false
@@ -1153,25 +1153,25 @@
    "extraTrack": "stretch",
    "score": 7.6,
    "domain": 3,
-   "comp": "$212K\u2013$265K (Ladders)",
+   "comp": "$212K–$265K (Ladders)",
    "compFit": "border",
-   "tier": "Health-tech \u00b7 mental-health marketplace (high-growth)",
+   "tier": "Health-tech · mental-health marketplace (high-growth)",
    "url": "https://headway.co/careers",
-   "note": "Growth DS \u2014 marketing-performance measurement, causal inference, and experimentation to scale patient growth, influencing executive decisions. Method wedge is a clean match (growth/experimentation/causal) even though the domain is healthcare. High-growth company, strong comp, Staff IC scope. Found via Ladders 7/20.",
+   "note": "Growth DS — marketing-performance measurement, causal inference, and experimentation to scale patient growth, influencing executive decisions. Method wedge is a clean match (growth/experimentation/causal) even though the domain is healthcare. High-growth company, strong comp, Staff IC scope. Found via Ladders 7/20.",
    "pinned": true,
    "source": "ladders 2026-07-20",
    "status": {
     "live": true,
-    "v": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "v": "Opportunity · found via Ladders 2026-07-20"
    },
    "app": {
     "stage": "to-apply",
     "since": "2026-07-20",
-    "note": "Opportunity \u00b7 found via Ladders 2026-07-20"
+    "note": "Opportunity · found via Ladders 2026-07-20"
    },
    "referral": {
     "level": "pending",
-    "text": "No warm path yet \u2014 run a Headway network sweep if pursuing."
+    "text": "No warm path yet — run a Headway network sweep if pursuing."
    },
    "fit": {
     "relevance": 8,
@@ -1182,7 +1182,7 @@
     "score": 7.6,
     "confidence": "medium",
     "yoe_req": "10+ yrs DS; growth/causal/experimentation",
-    "candidate": "you: ~11 yrs DS; growth + experimentation (Intuit) \u2014 method fit, domain stretch"
+    "candidate": "you: ~11 yrs DS; growth + experimentation (Intuit) — method fit, domain stretch"
    },
    "discovered": true,
    "isNew": false
@@ -1190,25 +1190,25 @@
   {
    "loc": "Cupertino, CA (see posting)",
    "track": "lateral",
-   "trackLabel": "Lateral \u2192 elite brand",
+   "trackLabel": "Lateral → elite brand",
    "extraTrack": "domain",
    "score": 8.2,
    "domain": 4,
    "comp": "Above baseline (Apple top-of-market)",
    "compFit": "above",
-   "tier": "Apple \u00b7 Worldwide Product Marketing analytics",
+   "tier": "Apple · Worldwide Product Marketing analytics",
    "url": "https://jobs.apple.com/",
-   "note": "Sr DS Manager over Worldwide Product Marketing \u2014 marketing/product analytics, measurement, and experimentation at the ultimate brand and comp ceiling. Marketing-analytics wedge (Credit Karma, Reddit-Marketing app). Manager scope; elite-brand lateral-plus.",
+   "note": "Sr DS Manager over Worldwide Product Marketing — marketing/product analytics, measurement, and experimentation at the ultimate brand and comp ceiling. Marketing-analytics wedge (Credit Karma, Reddit-Marketing app). Manager scope; elite-brand lateral-plus.",
    "pinned": true,
    "source": "gmail application receipt 2026-07-24",
    "status": {
     "live": true,
-    "v": "Applied 2026-07-24 \u00b7 confirmation received"
+    "v": "Applied 2026-07-24 · confirmation received"
    },
    "app": {
     "stage": "applied",
     "since": "2026-07-24",
-    "note": "Applied 2026-07-24 \u00b7 confirmation received"
+    "note": "Applied 2026-07-24 · confirmation received"
    },
    "referral": {
     "level": "pending",
@@ -1230,7 +1230,7 @@
    "compFit": null,
    "tier": "Public internet/media (Apollo-owned)",
    "url": "https://www.yahooinc.com/careers/",
-   "note": "Sr Director, DS & EXPERIMENTATION \u2014 a real title step-up and experimentation is dead-center your wedge. Yahoo is a mature, turnaround-mode media co (fails the high-growth bar), so weigh trajectory vs. the scope/title rep. Good Director-level interview rep if it converts.",
+   "note": "Sr Director, DS & EXPERIMENTATION — a real title step-up and experimentation is dead-center your wedge. Yahoo is a mature, turnaround-mode media co (fails the high-growth bar), so weigh trajectory vs. the scope/title rep. Good Director-level interview rep if it converts.",
    "pinned": true,
    "source": "gmail application receipt 2026-07-23",
    "status": {
@@ -1244,7 +1244,7 @@
    },
    "referral": {
     "level": "pending",
-    "text": "<b>Cold app, no advocate.</b> DM'd Shruti Kale (Yahoo, 7/27) asking for a pointer \u2014 no reply before the rejection landed."
+    "text": "<b>Cold app, no advocate.</b> DM'd Shruti Kale (Yahoo, 7/27) asking for a pointer — no reply before the rejection landed."
    },
    "discovered": false,
    "isNew": true,
@@ -1260,9 +1260,9 @@
    "domain": 3,
    "comp": "See posting",
    "compFit": null,
-   "tier": "Series B SaaS \u00b7 event-marketing intelligence",
+   "tier": "Series B SaaS · event-marketing intelligence",
    "url": "https://www.vendelux.com/careers",
-   "note": "HEAD OF ANALYTICS \u2014 top-of-function title + 0\u21921 org-building (your strength) at a growing Series B event-marketing-intelligence SaaS. Smaller/earlier company (prestige + comp-ceiling discount vs. bigger targets), and the domain (event marketing) is adjacent, not your fintech core \u2014 but the scope/title and build mandate are attractive. Weigh as a Track-A stretch on company size.",
+   "note": "HEAD OF ANALYTICS — top-of-function title + 0→1 org-building (your strength) at a growing Series B event-marketing-intelligence SaaS. Smaller/earlier company (prestige + comp-ceiling discount vs. bigger targets), and the domain (event marketing) is adjacent, not your fintech core — but the scope/title and build mandate are attractive. Weigh as a Track-A stretch on company size.",
    "pinned": true,
    "source": "gmail application receipt 2026-07-23",
    "status": {
@@ -1292,25 +1292,25 @@
    "extraTrack": "domain",
    "score": 7.5,
    "domain": 3,
-   "comp": "Unknown \u2014 big-bank Director bands are wide; confirm if it advances",
+   "comp": "Unknown — big-bank Director bands are wide; confirm if it advances",
    "compFit": null,
-   "tier": "Money-center bank (NYSE: WFC) \u00b7 banking/financial services",
+   "tier": "Money-center bank (NYSE: WFC) · banking/financial services",
    "url": "https://www.wellsfargo.com/about/careers/",
-   "note": "NEW APPLICATION 8/1 (Workday confirmation, req R-562589, 'Data Science Director'). Director title = the scope step-up you want, and banking/financial-services is adjacent to your fintech wedge. HONEST READ: this is the same lane that just went 0-for-3 on cold applications \u2014 Liberty Mutual (rejected), Yahoo Sr Director (rejected), and Vendelux Head (rejected) all died at resume review because they were big/mature-company senior titles applied cold with no internal advocate. Wells Fargo is a mega-bank with an even more mechanical Workday funnel; without a warm path this is a low-yield lottery ticket. Also weigh: WF fails your high-growth / strong-trajectory bar (mature, slow, heavily regulated) and AI/optionality upside is limited \u2014 treat strictly as a Director-title-and-comp rep, not a career play. IF you want a real shot: sweep LinkedIn for a 1st/2nd\u00b0 into WF's DS/analytics org and get the app flagged before it auto-closes.",
+   "note": "NEW APPLICATION 8/1 (Workday confirmation, req R-562589, 'Data Science Director'). Director title = the scope step-up you want, and banking/financial-services is adjacent to your fintech wedge. HONEST READ: this is the same lane that just went 0-for-3 on cold applications — Liberty Mutual (rejected), Yahoo Sr Director (rejected), and Vendelux Head (rejected) all died at resume review because they were big/mature-company senior titles applied cold with no internal advocate. Wells Fargo is a mega-bank with an even more mechanical Workday funnel; without a warm path this is a low-yield lottery ticket. Also weigh: WF fails your high-growth / strong-trajectory bar (mature, slow, heavily regulated) and AI/optionality upside is limited — treat strictly as a Director-title-and-comp rep, not a career play. IF you want a real shot: sweep LinkedIn for a 1st/2nd° into WF's DS/analytics org and get the app flagged before it auto-closes.",
    "pinned": true,
    "source": "gmail application receipt 2026-08-01",
    "status": {
     "live": true,
-    "v": "Applied 2026-08-01 \u00b7 Workday confirmation received (req R-562589)"
+    "v": "Applied 2026-08-01 · Workday confirmation received (req R-562589)"
    },
    "app": {
     "stage": "applied",
     "since": "2026-08-01",
-    "note": "Applied 2026-08-01 \u00b7 Workday confirmation received (req R-562589)"
+    "note": "Applied 2026-08-01 · Workday confirmation received (req R-562589)"
    },
    "referral": {
     "level": "pending",
-    "text": "No warm path yet \u2014 run a Wells Fargo DS/analytics network sweep if pursuing."
+    "text": "No warm path yet — run a Wells Fargo DS/analytics network sweep if pursuing."
    },
    "fit": {
     "relevance": 6,
@@ -1321,7 +1321,7 @@
     "score": 7.5,
     "confidence": "low",
     "yoe_req": "Director-level DS leadership (see posting)",
-    "candidate": "you: ~11 yrs DS, ~5 leading; financial-services adjacent \u2014 title fits, domain is banking-not-fintech, and it's a cold app"
+    "candidate": "you: ~11 yrs DS, ~5 leading; financial-services adjacent — title fits, domain is banking-not-fintech, and it's a cold app"
    },
    "discovered": false,
    "isNew": true
@@ -1332,9 +1332,9 @@
    "extraTrack": "domain",
    "score": 7.5,
    "domain": 4,
-   "comp": "$276K\u2013$379K (per Ladders posting)",
+   "comp": "$276K–$379K (per Ladders posting)",
    "compFit": "border",
-   "tier": "B2B wholesale marketplace (Faire) \u00b7 growth-stage",
+   "tier": "B2B wholesale marketplace (Faire) · growth-stage",
    "url": "https://faire.com/careers",
    "referral": "",
    "pinned": true,
@@ -1344,15 +1344,15 @@
    "role": "Strategy & Analytics Experimentation Director",
    "loc": "San Francisco, CA (Hybrid)",
    "source": "applied 8/4 via Ladders/Apply4Me",
-   "note": "Experimentation-leadership role \u2014 dead-center on the wedge (experimentation + growth + measurement). Cold application via Ladders, no warm path mapped. NOTE: also applied 8/4 to Faire 'Director of Applied AI/ML Science - Ads' \u2192 REJECTED 8/5 (that one was an applied-ML/ads-science role, off-wedge). This Experimentation Director role is the better fit; if no movement in ~1\u20132 wks, find a Faire warm path.",
+   "note": "Experimentation-leadership role — dead-center on the wedge (experimentation + growth + measurement). Cold application via Ladders, no warm path mapped. NOTE: also applied 8/4 to Faire 'Director of Applied AI/ML Science - Ads' → REJECTED 8/5 (that one was an applied-ML/ads-science role, off-wedge). This Experimentation Director role is the better fit; if no movement in ~1–2 wks, find a Faire warm path.",
    "status": {
     "live": true,
-    "v": "Applied 8/4 \u00b7 awaiting review \u00b7 (separate Faire 'Director, Applied AI/ML Science - Ads' application REJECTED 8/5)"
+    "v": "Applied 8/4 · awaiting review · (separate Faire 'Director, Applied AI/ML Science - Ads' application REJECTED 8/5)"
    },
    "app": {
     "stage": "applied",
     "since": "2026-08-04",
-    "note": "Applied 8/4 via Ladders \u00b7 awaiting review \u00b7 sibling Faire Ads-science role rejected 8/5"
+    "note": "Applied 8/4 via Ladders · awaiting review · sibling Faire Ads-science role rejected 8/5"
    }
   },
   {
@@ -1370,18 +1370,18 @@
    "discovered": false,
    "isNew": true,
    "co": "Samba TV",
-   "role": "Director, Data Science \u2014 Measurement",
+   "role": "Director, Data Science — Measurement",
    "loc": "San Francisco / Remote (see posting)",
    "source": "applied 8/4 (Lever)",
-   "note": "Director-level measurement/attribution DS at an ad-measurement company \u2014 adjacent to the experimentation/measurement wedge but in adtech, not fintech. Cold application via Lever, no warm path. Lower priority than the fintech/consumer lane; keep warm but don't over-invest.",
+   "note": "Director-level measurement/attribution DS at an ad-measurement company — adjacent to the experimentation/measurement wedge but in adtech, not fintech. Cold application via Lever, no warm path. Lower priority than the fintech/consumer lane; keep warm but don't over-invest.",
    "status": {
     "live": true,
-    "v": "Applied 8/4 (Lever) \u00b7 confirmation received \u00b7 awaiting review"
+    "v": "Applied 8/4 (Lever) · confirmation received · awaiting review"
    },
    "app": {
     "stage": "applied",
     "since": "2026-08-04",
-    "note": "Applied 8/4 (Lever) \u00b7 confirmation received"
+    "note": "Applied 8/4 (Lever) · confirmation received"
    }
   },
   {
@@ -1390,27 +1390,27 @@
    "extraTrack": "",
    "score": 5.5,
    "domain": null,
-   "comp": "$210K\u2013$230K base + equity",
+   "comp": "$210K–$230K base + equity",
    "compFit": "below",
-   "tier": "Undisclosed company \u00b7 agency-represented (LHi Group)",
+   "tier": "Undisclosed company · agency-represented (LHi Group)",
    "url": "https://www.linkedin.com/in/",
    "referral": "",
    "pinned": true,
    "discovered": false,
    "isNew": true,
-   "co": "Undisclosed (via LHi Group \u2014 Angie van Vuuren)",
+   "co": "Undisclosed (via LHi Group — Angie van Vuuren)",
    "role": "Senior Manager, Data Science",
-   "loc": "TBD \u2014 agency-represented (LHi Group)",
-   "source": "LinkedIn inbound \u2014 recruiter Angie van Vuuren (LHi Group), 8/5",
-   "note": "Inbound recruiter lead (Angie van Vuuren, Delivery Manager @ LHi Group). Intro call TODAY Thu 8/6 12:30pm PT (Zoom). \u26a0 TWO honest flags: (1) COMP \u2014 quoted band $210\u2013230K base + equity is well BELOW baseline ($373K run-rate / $500K realized at Intuit) and below the Brigit floor; (2) SCOPE \u2014 'Senior Manager' is a lateral, not a step-up. Company still undisclosed (agency search). Use the call purely as diligence: learn the company/mission/trajectory and real scope before deciding it's worth any time. Low priority unless the company is exceptional.",
+   "loc": "TBD — agency-represented (LHi Group)",
+   "source": "LinkedIn inbound — recruiter Angie van Vuuren (LHi Group), 8/5",
+   "note": "Inbound recruiter lead (Angie van Vuuren, Delivery Manager @ LHi Group). Intro call TODAY Thu 8/6 12:30pm PT (Zoom). ⚠ TWO honest flags: (1) COMP — quoted band $210–230K base + equity is well BELOW baseline ($373K run-rate / $500K realized at Intuit) and below the Brigit floor; (2) SCOPE — 'Senior Manager' is a lateral, not a step-up. Company still undisclosed (agency search). Use the call purely as diligence: learn the company/mission/trajectory and real scope before deciding it's worth any time. Low priority unless the company is exceptional.",
    "status": {
     "live": true,
-    "v": "New inbound lead \u00b7 intro call Thu 8/6 12:30pm PT \u00b7 comp $210\u2013230K+equity (below baseline) \u00b7 company undisclosed"
+    "v": "New inbound lead · intro call Thu 8/6 12:30pm PT · comp $210–230K+equity (below baseline) · company undisclosed"
    },
    "app": {
     "stage": "in-process",
     "since": "2026-08-06",
-    "note": "Inbound recruiter (LHi Group) \u00b7 intro/diligence call Thu 8/6 12:30pm PT \u00b7 Senior Manager (lateral), comp below baseline"
+    "note": "Inbound recruiter (LHi Group) · intro/diligence call Thu 8/6 12:30pm PT · Senior Manager (lateral), comp below baseline"
    }
   },
   {
@@ -1421,20 +1421,20 @@
    "domain": 3,
    "comp": "Not disclosed (EUR)",
    "compFit": null,
-   "tier": "Mobile social/gaming (Voodoo) \u00b7 BeReal",
+   "tier": "Mobile social/gaming (Voodoo) · BeReal",
    "url": "https://jobs.ashbyhq.com/voodoo",
    "referral": "",
    "pinned": true,
    "discovered": false,
    "isNew": true,
    "co": "Voodoo (BeReal)",
-   "role": "Head of Data \u2014 BeReal",
+   "role": "Head of Data — BeReal",
    "loc": "Paris, France (relocation)",
    "source": "applied 8/4 (Ashby)",
-   "note": "PARIS TRACK. 'Head of Data' for BeReal (Voodoo-owned social app) \u2014 genuine Head-of scope; consumer growth/engagement/monetization is on-wedge, new-industry (social/gaming). France relocation + sponsorship the gating questions. Cold application.",
+   "note": "PARIS TRACK. 'Head of Data' for BeReal (Voodoo-owned social app) — genuine Head-of scope; consumer growth/engagement/monetization is on-wedge, new-industry (social/gaming). France relocation + sponsorship the gating questions. Cold application.",
    "status": {
     "live": false,
-    "v": "Rejected 2026-08-10 (Ashby) \u2014 BeReal not moving forward; cold application."
+    "v": "Rejected 2026-08-10 (Ashby) — BeReal not moving forward; cold application."
    },
    "app": {
     "stage": "rejected",
@@ -1450,7 +1450,7 @@
    "domain": 3,
    "comp": "Not disclosed (EUR)",
    "compFit": null,
-   "tier": "French fintech \u2014 credit/loan brokerage & comparison (Meilleurtaux)",
+   "tier": "French fintech — credit/loan brokerage & comparison (Meilleurtaux)",
    "url": "https://www.linkedin.com/jobs/",
    "referral": "",
    "pinned": true,
@@ -1459,21 +1459,21 @@
    "co": "Meilleurtaux",
    "role": "Lead Data Scientist (H/F)",
    "loc": "Paris, France (relocation)",
-   "source": "applied 8/4 (LinkedIn \u2192 SmartRecruiters)",
-   "note": "PARIS TRACK. Fintech (credit/loan comparison) \u2014 financial-products wedge is a fit, but this is a Lead IC role (French-language posting), not org leadership. France relocation + sponsorship gating. Cold application.",
+   "source": "applied 8/4 (LinkedIn → SmartRecruiters)",
+   "note": "PARIS TRACK. Fintech (credit/loan comparison) — financial-products wedge is a fit, but this is a Lead IC role (French-language posting), not org leadership. France relocation + sponsorship gating. Cold application.",
    "status": {
     "live": true,
-    "v": "Applied 8/4 (SmartRecruiters) \u00b7 confirmation received \u00b7 Paris relocation track"
+    "v": "Applied 8/4 (SmartRecruiters) · confirmation received · Paris relocation track"
    },
    "app": {
     "stage": "applied",
     "since": "2026-08-04",
-    "note": "Applied 8/4 (SmartRecruiters) \u00b7 Paris relocation track"
+    "note": "Applied 8/4 (SmartRecruiters) · Paris relocation track"
    }
   },
   {
    "track": "unknown",
-   "trackLabel": "EU role \u2014 title unconfirmed",
+   "trackLabel": "EU role — title unconfirmed",
    "extraTrack": "",
    "score": 5.0,
    "domain": null,
@@ -1489,7 +1489,7 @@
    "role": "Data Science / Analytics role (title TBC)",
    "loc": "Munich, Germany / EU (relocation)",
    "source": "applied 8/4 (Greenhouse EU)",
-   "note": "EU TRACK. Applied 8/4; confirmation email did not name the specific role \u2014 VERIFY the title/scope before investing. Mobility scale-up, not fintech/consumer core. Low priority pending confirmation.",
+   "note": "EU TRACK. Applied 8/4; confirmation email did not name the specific role — VERIFY the title/scope before investing. Mobility scale-up, not fintech/consumer core. Low priority pending confirmation.",
    "status": {
     "live": false,
     "v": "Rejected 8/27"
@@ -1497,12 +1497,12 @@
    "app": {
     "stage": "rejected",
     "since": "2026-08-27",
-    "note": "Rejected 8/27 (via EWA Services \u2014 'decided to move ahead with another candidate'). Paris/EU cold app."
+    "note": "Rejected 8/27 (via EWA Services — 'decided to move ahead with another candidate'). Paris/EU cold app."
    }
   },
   {
    "co": "Canva",
-   "role": "Head of Data \u2014 Finance",
+   "role": "Head of Data — Finance",
    "loc": "See posting (Canva; likely AU/remote)",
    "track": "stepup",
    "trackLabel": "Head of (step-up)",
@@ -1511,25 +1511,25 @@
    "domain": 4,
    "comp": "Not disclosed",
    "compFit": null,
-   "tier": "Design SaaS at scale (Canva, ~$40B private) \u00b7 Finance data leadership",
+   "tier": "Design SaaS at scale (Canva, ~$40B private) · Finance data leadership",
    "url": "https://www.canva.com/careers/",
    "source": "applied 8/6 (Canva ATS)",
-   "note": "NEW 8/6. 'Head of Data - Finance' \u2014 genuine Head-of scope owning the finance data function at a top-tier private SaaS. Finance/financial-products domain is on-wedge; strong company. Cold application \u2014 no warm path mapped yet; per the Yahoo lesson, cold Head/Director apps at big mature cos are low-yield without an internal advocate. Worth mapping a referral if it advances.",
+   "note": "NEW 8/6. 'Head of Data - Finance' — genuine Head-of scope owning the finance data function at a top-tier private SaaS. Finance/financial-products domain is on-wedge; strong company. Cold application — no warm path mapped yet; per the Yahoo lesson, cold Head/Director apps at big mature cos are low-yield without an internal advocate. Worth mapping a referral if it advances.",
    "pinned": true,
    "discovered": false,
    "isNew": true,
    "referral": {
     "level": "warm",
-    "text": "<b>Warm path in flight.</b> Direct LinkedIn outreach to <b>Chris Harris</b> (Recruiting @ Canva) sent 8/6 re: Head of Data - Finance \u2014 asked to be pointed to the right person / pass resume along. No reply yet as of 8/10."
+    "text": "<b>Warm path in flight.</b> Direct LinkedIn outreach to <b>Chris Harris</b> (Recruiting @ Canva) sent 8/6 re: Head of Data - Finance — asked to be pointed to the right person / pass resume along. No reply yet as of 8/10."
    },
    "status": {
-    "live": true,
-    "v": "Applied 8/6 \u00b7 confirmation received \u00b7 warm outreach to Chris Harris (Recruiting @ Canva) 8/6, awaiting reply"
+    "live": false,
+    "v": "Rejected 9/3 (applied 8/6)."
    },
    "app": {
-    "stage": "applied",
-    "since": "2026-08-06",
-    "note": "Applied 8/6 (Canva ATS) \u00b7 confirmation received"
+    "stage": "rejected",
+    "since": "2026-09-03",
+    "note": "Rejected 9/3 ('wasn't a match this time'). Applied 8/6; warm outreach to Chris Harris did not convert."
    }
   },
   {
@@ -1546,19 +1546,19 @@
    "tier": "Retail/delivery marketplace (Shipt, Target-owned)",
    "url": "https://www.shipt.com/careers/",
    "source": "applied 8/6 (Workday)",
-   "note": "NEW 8/6. Director of Data Science at Shipt (Target-owned delivery marketplace). Director step-up; marketplace/growth domain adjacent to wedge. Cold Workday application, no warm path \u2014 lower-yield lane; keep warm, don't over-invest.",
+   "note": "NEW 8/6. Director of Data Science at Shipt (Target-owned delivery marketplace). Director step-up; marketplace/growth domain adjacent to wedge. Cold Workday application, no warm path — lower-yield lane; keep warm, don't over-invest.",
    "pinned": true,
    "discovered": false,
    "isNew": true,
    "referral": "",
    "status": {
     "live": true,
-    "v": "Applied 8/6 (Workday) \u00b7 confirmation received \u00b7 in review"
+    "v": "Applied 8/6 (Workday) · confirmation received · in review"
    },
    "app": {
     "stage": "applied",
     "since": "2026-08-06",
-    "note": "Applied 8/6 (Workday) \u00b7 confirmation received"
+    "note": "Applied 8/6 (Workday) · confirmation received"
    }
   },
   {
@@ -1570,38 +1570,38 @@
    "extraTrack": "domain",
    "score": 7.6,
    "domain": 4,
-   "comp": "$215\u2013260K base + bonus + equity (Series B)",
-   "compFit": "Below Intuit cash, but a solid Director base for Series B + equity upside \u2014 the comp/scope trade you're open to",
-   "tier": "Series B consumer fintech (Credit Genie, Khosla-backed) \u00b7 AI financial-wellness",
+   "comp": "$215–260K base + bonus + equity (Series B)",
+   "compFit": "Below Intuit cash, but a solid Director base for Series B + equity upside — the comp/scope trade you're open to",
+   "tier": "Series B consumer fintech (Credit Genie, Khosla-backed) · AI financial-wellness",
    "url": "https://jobs.ashbyhq.com/creditgenie/5431fc01-b317-4d8b-b56c-9755f60306a1",
    "source": "inbound recruiter 8/10 (Loreen Dinkelacker, Sr Tech Recruiter)",
-   "note": "INBOUND 8/10. Verified legit (real co/recruiter/posting; founder Ed Harycki, ex-Swift Capital\u2192PayPal; Khosla-backed; leaders ex-PayPal/Square/Cash App). STRONG FIT: JD is genuine leadership scope \u2014 own company-wide analytics strategy, build/mentor analyst team, experimentation frameworks, product KPIs (activation/retention/LTV), growth analytics. Dead-center on wedge (experimentation, monetization, growth, product analytics, fintech lifecycle). \u26a0 THE GATE = LOCATION: on-site 5 days/wk in Plymouth Meeting PA or NYC; Rodrigo is SF \u2014 real relocation decision (NYC plausibly OK, PA less so). \u26a0 CLARIFY reporting line: co already has Zachary Weller (Sr Director, Analytics) \u2014 confirm whether this owns the function or sits under him, and product- vs risk/credit-analytics split. Comp band respectable for Series B. Reply drafted 8/10; exploratory call TBD. Priority: keep-warm, do NOT divert from Coupang (HM screen 8/12).",
+   "note": "INBOUND 8/10. Verified legit (real co/recruiter/posting; founder Ed Harycki, ex-Swift Capital→PayPal; Khosla-backed; leaders ex-PayPal/Square/Cash App). STRONG FIT: JD is genuine leadership scope — own company-wide analytics strategy, build/mentor analyst team, experimentation frameworks, product KPIs (activation/retention/LTV), growth analytics. Dead-center on wedge (experimentation, monetization, growth, product analytics, fintech lifecycle). ⚠ THE GATE = LOCATION: on-site 5 days/wk in Plymouth Meeting PA or NYC; Rodrigo is SF — real relocation decision (NYC plausibly OK, PA less so). ⚠ CLARIFY reporting line: co already has Zachary Weller (Sr Director, Analytics) — confirm whether this owns the function or sits under him, and product- vs risk/credit-analytics split. Comp band respectable for Series B. Reply drafted 8/10; exploratory call TBD. Priority: keep-warm, do NOT divert from Coupang (HM screen 8/12).",
    "pinned": true,
    "discovered": false,
    "isNew": true,
    "referral": "",
    "status": {
     "live": true,
-    "v": "In process (keep-warm) \u00b7 awaiting recruiter; relocation + reporting-line gates"
+    "v": "In process (keep-warm) · awaiting recruiter; relocation + reporting-line gates"
    },
    "app": {
     "stage": "in-process",
     "since": "2026-08-10",
-    "note": "Inbound recruiter Loreen Dinkelacker 8/10; Rodrigo replied. Quiet since. GATES: on-site 5d/wk Plymouth Meeting PA or NYC (real relo); existing Sr Dir Analytics (Zachary Weller) \u2014 reporting line TBD. Keep-warm; don't divert from Coupang/Duolingo/Rocket."
+    "note": "Inbound recruiter Loreen Dinkelacker 8/10; Rodrigo replied. Quiet since. GATES: on-site 5d/wk Plymouth Meeting PA or NYC (real relo); existing Sr Dir Analytics (Zachary Weller) — reporting line TBD. Keep-warm; don't divert from Coupang/Duolingo/Rocket."
    }
   },
   {
-   "loc": "Detroit HQ \u00b7 SF possible / San Diego relo option",
+   "loc": "Detroit HQ · SF possible / San Diego relo option",
    "track": "wedge",
-   "trackLabel": "Wedge bullseye (tax 0\u21921)",
+   "trackLabel": "Wedge bullseye (tax 0→1)",
    "extraTrack": "domain",
    "score": 8.5,
    "domain": 9,
-   "comp": "TBD \u2014 anchor ~$370K+ TC (Intuit run-rate); make them state the band; don't accept IC-band w/ no mgmt path",
+   "comp": "TBD — anchor ~$370K+ TC (Intuit run-rate); make them state the band; don't accept IC-band w/ no mgmt path",
    "compFit": "unknown",
-   "tier": "Rocket Companies (NYSE: RKT) \u00b7 new 'Rocket Tax' bet to rival TurboTax; ex-Intuit CEO Varun Krishna + ex-Intuit VP HM",
+   "tier": "Rocket Companies (NYSE: RKT) · new 'Rocket Tax' bet to rival TurboTax; ex-Intuit CEO Varun Krishna + ex-Intuit VP HM",
    "url": "https://www.rocketcareers.com/",
-   "source": "warm referral (Jorge Segovia) \u2192 recruiter Matt Lane (Exec Recruiter @ Rocket); NDA signed 8/24",
+   "source": "warm referral (Jorge Segovia) → recruiter Matt Lane (Exec Recruiter @ Rocket); NDA signed 8/24",
    "discovered": false,
    "isNew": true,
    "pinned": true,
@@ -1614,13 +1614,13 @@
     "since": false,
     "note": "Recruiter screen 8/25 done (role revealed under NDA: Rocket building 'Rocket Tax' to compete w/ TurboTax, launch next tax season). Wants a senior IC 'at the helm' of the data work, reporting to VP Product (ex-Intuit). Rodrigo open to relo (San Diego); SF possible. NEXT: HM conversation w/ VP (not yet scheduled)."
    },
-   "note": "RARE WEDGE FIT \u2014 Rodrigo built tax products at the incumbent (Business Tax 0\u21921, TurboTax, E3B Lite, forms-based pricing); knows TurboTax product/monetization/lifecycle from inside. High leverage \u2014 don't undersell. TENSIONS: (1) 'senior IC' label vs Track-A Director/Head goal + comp \u2014 clarify real level/scope + growth path to leading the Rocket Tax data org; (2) strategic soundness vs entrenched TurboTax + Cash App Taxes; (3) timeline realism ('launch next tax season' \u2248 4-5 mo; one analyst likely insufficient); (4) downside if the bet is cut. For the VP convo: bring a POV on HOW Rocket Tax wins \u2014 reframes him from 'rusty IC' to 'founding data leader who knows how to beat TurboTax.'",
+   "note": "RARE WEDGE FIT — Rodrigo built tax products at the incumbent (Business Tax 0→1, TurboTax, E3B Lite, forms-based pricing); knows TurboTax product/monetization/lifecycle from inside. High leverage — don't undersell. TENSIONS: (1) 'senior IC' label vs Track-A Director/Head goal + comp — clarify real level/scope + growth path to leading the Rocket Tax data org; (2) strategic soundness vs entrenched TurboTax + Cash App Taxes; (3) timeline realism ('launch next tax season' ≈ 4-5 mo; one analyst likely insufficient); (4) downside if the bet is cut. For the VP convo: bring a POV on HOW Rocket Tax wins — reframes him from 'rusty IC' to 'founding data leader who knows how to beat TurboTax.'",
    "status": {
     "live": true,
-    "v": "In process \u00b7 recruiter screen 8/25 (NDA'd); awaiting HM convo w/ VP of Product (ex-Intuit)"
+    "v": "In process · recruiter screen 8/25 (NDA'd); awaiting HM convo w/ VP of Product (ex-Intuit)"
    },
-   "co": "Rocket Companies (confidential \u2014 'Rocket Tax')",
-   "role": "Founding Senior Data Scientist \u2014 Rocket Tax (0\u21921)"
+   "co": "Rocket Companies (confidential — 'Rocket Tax')",
+   "role": "Founding Senior Data Scientist — Rocket Tax (0→1)"
   },
   {
    "loc": "Remote (in-office ~1x/quarter, Detroit)",
@@ -1629,27 +1629,27 @@
    "extraTrack": "ai",
    "score": 8.0,
    "domain": 6,
-   "comp": "$295K\u2013$325K base + bonus + stock (at/above baseline once bonus+stock incl.)",
+   "comp": "$295K–$325K base + bonus + stock (at/above baseline once bonus+stock incl.)",
    "compFit": "good",
-   "tier": "Undisclosed Detroit company (client of Europa Search) \u00b7 VP-level; build the AI & Data function from scratch",
+   "tier": "Undisclosed Detroit company (client of Europa Search) · VP-level; build the AI & Data function from scratch",
    "url": "https://europa-it-search.com/",
-   "source": "recruiter inbound \u2014 Tobias Chilton, Europa Search (screens, then shares w/ client)",
+   "source": "recruiter inbound — Tobias Chilton, Europa Search (screens, then shares w/ client)",
    "discovered": false,
    "isNew": true,
    "pinned": true,
    "referral": {
     "level": "recruiter",
-    "text": "<b>Tobias Chilton</b>, Europa Search (tobias.chilton@europa-it-search.com, +1 628-223-0578). NOT the client \u2014 screens then shares r\u00e9sum\u00e9. Process could take ~3 months, series of interviews."
+    "text": "<b>Tobias Chilton</b>, Europa Search (tobias.chilton@europa-it-search.com, +1 628-223-0578). NOT the client — screens then shares résumé. Process could take ~3 months, series of interviews."
    },
    "app": {
     "stage": "in-process",
     "since": false,
-    "note": "20-min call w/ Tobias 8/26; tailored AI-forward r\u00e9sum\u00e9 sent 8/26; Tobias 8/27 'sending across to my client, we'll go from there.' Awaiting client feedback."
+    "note": "20-min call w/ Tobias 8/26; tailored AI-forward résumé sent 8/26; Tobias 8/27 'sending across to my client, we'll go from there.' Awaiting client feedback."
    },
-   "note": "Build the AI & Data function from scratch then run it: (1) lead AI implementation/integration across internal systems (efficiency/automation); (2) own + optimize AI & Data Analytics long-term. VP = stretch up from Sr Mgr. GAP: JD leans infra-heavy (ML infra / LLM deployment / enterprise data architecture) \u2014 Rodrigo's strength is AI strategy/governance/adoption + business outcomes + team-building + in-product AI, NOT MLOps/platform eng. Frame around what he owns; partner w/ eng on infra. R\u00e9sum\u00e9: Rodrigo_Hernandez_Resume_VP_AI_Data.docx.",
+   "note": "Build the AI & Data function from scratch then run it: (1) lead AI implementation/integration across internal systems (efficiency/automation); (2) own + optimize AI & Data Analytics long-term. VP = stretch up from Sr Mgr. GAP: JD leans infra-heavy (ML infra / LLM deployment / enterprise data architecture) — Rodrigo's strength is AI strategy/governance/adoption + business outcomes + team-building + in-product AI, NOT MLOps/platform eng. Frame around what he owns; partner w/ eng on infra. Résumé: Rodrigo_Hernandez_Resume_VP_AI_Data.docx.",
    "status": {
     "live": true,
-    "v": "In process \u00b7 r\u00e9sum\u00e9 with recruiter's client since 8/27; awaiting client feedback"
+    "v": "In process · résumé with recruiter's client since 8/27; awaiting client feedback"
    },
    "co": "Undisclosed (Detroit co. via Europa Search)",
    "role": "VP of AI and Data"
@@ -1663,7 +1663,7 @@
    "domain": 7,
    "comp": "TBD",
    "compFit": "unknown",
-   "tier": "Attentive \u00b7 AI-powered marketing / SMS+email platform",
+   "tier": "Attentive · AI-powered marketing / SMS+email platform",
    "url": "https://job-boards.greenhouse.io/attentive",
    "source": "cold app via Greenhouse (applied 8/31)",
    "discovered": false,
@@ -1674,14 +1674,14 @@
     "text": "No warm path mapped yet. Map a LinkedIn 1st/2nd-degree referral to lift it above the cold pile (Yahoo lesson: cold Director+ apps at scaled cos are low-yield)."
    },
    "app": {
-    "stage": "applied",
-    "since": "2026-08-31",
-    "note": "Applied 8/31 via Greenhouse. Awaiting."
+    "stage": "rejected",
+    "since": "2026-09-02",
+    "note": "Rejected 9/2 (cold Greenhouse app 8/31; no warm path landed in time)."
    },
    "note": "Applied Science / DS Leadership at Attentive (SMS/email marketing AI platform). On-wedge-adjacent: marketing/monetization + experimentation + customer lifecycle. Priority: find a warm path in.",
    "status": {
-    "live": true,
-    "v": "Applied 8/31 (cold, via Greenhouse)"
+    "live": false,
+    "v": "Rejected 9/2 (applied 8/31, cold)."
    },
    "co": "Attentive",
    "role": "Applied Science / Data Science Leader"
@@ -1695,7 +1695,7 @@
    "domain": 6,
    "comp": "TBD",
    "compFit": "unknown",
-   "tier": "Philo \u00b7 live-TV streaming service (consumer subscription)",
+   "tier": "Philo · live-TV streaming service (consumer subscription)",
    "url": "https://www.linkedin.com/jobs/",
    "source": "sweep 8/31 (LinkedIn past-week; Rodrigo already viewed the posting)",
    "discovered": false,
@@ -1703,7 +1703,7 @@
    "pinned": true,
    "referral": {
     "level": "warm-possible",
-    "text": "1 Intuit alum works at Philo (per LinkedIn) \u2014 map that path before applying."
+    "text": "1 Intuit alum works at Philo (per LinkedIn) — map that path before applying."
    },
    "app": {
     "stage": "to-apply",
@@ -1713,10 +1713,341 @@
    "note": "Head of Data at Philo (live-TV streaming, consumer subscription). Wedge-adjacent (subscription monetization + retention + experimentation). Smaller co = broader scope + Head-of title (Track-A optionality). Verify comp band & scope before investing.",
    "status": {
     "live": true,
-    "v": "To-apply (sweep 8/31) \u00b7 fresh; Intuit alum inside"
+    "v": "To-apply (sweep 8/31) · fresh; Intuit alum inside"
    },
    "co": "Philo",
    "role": "Head of Data"
+  },
+  {
+   "co": "Gusto",
+   "role": "Growth Data Science Leader",
+   "loc": "Remote (US)",
+   "track": "stepup",
+   "trackLabel": "DS leadership (growth)",
+   "score": 0,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "Gusto · SMB payroll/HR fintech",
+   "url": "https://gusto.com/about/careers",
+   "source": "cold app via Gusto ATS (applied 9/1)",
+   "note": "2nd Gusto attempt — Growth DS Leader (distinct from the Head of Sales DS role rejected 8/6). On-wedge (growth + fintech) but no warm path; rejected fast.",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "warm",
+    "text": "Note to Ashleigh Huffman (Gusto) sent 9/1 asking for a pointer to the right recruiter — did not convert."
+   },
+   "app": {
+    "stage": "rejected",
+    "since": "2026-09-03",
+    "note": "Applied 9/1; rejected 9/3 ('won't be moving forward')."
+   },
+   "status": {
+    "live": false,
+    "v": "Rejected 9/3 (applied 9/1). 2nd Gusto miss (Head of Sales DS rejected 8/6)."
+   }
+  },
+  {
+   "co": "Meredith (People Inc.)",
+   "role": "Director, Data Science",
+   "loc": "United States (Remote)",
+   "track": "stepup",
+   "trackLabel": "Step-up title (Director)",
+   "score": 6.5,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "People Inc. (fmr Dotdash Meredith) · digital media/publishing at scale",
+   "url": "https://www.linkedin.com/jobs/",
+   "source": "LinkedIn Easy Apply (applied 9/3)",
+   "note": "Director DS at People Inc. (Dotdash Meredith's rebrand) — large ad-supported digital media. Off-core-wedge (media, not fintech) but a real Director title with remote scope. Confirmation from Workday received.",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "none",
+    "text": "No warm path mapped. Media is off-wedge — low priority unless a referral surfaces."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-03",
+    "note": "Applied 9/3 (LinkedIn/Workday) — 'under review' confirmation received."
+   },
+   "status": {
+    "live": true,
+    "v": "Applied 9/3 (LinkedIn Easy Apply) — confirmation received."
+   }
+  },
+  {
+   "co": "Stitch Fix",
+   "role": "Director, Data Science & Algorithms — CX Product Experiences",
+   "loc": "United States (Remote)",
+   "track": "stepup",
+   "trackLabel": "Step-up title (Director)",
+   "score": 7.0,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "Stitch Fix (NASDAQ: SFIX) · consumer retail personalization",
+   "url": "https://www.linkedin.com/jobs/",
+   "source": "LinkedIn Easy Apply (applied 9/3)",
+   "note": "Director DS & Algorithms owning CX product experiences at Stitch Fix. Consumer product + personalization + experimentation = on-wedge-adjacent; Director title is the scope step-up. Turnaround company (watch trajectory/downside).",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "none",
+    "text": "No warm path yet — map a LinkedIn 1st/2nd-degree in before it hits the cold pile."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-03",
+    "note": "Applied 9/3 (LinkedIn) — recruiter to review."
+   },
+   "status": {
+    "live": true,
+    "v": "Applied 9/3 (LinkedIn Easy Apply)."
+   }
+  },
+  {
+   "co": "Customer.io",
+   "role": "Senior Manager, Data Science & Analytics",
+   "loc": "United States (Remote)",
+   "track": "lateral",
+   "trackLabel": "Senior Manager (lateral)",
+   "score": 6.5,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "Customer.io · martech / messaging automation SaaS",
+   "url": "https://job-boards.greenhouse.io/customerio",
+   "source": "cold app via Greenhouse (applied 9/3)",
+   "note": "Sr Mgr DS & Analytics at Customer.io (marketing automation SaaS). Lateral level; martech is adjacent to marketing/lifecycle wedge. Fully remote.",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "none",
+    "text": "No warm path. Lateral title — bridge lane, not aspirational."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-03",
+    "note": "Applied 9/3 (Greenhouse) — confirmation received."
+   },
+   "status": {
+    "live": true,
+    "v": "Applied 9/3 (Greenhouse) — confirmation received."
+   }
+  },
+  {
+   "co": "Harnham (recruiting agency)",
+   "role": "Director of Data Science",
+   "loc": "United States (Remote)",
+   "track": "stepup",
+   "trackLabel": "Director (via agency)",
+   "score": 5.0,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "Harnham · data/analytics staffing agency (client undisclosed)",
+   "url": "https://www.linkedin.com/jobs/",
+   "source": "LinkedIn Easy Apply (applied 9/3)",
+   "note": "Applied via Harnham, a data/analytics recruiting AGENCY — the actual employer is undisclosed. Treat as a recruiter relationship, not a company app. Worth: get Harnham working for you across multiple client searches.",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "none",
+    "text": "Follow up with the Harnham recruiter directly to learn the client + open other roles they hold."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-03",
+    "note": "Applied 9/3 via LinkedIn — agency posting, client TBC."
+   },
+   "status": {
+    "live": true,
+    "v": "Applied 9/3 (Harnham agency) — client undisclosed."
+   }
+  },
+  {
+   "co": "DoorDash",
+   "role": "Senior Manager, Analytics, Customer Experience",
+   "loc": "Sunnyvale, CA",
+   "track": "lateral",
+   "trackLabel": "Senior Manager (lateral)",
+   "score": 6.8,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "DoorDash (NASDAQ: DASH) · local-commerce marketplace at scale",
+   "url": "https://www.linkedin.com/jobs/",
+   "source": "LinkedIn Easy Apply (applied 9/2)",
+   "note": "Sr Mgr Analytics (CX) at DoorDash. Distinct from the Director New Verticals role rejected 7/20. Scaled marketplace + experimentation is a strong bridge (Track B); lateral level.",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "none",
+    "text": "Prior DoorDash Director app rejected 7/20 — an internal advocate matters here. Map a referral."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-02",
+    "note": "Applied 9/2 (LinkedIn) — under review."
+   },
+   "status": {
+    "live": true,
+    "v": "Applied 9/2 (LinkedIn Easy Apply)."
+   }
+  },
+  {
+   "co": "Cohere",
+   "role": "Lead Data Scientist",
+   "loc": "San Francisco, CA (Remote)",
+   "track": "lateral",
+   "trackLabel": "Lead DS (IC)",
+   "score": 6.0,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "Cohere · enterprise LLM/AI-native",
+   "url": "https://jobs.ashbyhq.com/cohere",
+   "source": "cold app via Ashby (applied 9/2)",
+   "note": "Lead Data Scientist at Cohere (enterprise AI). AI-native exposure = a positioning goal, BUT this is an IC 'Lead' title, not people-leadership — a step DOWN in management scope. Take only if AI-native brand + growth outweighs the level.",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "none",
+    "text": "No warm path. Weigh the IC-level tradeoff before investing."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-02",
+    "note": "Applied 9/2 (Ashby) — confirmation received."
+   },
+   "status": {
+    "live": true,
+    "v": "Applied 9/2 (Ashby) — confirmation received."
+   },
+   "extraTrack": "ai"
+  },
+  {
+   "co": "MoonPay",
+   "role": "Director, Data & Analytics",
+   "loc": "New York, NY (Hybrid)",
+   "track": "stepup",
+   "trackLabel": "Step-up title (Director)",
+   "score": 7.0,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "MoonPay · crypto payments/on-ramp fintech",
+   "url": "https://www.linkedin.com/jobs/",
+   "source": "LinkedIn Easy Apply (applied ~8/27)",
+   "note": "Director Data & Analytics at MoonPay (crypto/fintech payments). On-wedge (fintech + payments + growth); Director scope. NY hybrid = relocation question. Caught in LinkedIn tracker (applied ~1 week ago), not previously in Beacon.",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "none",
+    "text": "No warm path. NY-hybrid relo gate — clarify remote flexibility. Map a referral."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-08-27",
+    "note": "Applied ~8/27 (LinkedIn). Surfaced in LinkedIn tracker 9/3."
+   },
+   "status": {
+    "live": true,
+    "v": "Applied ~8/27 (LinkedIn Easy Apply)."
+   }
+  },
+  {
+   "co": "Robinhood",
+   "role": "Data Science / Analytics leadership (exact req TBC)",
+   "loc": "Menlo Park, CA / Remote",
+   "track": "stepup",
+   "trackLabel": "DS leadership (TBC)",
+   "score": 7.0,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "Robinhood (NASDAQ: HOOD) · consumer investing/fintech",
+   "url": "https://careers.robinhood.com/",
+   "source": "direct app (applied 9/2)",
+   "note": "Applied to Robinhood 9/2 — generic confirmation, exact req not captured. On-wedge (consumer fintech, monetization, growth). CONFIRM which role: needed for accurate tracking.",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "none",
+    "text": "No warm path. Confirm the exact req title, then map a referral (fintech is on-wedge — worth the effort)."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-02",
+    "note": "Applied 9/2 — confirmation received; exact role TBC (please confirm)."
+   },
+   "status": {
+    "live": true,
+    "v": "Applied 9/2 — confirmation received; exact req TBC."
+   }
+  },
+  {
+   "co": "Coupang (2nd req)",
+   "role": "DS leadership — Search (exact req TBC)",
+   "loc": "Mountain View, CA",
+   "track": "stepup",
+   "trackLabel": "DS leadership (TBC)",
+   "score": 6.5,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "Coupang (NYSE: CPNG) · Korea e-commerce at scale",
+   "url": "https://www.coupang.jobs/",
+   "source": "direct app via Greenhouse (applied 9/1)",
+   "note": "SECOND Coupang application 9/1 (separate from the active Ads Director process where the HM screen was done 8/12). Likely the 'Sr Director DS & Data Eng – Search' req flagged in the 8/31 sweep. CONFIRM title. Don't let it dilute the live Ads process.",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "none",
+    "text": "Coupang is expanding DS leadership (positive signal). Keep the Ads process primary; confirm this req's title."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-01",
+    "note": "Applied 9/1 (Greenhouse) — confirmation received; exact req TBC (likely Search DS leadership)."
+   },
+   "status": {
+    "live": true,
+    "v": "Applied 9/1 — confirmation received; exact req TBC (2nd Coupang app)."
+   }
+  },
+  {
+   "co": "McDermott Will & Schulte",
+   "role": "Senior Manager, AI & Analytics",
+   "loc": "United States",
+   "track": "lateral",
+   "trackLabel": "Senior Manager (off-wedge)",
+   "score": 4.5,
+   "comp": "Not disclosed",
+   "compFit": "unknown",
+   "tier": "McDermott Will & Schulte · global law firm",
+   "url": "https://www.mwe.com/careers/",
+   "source": "cold app via Workday (applied 9/2)",
+   "note": "Sr Mgr AI & Analytics at a global law firm. OFF-WEDGE (professional-services internal analytics, not product/fintech) and lateral level. Lowest-priority in this batch — parked for completeness.",
+   "pinned": true,
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "none",
+    "text": "Off-wedge. Do not invest unless it converts on its own."
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-02",
+    "note": "Applied 9/2 (Workday) — confirmation received."
+   },
+   "status": {
+    "live": true,
+    "v": "Applied 9/2 (Workday) — off-wedge, low priority."
+   }
   }
  ],
  "overrides": {
@@ -1724,111 +2055,111 @@
    "app": {
     "stage": "to-apply",
     "since": "2026-07-13",
-    "note": "TOP PICK \u2014 Director step-up that also clears the comp bar; growth+AI product at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd\u00b0) and Jessica Hansen Vi (Brex product recruiter, 2nd\u00b0). Sourced via the 7/13 expanded Beacon search (Sr-PM lane)."
+    "note": "TOP PICK — Director step-up that also clears the comp bar; growth+AI product at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) and Jessica Hansen Vi (Brex product recruiter, 2nd°). Sourced via the 7/13 expanded Beacon search (Sr-PM lane)."
    },
    "score": 8.5,
    "compFit": "border",
    "referral": {
     "level": "bridge",
-    "text": "Shone Barton (\u2018Hiring Product @Brex\u2019, 2nd\u00b0) / Jessica Hansen Vi (Brex product recruiter, 2nd\u00b0)."
+    "text": "Shone Barton (‘Hiring Product @Brex’, 2nd°) / Jessica Hansen Vi (Brex product recruiter, 2nd°)."
    }
   },
   "Affirm|Senior Product Manager, Financial Platforms": {
    "app": {
     "stage": "to-apply",
     "since": "2026-07-13",
-    "note": "Fintech platform PM, US-based. WARM PATH: Angela Z. (Product, Marketplace Pricing & Incentives, 2nd\u00b0) via 1st\u00b0 Amy Smith \u2014 your credit/pricing story lands; also Jeff Lee (Staff PM, 2nd\u00b0), Melissa L. via Julia Rezende. Expanded Beacon search 7/13."
+    "note": "Fintech platform PM, US-based. WARM PATH: Angela Z. (Product, Marketplace Pricing & Incentives, 2nd°) via 1st° Amy Smith — your credit/pricing story lands; also Jeff Lee (Staff PM, 2nd°), Melissa L. via Julia Rezende. Expanded Beacon search 7/13."
    },
    "score": 7.7,
    "compFit": "below",
    "referral": {
     "level": "bridge",
-    "text": "Angela Z. (Pricing PM, 2nd\u00b0) via Amy Smith; Jeff Lee (Staff PM, 2nd\u00b0)."
+    "text": "Angela Z. (Pricing PM, 2nd°) via Amy Smith; Jeff Lee (Staff PM, 2nd°)."
    }
   },
   "Stripe|Staff Product Manager, Cards Monetization": {
    "app": {
     "stage": "to-apply",
     "since": "2026-07-13",
-    "note": "Core wedge \u2014 cards monetization + payments. WARM PATH (DS org): Matt DeLand (Head of DS, 2nd\u00b0) via broker Karan Kushwaha; Pierre Garrigues (Head of Core Payments DS). NOTE: sweep Stripe's PRODUCT org for a closer product-side intro before outreach. Expanded Beacon search 7/13."
+    "note": "Core wedge — cards monetization + payments. WARM PATH (DS org): Matt DeLand (Head of DS, 2nd°) via broker Karan Kushwaha; Pierre Garrigues (Head of Core Payments DS). NOTE: sweep Stripe's PRODUCT org for a closer product-side intro before outreach. Expanded Beacon search 7/13."
    },
    "score": 8.2,
    "compFit": "border",
    "referral": {
     "level": "bridge",
-    "text": "Matt DeLand (Head of DS, 2nd\u00b0) via Karan Kushwaha; sweep Stripe product org."
+    "text": "Matt DeLand (Head of DS, 2nd°) via Karan Kushwaha; sweep Stripe product org."
    }
   },
   "Stripe|Product Lead, Data Products": {
    "app": {
     "stage": "to-apply",
     "since": "2026-07-13",
-    "note": "Data-product leadership, senior scope. WARM PATH: same Stripe DS path (Matt DeLand via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd\u00b0). Product-side intro would strengthen it. Expanded Beacon search 7/13."
+    "note": "Data-product leadership, senior scope. WARM PATH: same Stripe DS path (Matt DeLand via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd°). Product-side intro would strengthen it. Expanded Beacon search 7/13."
    },
    "score": 8.0,
    "compFit": "border",
    "referral": {
     "level": "bridge",
-    "text": "Stripe DS path: Matt DeLand via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd\u00b0)."
+    "text": "Stripe DS path: Matt DeLand via Karan Kushwaha; Paul Thoma (Sr Mgr DS, 2nd°)."
    }
   },
   "Brex|Staff Product Manager, Growth": {
    "app": {
     "stage": "to-apply",
     "since": "2026-07-13",
-    "note": "Growth PM at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd\u00b0) / Jessica Hansen Vi (Brex product recruiter, 2nd\u00b0). Expanded Beacon search 7/13."
+    "note": "Growth PM at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) / Jessica Hansen Vi (Brex product recruiter, 2nd°). Expanded Beacon search 7/13."
    },
    "score": 7.8,
    "compFit": "below",
    "referral": {
     "level": "bridge",
-    "text": "Shone Barton / Jessica Hansen Vi (Brex, 2nd\u00b0)."
+    "text": "Shone Barton / Jessica Hansen Vi (Brex, 2nd°)."
    }
   },
   "Chime|Staff Data Scientist, Finance Analytics": {
    "app": {
     "stage": "to-apply",
     "since": "2026-07-13",
-    "note": "Fintech DS (senior-IC lane). WARM PATH: Andrew Chamberlain (Dir Product Analytics, 2nd\u00b0 ~45 mut) via sahithi visvanathan; 1st\u00b0 Mirna Ortiz Trevi\u00f1o. Expanded Beacon search 7/13."
+    "note": "Fintech DS (senior-IC lane). WARM PATH: Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño. Expanded Beacon search 7/13."
    },
    "score": 7.6,
    "compFit": "below",
    "referral": {
     "level": "bridge",
-    "text": "Andrew Chamberlain (Dir Product Analytics, 2nd\u00b0 ~45 mut) via sahithi visvanathan; 1st\u00b0 Mirna Ortiz Trevi\u00f1o."
+    "text": "Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño."
    }
   },
   "SoFi|Staff Marketing Data Scientist": {
    "app": {
     "stage": "to-apply",
     "since": "2026-07-13",
-    "note": "Marketing DS at a fintech \u2014 SoFi is your strongest historical domain fit. WARM PATH: Kerstin Br\u00fcmann (Manager, Marketing Data Science @SoFi, 2nd\u00b0) via Saurabh Kumar; also Kang Jian (Sr DS Manager, 2nd\u00b0), Nate Belete (Sr Staff DS, 2nd\u00b0). Expanded Beacon search 7/13."
+    "note": "Marketing DS at a fintech — SoFi is your strongest historical domain fit. WARM PATH: Kerstin Brümann (Manager, Marketing Data Science @SoFi, 2nd°) via Saurabh Kumar; also Kang Jian (Sr DS Manager, 2nd°), Nate Belete (Sr Staff DS, 2nd°). Expanded Beacon search 7/13."
    },
    "score": 7.9,
    "compFit": "below",
    "referral": {
     "level": "bridge",
-    "text": "Kerstin Br\u00fcmann (Mgr Marketing DS, 2nd\u00b0) via Saurabh Kumar; Kang Jian (Sr DS Mgr, 2nd\u00b0)."
+    "text": "Kerstin Brümann (Mgr Marketing DS, 2nd°) via Saurabh Kumar; Kang Jian (Sr DS Mgr, 2nd°)."
    }
   },
   "Roblox|Technical Director - Data Science (Discovery)": {
    "app": {
     "stage": "to-apply",
     "since": "2026-07-13",
-    "note": "NEW-INDUSTRY TOP PICK \u2014 Director step-up; Discovery = recommendation/engagement/growth DS at massive consumer scale (gaming). WARM PATH: Jose Abelenda (Director of DS, ex-Lyft, 2nd\u00b0) via Saurabh Kumar; Henry Lin (Creator DS, 2nd\u00b0). All-industry DS broadening 7/13."
+    "note": "NEW-INDUSTRY TOP PICK — Director step-up; Discovery = recommendation/engagement/growth DS at massive consumer scale (gaming). WARM PATH: Jose Abelenda (Director of DS, ex-Lyft, 2nd°) via Saurabh Kumar; Henry Lin (Creator DS, 2nd°). All-industry DS broadening 7/13."
    },
    "score": 8.4,
    "compFit": "border",
    "referral": {
     "level": "bridge",
-    "text": "Jose Abelenda (Director DS, ex-Lyft, 2nd\u00b0) via Saurabh Kumar; Henry Lin (Creator DS, 2nd\u00b0)."
+    "text": "Jose Abelenda (Director DS, ex-Lyft, 2nd°) via Saurabh Kumar; Henry Lin (Creator DS, 2nd°)."
    }
   },
   "OpenAI|Marketing Analytics Lead": {
    "app": {
     "stage": "to-apply",
     "since": "2026-07-13",
-    "note": "NEW-INDUSTRY TOP PICK \u2014 marketing analytics leadership at the elite AI-native; wedge + maximum AI brand/exposure. WARM PATH: David Sasaki (VP Analytics & Insights, 2nd\u00b0) via Saurabh Kumar/Gabriel Pila; Varghese George (Analytics Lead, 2nd\u00b0); Karim Jahangir (GTM Data, 2nd\u00b0). All-industry DS broadening 7/13."
+    "note": "NEW-INDUSTRY TOP PICK — marketing analytics leadership at the elite AI-native; wedge + maximum AI brand/exposure. WARM PATH: David Sasaki (VP Analytics & Insights, 2nd°) via Saurabh Kumar/Gabriel Pila; Varghese George (Analytics Lead, 2nd°); Karim Jahangir (GTM Data, 2nd°). All-industry DS broadening 7/13."
    }
   }
  }
