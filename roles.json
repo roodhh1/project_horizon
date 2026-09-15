@@ -115,7 +115,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-11) (recheck failed 2026-08-12) (recheck failed 2026-08-13) (recheck failed 2026-08-14) (recheck failed 2026-08-15) (recheck failed 2026-08-16) (recheck failed 2026-08-17) (recheck failed 2026-08-18) (recheck failed 2026-08-19) (recheck failed 2026-08-20) (recheck failed 2026-08-21) (recheck failed 2026-08-22) (recheck failed 2026-08-23) (recheck failed 2026-08-24) (recheck failed 2026-08-25) (recheck failed 2026-08-26) (recheck failed 2026-08-28) (recheck failed 2026-08-29) (recheck failed 2026-08-29) (recheck failed 2026-08-30) (recheck failed 2026-08-31) (recheck failed 2026-08-31) (recheck failed 2026-09-01) (recheck failed 2026-09-02) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-04) (recheck failed 2026-09-05) (recheck failed 2026-09-06) (recheck failed 2026-09-07) (recheck failed 2026-09-08) (recheck failed 2026-09-09) (recheck failed 2026-09-10) (recheck failed 2026-09-11) (recheck failed 2026-09-12) (recheck failed 2026-09-13) (recheck failed 2026-09-14) (recheck failed 2026-09-15)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-11) (recheck failed 2026-08-12) (recheck failed 2026-08-13) (recheck failed 2026-08-14) (recheck failed 2026-08-15) (recheck failed 2026-08-16) (recheck failed 2026-08-17) (recheck failed 2026-08-18) (recheck failed 2026-08-19) (recheck failed 2026-08-20) (recheck failed 2026-08-21) (recheck failed 2026-08-22) (recheck failed 2026-08-23) (recheck failed 2026-08-24) (recheck failed 2026-08-25) (recheck failed 2026-08-26) (recheck failed 2026-08-28) (recheck failed 2026-08-29) (recheck failed 2026-08-29) (recheck failed 2026-08-30) (recheck failed 2026-08-31) (recheck failed 2026-08-31) (recheck failed 2026-09-01) (recheck failed 2026-09-02) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-04) (recheck failed 2026-09-05) (recheck failed 2026-09-06) (recheck failed 2026-09-07) (recheck failed 2026-09-08) (recheck failed 2026-09-09) (recheck failed 2026-09-10) (recheck failed 2026-09-11) (recheck failed 2026-09-12) (recheck failed 2026-09-13) (recheck failed 2026-09-14) (recheck failed 2026-09-15) (recheck failed 2026-09-15)"
       },
       "referral": {
         "level": "bridge",
@@ -3548,7 +3548,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-15"
+        "v": "Live (closing? unconfirmed) · 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5888,38 +5888,6 @@
       }
     },
     {
-      "co": "Instacart",
-      "role": "Senior Product Manager, Discounting Platform",
-      "loc": "United States - Remote",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://instacart.careers/job/?gh_jid=8175791",
-      "posted": "2026-09-03",
-      "note": "Auto-discovered on Instacart's job board 2026-09-03. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "instacart",
-        "id": "8175791"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-09-15"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
       "co": "Coupang (2nd req)",
       "role": "Sr. Director, Data Science & Data Engineering — Search",
       "loc": "Mountain View, CA",
@@ -6361,6 +6329,38 @@
         "live": true,
         "v": "Applied 9/8 - off-wedge healthcare, lowest priority."
       }
+    },
+    {
+      "co": "Coinbase",
+      "role": "Product Manager II, Growth - Notifications ",
+      "loc": "Remote - USA",
+      "track": "pm",
+      "trackLabel": "Product (data/AI/growth)",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://www.coinbase.com/careers/positions/8204571?gh_jid=8204571",
+      "posted": "2026-09-15",
+      "note": "Auto-discovered on Coinbase's job board 2026-09-15. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "coinbase",
+        "id": "8204571"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-09-15"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "pm"
     }
   ]
 }
