@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-09-14",
+  "verified_on": "2026-09-15",
   "roles": [
     {
       "co": "Mercury",
@@ -72,7 +72,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -115,7 +115,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-11) (recheck failed 2026-08-12) (recheck failed 2026-08-13) (recheck failed 2026-08-14) (recheck failed 2026-08-15) (recheck failed 2026-08-16) (recheck failed 2026-08-17) (recheck failed 2026-08-18) (recheck failed 2026-08-19) (recheck failed 2026-08-20) (recheck failed 2026-08-21) (recheck failed 2026-08-22) (recheck failed 2026-08-23) (recheck failed 2026-08-24) (recheck failed 2026-08-25) (recheck failed 2026-08-26) (recheck failed 2026-08-28) (recheck failed 2026-08-29) (recheck failed 2026-08-29) (recheck failed 2026-08-30) (recheck failed 2026-08-31) (recheck failed 2026-08-31) (recheck failed 2026-09-01) (recheck failed 2026-09-02) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-04) (recheck failed 2026-09-05) (recheck failed 2026-09-06) (recheck failed 2026-09-07) (recheck failed 2026-09-08) (recheck failed 2026-09-09) (recheck failed 2026-09-10) (recheck failed 2026-09-11) (recheck failed 2026-09-12) (recheck failed 2026-09-13) (recheck failed 2026-09-14)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-11) (recheck failed 2026-08-12) (recheck failed 2026-08-13) (recheck failed 2026-08-14) (recheck failed 2026-08-15) (recheck failed 2026-08-16) (recheck failed 2026-08-17) (recheck failed 2026-08-18) (recheck failed 2026-08-19) (recheck failed 2026-08-20) (recheck failed 2026-08-21) (recheck failed 2026-08-22) (recheck failed 2026-08-23) (recheck failed 2026-08-24) (recheck failed 2026-08-25) (recheck failed 2026-08-26) (recheck failed 2026-08-28) (recheck failed 2026-08-29) (recheck failed 2026-08-29) (recheck failed 2026-08-30) (recheck failed 2026-08-31) (recheck failed 2026-08-31) (recheck failed 2026-09-01) (recheck failed 2026-09-02) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-04) (recheck failed 2026-09-05) (recheck failed 2026-09-06) (recheck failed 2026-09-07) (recheck failed 2026-09-08) (recheck failed 2026-09-09) (recheck failed 2026-09-10) (recheck failed 2026-09-11) (recheck failed 2026-09-12) (recheck failed 2026-09-13) (recheck failed 2026-09-14) (recheck failed 2026-09-15)"
       },
       "referral": {
         "level": "bridge",
@@ -156,7 +156,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "direct",
@@ -198,7 +198,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "direct",
@@ -240,7 +240,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "direct",
@@ -282,7 +282,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "direct",
@@ -325,7 +325,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-09-14"
+        "v": "LinkedIn posting · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -368,7 +368,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-09-14"
+        "v": "LinkedIn posting · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -568,21 +568,21 @@
       "compFit": null,
       "tier": "Public fintech · lending/banking",
       "url": "https://www.linkedin.com/jobs/view/4399470189/",
-      "note": "Sr Mgr DS at SoFi (re-applied 9/3). WARM: SoFi recruiter Justin Grulke is walking the profile to the HM. One of the few new apps with a live human in the loop — prioritize.",
+      "note": "Sr Mgr DS at SoFi owning the SIPS data science team. HM Pete Howard screen (9/9) passed cleanly -> virtual onsite Sep 25 & 28. Best-fit live role after Duolingo closed - top priority.",
       "pinned": true,
       "source": "linkedin",
       "status": {
         "live": true,
-        "v": "Applied 9/3 · WARM: recruiter Justin Grulke connecting to HM (9/3)."
+        "v": "IN-PROCESS - virtual onsite Sep 25 & 28 (4 rounds). HM Pete Howard screen passed 9/9. Recruiter Justin Grulke gave full pre-brief. #1 live lead."
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-02",
-        "note": "Applied 9/2 via Greenhouse (fresh req). Prior interest closed 6/9."
+        "stage": "in-process",
+        "since": "2026-09-10",
+        "note": "HM screen w/ Pete Howard 9/9 PASSED (positive, no gaps) -> advanced to VIRTUAL ONSITE. Four 45-min Zoom rounds: Thu 9/25 (Sean MacRae - technical DS/ML; Julie Brewer - people leadership) + Mon 9/28 (Mili Mittal - product strategy; Ryan Burke - exec/cross-functional)."
       },
       "referral": {
         "level": "warm",
-        "text": "<b>Warm path active (9/3).</b> <b>Justin Grulke</b> (Senior Technical Recruiter @ SoFi) replied 9/3: connecting Rodrigo to the hiring manager to gauge interest. Awaiting HM feedback — follow up in ~4-5 business days if quiet."
+        "text": "<b>Strongest live path.</b> Recruiter <b>Justin Grulke</b> (very helpful - full onsite pre-brief 9/11). HM <b>Pete Howard</b> (Dir, DS) - screen 9/9 positive, no gaps, moving fast. Owning the SIPS DS team (~10 DS). Onsite Sep 25 & 28."
       },
       "discovered": false,
       "isNew": false
@@ -888,7 +888,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -919,7 +919,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -993,7 +993,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1024,7 +1024,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1055,7 +1055,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-14"
+        "v": "Not on board · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -1093,7 +1093,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1125,7 +1125,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1157,7 +1157,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1189,7 +1189,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1221,7 +1221,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1253,7 +1253,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -1291,7 +1291,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -1329,7 +1329,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-14"
+        "v": "Not on board · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -1367,7 +1367,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1399,7 +1399,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1431,7 +1431,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1463,7 +1463,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1495,7 +1495,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1527,7 +1527,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1559,7 +1559,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1591,7 +1591,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1662,7 +1662,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1694,7 +1694,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1726,7 +1726,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1758,7 +1758,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1790,7 +1790,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1822,7 +1822,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1854,7 +1854,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1886,7 +1886,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-14"
+        "v": "Not on board · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -1924,7 +1924,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -1956,7 +1956,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -1994,7 +1994,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-14"
+        "v": "Not on board · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -2032,7 +2032,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2064,7 +2064,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2096,7 +2096,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2128,7 +2128,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2210,7 +2210,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2242,71 +2242,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Reddit",
-      "role": "Staff Data Scientist, Consumer",
-      "loc": "Remote - United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/reddit/jobs/6745284",
-      "posted": "2025-04-24",
-      "note": "Auto-discovered on Reddit's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "reddit",
-        "id": "6745284"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-09-14"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
-    },
-    {
-      "co": "Amplitude",
-      "role": "Staff Fullstack Engineer, Core Analytics",
-      "loc": "San Francisco, CA",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/amplitude/jobs/8444770002",
-      "posted": "2026-03-02",
-      "note": "Auto-discovered on Amplitude's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "amplitude",
-        "id": "8444770002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2377,7 +2313,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2409,7 +2345,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2441,7 +2377,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2473,7 +2409,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2505,7 +2441,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2576,7 +2512,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2608,7 +2544,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2640,7 +2576,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2649,38 +2585,6 @@
       "discovered": true,
       "isNew": true,
       "kind": "pm"
-    },
-    {
-      "co": "Komodo Health",
-      "role": "Staff Consultant, Analytics Consulting ",
-      "loc": "United States",
-      "track": "new",
-      "trackLabel": "New find",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8480412002",
-      "posted": "2026-03-25",
-      "note": "Auto-discovered on Komodo Health's job board 2026-07-13. Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "komodohealth",
-        "id": "8480412002"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-09-14"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "ds"
     },
     {
       "co": "Roblox",
@@ -2704,7 +2608,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2736,7 +2640,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2768,7 +2672,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2800,7 +2704,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-14"
+        "v": "Not on board · checked 2026-09-15"
       },
       "referral": {
         "level": "bridge",
@@ -2838,7 +2742,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2870,7 +2774,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2902,7 +2806,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2934,7 +2838,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2966,7 +2870,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -2998,7 +2902,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3066,7 +2970,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3098,7 +3002,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3130,7 +3034,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3162,7 +3066,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3194,7 +3098,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3226,7 +3130,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3548,7 +3452,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3580,7 +3484,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3612,7 +3516,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3644,7 +3548,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3815,7 +3719,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3838,21 +3742,21 @@
       "compFit": "border",
       "tier": "Elite pre-IPO fintech (Stripe) · Finance & Strategy DS",
       "url": "https://stripe.com/jobs/listing/data-science-manager-finance-and-strategy/7440963",
-      "note": "Stripe DSM Finance & Strategy (reposted; re-applied 9/3 after 7/30 rejection). WARM: insider Somya Jain has the resume to refer. Bullseye wedge (fintech + finance/monetization). Second shot with a real internal advocate — prioritize.",
+      "note": "Stripe DSM Finance & Strategy (re-applied 9/3 to reposted req). Somya Jain referral converted to a recruiter screen (9/22). Bullseye wedge - prioritize.",
       "pinned": true,
       "source": "stripe careers (applied 7/27)",
       "status": {
         "live": true,
-        "v": "Re-applied 9/3 (reposted role); prior app rejected 7/30. Warm path: Steve Wasik."
+        "v": "IN-PROCESS - recruiter screen w/ Elisa Vatn Tue 9/22 11:30am PT. Warm referral via Somya Jain (submitted 9/10)."
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-03",
-        "note": "Re-applied 9/3 (role reposted). Earlier app rejected 7/30. Steve Wasik (HM) warm path still open."
+        "stage": "in-process",
+        "since": "2026-09-10",
+        "note": "Somya Jain submitted internal referral 9/10 (\"Done\"). Recruiter screen (Elisa Vatn) scheduled Tue 9/22, 11:30am PT."
       },
       "referral": {
         "level": "warm",
-        "text": "<b>Warm referral in motion (9/3).</b> <b>Somya Jain</b> (Data Strategy / Applied AI @ Stripe) agreed to refer and Rodrigo sent his resume 9/3. Plus prior HM contact <b>Steve Wasik</b>. Re-applied to the reposted req 9/3."
+        "text": "<b>Warm referral converted.</b> <b>Somya Jain</b> (Data Strategy / Applied AI @ Stripe) submitted the internal referral 9/10 -> recruiter screen scheduled 9/22 w/ Elisa Vatn. Bullseye wedge (fintech + finance/monetization); second shot after 7/30 rejection."
       },
       "fit": {
         "relevance": 8,
@@ -3890,7 +3794,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3922,7 +3826,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3954,7 +3858,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -3986,7 +3890,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4147,7 +4051,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4179,7 +4083,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4211,7 +4115,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4243,7 +4147,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4275,7 +4179,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4379,7 +4283,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4411,7 +4315,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4443,7 +4347,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4475,7 +4379,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4507,7 +4411,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4727,7 +4631,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4759,7 +4663,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4881,7 +4785,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4913,7 +4817,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4945,7 +4849,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -4977,7 +4881,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5009,7 +4913,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5041,7 +4945,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5093,34 +4997,41 @@
     {
       "co": "Robinhood",
       "role": "Senior Data Science Manager, Algorithms",
-      "loc": "Menlo Park, CA",
-      "track": "new",
-      "trackLabel": "New find",
+      "loc": "Menlo Park, CA / Remote",
+      "track": "stepup",
+      "trackLabel": "DS leadership (TBC)",
       "extraTrack": "",
-      "score": null,
+      "score": 7.0,
       "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8097597?t=gh_src=&gh_jid=8097597",
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Robinhood (NASDAQ: HOOD) · consumer investing/fintech",
+      "url": "https://careers.robinhood.com/",
       "posted": "2026-08-14",
-      "note": "Auto-discovered on Robinhood's job board 2026-08-15. Not yet scored — review fit, comp, and referral path.",
+      "note": "Applied to Robinhood 9/2 (Sr DS Manager, Algorithms - req confirmed via rejection). On-wedge (consumer fintech) but cut at resume screen 9/14; recruiting team offered to reconnect for future roles.",
       "verify": {
         "type": "greenhouse",
         "token": "robinhood",
         "id": "8097597"
       },
       "status": {
-        "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "live": false,
+        "v": "REJECTED 9/14 at resume screen (Sr DS Manager, Algorithms)."
       },
       "referral": {
-        "level": "pending",
-        "text": ""
+        "level": "none",
+        "text": "No warm path. Confirm the exact req title, then map a referral (fintech is on-wedge — worth the effort)."
       },
-      "discovered": true,
+      "discovered": false,
       "isNew": true,
-      "kind": "ds"
+      "kind": "ds",
+      "source": "direct app (applied 9/2)",
+      "pinned": true,
+      "app": {
+        "stage": "rejected",
+        "since": "2026-09-14",
+        "note": "Applied 9/2 (Sr Data Science Manager, Algorithms). Rejected 9/14 at resume screen - \"decided not to move forward with the interview process.\" Team offered to stay in touch."
+      }
     },
     {
       "co": "Gusto",
@@ -5183,7 +5094,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5215,7 +5126,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5247,7 +5158,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5279,7 +5190,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5311,7 +5222,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5343,7 +5254,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5375,7 +5286,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5407,7 +5318,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5535,7 +5446,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5567,7 +5478,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5599,7 +5510,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5631,7 +5542,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5663,7 +5574,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5695,7 +5606,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -5756,13 +5667,13 @@
         "text": "No warm path yet — map a LinkedIn 1st/2nd-degree in before it hits the cold pile."
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-03",
-        "note": "Applied 9/3 (LinkedIn) — recruiter to review."
+        "stage": "rejected",
+        "since": "2026-09-08",
+        "note": "Applied 9/3 (LinkedIn). Rejected 9/8 at resume screen - \"after carefully reviewing your resume and experience.\""
       },
       "status": {
-        "live": true,
-        "v": "Applied 9/3 (LinkedIn Easy Apply)."
+        "live": false,
+        "v": "REJECTED 9/8 at resume screen."
       }
     },
     {
@@ -5786,13 +5697,13 @@
         "text": "No warm path. Lateral title — bridge lane, not aspirational."
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-03",
-        "note": "Applied 9/3 (Greenhouse) — confirmation received."
+        "stage": "rejected",
+        "since": "2026-09-15",
+        "note": "Recruiter screen w/ Valeria Patterson held 9/11 (rescheduled from 9/9). Rejected 9/15 - \"decided not to move forward at this time.\""
       },
       "status": {
-        "live": true,
-        "v": "Applied 9/3 (Greenhouse) — confirmation received."
+        "live": false,
+        "v": "REJECTED 9/15 after 9/11 recruiter screen (Valeria Patterson)."
       }
     },
     {
@@ -5998,7 +5909,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Live (closing? unconfirmed) · 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6060,7 +5971,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6092,7 +6003,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6124,7 +6035,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6156,7 +6067,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6188,7 +6099,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6220,7 +6131,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6252,7 +6163,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6284,7 +6195,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6316,7 +6227,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6348,7 +6259,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-09-14"
+        "v": "Board API · checked 2026-09-15"
       },
       "referral": {
         "level": "pending",
@@ -6357,6 +6268,99 @@
       "discovered": true,
       "isNew": true,
       "kind": "pm"
+    },
+    {
+      "co": "Life360",
+      "role": "Senior Director, Data Science",
+      "loc": "United States (Remote)",
+      "track": "stepup",
+      "trackLabel": "Senior Director (step-up)",
+      "score": 6.0,
+      "domain": 3,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Life360 (NASDAQ: LIF) - consumer location/safety app",
+      "url": "https://www.life360.com/careers/",
+      "source": "cold app via Greenhouse (applied 9/8)",
+      "note": "Sr Director DS at Life360 (consumer app, location/safety, ad-supported + subscription). Step-up title; consumer growth/monetization is on-wedge-adjacent. Applied 9/8, rejected 9/10 at resume screen (\"not quite the right match\").",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "No warm path - cut before one could be built."
+      },
+      "app": {
+        "stage": "rejected",
+        "since": "2026-09-10",
+        "note": "Applied 9/8 (Greenhouse); rejected 9/10 at resume screen."
+      },
+      "status": {
+        "live": false,
+        "v": "REJECTED 9/10 at resume screen."
+      }
+    },
+    {
+      "co": "SageSure",
+      "role": "Director, Data Science",
+      "loc": "United States (Remote)",
+      "track": "stepup",
+      "trackLabel": "Director (off-wedge)",
+      "score": 4.5,
+      "domain": 2,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "SageSure - residential P&C insurance managing general underwriter",
+      "url": "https://www.sagesure.com/careers/",
+      "source": "cold app via Greenhouse (applied 9/8)",
+      "note": "Director DS at SageSure (P&C insurance MGU). OFF-WEDGE (insurance/actuarial analytics, not product/fintech) but Director-level scope. Parked for completeness; low priority unless it converts on its own.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "Off-wedge - do not invest unless it moves on its own."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-08",
+        "note": "Applied 9/8 (Greenhouse) - confirmation received."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 9/8 (Greenhouse) - off-wedge insurance, low priority."
+      }
+    },
+    {
+      "co": "Synapse Health",
+      "role": "Director of Data Science and Analytics",
+      "loc": "United States (Remote)",
+      "track": "stepup",
+      "trackLabel": "Director (off-wedge)",
+      "score": 4.0,
+      "domain": 2,
+      "comp": "Not disclosed",
+      "compFit": "unknown",
+      "tier": "Synapse Health - healthcare / durable medical equipment tech",
+      "url": "https://www.synapsehealth.com/careers",
+      "source": "cold app (applied 9/8)",
+      "note": "Director of DS & Analytics at Synapse Health (healthcare/DME tech). OFF-WEDGE (healthcare ops analytics). Director scope but far from product-analytics/fintech wedge. Parked for completeness; lowest priority.",
+      "pinned": true,
+      "discovered": false,
+      "isNew": true,
+      "referral": {
+        "level": "none",
+        "text": "Off-wedge - do not invest unless it moves on its own."
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-08",
+        "note": "Applied 9/8 - confirmation received."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied 9/8 - off-wedge healthcare, lowest priority."
+      }
     }
   ]
 }
