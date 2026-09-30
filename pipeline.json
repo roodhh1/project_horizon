@@ -290,17 +290,17 @@
    "compFit": "border",
    "tier": "Elite pre-IPO fintech (Stripe) · Finance & Strategy DS",
    "url": "https://stripe.com/jobs/listing/data-science-manager-finance-and-strategy/7440963",
-   "note": "Stripe DSM Finance & Strategy (re-applied 9/3 to reposted req). Somya Jain referral converted to a recruiter screen (9/22). Bullseye wedge - prioritize.",
+   "note": "Stripe DSM Finance & Strategy. Somya Jain referral -> recruiter screen 9/22 -> Round 1 done 9/28-29. Furthest-along live lead. Location catch: Bay Area excluded (remote elsewhere / Chicago / Atlanta relo).",
    "pinned": true,
    "source": "stripe careers (applied 7/27)",
    "status": {
     "live": true,
-    "v": "IN-PROCESS - recruiter screen w/ Elisa Vatn Tue 9/22 11:30am PT. Warm referral via Somya Jain (submitted 9/10)."
+    "v": "IN-PROCESS - Round 1 complete 9/29 (Jeff Li stats + HM Steve Wasik). Awaiting final-loop decision. #1 live lead."
    },
    "app": {
     "stage": "in-process",
-    "since": "2026-09-10",
-    "note": "Somya Jain submitted internal referral 9/10 (\"Done\"). Recruiter screen (Elisa Vatn) scheduled Tue 9/22, 11:30am PT."
+    "since": "2026-09-22",
+    "note": "Recruiter screen (Elisa Vatn) passed 9/22 -> Round 1: Statistics w/ Jeff Li (Mon 9/28, went well) + Experience & Goals w/ HM Steve Wasik (Tue 9/29 3pm). Thank-you to Elisa sent 9/29. Awaiting decision on final ~5-interview virtual onsite. Open question: Bay Area excluded for budget reasons - clarify SF before final loop."
    },
    "referral": {
     "level": "warm",
@@ -568,21 +568,21 @@
    "compFit": null,
    "tier": "Public fintech · lending/banking",
    "url": "https://www.linkedin.com/jobs/view/4399470189/",
-   "note": "Sr Mgr DS at SoFi owning the SIPS data science team. HM Pete Howard screen (9/9) passed cleanly -> virtual onsite Sep 25 & 28. Best-fit live role after Duolingo closed - top priority.",
+   "note": "SIPS Sr Mgr DS. HM screen passed 9/9; onsite cancelled 9/22 when the team filled the req. Keep Justin Grulke warm - he has surfaced Rodrigo for two SoFi reqs.",
    "pinned": true,
    "source": "linkedin",
    "status": {
-    "live": true,
-    "v": "IN-PROCESS - virtual onsite Sep 25 & 28 (4 rounds). HM Pete Howard screen passed 9/9. Recruiter Justin Grulke gave full pre-brief. #1 live lead."
+    "live": false,
+    "v": "CLOSED 9/22 - req filled before onsite; recruiter Justin Grulke keeping Rodrigo in mind."
    },
    "app": {
-    "stage": "in-process",
-    "since": "2026-09-10",
-    "note": "HM screen w/ Pete Howard 9/9 PASSED (positive, no gaps) -> advanced to VIRTUAL ONSITE. Four 45-min Zoom rounds: Thu 9/25 (Sean MacRae - technical DS/ML; Julie Brewer - people leadership) + Mon 9/28 (Mili Mittal - product strategy; Ryan Burke - exec/cross-functional)."
+    "stage": "closed",
+    "since": "2026-09-22",
+    "note": "Req FILLED 9/22 - Justin Grulke cancelled the Sep 25/28 onsite panels (team accepted another candidate). Justin offered to keep Rodrigo in mind for future SoFi roles (2nd time he has surfaced him). Gracious reply sent 9/22."
    },
    "referral": {
     "level": "warm",
-    "text": "<b>Strongest live path.</b> Recruiter <b>Justin Grulke</b> (very helpful - full onsite pre-brief 9/11). HM <b>Pete Howard</b> (Dir, DS) - screen 9/9 positive, no gaps, moving fast. Owning the SIPS DS team (~10 DS). Onsite Sep 25 & 28."
+    "text": "Recruiter <b>Justin Grulke</b> - warm; offered to flag future SoFi DS roles. HM Pete Howard screen was positive."
    },
    "discovered": false,
    "isNew": false
@@ -642,11 +642,11 @@
    "app": {
     "stage": "applied",
     "since": "2026-09-02",
-    "note": "Applied 9/2 (Adobe Workday, req R170516). Reposted 5d ago."
+    "note": "Applied 9/2 (Adobe Workday, req R170516). Reposted 5d ago. | 9/15: formally REFERRED by Priyanshu Srivastava (Workday referral)."
    },
    "referral": {
-    "level": "pending",
-    "text": ""
+    "level": "warm",
+    "text": "<b>Referred 9/15 by Priyanshu Srivastava</b> (Adobe Workday referral). Ask Priyanshu whether he can also flag you for the Firefly Sr Mgr Analytics & DS req."
    },
    "discovered": false,
    "isNew": false
@@ -749,23 +749,23 @@
   },
   {
    "co": "Plaid",
-   "role": "Data Science / Analytics Leadership (target)",
-   "loc": "SF / NY / Remote",
-   "track": "target",
-   "trackLabel": "Referral target",
+   "role": "Data Science Manager - Fraud",
+   "loc": "NYC / Remote (US)",
+   "track": "domain",
+   "trackLabel": "Domain-strong fintech",
    "extraTrack": "",
    "score": null,
    "domain": null,
-   "comp": "See postings",
+   "comp": "$216K-$329.4K base (posting)",
    "compFit": null,
    "tier": "Pre-IPO · fintech infrastructure",
-   "url": "https://plaid.com/careers/",
-   "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+   "url": "https://jobs.ashbyhq.com/plaid/55eacfa6-71e0-42ac-8788-04dc1e5fd694",
+   "note": "Plaid DSM Fraud - applied 9/22, rejected 9/29. Amy Smith (1st deg) remains the warm path for any future Plaid DS req.",
    "pinned": true,
    "source": "linkedin",
    "status": {
-    "live": true,
-    "v": "Referral target · mapped 2026-06-27"
+    "live": false,
+    "v": "REJECTED 9/29 at resume screen (applied 9/22)."
    },
    "referral": {
     "level": "direct",
@@ -774,9 +774,9 @@
    "discovered": false,
    "isNew": true,
    "app": {
-    "stage": "to-apply",
-    "since": "2026-06-27",
-    "note": "Referral target · mapped 2026-06-27"
+    "stage": "rejected",
+    "since": "2026-09-29",
+    "note": "Applied to Data Science Manager - Fraud 9/22 (Ashby); rejected at resume screen 9/29. Fraud-domain depth likely the gap."
    }
   },
   {
@@ -1075,13 +1075,13 @@
    "pinned": true,
    "source": "ladders 2026-07-20",
    "status": {
-    "live": true,
-    "v": "Opportunity · found via Ladders 2026-07-20"
+    "live": false,
+    "v": "CLOSED - Google DS cooldown until Apr 2027."
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-20",
-    "note": "Opportunity · found via Ladders 2026-07-20"
+    "stage": "closed",
+    "since": "2026-09-23",
+    "note": "Google DS 12-month interview cooldown until April 2027 (confirmed by recruiter Bri Hernandez 9/23). Revisit Spring 2027."
    },
    "referral": {
     "level": "pending",
@@ -2141,6 +2141,486 @@
     "live": true,
     "v": "Applied 9/8 - off-wedge healthcare, lowest priority."
    }
+  },
+  {
+   "co": "Google",
+   "role": "Tech Lead Manager, Workspace Monetization Data Science",
+   "loc": "Mountain View / SF",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Alphabet - Workspace monetization DS",
+   "url": "",
+   "note": "Applied 9/22 + emailed recruiter (Ana OOO -> Bri Hernandez). Blocked by 12-month DS interview cooldown until April 2027.",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": false,
+    "v": "CLOSED - cooldown until Apr 2027"
+   },
+   "app": {
+    "stage": "closed",
+    "since": "2026-09-23",
+    "note": "Applied 9/22 + emailed recruiter (Ana OOO -> Bri Hernandez). Blocked by 12-month DS interview cooldown until April 2027."
+   },
+   "referral": {
+    "level": "none",
+    "text": "No warm path mapped yet."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Capital One",
+   "role": "Director, Data Science (Agentic AI products)",
+   "loc": "McLean / SF / Cambridge / NY / Richmond",
+   "track": "stepup",
+   "trackLabel": "Director step-up",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Public bank - AI products",
+   "url": "",
+   "note": "Applied (req R1002344, posted 9/28) - new science team for Capital One agentic AI products (A/B testing, telemetry modeling, AI strategy). LinkedIn referral request sent 9/29 to Deepesh Singh (Data Analysis Mgr, not previously acquainted).",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "Applied 9/29 - referral ask out to Deepesh Singh"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-29",
+    "note": "Applied (req R1002344, posted 9/28) - new science team for Capital One agentic AI products (A/B testing, telemetry modeling, AI strategy). LinkedIn referral request sent 9/29 to Deepesh Singh (Data Analysis Mgr, not previously acquainted)."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "Referral ask sent 9/29 to <b>Deepesh Singh</b> (Data Analysis Manager @ Capital One) - awaiting reply."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "PlayStation (Sony)",
+   "role": "Director, Data Science - Product Management",
+   "loc": "San Mateo / SF Bay",
+   "track": "stepup",
+   "trackLabel": "Director step-up",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Sony Interactive - gaming",
+   "url": "",
+   "note": "Applied 9/28 (confirmation received).",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "Applied 9/28"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-28",
+    "note": "Applied 9/28 (confirmation received)."
+   },
+   "referral": {
+    "level": "none",
+    "text": "No warm path mapped yet."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Zoox",
+   "role": "Senior Manager, Perception Data",
+   "loc": "Foster City, CA",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Amazon-owned AV",
+   "url": "",
+   "note": "Applied 9/29 via Lever (confirmation received). Off-wedge (AV perception data).",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "Applied 9/29 - off-wedge"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-29",
+    "note": "Applied 9/29 via Lever (confirmation received). Off-wedge (AV perception data)."
+   },
+   "referral": {
+    "level": "none",
+    "text": "No warm path mapped yet."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Richemont",
+   "role": "International MCC Data & Analytics Manager",
+   "loc": "International",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "See posting",
+   "compFit": null,
+   "tier": "Luxury goods group",
+   "url": "",
+   "note": "Applied 9/15 via Workday (confirmation received).",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "Applied 9/15"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-15",
+    "note": "Applied 9/15 via Workday (confirmation received)."
+   },
+   "referral": {
+    "level": "none",
+    "text": "No warm path mapped yet."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Uber",
+   "role": "Manager II, Science - Uber Eats Consumer Pricing & Incentives",
+   "loc": "San Francisco, CA",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": 8.6,
+   "domain": null,
+   "comp": "Not posted (Uber Mgr II ~ $250-300K base + RSUs, est.)",
+   "compFit": null,
+   "tier": "Public - marketplace, pricing science",
+   "url": "https://www.linkedin.com/jobs/view/4473071039",
+   "note": "TOP PICK. Leads science for Uber Eats consumer pricing & incentives - automated pricing, causal inference, experimentation, marketplace dynamics. Bullseye on pricing/monetization wedge. Posted 9/29, <25 applicants.",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "NEW 9/29 sweep - live, to apply"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "TOP PICK. Leads science for Uber Eats consumer pricing & incentives - automated pricing, causal inference, experimentation, marketplace dynamics. Bullseye on pricing/monetization wedge. Posted 9/29, <25 applicants."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "No path mapped - run LinkedIn sweep for Uber Eats pricing science leaders."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "TikTok USDS",
+   "role": "Senior Data Science Manager, Core Business",
+   "loc": "San Jose, CA",
+   "track": "stepup",
+   "trackLabel": "Scope step-up",
+   "extraTrack": "",
+   "score": 8.2,
+   "domain": null,
+   "comp": "$239.2K-$483.2K base",
+   "compFit": null,
+   "tier": "TikTok US Data Security JV",
+   "url": "https://www.linkedin.com/jobs/view/4472073116",
+   "note": "Manager-of-managers scope: DS org spanning User Growth, Customer Service, Live & Gifting, Search, Local Service, enterprise functions. Biggest scope on the list; comp band top clears anchor. Risks: USDS joint-venture governance/stability, San Jose commute. Posted 9/25, <25 applicants.",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "NEW 9/29 sweep - live, to apply"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Manager-of-managers scope: DS org spanning User Growth, Customer Service, Live & Gifting, Search, Local Service, enterprise functions. Biggest scope on the list; comp band top clears anchor. Risks: USDS joint-venture governance/stability, San Jose commute. Posted 9/25, <25 applicants."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "No path mapped yet."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Discord",
+   "role": "Senior Data Science Manager, Developer Platform",
+   "loc": "San Francisco Bay Area",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": 8.3,
+   "domain": null,
+   "comp": "$342K-$380K base",
+   "compFit": null,
+   "tier": "Late-stage private - consumer platform",
+   "url": "https://job-boards.greenhouse.io/discord/jobs/8821508002",
+   "note": "Leads DS for Developer Platform (SDKs, identity, dev tools) - two-sided platform: studio growth/revenue + player engagement. Highest posted base on the list. Gaming domain is off-wedge but the monetization/growth/two-sided framing maps well. 8+ yrs DS, 3+ managing. Posted 9/25.",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "NEW 9/29 sweep - live, to apply"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Leads DS for Developer Platform (SDKs, identity, dev tools) - two-sided platform: studio growth/revenue + player engagement. Highest posted base on the list. Gaming domain is off-wedge but the monetization/growth/two-sided framing maps well. 8+ yrs DS, 3+ managing. Posted 9/25."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "No path mapped yet."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Adobe",
+   "role": "Senior Manager, Analytics and Data Science - Firefly",
+   "loc": "San Jose, CA",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": 7.8,
+   "domain": null,
+   "comp": "$196.4K-$284.3K base",
+   "compFit": null,
+   "tier": "Public - creative/AI software",
+   "url": "https://www.linkedin.com/jobs/view/4453906373",
+   "note": "Firefly (gen-AI) growth analytics + experimentation + PLG, building a team during rapid growth. AI exposure + growth wedge. 123 applicants - go via Priyanshu Srivastava (already referred you to GTM DS).",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "NEW 9/29 sweep - live, to apply"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Firefly (gen-AI) growth analytics + experimentation + PLG, building a team during rapid growth. AI exposure + growth wedge. 123 applicants - go via Priyanshu Srivastava (already referred you to GTM DS)."
+   },
+   "referral": {
+    "level": "warm",
+    "text": "<b>Priyanshu Srivastava</b> referred you to Adobe GTM DS 9/15 - ask him to flag this req too."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Instacart",
+   "role": "Senior Manager, Marketing Decision Science",
+   "loc": "United States - Remote",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": 7.4,
+   "domain": null,
+   "comp": "$202K-$255.5K base (by zone)",
+   "compFit": null,
+   "tier": "Public - grocery marketplace",
+   "url": "https://instacart.careers/job/?gh_jid=8237126",
+   "note": "Marketing decision science - incrementality, experimentation, spend allocation. Wedge fit (growth/experimentation); remote. Comp below baseline. Posted 9/28.",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "NEW 9/29 sweep - live, to apply"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Marketing decision science - incrementality, experimentation, spend allocation. Wedge fit (growth/experimentation); remote. Comp below baseline. Posted 9/28."
+   },
+   "referral": {
+    "level": "bridge",
+    "text": "Jase Chandler (Data & Product Analytics, 2nd deg) via sahithi visvanathan."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "SentiLink",
+   "role": "Data Science Manager",
+   "loc": "San Francisco, CA",
+   "track": "domain",
+   "trackLabel": "Fintech",
+   "extraTrack": "",
+   "score": 6.6,
+   "domain": null,
+   "comp": "$210K-$260K base",
+   "compFit": null,
+   "tier": "Series B/C fintech - fraud/identity",
+   "url": "https://www.linkedin.com/jobs/view/4432858215",
+   "note": "Identity-fraud fintech (13 of top 15 US banks). Wants 5 yrs managing DS + startup experience; fraud domain is a gap (Plaid Fraud rejected at resume screen). Apply only with a warm path.",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "NEW 9/29 sweep - live, to apply"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Identity-fraud fintech (13 of top 15 US banks). Wants 5 yrs managing DS + startup experience; fraud domain is a gap (Plaid Fraud rejected at resume screen). Apply only with a warm path."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "No path mapped yet."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Trustly",
+   "role": "Manager, Data Science & Machine Learning (Risk & Fraud)",
+   "loc": "SF Bay Area (Remote)",
+   "track": "domain",
+   "trackLabel": "Fintech",
+   "extraTrack": "",
+   "score": 6.4,
+   "domain": null,
+   "comp": "Not posted",
+   "compFit": null,
+   "tier": "Private - payments",
+   "url": "https://www.linkedin.com/jobs/view/4469890709",
+   "note": "Open-banking pay-by-bank payments. Fintech payments wedge but risk/fraud-ML flavored (same gap as Plaid Fraud). 58 applicants.",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "NEW 9/29 sweep - live, to apply"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Open-banking pay-by-bank payments. Fintech payments wedge but risk/fraud-ML flavored (same gap as Plaid Fraud). 58 applicants."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "No path mapped yet."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Capital One",
+   "role": "Senior Manager, Data Science - AI Foundations",
+   "loc": "San Jose, CA",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": 7.0,
+   "domain": null,
+   "comp": "$250.8K-$286.2K base (SJ)",
+   "compFit": null,
+   "tier": "Public bank - AI",
+   "url": "https://www.linkedin.com/jobs/view/4463780506",
+   "note": "Fallback to the Director app - same AI org family. Bundle into the Deepesh Singh referral ask. <25 applicants.",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "NEW 9/29 sweep - live, to apply"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Fallback to the Director app - same AI org family. Bundle into the Deepesh Singh referral ask. <25 applicants."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "Same ask as Director req -> Deepesh Singh."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "eBay",
+   "role": "Senior Manager, eBay Live Data Science",
+   "loc": "San Jose, CA",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": 6.8,
+   "domain": null,
+   "comp": "$203.2K-$271.3K base",
+   "compFit": null,
+   "tier": "Public - ecommerce",
+   "url": "https://www.linkedin.com/jobs/view/4466948308",
+   "note": "Live-shopping growth/engagement analytics for a new 0-to-1-ish product. 46 applicants.",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "NEW 9/29 sweep - live, to apply"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Live-shopping growth/engagement analytics for a new 0-to-1-ish product. 46 applicants."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "No path mapped yet."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Autodesk",
+   "role": "Senior Manager, GTM Data Science",
+   "loc": "San Francisco, CA",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": 6.9,
+   "domain": null,
+   "comp": "Not posted",
+   "compFit": null,
+   "tier": "Public - B2B software",
+   "url": "https://www.linkedin.com/jobs/view/4469671940",
+   "note": "Leads GTM ML (which customers to engage, when, what action, measure impact) - customer lifecycle wedge, B2B. 47 applicants.",
+   "pinned": true,
+   "source": "9/29 sweep",
+   "status": {
+    "live": true,
+    "v": "NEW 9/29 sweep - live, to apply"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Leads GTM ML (which customers to engage, when, what action, measure impact) - customer lifecycle wedge, B2B. 47 applicants."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "No path mapped yet."
+   },
+   "discovered": false,
+   "isNew": true
   }
  ],
  "overrides": {
@@ -2253,6 +2733,32 @@
     "stage": "to-apply",
     "since": "2026-07-13",
     "note": "NEW-INDUSTRY TOP PICK — marketing analytics leadership at the elite AI-native; wedge + maximum AI brand/exposure. WARM PATH: David Sasaki (VP Analytics & Insights, 2nd°) via Saurabh Kumar/Gabriel Pila; Varghese George (Analytics Lead, 2nd°); Karim Jahangir (GTM Data, 2nd°). All-industry DS broadening 7/13."
+   }
+  },
+  "Robinhood|Manager of Data Science, Finance & Strategy": {
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Mirror of the Stripe Finance & Strategy role - reuse the entire Stripe prep. Title is a step down (Manager) and comp top tier $202-238K is below baseline; Robinhood rejected Algorithms app at resume screen 9/14 - go warm this time."
+   },
+   "score": 7.2,
+   "compFit": "below",
+   "referral": {
+    "level": "bridge",
+    "text": "Heads of DS Ruth Ashford (via Gabriel Pila) / Kane Sweeney (2nd deg)."
+   }
+  },
+  "DoorDash|Senior Manager, Core Consumer Analytics": {
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-09-29",
+    "note": "Leads the Discovery analytics team (personalization, search, merchandising, app quality). $219.7-323K base. Refreshed 9/29. You already have DoorDash CX Sr Mgr applied 9/2 - one app per quarter norms vary; go through Ethan Zhu."
+   },
+   "score": 7.6,
+   "compFit": "border",
+   "referral": {
+    "level": "bridge",
+    "text": "Ethan Zhu (DS & Analytics Leadership, 2nd deg); 1st deg Jasper, Maximiliano Medina Garcia."
    }
   }
  }
