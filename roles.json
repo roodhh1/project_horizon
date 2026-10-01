@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-09-30",
+  "verified_on": "2026-10-01",
   "roles": [
     {
       "co": "Mercury",
@@ -73,7 +73,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-11) (recheck failed 2026-08-12) (recheck failed 2026-08-13) (recheck failed 2026-08-14) (recheck failed 2026-08-15) (recheck failed 2026-08-16) (recheck failed 2026-08-17) (recheck failed 2026-08-18) (recheck failed 2026-08-19) (recheck failed 2026-08-20) (recheck failed 2026-08-21) (recheck failed 2026-08-22) (recheck failed 2026-08-23) (recheck failed 2026-08-24) (recheck failed 2026-08-25) (recheck failed 2026-08-26) (recheck failed 2026-08-28) (recheck failed 2026-08-29) (recheck failed 2026-08-29) (recheck failed 2026-08-30) (recheck failed 2026-08-31) (recheck failed 2026-08-31) (recheck failed 2026-09-01) (recheck failed 2026-09-02) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-04) (recheck failed 2026-09-05) (recheck failed 2026-09-06) (recheck failed 2026-09-07) (recheck failed 2026-09-08) (recheck failed 2026-09-09) (recheck failed 2026-09-10) (recheck failed 2026-09-11) (recheck failed 2026-09-12) (recheck failed 2026-09-13) (recheck failed 2026-09-14) (recheck failed 2026-09-15) (recheck failed 2026-09-15) (recheck failed 2026-09-16) (recheck failed 2026-09-17) (recheck failed 2026-09-18) (recheck failed 2026-09-19) (recheck failed 2026-09-20) (recheck failed 2026-09-21) (recheck failed 2026-09-22) (recheck failed 2026-09-23) (recheck failed 2026-09-24) (recheck failed 2026-09-25) (recheck failed 2026-09-26) (recheck failed 2026-09-27) (recheck failed 2026-09-28) (recheck failed 2026-09-29) (recheck failed 2026-09-30) (recheck failed 2026-09-30) (recheck failed 2026-09-30)"
+        "v": "Careers page · checked 2026-07-13 (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-13) (recheck failed 2026-07-20) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-27) (recheck failed 2026-07-28) (recheck failed 2026-07-28) (recheck failed 2026-07-29) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-30) (recheck failed 2026-07-31) (recheck failed 2026-08-01) (recheck failed 2026-08-02) (recheck failed 2026-08-03) (recheck failed 2026-08-04) (recheck failed 2026-08-04) (recheck failed 2026-08-05) (recheck failed 2026-08-07) (recheck failed 2026-08-08) (recheck failed 2026-08-09) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-10) (recheck failed 2026-08-11) (recheck failed 2026-08-12) (recheck failed 2026-08-13) (recheck failed 2026-08-14) (recheck failed 2026-08-15) (recheck failed 2026-08-16) (recheck failed 2026-08-17) (recheck failed 2026-08-18) (recheck failed 2026-08-19) (recheck failed 2026-08-20) (recheck failed 2026-08-21) (recheck failed 2026-08-22) (recheck failed 2026-08-23) (recheck failed 2026-08-24) (recheck failed 2026-08-25) (recheck failed 2026-08-26) (recheck failed 2026-08-28) (recheck failed 2026-08-29) (recheck failed 2026-08-29) (recheck failed 2026-08-30) (recheck failed 2026-08-31) (recheck failed 2026-08-31) (recheck failed 2026-09-01) (recheck failed 2026-09-02) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-03) (recheck failed 2026-09-04) (recheck failed 2026-09-05) (recheck failed 2026-09-06) (recheck failed 2026-09-07) (recheck failed 2026-09-08) (recheck failed 2026-09-09) (recheck failed 2026-09-10) (recheck failed 2026-09-11) (recheck failed 2026-09-12) (recheck failed 2026-09-13) (recheck failed 2026-09-14) (recheck failed 2026-09-15) (recheck failed 2026-09-15) (recheck failed 2026-09-16) (recheck failed 2026-09-17) (recheck failed 2026-09-18) (recheck failed 2026-09-19) (recheck failed 2026-09-20) (recheck failed 2026-09-21) (recheck failed 2026-09-22) (recheck failed 2026-09-23) (recheck failed 2026-09-24) (recheck failed 2026-09-25) (recheck failed 2026-09-26) (recheck failed 2026-09-27) (recheck failed 2026-09-28) (recheck failed 2026-09-29) (recheck failed 2026-09-30) (recheck failed 2026-09-30) (recheck failed 2026-09-30) (recheck failed 2026-10-01)"
       },
       "referral": {
         "level": "bridge",
@@ -114,7 +114,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "direct",
@@ -156,7 +156,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "direct",
@@ -198,7 +198,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "direct",
@@ -240,7 +240,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "direct",
@@ -283,7 +283,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-09-30"
+        "v": "LinkedIn posting · checked 2026-09-30 (recheck failed 2026-10-01)"
       },
       "referral": {
         "level": "bridge",
@@ -326,7 +326,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-09-30"
+        "v": "LinkedIn posting · checked 2026-10-01"
       },
       "referral": {
         "level": "bridge",
@@ -348,9 +348,9 @@
       },
       "pinned": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-13",
-        "note": "NEW-INDUSTRY TOP PICK — marketing analytics leadership at the elite AI-native; wedge + maximum AI brand/exposure. WARM PATH: David Sasaki (VP Analytics & Insights, 2nd°) via Saurabh Kumar/Gabriel Pila; Varghese George (Analytics Lead, 2nd°); Karim Jahangir (GTM Data, 2nd°). All-industry DS broadening 7/13."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: NEW-INDUSTRY TOP PICK — marketing analytics leadership at the elite AI-native; wedge + maximum AI brand/exposure. WARM PATH: David Sasaki (VP Analytics & Insights, 2nd°) via Saurabh Kumar/Gabriel Pila; Varghese George (Analytics Lead, 2nd°); Karim Jahangir (GTM Data, 2nd°). All-industry DS broadening 7/13."
       }
     },
     {
@@ -668,9 +668,9 @@
       "discovered": false,
       "isNew": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-06-27",
-        "note": "Referral target · mapped 2026-06-27"
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Referral target · mapped 2026-06-27"
       }
     },
     {
@@ -700,9 +700,9 @@
       "discovered": false,
       "isNew": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-06-27",
-        "note": "Referral target · mapped 2026-06-27"
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Referral target · mapped 2026-06-27"
       }
     },
     {
@@ -718,24 +718,25 @@
       "compFit": null,
       "tier": "Pre-IPO · fintech infrastructure",
       "url": "https://plaid.com/careers/",
-      "note": "Expanded-bullseye fintech, sourced via referral sweep (6/27). No specific application yet — pursue warm-intro first, then apply to a wedge-fit DS/analytics leadership req.",
+      "note": "Superseded placeholder (renamed/duplicate entry) - hidden in Beacon.",
       "pinned": true,
       "source": "linkedin",
       "status": {
-        "live": true,
-        "v": "Referral target · mapped 2026-06-27"
+        "live": false,
+        "v": "Superseded"
       },
       "referral": {
         "level": "direct",
         "text": "<b>1st°: Amy Smith</b> (TPM / Data Scientist, AI Governance — 140 mutuals) — DM directly for the lay of the land + referral. 2nd°: Akash Kulkarni (Analytics &amp; DS, 7 mut), Milav Shah (Eng Leadership, Data &amp; AI, 9 mut), Kanak Chavda (Data Eng). Recruiters: Sydney Busch Weber (Head of Tech Recruiting), Rico Curry (11 mut)."
       },
       "discovered": false,
-      "isNew": true,
+      "isNew": false,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-06-27",
-        "note": "Referral target · mapped 2026-06-27"
-      }
+        "stage": "closed",
+        "since": "2026-09-30",
+        "note": "Superseded duplicate of a renamed entry; hidden 9/30."
+      },
+      "hidden": true
     },
     {
       "co": "Root",
@@ -846,7 +847,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -877,7 +878,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -951,7 +952,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -982,7 +983,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-30"
+        "v": "Not on board · checked 2026-10-01"
       },
       "referral": {
         "level": "bridge",
@@ -993,9 +994,9 @@
       "kind": "pm",
       "pinned": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-13",
-        "note": "Fintech platform PM, US-based. WARM PATH: Angela Z. (Product, Marketplace Pricing & Incentives, 2nd°) via 1st° Amy Smith — your credit/pricing story lands; also Jeff Lee (Staff PM, 2nd°), Melissa L. via Julia Rezende. Expanded Beacon search 7/13."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Fintech platform PM, US-based. WARM PATH: Angela Z. (Product, Marketplace Pricing & Incentives, 2nd°) via 1st° Amy Smith — your credit/pricing story lands; also Jeff Lee (Staff PM, 2nd°), Melissa L. via Julia Rezende. Expanded Beacon search 7/13."
       }
     },
     {
@@ -1020,7 +1021,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1052,7 +1053,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1084,7 +1085,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "bridge",
@@ -1095,9 +1096,9 @@
       "kind": "pm",
       "pinned": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-13",
-        "note": "TOP PICK — Director step-up that also clears the comp bar; growth+AI product at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) and Jessica Hansen Vi (Brex product recruiter, 2nd°). Sourced via the 7/13 expanded Beacon search (Sr-PM lane)."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: TOP PICK — Director step-up that also clears the comp bar; growth+AI product at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) and Jessica Hansen Vi (Brex product recruiter, 2nd°). Sourced via the 7/13 expanded Beacon search (Sr-PM lane)."
       }
     },
     {
@@ -1122,7 +1123,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "bridge",
@@ -1133,9 +1134,9 @@
       "kind": "pm",
       "pinned": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-13",
-        "note": "Growth PM at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) / Jessica Hansen Vi (Brex product recruiter, 2nd°). Expanded Beacon search 7/13."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Growth PM at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) / Jessica Hansen Vi (Brex product recruiter, 2nd°). Expanded Beacon search 7/13."
       }
     },
     {
@@ -1160,7 +1161,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-30"
+        "v": "Not on board · checked 2026-10-01"
       },
       "referral": {
         "level": "bridge",
@@ -1171,9 +1172,9 @@
       "kind": "ds",
       "pinned": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-13",
-        "note": "Fintech DS (senior-IC lane). WARM PATH: Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño. Expanded Beacon search 7/13."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Fintech DS (senior-IC lane). WARM PATH: Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño. Expanded Beacon search 7/13."
       }
     },
     {
@@ -1198,7 +1199,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1230,7 +1231,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1262,7 +1263,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1294,7 +1295,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1326,7 +1327,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1358,7 +1359,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1390,7 +1391,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1422,7 +1423,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1493,7 +1494,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1525,7 +1526,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1557,7 +1558,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1589,7 +1590,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1621,7 +1622,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1653,7 +1654,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1685,7 +1686,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-30"
+        "v": "Not on board · checked 2026-10-01"
       },
       "referral": {
         "level": "bridge",
@@ -1696,9 +1697,9 @@
       "kind": "ds",
       "pinned": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-13",
-        "note": "Marketing DS at a fintech — SoFi is your strongest historical domain fit. WARM PATH: Kerstin Brümann (Manager, Marketing Data Science @SoFi, 2nd°) via Saurabh Kumar; also Kang Jian (Sr DS Manager, 2nd°), Nate Belete (Sr Staff DS, 2nd°). Expanded Beacon search 7/13."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Marketing DS at a fintech — SoFi is your strongest historical domain fit. WARM PATH: Kerstin Brümann (Manager, Marketing Data Science @SoFi, 2nd°) via Saurabh Kumar; also Kang Jian (Sr DS Manager, 2nd°), Nate Belete (Sr Staff DS, 2nd°). Expanded Beacon search 7/13."
       }
     },
     {
@@ -1723,7 +1724,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1755,7 +1756,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-30"
+        "v": "Not on board · checked 2026-10-01"
       },
       "referral": {
         "level": "bridge",
@@ -1766,9 +1767,9 @@
       "kind": "pm",
       "pinned": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-13",
-        "note": "Data-product leadership, senior scope. WARM PATH: same Stripe DS path (Matt DeLand via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd°). Product-side intro would strengthen it. Expanded Beacon search 7/13."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Data-product leadership, senior scope. WARM PATH: same Stripe DS path (Matt DeLand via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd°). Product-side intro would strengthen it. Expanded Beacon search 7/13."
       }
     },
     {
@@ -1793,7 +1794,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-30"
+        "v": "Not on board · checked 2026-10-01"
       },
       "referral": {
         "level": "bridge",
@@ -1804,9 +1805,9 @@
       "kind": "pm",
       "pinned": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-13",
-        "note": "Core wedge — cards monetization + payments. WARM PATH (DS org): Matt DeLand (Head of DS, 2nd°) via broker Karan Kushwaha; Pierre Garrigues (Head of Core Payments DS). NOTE: sweep Stripe's PRODUCT org for a closer product-side intro before outreach. Expanded Beacon search 7/13."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Core wedge — cards monetization + payments. WARM PATH (DS org): Matt DeLand (Head of DS, 2nd°) via broker Karan Kushwaha; Pierre Garrigues (Head of Core Payments DS). NOTE: sweep Stripe's PRODUCT org for a closer product-side intro before outreach. Expanded Beacon search 7/13."
       }
     },
     {
@@ -1831,7 +1832,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1863,7 +1864,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1895,7 +1896,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -1927,7 +1928,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2009,7 +2010,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2041,7 +2042,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2112,7 +2113,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2144,7 +2145,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2176,7 +2177,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2247,7 +2248,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2279,7 +2280,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2311,7 +2312,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2343,7 +2344,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2375,7 +2376,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2407,7 +2408,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-09-30"
+        "v": "Not on board · checked 2026-10-01"
       },
       "referral": {
         "level": "bridge",
@@ -2418,9 +2419,9 @@
       "kind": "ds",
       "pinned": true,
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-13",
-        "note": "NEW-INDUSTRY TOP PICK — Director step-up; Discovery = recommendation/engagement/growth DS at massive consumer scale (gaming). WARM PATH: Jose Abelenda (Director of DS, ex-Lyft, 2nd°) via Saurabh Kumar; Henry Lin (Creator DS, 2nd°). All-industry DS broadening 7/13."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: NEW-INDUSTRY TOP PICK — Director step-up; Discovery = recommendation/engagement/growth DS at massive consumer scale (gaming). WARM PATH: Jose Abelenda (Director of DS, ex-Lyft, 2nd°) via Saurabh Kumar; Henry Lin (Creator DS, 2nd°). All-industry DS broadening 7/13."
       }
     },
     {
@@ -2445,7 +2446,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2477,7 +2478,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2509,7 +2510,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2541,7 +2542,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2609,7 +2610,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2641,7 +2642,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2673,7 +2674,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2705,7 +2706,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2737,7 +2738,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -2797,12 +2798,12 @@
       "source": "ladders 2026-07-20",
       "status": {
         "live": true,
-        "v": "Applied 9/1 — confirmation received (exact OpenAI req TBC)."
+        "v": "To apply (label corrected 9/30)"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-01",
-        "note": "Applied 9/1 (OpenAI careers) — confirmation received. Exact req TBC: generic confirmation; assumed the Founding DS, Pricing & Monetization target."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Corrected 9/30: never applied to this req (earlier \"applied\" was a mislabel - the 9/1 OpenAI app was the GTM Intelligence leader role)."
       },
       "referral": {
         "level": "bridge",
@@ -2843,9 +2844,9 @@
         "v": "Opportunity · found via Ladders 2026-07-20"
       },
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-20",
-        "note": "Opportunity · found via Ladders 2026-07-20"
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Opportunity · found via Ladders 2026-07-20"
       },
       "referral": {
         "level": "pending",
@@ -2886,9 +2887,9 @@
         "v": "Opportunity · found via Ladders 2026-07-20"
       },
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-20",
-        "note": "Opportunity · found via Ladders 2026-07-20"
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Opportunity · found via Ladders 2026-07-20"
       },
       "referral": {
         "level": "pending",
@@ -2972,9 +2973,9 @@
         "v": "Opportunity · found via Ladders 2026-07-20"
       },
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-20",
-        "note": "Opportunity · found via Ladders 2026-07-20"
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Opportunity · found via Ladders 2026-07-20"
       },
       "referral": {
         "level": "pending",
@@ -3015,9 +3016,9 @@
         "v": "Opportunity · found via Ladders 2026-07-20"
       },
       "app": {
-        "stage": "to-apply",
-        "since": "2026-07-20",
-        "note": "Opportunity · found via Ladders 2026-07-20"
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Opportunity · found via Ladders 2026-07-20"
       },
       "referral": {
         "level": "pending",
@@ -3059,7 +3060,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3091,7 +3092,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3262,7 +3263,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3337,7 +3338,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3369,7 +3370,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3435,17 +3436,17 @@
       "compFit": null,
       "tier": "Insurtech (undisclosed) · agency-represented search",
       "url": "https://www.linkedin.com/in/",
-      "note": "🔴 CALL TODAY — Thu 7/30, 11:00am PT; Sue Do calls your cell. Warm path in: your former colleague <b>Joey Pliskin</b> pointed the recruiter at you. WHAT'S GOOD: 'Head of Data Science' is the biggest title step-up on the board — own the function, set the roadmap, build the team, report high; the mandate (predictive/segmentation/forecasting models, personalization/targeting, influencing senior stakeholders) is real leadership scope, and marketing+sales analytics in insurance is close to the Root profile you already interviewed well for. WHAT'S HARD, BE CLEAR-EYED: (1) RELOCATION — Ft. Lee NJ / Raleigh / Miami with 2 days in office, relo provided; you are Bay Area. This is the gating question and it should be question #1 or #2, not question #6 — don't invest a loop into a role you'd decline on geography; (2) UNDISCLOSED COMPANY via a contingency/agency search (GAME ON! is a games-industry recruiting shop, so this is off their usual beat) — you cannot assess company quality, trajectory, funding, or manager quality until she names it, and all four are load-bearing for a Head-of role; (3) Root just rejected you on a near-identical insurtech + performance-marketing profile — pre-empt the 'have you owned paid media / insurance pricing' question with incrementality + budget-allocation framing and your actuarial-science degree. NET: high title, unknown everything else. Run today's call as YOUR diligence, not as a pitch.",
+      "note": "Superseded placeholder (renamed/duplicate entry) - hidden in Beacon.",
       "pinned": true,
       "source": "linkedin (agency recruiter inbound via Joey Pliskin referral)",
       "status": {
-        "live": true,
-        "v": "In process · call done 7/30 · resume submitted to Sue; she's formatting your profile to send to the client (as of 8/1)"
+        "live": false,
+        "v": "Superseded"
       },
       "app": {
-        "stage": "in-process",
-        "since": "2026-07-30",
-        "note": "In process · call done 7/30 · resume submitted to Sue; she's formatting your profile to send to the client (as of 8/1)"
+        "stage": "closed",
+        "since": "2026-09-30",
+        "note": "Superseded duplicate of a renamed entry; hidden 9/30."
       },
       "referral": {
         "level": "direct",
@@ -3463,7 +3464,8 @@
         "candidate": "you: ~11 yrs DS, ~5 leading; actuarial-science degree, marketing measurement + experimentation — strong on paper; geography and unknown company are the risks"
       },
       "discovered": false,
-      "isNew": true
+      "isNew": false,
+      "hidden": true
     },
     {
       "co": "Duolingo",
@@ -3530,7 +3532,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3562,7 +3564,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3594,7 +3596,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3626,7 +3628,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3658,7 +3660,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3687,9 +3689,9 @@
       "pinned": true,
       "referral": "",
       "app": {
-        "stage": "to-apply",
-        "since": "2026-08-04",
-        "note": "Inbound InMail 2026-08-04 (Ekta Sharma) · exploratory call offered · reply drafted, not yet sent"
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Inbound InMail 2026-08-04 (Ekta Sharma) · exploratory call offered · reply drafted, not yet sent"
       },
       "note": "INBOUND 8/4 from Ekta Sharma (Sr Specialist, Talent Sourcing @ G42, Abu Dhabi). OFF-LANE on two axes: (1) IC role, not org leadership — 'Principal Applied Scientist' building deep-learning/generative-AI algorithms, no team-building/scope mandate stated; (2) technical wedge mismatch — frontier DL/LLM research, not Rodrigo's product-analytics/experimentation/monetization/causal wedge. Plus mandatory Abu Dhabi relocation, no remote. Upsides: G42 is real money + max AI exposure; UAE comp is tax-free; Investment-AI (PE/VC/RE decisioning) is intellectually adjacent to his fintech/decisioning work. Verdict: low priority; worth ONE exploratory call only to test whether a leadership-scoped version exists and to gauge comp — not a target-lane role.",
       "status": {
@@ -3762,7 +3764,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3794,7 +3796,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -3826,7 +3828,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4046,7 +4048,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4078,7 +4080,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4200,7 +4202,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4232,7 +4234,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4264,7 +4266,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "direct",
@@ -4302,7 +4304,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4334,7 +4336,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4483,7 +4485,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4515,7 +4517,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4547,7 +4549,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-27 (recheck failed 2026-09-28) (recheck failed 2026-09-29) (recheck failed 2026-09-30) (recheck failed 2026-09-30) (recheck failed 2026-09-30)"
+        "v": "Board API · checked 2026-09-27 (recheck failed 2026-09-28) (recheck failed 2026-09-29) (recheck failed 2026-09-30) (recheck failed 2026-09-30) (recheck failed 2026-09-30) (recheck failed 2026-10-01)"
       },
       "referral": {
         "level": "pending",
@@ -4579,7 +4581,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4611,7 +4613,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4643,7 +4645,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4675,7 +4677,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4769,9 +4771,9 @@
         "text": "1 Intuit alum works at Philo (per LinkedIn) — map that path before applying."
       },
       "app": {
-        "stage": "to-apply",
-        "since": false,
-        "note": "Fresh sighting from 8/31 sweep. Consumer-subscription business = monetization/retention/experimentation wedge-adjacent. Rodrigo already viewed the posting. Map the Intuit-alum referral, then apply."
+        "stage": "passed",
+        "since": "2026-09-30",
+        "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Fresh sighting from 8/31 sweep. Consumer-subscription business = monetization/retention/experimentation wedge-adjacent. Rodrigo already viewed the posting. Map the Intuit-alum referral, then apply."
       },
       "note": "Head of Data at Philo (live-TV streaming, consumer subscription). Wedge-adjacent (subscription monetization + retention + experimentation). Smaller co = broader scope + Head-of title (Track-A optionality). Verify comp band & scope before investing.",
       "status": {
@@ -4803,7 +4805,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4835,7 +4837,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4867,7 +4869,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4899,7 +4901,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4931,7 +4933,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -4963,7 +4965,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5166,23 +5168,24 @@
       "tier": "Robinhood (NASDAQ: HOOD) · consumer investing/fintech",
       "url": "https://careers.robinhood.com/",
       "source": "direct app (applied 9/2)",
-      "note": "Applied to Robinhood 9/2 — generic confirmation, exact req not captured. On-wedge (consumer fintech, monetization, growth). CONFIRM which role: needed for accurate tracking.",
+      "note": "Superseded placeholder (renamed/duplicate entry) - hidden in Beacon.",
       "pinned": true,
       "discovered": false,
-      "isNew": true,
+      "isNew": false,
       "referral": {
         "level": "none",
         "text": "No warm path. Confirm the exact req title, then map a referral (fintech is on-wedge — worth the effort)."
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-02",
-        "note": "Applied 9/2 — confirmation received; exact role TBC (please confirm)."
+        "stage": "closed",
+        "since": "2026-09-30",
+        "note": "Superseded duplicate of a renamed entry; hidden 9/30."
       },
       "status": {
-        "live": true,
-        "v": "Applied 9/2 — confirmation received; exact req TBC."
-      }
+        "live": false,
+        "v": "Superseded"
+      },
+      "hidden": true
     },
     {
       "co": "Coupang (2nd req)",
@@ -5196,23 +5199,24 @@
       "tier": "Coupang (NYSE: CPNG) · Korea e-commerce at scale",
       "url": "https://www.coupang.jobs/",
       "source": "direct app via Greenhouse (applied 9/1)",
-      "note": "SECOND Coupang application 9/1 (separate from the active Ads Director process where the HM screen was done 8/12). Likely the 'Sr Director DS & Data Eng – Search' req flagged in the 8/31 sweep. CONFIRM title. Don't let it dilute the live Ads process.",
+      "note": "Superseded placeholder (renamed/duplicate entry) - hidden in Beacon.",
       "pinned": true,
       "discovered": false,
-      "isNew": true,
+      "isNew": false,
       "referral": {
         "level": "none",
         "text": "Coupang is expanding DS leadership (positive signal). Keep the Ads process primary; confirm this req's title."
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-01",
-        "note": "Applied 9/1 (Greenhouse) — confirmation received; exact req TBC (likely Search DS leadership)."
+        "stage": "closed",
+        "since": "2026-09-30",
+        "note": "Superseded duplicate of a renamed entry; hidden 9/30."
       },
       "status": {
-        "live": true,
-        "v": "Applied 9/1 — confirmation received; exact req TBC (2nd Coupang app)."
-      }
+        "live": false,
+        "v": "Superseded"
+      },
+      "hidden": true
     },
     {
       "co": "McDermott Will & Schulte",
@@ -5296,7 +5300,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5328,7 +5332,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5360,7 +5364,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5392,7 +5396,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5424,7 +5428,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5456,7 +5460,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5488,7 +5492,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5520,7 +5524,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5645,7 +5649,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5677,7 +5681,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5709,7 +5713,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5741,7 +5745,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5773,7 +5777,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5805,7 +5809,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5837,7 +5841,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5869,7 +5873,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5901,7 +5905,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "direct",
@@ -5939,7 +5943,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -5971,7 +5975,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6003,7 +6007,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6035,7 +6039,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6067,7 +6071,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6099,7 +6103,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6131,7 +6135,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6163,7 +6167,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6195,7 +6199,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6227,7 +6231,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6298,7 +6302,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6330,7 +6334,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6362,7 +6366,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6394,7 +6398,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6906,7 +6910,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-30"
+        "v": "Board API · checked 2026-10-01"
       },
       "referral": {
         "level": "pending",
@@ -6979,6 +6983,38 @@
       },
       "discovered": false,
       "isNew": true
+    },
+    {
+      "co": "OpenAI",
+      "role": "Applied Data Science & Insights Leader - GTM Intelligence Solutions and Technical Success",
+      "loc": "San Francisco (on-site)",
+      "track": "stepup",
+      "trackLabel": "Leader step-up",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "~$441K-$515K (posted band)",
+      "compFit": "clears",
+      "tier": "OpenAI - GTM",
+      "url": "https://www.linkedin.com/jobs/view/4426648079",
+      "note": "Applied 9/1. No response as of 9/30.",
+      "pinned": true,
+      "source": "linkedin",
+      "status": {
+        "live": true,
+        "v": "Applied 9/1 - no response yet"
+      },
+      "app": {
+        "stage": "applied",
+        "since": "2026-09-01",
+        "note": "Applied 9/1; no response as of 9/30."
+      },
+      "referral": {
+        "level": "pending",
+        "text": "Wei An Lee path (see Strategic Finance role) may help route."
+      },
+      "discovered": false,
+      "isNew": false
     }
   ]
 }
