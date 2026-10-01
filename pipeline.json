@@ -20,9 +20,9 @@
    "pinned": true,
    "referral": "",
    "app": {
-    "stage": "to-apply",
-    "since": "2026-08-04",
-    "note": "Inbound InMail 2026-08-04 (Ekta Sharma) · exploratory call offered · reply drafted, not yet sent"
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Inbound InMail 2026-08-04 (Ekta Sharma) · exploratory call offered · reply drafted, not yet sent"
    },
    "note": "INBOUND 8/4 from Ekta Sharma (Sr Specialist, Talent Sourcing @ G42, Abu Dhabi). OFF-LANE on two axes: (1) IC role, not org leadership — 'Principal Applied Scientist' building deep-learning/generative-AI algorithms, no team-building/scope mandate stated; (2) technical wedge mismatch — frontier DL/LLM research, not Rodrigo's product-analytics/experimentation/monetization/causal wedge. Plus mandatory Abu Dhabi relocation, no remote. Upsides: G42 is real money + max AI exposure; UAE comp is tax-free; Investment-AI (PE/VC/RE decisioning) is intellectually adjacent to his fintech/decisioning work. Verdict: low priority; worth ONE exploratory call only to test whether a leadership-scoped version exists and to gauge comp — not a target-lane role.",
    "status": {
@@ -710,9 +710,9 @@
    "discovered": false,
    "isNew": true,
    "app": {
-    "stage": "to-apply",
-    "since": "2026-06-27",
-    "note": "Referral target · mapped 2026-06-27"
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Referral target · mapped 2026-06-27"
    }
   },
   {
@@ -742,9 +742,9 @@
    "discovered": false,
    "isNew": true,
    "app": {
-    "stage": "to-apply",
-    "since": "2026-06-27",
-    "note": "Referral target · mapped 2026-06-27"
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Referral target · mapped 2026-06-27"
    }
   },
   {
@@ -947,12 +947,12 @@
    "source": "ladders 2026-07-20",
    "status": {
     "live": true,
-    "v": "Applied 9/1 — confirmation received (exact OpenAI req TBC)."
+    "v": "To apply (label corrected 9/30)"
    },
    "app": {
-    "stage": "applied",
-    "since": "2026-09-01",
-    "note": "Applied 9/1 (OpenAI careers) — confirmation received. Exact req TBC: generic confirmation; assumed the Founding DS, Pricing & Monetization target."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Corrected 9/30: never applied to this req (earlier \"applied\" was a mislabel - the 9/1 OpenAI app was the GTM Intelligence leader role)."
    },
    "referral": {
     "level": "bridge",
@@ -993,9 +993,9 @@
     "v": "Opportunity · found via Ladders 2026-07-20"
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-20",
-    "note": "Opportunity · found via Ladders 2026-07-20"
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Opportunity · found via Ladders 2026-07-20"
    },
    "referral": {
     "level": "pending",
@@ -1036,9 +1036,9 @@
     "v": "Opportunity · found via Ladders 2026-07-20"
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-20",
-    "note": "Opportunity · found via Ladders 2026-07-20"
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Opportunity · found via Ladders 2026-07-20"
    },
    "referral": {
     "level": "pending",
@@ -1122,9 +1122,9 @@
     "v": "Opportunity · found via Ladders 2026-07-20"
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-20",
-    "note": "Opportunity · found via Ladders 2026-07-20"
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Opportunity · found via Ladders 2026-07-20"
    },
    "referral": {
     "level": "pending",
@@ -1165,9 +1165,9 @@
     "v": "Opportunity · found via Ladders 2026-07-20"
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-20",
-    "note": "Opportunity · found via Ladders 2026-07-20"
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Opportunity · found via Ladders 2026-07-20"
    },
    "referral": {
     "level": "pending",
@@ -1706,9 +1706,9 @@
     "text": "1 Intuit alum works at Philo (per LinkedIn) — map that path before applying."
    },
    "app": {
-    "stage": "to-apply",
-    "since": false,
-    "note": "Fresh sighting from 8/31 sweep. Consumer-subscription business = monetization/retention/experimentation wedge-adjacent. Rodrigo already viewed the posting. Map the Intuit-alum referral, then apply."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (stale target / off-focus: not a DS people-manager role or older than 60 days). Prior note: Fresh sighting from 8/31 sweep. Consumer-subscription business = monetization/retention/experimentation wedge-adjacent. Rodrigo already viewed the posting. Map the Intuit-alum referral, then apply."
    },
    "note": "Head of Data at Philo (live-TV streaming, consumer subscription). Wedge-adjacent (subscription monetization + retention + experimentation). Smaller co = broader scope + Head-of title (Track-A optionality). Verify comp band & scope before investing.",
    "status": {
@@ -2685,14 +2685,126 @@
    },
    "discovered": false,
    "isNew": true
+  },
+  {
+   "co": "OpenAI",
+   "role": "Applied Data Science & Insights Leader - GTM Intelligence Solutions and Technical Success",
+   "loc": "San Francisco (on-site)",
+   "track": "stepup",
+   "trackLabel": "Leader step-up",
+   "extraTrack": "",
+   "score": null,
+   "domain": null,
+   "comp": "~$441K-$515K (posted band)",
+   "compFit": "clears",
+   "tier": "OpenAI - GTM",
+   "url": "https://www.linkedin.com/jobs/view/4426648079",
+   "note": "Applied 9/1. No response as of 9/30.",
+   "pinned": true,
+   "source": "linkedin",
+   "status": {
+    "live": true,
+    "v": "Applied 9/1 - no response yet"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-09-01",
+    "note": "Applied 9/1; no response as of 9/30."
+   },
+   "referral": {
+    "level": "pending",
+    "text": "Wei An Lee path (see Strategic Finance role) may help route."
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Plaid",
+   "role": "Data Science / Analytics Leadership (target)",
+   "loc": "SF / NY / Remote",
+   "url": "https://plaid.com/careers/",
+   "pinned": true,
+   "hidden": true,
+   "note": "Superseded placeholder (renamed/duplicate entry) - hidden in Beacon.",
+   "status": {
+    "live": false,
+    "v": "Superseded"
+   },
+   "app": {
+    "stage": "closed",
+    "since": "2026-09-30",
+    "note": "Superseded duplicate of a renamed entry; hidden 9/30."
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Confidential Insurtech (via GAME ON! Recruiting)",
+   "role": "Head of Data Science",
+   "loc": "Ft. Lee NJ / Raleigh NC / Miami FL · Hybrid 2 days (Tue/Thu) · relocation provided",
+   "url": "https://www.linkedin.com/in/",
+   "pinned": true,
+   "hidden": true,
+   "note": "Superseded placeholder (renamed/duplicate entry) - hidden in Beacon.",
+   "status": {
+    "live": false,
+    "v": "Superseded"
+   },
+   "app": {
+    "stage": "closed",
+    "since": "2026-09-30",
+    "note": "Superseded duplicate of a renamed entry; hidden 9/30."
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Robinhood",
+   "role": "Data Science / Analytics leadership (exact req TBC)",
+   "loc": "Menlo Park, CA / Remote",
+   "url": "https://careers.robinhood.com/",
+   "pinned": true,
+   "hidden": true,
+   "note": "Superseded placeholder (renamed/duplicate entry) - hidden in Beacon.",
+   "status": {
+    "live": false,
+    "v": "Superseded"
+   },
+   "app": {
+    "stage": "closed",
+    "since": "2026-09-30",
+    "note": "Superseded duplicate of a renamed entry; hidden 9/30."
+   },
+   "discovered": false,
+   "isNew": false
+  },
+  {
+   "co": "Coupang (2nd req)",
+   "role": "DS leadership — Search (exact req TBC)",
+   "loc": "Mountain View, CA",
+   "url": "https://www.coupang.jobs/",
+   "pinned": true,
+   "hidden": true,
+   "note": "Superseded placeholder (renamed/duplicate entry) - hidden in Beacon.",
+   "status": {
+    "live": false,
+    "v": "Superseded"
+   },
+   "app": {
+    "stage": "closed",
+    "since": "2026-09-30",
+    "note": "Superseded duplicate of a renamed entry; hidden 9/30."
+   },
+   "discovered": false,
+   "isNew": false
   }
  ],
  "overrides": {
   "Brex|Director of Product, Growth/AI": {
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-13",
-    "note": "TOP PICK — Director step-up that also clears the comp bar; growth+AI product at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) and Jessica Hansen Vi (Brex product recruiter, 2nd°). Sourced via the 7/13 expanded Beacon search (Sr-PM lane)."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: TOP PICK — Director step-up that also clears the comp bar; growth+AI product at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) and Jessica Hansen Vi (Brex product recruiter, 2nd°). Sourced via the 7/13 expanded Beacon search (Sr-PM lane)."
    },
    "score": 8.5,
    "compFit": "border",
@@ -2703,9 +2815,9 @@
   },
   "Affirm|Senior Product Manager, Financial Platforms": {
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-13",
-    "note": "Fintech platform PM, US-based. WARM PATH: Angela Z. (Product, Marketplace Pricing & Incentives, 2nd°) via 1st° Amy Smith — your credit/pricing story lands; also Jeff Lee (Staff PM, 2nd°), Melissa L. via Julia Rezende. Expanded Beacon search 7/13."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Fintech platform PM, US-based. WARM PATH: Angela Z. (Product, Marketplace Pricing & Incentives, 2nd°) via 1st° Amy Smith — your credit/pricing story lands; also Jeff Lee (Staff PM, 2nd°), Melissa L. via Julia Rezende. Expanded Beacon search 7/13."
    },
    "score": 7.7,
    "compFit": "below",
@@ -2716,9 +2828,9 @@
   },
   "Stripe|Staff Product Manager, Cards Monetization": {
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-13",
-    "note": "Core wedge — cards monetization + payments. WARM PATH (DS org): Matt DeLand (Head of DS, 2nd°) via broker Karan Kushwaha; Pierre Garrigues (Head of Core Payments DS). NOTE: sweep Stripe's PRODUCT org for a closer product-side intro before outreach. Expanded Beacon search 7/13."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Core wedge — cards monetization + payments. WARM PATH (DS org): Matt DeLand (Head of DS, 2nd°) via broker Karan Kushwaha; Pierre Garrigues (Head of Core Payments DS). NOTE: sweep Stripe's PRODUCT org for a closer product-side intro before outreach. Expanded Beacon search 7/13."
    },
    "score": 8.2,
    "compFit": "border",
@@ -2729,9 +2841,9 @@
   },
   "Stripe|Product Lead, Data Products": {
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-13",
-    "note": "Data-product leadership, senior scope. WARM PATH: same Stripe DS path (Matt DeLand via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd°). Product-side intro would strengthen it. Expanded Beacon search 7/13."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Data-product leadership, senior scope. WARM PATH: same Stripe DS path (Matt DeLand via Karan Kushwaha; Paul Thoma, Sr Mgr DS, 2nd°). Product-side intro would strengthen it. Expanded Beacon search 7/13."
    },
    "score": 8.0,
    "compFit": "border",
@@ -2742,9 +2854,9 @@
   },
   "Brex|Staff Product Manager, Growth": {
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-13",
-    "note": "Growth PM at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) / Jessica Hansen Vi (Brex product recruiter, 2nd°). Expanded Beacon search 7/13."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Growth PM at a fintech = wedge. WARM PATH: Shone Barton ('Hiring Product @Brex', 2nd°) / Jessica Hansen Vi (Brex product recruiter, 2nd°). Expanded Beacon search 7/13."
    },
    "score": 7.8,
    "compFit": "below",
@@ -2755,9 +2867,9 @@
   },
   "Chime|Staff Data Scientist, Finance Analytics": {
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-13",
-    "note": "Fintech DS (senior-IC lane). WARM PATH: Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño. Expanded Beacon search 7/13."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Fintech DS (senior-IC lane). WARM PATH: Andrew Chamberlain (Dir Product Analytics, 2nd° ~45 mut) via sahithi visvanathan; 1st° Mirna Ortiz Treviño. Expanded Beacon search 7/13."
    },
    "score": 7.6,
    "compFit": "below",
@@ -2768,9 +2880,9 @@
   },
   "SoFi|Staff Marketing Data Scientist": {
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-13",
-    "note": "Marketing DS at a fintech — SoFi is your strongest historical domain fit. WARM PATH: Kerstin Brümann (Manager, Marketing Data Science @SoFi, 2nd°) via Saurabh Kumar; also Kang Jian (Sr DS Manager, 2nd°), Nate Belete (Sr Staff DS, 2nd°). Expanded Beacon search 7/13."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: Marketing DS at a fintech — SoFi is your strongest historical domain fit. WARM PATH: Kerstin Brümann (Manager, Marketing Data Science @SoFi, 2nd°) via Saurabh Kumar; also Kang Jian (Sr DS Manager, 2nd°), Nate Belete (Sr Staff DS, 2nd°). Expanded Beacon search 7/13."
    },
    "score": 7.9,
    "compFit": "below",
@@ -2781,9 +2893,9 @@
   },
   "Roblox|Technical Director - Data Science (Discovery)": {
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-13",
-    "note": "NEW-INDUSTRY TOP PICK — Director step-up; Discovery = recommendation/engagement/growth DS at massive consumer scale (gaming). WARM PATH: Jose Abelenda (Director of DS, ex-Lyft, 2nd°) via Saurabh Kumar; Henry Lin (Creator DS, 2nd°). All-industry DS broadening 7/13."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: NEW-INDUSTRY TOP PICK — Director step-up; Discovery = recommendation/engagement/growth DS at massive consumer scale (gaming). WARM PATH: Jose Abelenda (Director of DS, ex-Lyft, 2nd°) via Saurabh Kumar; Henry Lin (Creator DS, 2nd°). All-industry DS broadening 7/13."
    },
    "score": 8.4,
    "compFit": "border",
@@ -2794,9 +2906,9 @@
   },
   "OpenAI|Marketing Analytics Lead": {
    "app": {
-    "stage": "to-apply",
-    "since": "2026-07-13",
-    "note": "NEW-INDUSTRY TOP PICK — marketing analytics leadership at the elite AI-native; wedge + maximum AI brand/exposure. WARM PATH: David Sasaki (VP Analytics & Insights, 2nd°) via Saurabh Kumar/Gabriel Pila; Varghese George (Analytics Lead, 2nd°); Karim Jahangir (GTM Data, 2nd°). All-industry DS broadening 7/13."
+    "stage": "passed",
+    "since": "2026-09-30",
+    "note": "Archived 9/30 in Beacon cleanup (July target; PM/IC lane retired). Prior note: NEW-INDUSTRY TOP PICK — marketing analytics leadership at the elite AI-native; wedge + maximum AI brand/exposure. WARM PATH: David Sasaki (VP Analytics & Insights, 2nd°) via Saurabh Kumar/Gabriel Pila; Varghese George (Analytics Lead, 2nd°); Karim Jahangir (GTM Data, 2nd°). All-industry DS broadening 7/13."
    }
   },
   "Robinhood|Manager of Data Science, Finance & Strategy": {

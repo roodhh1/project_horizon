@@ -8,646 +8,399 @@
 <link rel="apple-touch-icon" href="icon.svg">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Beacon">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="mobile-web-app-capable" content="yes">
-<meta id="mc" name="theme-color" content="#fbfbfd">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0b0c" media="(prefers-color-scheme: dark)">
 <style>
-  :root{
-    --bg:#fbfbfd; --surface:#ffffff; --ink:#1d1d1f; --sub:#6e6e73; --faint:#86868b;
-    --line:#e8e8ed; --line2:#f0f0f4; --accent:#0071e3; --accent-ink:#0060c0;
-    --good:#1c8a4d; --teal:#1f8a8a; --warn:#bd7b12; --bad:#c0392b; --beacon:#f5a623;
-    --chip:#f2f2f6;
-    --shadow:0 1px 2px rgba(0,0,0,.04),0 8px 30px rgba(0,0,0,.06);
-  }
-  *{box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{margin:0;background:var(--bg);color:var(--ink);
-    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    -webkit-font-smoothing:antialiased;line-height:1.5}
-  a{color:inherit;text-decoration:none}
-  button{font-family:inherit}
-  svg{display:block}
-  .ic{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+:root{
+  --bg:#fafafa; --surface:#fff; --ink:#18181b; --body:#3f3f46; --sub:#71717a; --faint:#a1a1aa;
+  --line:#ececef; --line2:#f4f4f5; --hover:#f7f7f8; --chip:#f4f4f5; --seg:#efeff1;
+  --accent:#2563eb; --accent-soft:#eff4ff;
+  --green:#16a34a; --green-soft:#eaf7ef; --teal:#0d9488; --teal-soft:#e8f6f5;
+  --amber:#b45309; --amber-soft:#fdf4e6; --red:#dc2626; --red-soft:#fdeeee; --gray-soft:#f1f1f3;
+  --beacon:#f59e0b; --radius:16px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0b0b0c; --surface:#161618; --ink:#f4f4f5; --body:#d4d4d8; --sub:#a1a1aa; --faint:#71717a;
+  --line:#26262a; --line2:#1f1f22; --hover:#1c1c1f; --chip:#232326; --seg:#232326;
+  --accent:#60a5fa; --accent-soft:rgba(96,165,250,.14);
+  --green:#4ade80; --green-soft:rgba(74,222,128,.13); --teal:#2dd4bf; --teal-soft:rgba(45,212,191,.13);
+  --amber:#fbbf24; --amber-soft:rgba(251,191,36,.13); --red:#f87171; --red-soft:rgba(248,113,113,.13); --gray-soft:#232326;
+}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:inherit;text-decoration:none} button{font:inherit;color:inherit}
+.ic{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 
-  /* Top nav */
-  .topbar{position:sticky;top:0;z-index:50;background:rgba(251,251,253,.82);
-    backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
-    border-bottom:1px solid var(--line)}
-  .topbar .inner{max-width:1040px;margin:0 auto;height:54px;display:flex;align-items:center;
-    justify-content:space-between;padding:0 22px}
-  .brand{display:flex;align-items:center;gap:9px;font-weight:600;font-size:18px;letter-spacing:-.02em;cursor:pointer}
-  .brand .blogo{color:var(--beacon)}
-  .nav{display:flex;gap:2px}
-  .nav a{display:flex;align-items:center;gap:6px;color:var(--sub);font-size:13.5px;font-weight:500;
-    padding:7px 12px;border-radius:980px;transition:background .15s,color .15s;cursor:pointer}
-  .nav a .ic{width:17px;height:17px}
-  .nav a:hover{color:var(--ink)}
-  .nav a.on{color:var(--ink);background:#ececf0}
-  @media(max-width:680px){ .nav a .lbl{display:none} .nav a{padding:8px} }
+/* top bar */
+.top{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--bg) 82%,transparent);
+  backdrop-filter:saturate(180%) blur(18px);-webkit-backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid var(--line)}
+.top .in{max-width:960px;margin:0 auto;height:56px;display:flex;align-items:center;gap:18px;padding:0 20px}
+.brand{display:flex;align-items:center;gap:8px;font-weight:650;font-size:17px;letter-spacing:-.02em;cursor:pointer}
+.brand svg{color:var(--beacon)}
+.nav{display:flex;gap:2px;margin-left:auto;background:var(--seg);padding:3px;border-radius:12px}
+.nav a{display:flex;align-items:center;gap:6px;padding:6px 14px;border-radius:9px;font-size:13.5px;font-weight:550;color:var(--sub);cursor:pointer}
+.nav a.on{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.nav a .n{font-size:11px;font-weight:650;color:var(--faint)}
 
-  .container{max-width:1040px;margin:0 auto;padding:36px 22px 80px}
-  .view{animation:fade .35s ease}
-  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.wrap{max-width:960px;margin:0 auto;padding:30px 20px 90px}
+.view{animation:f .25s ease} @keyframes f{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+h1{font-size:30px;font-weight:680;letter-spacing:-.03em;margin:0;line-height:1.1}
+.lede{color:var(--sub);font-size:14.5px;margin:6px 0 0}
+.live{display:inline-flex;align-items:center;gap:6px}
+.live i{width:7px;height:7px;border-radius:50%;background:var(--green);display:inline-block}
 
-  h1,h2,h3,h4{letter-spacing:-.022em;margin:0}
-  .display{font-size:40px;font-weight:600;line-height:1.07}
-  .lede{color:var(--sub);font-size:18px;margin-top:10px;font-weight:400}
-  .meta-line{color:var(--faint);font-size:13px;margin-top:14px;display:flex;align-items:center;gap:7px}
-  .dot{width:7px;height:7px;border-radius:50%;background:var(--good);display:inline-block}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:22px 0 6px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;cursor:pointer}
+.stat:hover{border-color:var(--faint)}
+.stat .v{font-size:26px;font-weight:680;letter-spacing:-.03em;line-height:1}
+.stat .l{color:var(--sub);font-size:12.5px;margin-top:6px}
+.stat .v small{font-size:13px;color:var(--faint);font-weight:550;margin-left:3px}
 
-  .sec-h{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--faint);margin:38px 2px 14px}
+/* sections */
+.sh{display:flex;align-items:baseline;gap:8px;margin:30px 2px 10px}
+.sh h2{font-size:15px;font-weight:650;letter-spacing:-.01em;margin:0}
+.sh .c{color:var(--faint);font-size:13px}
+.sh .more{margin-left:auto;font-size:13px;color:var(--accent);cursor:pointer;font-weight:550}
+.sh .dot{width:8px;height:8px;border-radius:50%;align-self:center}
+.hint{color:var(--faint);font-size:12.5px;margin:-6px 2px 10px}
 
-  /* Stat tiles */
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}
-  .stat{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px 18px}
-  .stat .ic{width:22px;height:22px;color:var(--accent);margin-bottom:12px}
-  .stat .n{font-size:30px;font-weight:600;letter-spacing:-.03em;line-height:1}
-  .stat .l{color:var(--sub);font-size:12.5px;margin-top:5px}
-  @media(max-width:680px){.stats{grid-template-columns:repeat(2,1fr)}}
+/* list rows */
+.list{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.row{display:flex;align-items:center;gap:13px;padding:13px 16px;border-top:1px solid var(--line2);cursor:pointer}
+.row:first-child{border-top:0} .row:hover{background:var(--hover)}
+.logo{width:38px;height:38px;border-radius:10px;flex-shrink:0;display:grid;place-items:center;position:relative;overflow:hidden;
+  color:#fff;font-weight:650;font-size:15px}
+.logo img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;padding:6px;opacity:0}
+.logo img.ok{opacity:1}
+.row .m{flex:1;min-width:0}
+.row .co{font-size:11px;font-weight:650;letter-spacing:.05em;text-transform:uppercase;color:var(--faint)}
+.row .t{font-size:14.5px;font-weight:600;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .s{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:4px;font-size:12.5px;color:var(--sub)}
+.row .note{font-size:12.5px;color:var(--sub);margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.row .note b{color:var(--body);font-weight:600}
+.row .r{display:flex;align-items:center;gap:10px;flex-shrink:0;color:var(--faint)}
+.age{font-size:12px;color:var(--faint);white-space:nowrap}
+.age.stale{color:var(--amber)}
 
-  /* Nav tiles (hub) */
-  .tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-  .tile{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px;
-    display:flex;align-items:flex-start;gap:16px;cursor:pointer;transition:transform .18s,box-shadow .18s;
-    text-align:left;width:100%}
-  .tile:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
-  .tile .tic{flex-shrink:0;width:44px;height:44px;border-radius:13px;display:grid;place-items:center;
-    background:#eef5ff;color:var(--accent)}
-  .tile .tic .ic{width:23px;height:23px}
-  .tile h3{font-size:17px;font-weight:600}
-  .tile p{color:var(--sub);font-size:13.5px;margin:4px 0 0}
-  .tile .arr{margin-left:auto;color:var(--faint);align-self:center}
-  @media(max-width:680px){.tiles{grid-template-columns:1fr}}
+/* chips */
+.b{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:620;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.b.blue{background:var(--accent-soft);color:var(--accent)} .b.green{background:var(--green-soft);color:var(--green)}
+.b.teal{background:var(--teal-soft);color:var(--teal)} .b.amber{background:var(--amber-soft);color:var(--amber)}
+.b.red{background:var(--red-soft);color:var(--red)} .b.gray{background:var(--gray-soft);color:var(--sub)}
+.who{display:inline-flex;align-items:center;gap:4px;color:var(--body)}
+.who .ic{width:13px;height:13px;color:var(--faint)}
+.score{font-size:12px;font-weight:650;padding:3px 8px;border-radius:8px;min-width:34px;text-align:center}
 
-  /* List rows */
-  .list{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden}
-  .row{display:flex;align-items:center;gap:14px;padding:15px 18px;cursor:pointer;
-    border-top:1px solid var(--line2);transition:background .12s}
-  .row:first-child{border-top:0}
-  .row:hover{background:#f7f7fa}
-  .mono{flex-shrink:0;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;
-    font-weight:600;font-size:16px;color:#fff;letter-spacing:-.02em}
-  .row .mid{min-width:0;flex:1}
-  .row .co{font-size:11.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--faint)}
-  .row .rl{font-size:15px;font-weight:600;letter-spacing:-.01em;margin-top:1px;
-    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .row .sub{font-size:12.5px;color:var(--sub);margin-top:2px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-  .row .rt{display:flex;align-items:center;gap:12px;flex-shrink:0}
-  .bmk{color:var(--accent)}
-  .chev{color:#c5c5cc}
+/* controls */
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:20px 0 14px}
+.seg{display:inline-flex;background:var(--seg);border-radius:10px;padding:3px}
+.seg button{border:0;background:transparent;font-size:13px;font-weight:550;color:var(--sub);padding:6px 13px;border-radius:8px;cursor:pointer}
+.seg button.on{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.search{display:flex;align-items:center;gap:8px;flex:1;min-width:180px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:7px 12px;color:var(--faint)}
+.search input{border:0;outline:0;background:transparent;font:inherit;font-size:14px;color:var(--ink);width:100%}
+.count{color:var(--faint);font-size:12.5px;margin:0 2px 10px}
 
-  .pill{display:inline-block;font-size:11px;font-weight:600;padding:2px 9px;border-radius:980px}
-  .pill.at{background:#e3f5ea;color:var(--good)} .pill.border{background:#fbf0db;color:var(--warn)}
-  .pill.below{background:#f2f2f6;color:var(--sub)} .pill.tbd{background:#f2f2f6;color:var(--faint)}
-  .tagchip{font-size:11px;font-weight:500;color:var(--sub);background:var(--chip);padding:2px 9px;border-radius:980px}
-  .sbadge{font-size:11px;font-weight:600;padding:2px 9px;border-radius:980px;white-space:nowrap}
-  .stage-head{display:flex;align-items:center;gap:9px;margin:26px 2px 12px}
-  .stage-head .sdot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
-  .stage-head h3{font-size:15px;font-weight:600}
-  .stage-head .cnt{color:var(--faint);font-size:13px;font-weight:500}
-  .appnote{font-size:13.5px;color:var(--sub);margin-top:3px;line-height:1.45}
+details.fold{margin-top:10px}
+details.fold summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:10px 4px;color:var(--sub);font-size:13.5px;font-weight:550}
+details.fold summary::-webkit-details-marker{display:none}
+details.fold summary .ic{transition:transform .15s} details.fold[open] summary .ic{transform:rotate(90deg)}
 
-  /* Controls */
-  .controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:20px 0 16px}
-  .seg{display:inline-flex;background:#ececf0;border-radius:11px;padding:3px}
-  .seg button{border:0;background:transparent;font-size:13.5px;font-weight:500;color:var(--sub);
-    padding:7px 16px;border-radius:9px;cursor:pointer}
-  .seg button.on{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
-  .search{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);
-    border-radius:11px;padding:8px 13px;flex:1;min-width:190px;color:var(--faint)}
-  .search input{border:0;outline:0;font:inherit;font-size:14px;color:var(--ink);width:100%;background:transparent}
-  .chiprow{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
-  .fchip{font-size:13px;font-weight:500;color:var(--sub);background:var(--surface);border:1px solid var(--line);
-    padding:6px 13px;border-radius:980px;cursor:pointer}
-  .fchip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
-  .countline{color:var(--faint);font-size:13px;margin:0 2px 14px}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:26px;text-align:center;color:var(--sub);font-size:13.5px}
 
-  .ring text{font-family:inherit}
+/* funnel */
+.funnel{display:flex;height:8px;border-radius:99px;overflow:hidden;background:var(--seg);margin:12px 0 8px}
+.funnel i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--sub)}
+.legend span{display:inline-flex;align-items:center;gap:6px} .legend b{color:var(--ink);font-weight:650}
+.legend em{width:8px;height:8px;border-radius:50%;display:inline-block}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}
 
-  /* Detail */
-  .back{display:inline-flex;align-items:center;gap:4px;color:var(--accent);font-size:14px;font-weight:500;
-    cursor:pointer;margin-bottom:22px}
-  .back .ic{width:18px;height:18px}
-  .dhead{display:flex;gap:18px;align-items:center}
-  .dhead .mono{width:60px;height:60px;border-radius:16px;font-size:23px}
-  .dhead .co{font-size:12.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--faint)}
-  .dhead h1{font-size:26px;font-weight:600;margin-top:3px}
-  .dhead .loc{color:var(--sub);font-size:14px;margin-top:5px}
-  .dhead .rt{margin-left:auto;text-align:center;flex-shrink:0}
-  .dhead .rt .lbl{font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--faint);margin-top:2px}
-  .dchips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 4px}
-  .actions{display:flex;gap:10px;margin:22px 0 6px}
-  .btn{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:14.5px;
-    font-weight:500;padding:13px 18px;border-radius:13px;cursor:pointer;border:1px solid transparent}
-  .btn .ic{width:18px;height:18px}
-  .btn-primary{background:var(--accent);color:#fff}
-  .btn-primary:hover{background:var(--accent-ink)}
-  .btn-ghost{background:var(--surface);border-color:var(--line);color:var(--ink)}
-  .btn-ghost.on{background:#eef5ff;border-color:#bcd9fb;color:var(--accent-ink)}
-  .panel{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin-top:14px}
-  .panel-h{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:600;letter-spacing:.03em;
-    text-transform:uppercase;color:var(--faint);margin-bottom:14px}
-  .panel-h .ic{width:17px;height:17px;color:var(--faint)}
-  .ptext{font-size:15px;color:var(--body);line-height:1.55}
-  .mono{position:relative;overflow:hidden}
-  .mono .logo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;padding:5px}
-  .bars{display:grid;gap:11px}
-  .bar{display:flex;align-items:center;gap:12px;font-size:13.5px}
-  .bar .bl{width:96px;color:var(--sub);flex-shrink:0}
-  .bar .bt{flex:1;height:6px;background:#ececf0;border-radius:4px;overflow:hidden}
-  .bar .bt i{display:block;height:100%;border-radius:4px}
-  .bar .bv{width:20px;text-align:right;font-weight:600}
-  .conf{font-size:11px;font-weight:600;padding:3px 10px;border-radius:980px;margin-left:auto}
-  .conf-high{background:#e3f5ea;color:var(--good)} .conf-med{background:#fbf0db;color:var(--warn)} .conf-low{background:#f2f2f6;color:var(--sub)}
-  .kv{display:flex;justify-content:space-between;gap:12px;font-size:14.5px;padding:9px 0;border-top:1px solid var(--line2)}
-  .kv:first-child{border-top:0} .kv .k{color:var(--sub)} .kv .v{font-weight:500;text-align:right}
-  .reqline{font-size:13.5px;color:var(--sub);margin-top:14px;padding-top:14px;border-top:1px solid var(--line2);line-height:1.7}
-  .reqline b{color:var(--ink);font-weight:600}
-  .reftext{font-size:14px;color:var(--body);line-height:1.55;margin-top:10px}
-  .reftext b{color:var(--ink)}
-  .capt{font-size:12px;color:var(--faint);margin-top:12px;line-height:1.5}
-  .capt b{color:var(--ink);font-weight:600}
-  .reflevel{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:500}
-  .lvl-dot{width:9px;height:9px;border-radius:50%}
+/* detail */
+.back{display:inline-flex;align-items:center;gap:3px;color:var(--accent);font-size:14px;font-weight:550;cursor:pointer;margin-bottom:18px}
+.dh{display:flex;gap:16px;align-items:center}
+.dh .logo{width:56px;height:56px;border-radius:14px;font-size:22px}
+.dh .co{font-size:12px;font-weight:650;letter-spacing:.05em;text-transform:uppercase;color:var(--faint)}
+.dh h1{font-size:24px;margin-top:2px}
+.dh .loc{color:var(--sub);font-size:13.5px;margin-top:4px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-weight:600;font-size:14px;padding:11px 18px;border-radius:12px}
+@media (prefers-color-scheme: dark){.btn{color:#0b0b0c}}
+.panels{display:grid;gap:10px;margin-top:18px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}
+.panel h3{margin:0 0 8px;font-size:11.5px;font-weight:650;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
+.panel p,.panel div.tx{margin:0;font-size:14.5px;color:var(--body);line-height:1.55}
+.panel b{color:var(--ink)}
+.kv{display:flex;justify-content:space-between;gap:12px;font-size:14px;padding:6px 0}
+.kv span:first-child{color:var(--sub)}
+.fitbars{display:grid;gap:8px;margin-top:4px}
+.fb{display:flex;align-items:center;gap:10px;font-size:13px}
+.fb span:first-child{width:86px;color:var(--sub)} .fb .tr{flex:1;height:5px;background:var(--seg);border-radius:4px;overflow:hidden}
+.fb .tr i{display:block;height:100%;border-radius:4px;background:var(--accent)} .fb b{width:18px;text-align:right}
+.foot{color:var(--faint);font-size:12px;text-align:center;margin-top:40px}
 
-  .empty{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:48px 20px;
-    text-align:center;color:var(--sub);font-size:14.5px}
-  .empty.illus{padding:54px 24px}
-  .empty.illus svg{margin:0 auto 20px}
-  .empty.illus h3{font-size:18px;font-weight:600;color:var(--ink);margin-bottom:7px}
-  .empty.illus p{max-width:360px;margin:0 auto;font-size:14px;color:var(--sub);line-height:1.5}
-
-  /* About */
-  .feat{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-  .fcard{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
-  .fcard .tic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:#eef5ff;color:var(--accent);margin-bottom:14px}
-  .fcard h3{font-size:16px;font-weight:600}
-  .fcard p{color:var(--sub);font-size:13.5px;margin:6px 0 0;line-height:1.5}
-  .lanes{display:grid;gap:10px;margin-top:6px}
-  .lane{display:flex;gap:13px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
-  .lane .ic{color:var(--accent);flex-shrink:0;margin-top:1px}
-  .lane h4{font-size:15px;font-weight:600}
-  .lane p{margin:3px 0 0;font-size:13.5px;color:var(--sub)}
-  .footer{color:var(--faint);font-size:12.5px;text-align:center;margin-top:46px;line-height:1.7}
-  @media(max-width:680px){.feat{grid-template-columns:1fr}.display{font-size:32px}.lede{font-size:16px}}
-
-  /* ---------- theme variables + iOS ---------- */
-  *{-webkit-tap-highlight-color:transparent}
-  :root{--track:#ececf0; --topbar:rgba(251,251,253,.82); --tint:#eef5ff; --hover:#f7f7fa; --seg:#ececf0; --body:#33333a}
-  :root[data-theme="dark"]{
-    --bg:#000000; --surface:#1c1c1e; --ink:#f5f5f7; --sub:#a1a1a6; --faint:#8e8e93;
-    --line:#2c2c2e; --line2:#262628; --chip:#2c2c2e; --track:#3a3a3c;
-    --topbar:rgba(0,0,0,.72); --tint:rgba(10,132,255,.18); --hover:#262628; --seg:#2c2c2e; --body:#d6d6db;
-    --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 30px rgba(0,0,0,.6);
-  }
-  .topbar{background:var(--topbar)}
-  .tile .tic,.fcard .tic{background:var(--tint)}
-  .btn-ghost.on{background:var(--tint)}
-  .bar .bt{background:var(--track)}
-  .seg{background:var(--seg)}
-  .seg button.on{background:var(--surface)}
-  .row:hover{background:var(--hover)}
-  .nav a.on{background:var(--seg)}
-  [data-theme="dark"] .pill.at,[data-theme="dark"] .conf-high{background:rgba(48,209,88,.18);color:#30d158}
-  [data-theme="dark"] .pill.border,[data-theme="dark"] .conf-med{background:rgba(255,159,10,.2);color:#ff9f0a}
-  [data-theme="dark"] .pill.below,[data-theme="dark"] .pill.tbd,[data-theme="dark"] .conf-low{background:#2c2c2e;color:#a1a1a6}
-  [data-theme="dark"] .seg button.on{background:#48484a;color:#fff}
-
-  .topright{display:flex;align-items:center;gap:8px}
-  .themebtn{display:grid;place-items:center;width:34px;height:34px;border-radius:980px;border:1px solid var(--line);
-    background:var(--surface);color:var(--sub);cursor:pointer}
-  .themebtn:hover{color:var(--ink)}
-  .themebtn .ic{width:18px;height:18px}
-
-  /* filter + sort bar */
-  .fbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 16px}
-  .selwrap{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);
-    border-radius:11px;padding:7px 11px;font-size:12.5px;color:var(--faint)}
-  .selwrap select{border:0;outline:0;background:transparent;font:inherit;font-size:13px;color:var(--ink);cursor:pointer}
-
-  /* iOS / mobile: bottom tab bar + safe areas */
-  @media(max-width:680px){
-    /* drop blur so the fixed bottom nav anchors to the viewport, not the topbar */
-    .topbar{backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--bg)}
-    .topbar .inner{padding-left:max(18px,env(safe-area-inset-left));padding-right:max(14px,env(safe-area-inset-right))}
-    .container{padding-left:max(18px,env(safe-area-inset-left));padding-right:max(18px,env(safe-area-inset-right));padding-bottom:118px}
-    .nav{position:fixed;left:0;right:0;bottom:0;z-index:60;gap:0;justify-content:space-around;
-      background:var(--topbar);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
-      border-top:1px solid var(--line);padding:8px 6px calc(8px + env(safe-area-inset-bottom))}
-    .nav a{flex-direction:column;gap:3px;padding:4px 12px;border-radius:12px;color:var(--faint);font-size:10px;font-weight:600}
-    .nav a .ic{width:23px;height:23px}
-    .nav a .lbl{display:block}
-    .nav a.on{background:transparent;color:var(--accent)}
-    .controls{gap:10px}.seg{flex:1}.seg button{flex:1}
-  }
+@media (max-width:700px){
+  .wrap{padding:22px 16px 110px}
+  h1{font-size:26px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .top{backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--bg)}
+  .top .in{padding:0 16px}
+  .nav{position:fixed;left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));margin:0;justify-content:space-around;
+    background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+    border:1px solid var(--line);border-radius:16px;padding:5px;box-shadow:0 8px 30px rgba(0,0,0,.12)}
+  .nav a{flex:1;justify-content:center;flex-direction:column;gap:2px;font-size:11px;padding:6px}
+  .row .r .age{display:none}
+}
 </style>
 </head>
 <body>
-<div class="topbar">
-  <div class="inner">
-    <div class="brand" onclick="go('#/')">
-      <svg class="ic blogo" viewBox="0 0 24 24" style="width:23px;height:23px"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M9 8.6a5 5 0 0 0 0 6.8"/><path d="M6.3 5.9a9 9 0 0 0 0 12.2"/><path d="M15 8.6a5 5 0 0 1 0 6.8"/><path d="M17.7 5.9a9 9 0 0 1 0 12.2"/></g><circle cx="12" cy="12" r="2.4" fill="currentColor" stroke="none"/></svg>
-      Beacon
-    </div>
-    <div class="topright">
-    <nav class="nav" id="nav">
-      <a data-route="#/" onclick="go('#/')"><svg class="ic" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5"/></svg><span class="lbl">Home</span></a>
-      <a data-route="#/roles" onclick="go('#/roles')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg><span class="lbl">Roles</span></a>
-      <a data-route="#/pipeline" onclick="go('#/pipeline')"><svg class="ic" viewBox="0 0 24 24"><path d="M4 5h16l-6 7v6l-4 2v-8z"/></svg><span class="lbl">Pipeline</span></a>
-      <a data-route="#/radar" onclick="go('#/radar')"><svg class="ic" viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg><span class="lbl">Radar</span></a>
-      <a data-route="#/network" onclick="go('#/network')"><svg class="ic" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0"/><path d="M16 5.3a3 3 0 0 1 0 5.4"/><path d="M20.5 20a5.5 5.5 0 0 0-4.3-5.4"/></svg><span class="lbl">Network</span></a>
-      <a data-route="#/about" onclick="go('#/about')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r=".7" fill="currentColor" stroke="none"/></svg><span class="lbl">About</span></a>
-    </nav>
-    </div>
+<header class="top"><div class="in">
+  <div class="brand" onclick="go('#/')">
+    <svg class="ic" viewBox="0 0 24 24" style="width:22px;height:22px"><path d="M9 8.6a5 5 0 0 0 0 6.8"/><path d="M6.3 5.9a9 9 0 0 0 0 12.2"/><path d="M15 8.6a5 5 0 0 1 0 6.8"/><path d="M17.7 5.9a9 9 0 0 1 0 12.2"/><circle cx="12" cy="12" r="2.3" fill="currentColor" stroke="none"/></svg>
+    Beacon
   </div>
-</div>
-
-<main class="container" id="app"></main>
+  <nav class="nav" id="nav">
+    <a data-r="#/" onclick="go('#/')">Today</a>
+    <a data-r="#/pipeline" onclick="go('#/pipeline')">Pipeline</a>
+    <a data-r="#/roles" onclick="go('#/roles')">Roles</a>
+  </nav>
+</div></header>
+<main class="wrap" id="app"><div class="empty">Loading…</div></main>
 
 <script>
-let ROLES=[], VERIFIED_ON="";
-
-/* ---------- engaged state (per-device, persists across refreshes) ---------- */
-const EKEY='beacon_engaged_v1';
-let engagedMap={};
-try{ engagedMap=JSON.parse(localStorage.getItem(EKEY)||'{}'); }catch(e){ engagedMap={}; }
-const keyOf=r=>r.co+'|'+r.role;
-// engagedMap value: 'YYYY-MM-DD' (engaged, with date) | true (engaged, legacy) | false (not). Missing => default to r.active.
-const isEngaged=r=>{const v=engagedMap[keyOf(r)];return v===undefined?!!r.active:!!v;};
-const engagedDate=r=>{const v=engagedMap[keyOf(r)];return (typeof v==='string')?v:null;};
-function toggleEngaged(key){
-  key=decodeURIComponent(key);
-  const r=ROLES.find(x=>keyOf(x)===key);
-  const cur=r?isEngaged(r):!!engagedMap[key];
-  engagedMap[key]= cur ? false : new Date().toISOString().slice(0,10);  // record the date you engage
-  try{ localStorage.setItem(EKEY,JSON.stringify(engagedMap)); }catch(e){}
-  router();
-}
+let ROLES=[], VERIFIED='';
+const QUIET=30;                       // days without movement before an application counts as "gone quiet"
+const DEAD=new Set(['rejected','closed','passed']);
 
 /* ---------- helpers ---------- */
-const ICON={
-  bookmark:'<path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/>',
-  users:'<circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0"/><path d="M16 5.3a3 3 0 0 1 0 5.4"/><path d="M20.5 20a5.5 5.5 0 0 0-4.3-5.4"/>',
-  info:'<circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r=".7" fill="currentColor" stroke="none"/>',
-  search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/>',
-  chevR:'<path d="m9 6 6 6-6 6"/>', chevL:'<path d="m15 6-6 6 6 6"/>',
-  target:'<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r="1" fill="currentColor"/>',
-  ext:'<path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/>',
-  check:'<path d="m5 12 5 5 9-11"/>',
-  refresh:'<path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 3.5v4h-4"/>',
-  compass:'<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2.2 5.3-5.3 2.2 2.2-5.3z"/>',
-  pipe:'<path d="M4 5h16l-6 7v6l-4 2v-8z"/>',
-  gauge:'<path d="M12 13 16 9"/><path d="M4.5 18a9 9 0 1 1 15 0"/><circle cx="12" cy="13" r="1.3" fill="currentColor" stroke="none"/>',
-  pay:'<rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="12" cy="12" r="2.4"/>',
-  spark:'<path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><circle cx="12" cy="12" r="2.6" fill="currentColor" stroke="none"/>',
-  sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/>',
-  moon:'<path d="M20 13.5A8 8 0 1 1 10.5 4 6.2 6.2 0 0 0 20 13.5z"/>',
+const I={
+  chevR:'<path d="m9 6 6 6-6 6"/>', chevL:'<path d="m15 6-6 6 6 6"/>', search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/>',
+  user:'<circle cx="12" cy="8" r="3.5"/><path d="M5 20a7 7 0 0 1 14 0"/>', ext:'<path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/>'
 };
-const icon=(n,cls='ic')=>`<svg class="${cls}" viewBox="0 0 24 24">${ICON[n]}</svg>`;
-const scoreColor=s=>s>=8?'#15a34a':s>=7?'#e08600':s>=6?'#ef6820':'#d92d20';
-const compMap={at:['at','Likely clears'],border:['border','Borderline'],below:['below','Below target'],null:['tbd','—']};
-const compTip='Posted base vs the comp bar for this search — Likely clears: at or above · Borderline: close · Below: under.';
-const MONOC=['#0071e3','#5e5ce6','#1f8a8a','#bd7b12','#b5179e','#1c8a4d','#d2475f','#5856d6'];
-const monoColor=co=>MONOC[[...co].reduce((a,c)=>a+c.charCodeAt(0),0)%MONOC.length];
-const mono=co=>`<div class="mono" style="background:${monoColor(co)}">${co[0]}</div>`;
-const DOMAINS={Mercury:'mercury.com',Anthropic:'anthropic.com',Gusto:'gusto.com',Chime:'chime.com',
-  Affirm:'affirm.com',DoorDash:'doordash.com',Airbnb:'airbnb.com',Asana:'asana.com',Adobe:'adobe.com',
-  OpenAI:'openai.com',Coinbase:'coinbase.com',Stripe:'stripe.com',Plaid:'plaid.com',Brex:'brex.com'};
-function logoBox(co){
-  const d=DOMAINS[co];
-  // Clearbit (nicest) → Google favicon (most reliable) → colored initial.
-  const g=`https://www.google.com/s2/favicons?sz=128&domain=${d}`;
-  const img=d?`<img class="logo" src="https://logo.clearbit.com/${d}?size=128" alt="" loading="lazy"
-    onerror="this.onerror=function(){this.remove()};this.src='${g}'">`:'';
-  return `<div class="mono" style="background:${monoColor(co)}"><span class="init">${co[0]}</span>${img}</div>`;
-}
-const enc=s=>encodeURIComponent(s), dec=s=>decodeURIComponent(s);
-const fmtMD=d=>{const x=new Date(d+'T00:00:00');return isNaN(x)?d:x.toLocaleDateString('en-US',{month:'short',day:'numeric'});};
-const fmtMDY=d=>{const x=new Date(d+'T00:00:00');return isNaN(x)?d:x.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});};
-const daysAgo=d=>{const x=new Date(d+'T00:00:00');return isNaN(x)?null:Math.max(0,Math.round((Date.now()-x)/864e5));};
-const postedLabel=d=>{const n=daysAgo(d);return `Posted ${fmtMD(d)}${n!=null?` · ${n}d ago`:''}`;};
-function ring(score,size){
-  const r=(size-7)/2, c=2*Math.PI*r, off=c*(1-score/10), col=scoreColor(score), C=size/2;
-  return `<svg class="ring" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
-    <circle cx="${C}" cy="${C}" r="${r}" fill="none" stroke="var(--track)" stroke-width="3.4"/>
-    <circle cx="${C}" cy="${C}" r="${r}" fill="none" stroke="${col}" stroke-width="3.4" stroke-linecap="round"
-      stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}" transform="rotate(-90 ${C} ${C})"/>
-    <text x="50%" y="50%" dy=".35em" text-anchor="middle" font-size="${(size*0.30).toFixed(0)}" font-weight="600" fill="${col}">${score.toFixed(1)}</text>
-  </svg>`;
-}
-const REF={active:['#1c8a4d','In process'],direct:['#1c8a4d','1st° + warm 2nd°'],bridge:['#1f8a8a','Reachable via 2nd°'],pending:['#c5c5cc','Sweep pending'],none:['#c5c5cc','No path yet']};
+const ic=(n,s='')=>`<svg class="ic" viewBox="0 0 24 24" ${s}>${I[n]}</svg>`;
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const strip=s=>String(s??'').replace(/<[^>]+>/g,'');
+const key=r=>r.co+'|'+r.role, enc=encodeURIComponent, dec=decodeURIComponent;
+const stage=r=>(r.app&&r.app.stage)||null;
+const toDate=d=>{if(!d||typeof d!=='string')return null;const x=new Date(d.slice(0,10)+'T00:00:00');return isNaN(x)?null:x;};
+const days=d=>{const x=toDate(d);return x?Math.max(0,Math.round((Date.now()-x)/864e5)):null;};
+const md=d=>{const x=toDate(d);return x?x.toLocaleDateString('en-US',{month:'short',day:'numeric'}):'';};
+const ago=n=>n==null?'':n===0?'today':n===1?'1d':n<60?n+'d':Math.round(n/30)+'mo';
+const since=r=>days(r.app&&r.app.since);
 
-/* ---------- application pipeline ---------- */
-// stage key -> [label, color, blurb]
-const STAGES=[
-  ['to-apply',  'To apply',  '#0071e3', 'Recommended — get the application in.'],
-  ['applied',   'Applied',   '#1f8a8a', 'In with the recruiter / ATS; awaiting movement.'],
-  ['in-process','In process','#15a34a', 'Active conversations or interviews underway.'],
-  ['rejected',  'Rejected',  '#d92d20', 'Passed on — kept for the record.'],
-  ['closed',    'Closed',    '#86868b', 'Req pulled before it resolved.'],
-  ['passed',    'Passed',    '#9aa0aa', 'You decided to skip it.'],
-];
-const STAGEMAP=Object.fromEntries(STAGES.map(s=>[s[0],s]));
-const DEAD_STAGES=new Set(['rejected','closed','passed']);
-const stageOf=r=>(r.app&&r.app.stage)||null;
-const stageBadge=st=>{const s=STAGEMAP[st];return s?`<span class="sbadge" style="background:${s[2]}1f;color:${s[2]}">${st==='to-apply'?'★ ':''}${s[1]}</span>`:'';};
-const stageColor=st=>(STAGEMAP[st]||['','','#86868b'])[2];
-const stageLabel=st=>(STAGEMAP[st]||['',st])[1];
+const MGR=/(manager|head of|director|leader|\bvp\b|chief)/i;
+const NOT_DS=/(product manager|engineering manager|program manager|product marketing|director of product|design|engineering|partner manager|account manager|people analytics|recruit)/i;
+const isMgrDS=r=>r.track!=='pm'&&r.kind!=='pm'&&MGR.test(r.role)&&!NOT_DS.test(r.role);
 
-/* ---------- role row + detail ---------- */
-function rowHTML(r){
-  const eng=isEngaged(r), cp=compMap[r.compFit]||compMap.null;
-  return `<div class="row" onclick="go('#/role/${enc(keyOf(r))}')">
-    ${logoBox(r.co)}
-    <div class="mid">
-      <div class="co">${r.co}</div>
-      <div class="rl">${r.role}</div>
-      <div class="sub"><span>${r.loc}</span>${stageOf(r)?stageBadge(stageOf(r)):''}${r.compFit?`<span class="pill ${cp[0]}" title="${compTip}">${cp[1]}</span>`:''}${r.posted?`<span class="tagchip">${postedLabel(r.posted)}</span>`:''}${eng&&engagedDate(r)?`<span class="tagchip" style="color:var(--accent-ink)">✓ Engaged ${fmtMD(engagedDate(r))}</span>`:''}</div>
+const DOM={uber:'uber.com',discord:'discord.com',tiktok:'tiktok.com',openai:'openai.com',stripe:'stripe.com','capital one':'capitalone.com',
+  adobe:'adobe.com',robinhood:'robinhood.com',doordash:'doordash.com',ebay:'ebay.com',autodesk:'autodesk.com',sentilink:'sentilink.com',
+  trustly:'trustly.com',instacart:'instacart.com',zoox:'zoox.com',playstation:'playstation.com',sofi:'sofi.com',google:'google.com',
+  netflix:'netflix.com',apple:'apple.com',reddit:'reddit.com',figma:'figma.com',waymo:'waymo.com',databricks:'databricks.com',
+  snowflake:'snowflake.com',coupang:'coupang.com',nubank:'nubank.com.br',duolingo:'duolingo.com','customer.io':'customer.io',gusto:'gusto.com',
+  plaid:'plaid.com',brex:'brex.com',ramp:'ramp.com',mercury:'mercury.com',chime:'chime.com',affirm:'affirm.com',anthropic:'anthropic.com',
+  airbnb:'airbnb.com',pinterest:'pinterest.com',faire:'faire.com',roblox:'roblox.com',oscar:'hioscar.com',meta:'meta.com',
+  coinbase:'coinbase.com',lyft:'lyft.com',samsara:'samsara.com',root:'joinroot.com',moonpay:'moonpay.com',cohere:'cohere.com',
+  richemont:'richemont.com',life360:'life360.com','stitch fix':'stitchfix.com',attentive:'attentive.com',canva:'canva.com',
+  yahoo:'yahoo.com',shipt:'shipt.com',brigit:'hellobrigit.com','wells fargo':'wellsfargo.com',superhuman:'superhuman.com',
+  abridge:'abridge.com',checkr:'checkr.com',salesforce:'salesforce.com',rocket:'rocket.com',peloton:'onepeloton.com',
+  'credit genie':'creditgenie.com',sagesure:'sagesure.com','the trade desk':'thetradedesk.com',tranzact:'tranzact.net',
+  'samba tv':'samba.tv',vendelux:'vendelux.com',liberty:'libertymutual.com',meredith:'people.inc'};
+function domainOf(co){const c=co.toLowerCase();const k=Object.keys(DOM).sort((a,b)=>b.length-a.length).find(k=>c.startsWith(k));return k?DOM[k]:null;}
+const PAL=['#2563eb','#7c3aed','#0d9488','#b45309','#db2777','#16a34a','#dc2626','#4f46e5'];
+function logo(co){
+  const d=domainOf(co), col=PAL[[...co].reduce((a,c)=>a+c.charCodeAt(0),0)%PAL.length];
+  return `<div class="logo" style="background:${col}">${esc(co[0])}${d?`<img src="https://www.google.com/s2/favicons?sz=128&domain=${d}" alt="" onload="if(this.naturalWidth>20)this.classList.add('ok');else this.remove()" onerror="this.remove()">`:''}</div>`;
+}
+const STG={'to-apply':['To apply','blue'],'applied':['Applied','teal'],'in-process':['In process','green'],
+  'rejected':['Rejected','red'],'closed':['Closed','gray'],'passed':['Archived','gray']};
+const badge=st=>STG[st]?`<span class="b ${STG[st][1]}">${STG[st][0]}</span>`:'';
+const COMP={at:['Clears comp','green'],clears:['Clears comp','green'],border:['Borderline comp','amber'],below:['Below comp','gray']};
+const compB=r=>COMP[r.compFit]?`<span class="b ${COMP[r.compFit][1]}">${COMP[r.compFit][0]}</span>`:'';
+const scoreB=r=>r.score!=null?`<span class="score" style="background:${r.score>=8?'var(--green-soft)':r.score>=7?'var(--amber-soft)':'var(--gray-soft)'};color:${r.score>=8?'var(--green)':r.score>=7?'var(--amber)':'var(--sub)'}">${Number(r.score).toFixed(1)}</span>`:'';
+const WARM=new Set(['active','warm','direct']);
+function contact(r){const t=(r.referral||{}).text||'';const all=[...t.matchAll(/<b>([^<]+)<\/b>/g)].map(m=>m[1].replace(/^1st:?\s*/i,'').replace(/^Referred.*?by\s+/i,'').trim());
+  const nm=all.find(n=>/^[A-Z][\p{L}'.-]+(\s[A-Z][\p{L}'.,-]*){1,3}$/u.test(n)&&!/\.$/.test(n)&&n.length<40);if(nm)return nm.replace(/,.*$/,'');
+  const m=t.match(/(?:referred(?: 9\/\d+)? by|via)\s+([A-Z][\p{L}]+\s[A-Z][\p{L}]+)/u);return m?m[1]:'';}
+const isCold=r=>/cold/i.test((r.app&&r.app.note)||'');
+const isQuiet=r=>{const n=since(r);return n==null||n>QUIET;};
+
+/* ---------- row ---------- */
+function row(r,o={}){
+  const st=stage(r), n=since(r), who=contact(r);
+  const meta=[];
+  if(o.stage!==false&&st) meta.push(badge(st));
+  if(who&&!DEAD.has(st)&&!isCold(r)) meta.push(`<span class="who">${ic('user')}${esc(who)}</span>`);
+  if(!st&&r.posted) meta.push(`<span>Posted ${md(r.posted)}</span>`);
+  if(st==='applied'&&isCold(r)) meta.push(`<span class="b gray">Cold</span>`);
+  if(o.loc) meta.push(`<span>${esc((r.loc||'').split(/[;|]/)[0])}</span>`);
+  if(o.comp) meta.push(compB(r));
+  const age=st?(n!=null?`<span class="age${!DEAD.has(st)&&n>QUIET?' stale':''}" title="since last update">${ago(n)}</span>`:''):(r.posted?`<span class="age">${ago(days(r.posted))}</span>`:'');
+  return `<div class="row" onclick="go('#/role/${enc(key(r))}')">
+    ${logo(r.co)}
+    <div class="m"><div class="co">${esc(r.co)}</div><div class="t">${esc(r.role)}</div>
+      ${meta.length?`<div class="s">${meta.join('')}</div>`:''}
+      ${o.note&&r.app&&r.app.note?`<div class="note">${esc(strip(r.app.note))}</div>`:''}
     </div>
-    <div class="rt">
-      ${eng?`<span class="bmk">${icon('bookmark')}</span>`:''}
-      ${r.score!=null?ring(r.score,40):'<span class="tagchip">NEW</span>'}
-      <span class="chev">${icon('chevR')}</span>
-    </div>
+    <div class="r">${o.score?scoreB(r):''}${age}${ic('chevR')}</div>
   </div>`;
 }
-function listView(rows,emptyMsg){
-  return rows.length?`<div class="list">${rows.map(rowHTML).join('')}</div>`:`<div class="empty">${emptyMsg}</div>`;
-}
+const list=(rows,o,empty)=>rows.length?`<div class="list">${rows.map(r=>row(r,o)).join('')}</div>`:`<div class="empty">${empty||'Nothing here.'}</div>`;
+const bySince=(a,b)=>(since(a)??9999)-(since(b)??9999);
+function sec(title,count,opts={}){return `<div class="sh">${opts.dot?`<span class="dot" style="background:${opts.dot}"></span>`:''}<h2>${title}</h2>${count!=null?`<span class="c">${count}</span>`:''}${opts.more?`<span class="more" onclick="go('${opts.more}')">${opts.moreLabel||'See all'} →</span>`:''}</div>${opts.hint?`<div class="hint">${opts.hint}</div>`:''}`;}
 
-function roleDetail(key){
-  const r=ROLES.find(x=>keyOf(x)===key);
-  if(!r) return `<div class="empty">Role not found. <span class="back" onclick="go('#/roles')">Back to roles</span></div>`;
-  const eng=isEngaged(r), cp=compMap[r.compFit]||compMap.null, f=r.fit;
-  const bars=f?[['Relevance',f.relevance],['Level',f.level],['Experience',f.experience],['Company',f.company]]:[];
-  const rf=r.referral||{level:'pending',text:''}, rl=REF[rf.level]||REF.pending;
+/* ---------- data slices ---------- */
+const S={
+  inproc:()=>ROLES.filter(r=>stage(r)==='in-process').sort(bySince),
+  applied:()=>ROLES.filter(r=>stage(r)==='applied').sort(bySince),
+  toApply:()=>ROLES.filter(r=>stage(r)==='to-apply').sort((a,b)=>(b.score??0)-(a.score??0)),
+  dead:()=>ROLES.filter(r=>DEAD.has(stage(r))).sort(bySince),
+  fresh:(win)=>ROLES.filter(r=>!stage(r)&&isMgrDS(r)&&(r.status||{}).live!==false&&(win==null||(days(r.posted)!=null&&days(r.posted)<=win)))
+            .sort((a,b)=>(days(a.posted)??9999)-(days(b.posted)??9999)),
+};
+
+/* ---------- Today ---------- */
+function today(){
+  const ip=S.inproc(), ap=S.applied(), ta=S.toApply();
+  const moving=ip.filter(r=>!isQuiet(r)), quietIP=ip.filter(isQuiet);
+  const waiting=ap.filter(r=>!isQuiet(r)&&!isCold(r)&&(WARM.has((r.referral||{}).level)||contact(r)));
+  const recentCold=ap.filter(r=>!isQuiet(r)&&!waiting.includes(r));
+  const fresh=S.fresh(14);
+  const all=ROLES.filter(r=>r.app&&r.app.stage!=='to-apply');
+  const cnt=k=>all.filter(r=>stage(r)===k).length;
+  const F=[['in-process','var(--green)'],['applied','var(--teal)'],['rejected','var(--red)'],['closed','var(--faint)'],['passed','var(--line)']];
+  const tot=all.length||1;
+  const dt=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
   return `<div class="view">
-    <span class="back" onclick="history.back()">${icon('chevL')} Back</span>
-    <div class="dhead">
-      ${logoBox(r.co)}
-      <div>
-        <div class="co">${r.co}</div>
-        <h1>${r.role}</h1>
-        <div class="loc">${r.loc}${r.tier?' · '+r.tier:''}</div>
-        ${r.posted?`<div class="loc" style="margin-top:3px;color:var(--faint)">${postedLabel(r.posted)}</div>`:''}
-      </div>
-      <div class="rt">${r.score!=null?ring(r.score,64):'<span class="tagchip">NEW</span>'}<div class="lbl">fit</div></div>
-    </div>
-    <div class="dchips">
-      <span class="tagchip">${r.trackLabel||''}</span>
-      ${r.compFit?`<span class="pill ${cp[0]}" title="${compTip}">${cp[1]}</span>`:''}
-      ${r.domain!=null?`<span class="tagchip">Domain ${r.domain}/5</span>`:''}
-    </div>
-    <div class="actions">
-      <a class="btn btn-primary" href="${r.url}" target="_blank" rel="noopener">View / Apply ${icon('ext')}</a>
-      <button class="btn btn-ghost${eng?' on':''}" onclick="toggleEngaged('${enc(keyOf(r))}')">${eng?icon('check')+' Engaged':icon('bookmark')+' Mark engaged'}</button>
-    </div>
-    ${eng&&engagedDate(r)?`<div class="capt" style="margin-top:6px">◷ On your radar since <b>${fmtMDY(engagedDate(r))}</b></div>`:''}
-    ${r.app?`<div class="panel"><div class="panel-h">${icon('pipe')} Application status</div>
-      <div class="reflevel"><span class="lvl-dot" style="background:${stageColor(r.app.stage)}"></span>${stageLabel(r.app.stage)}${r.app.since?` · since ${fmtMDY(r.app.since)}`:''}</div>
-      ${r.app.note?`<div class="reftext">${r.app.note}</div>`:''}</div>`:''}
-    <div class="panel"><div class="panel-h">${icon('spark')} Why it fits</div><div class="ptext">${r.note}</div></div>
-    ${f?`<div class="panel">
-      <div class="panel-h">${icon('gauge')} Fit breakdown <span class="conf conf-${f.confidence}">${f.confidence} confidence</span></div>
-      <div class="bars">${bars.map(([k,v])=>`<div class="bar"><span class="bl">${k}</span><span class="bt"><i style="width:${v*10}%;background:${scoreColor(v)}"></i></span><span class="bv">${v}</span></div>`).join('')}</div>
-      ${f.yoe_req?`<div class="reqline"><b>JD asks:</b> ${f.yoe_req}<br><b>You bring:</b> ${(f.candidate||'').replace(/^you:\s*/,'')}</div>`:''}
-    </div>`:''}
-    <div class="panel">
-      <div class="panel-h">${icon('pay')} Compensation</div>
-      <div class="kv"><span class="k">Base (as posted)</span><span class="v">${r.comp}</span></div>
-      <div class="kv"><span class="k">Comp fit</span><span class="v"><span class="pill ${cp[0]}">${cp[1]}</span></span></div>
-      <div class="capt">Comp fit compares the role's posted base to the comp bar for this search — <b>Likely clears</b>: at or above · <b>Borderline</b>: close · <b>Below</b>: under.</div>
-    </div>
-    <div class="panel">
-      <div class="panel-h">${icon('users')} Referral path</div>
-      <div class="reflevel"><span class="lvl-dot" style="background:${rl[0]}"></span>${rl[1]}</div>
-      ${rf.text?`<div class="reftext">${rf.text}</div>`:'<div class="reftext" style="color:var(--faint)">No mapped path yet — ask for a network sweep.</div>'}
-    </div>
-  </div>`;
-}
-
-/* ---------- views ---------- */
-function statTile(ic,n,l){return `<div class="stat">${icon(ic)}<div class="n">${n}</div><div class="l">${l}</div></div>`;}
-function tile(route,ic,title,sub){return `<button class="tile" onclick="go('${route}')"><div class="tic">${icon(ic)}</div><div><h3>${title}</h3><p>${sub}</p></div><span class="arr">${icon('chevR')}</span></button>`;}
-
-function homeView(){
-  const live=ROLES.filter(r=>(r.status||{live:true}).live).length;
-  const top=ROLES.filter(r=>!isEngaged(r)&&!(stageOf(r)&&stageOf(r)!=='to-apply')&&(r.score??0)>=7).sort((a,b)=>(b.score??0)-(a.score??0));
-  const pipe=ROLES.filter(r=>r.app).length;
-  const active=ROLES.filter(r=>['to-apply','applied','in-process'].includes(stageOf(r))).length;
-  const clears=ROLES.filter(r=>r.compFit==='at').length;
-  const warm=ROLES.filter(r=>['active','direct','bridge'].includes((r.referral||{}).level)).length;
-  const d=new Date((VERIFIED_ON||'')+'T00:00:00');
-  const human=isNaN(d)?VERIFIED_ON:d.toLocaleDateString('en-US',{month:'long',day:'numeric'});
-  return `<div class="view">
-    <h1 class="display">Find your next move,<br>with direction.</h1>
-    <p class="lede">A daily-verified map of Data Science &amp; Analytics leadership roles — scored for fit, mapped to your network.</p>
-    <div class="meta-line"><span class="dot"></span>${live} live roles · verified ${human}</div>
+    <h1>Today</h1>
+    <p class="lede">${dt} · <span class="live"><i></i>verified ${md(VERIFIED)||'—'}</span></p>
     <div class="stats">
-      ${statTile('target',top.length,'Top matches')}
-      ${statTile('pipe',active,'Active pipeline')}
-      ${statTile('users',warm,'Warm contacts')}
-      ${statTile('gauge',clears,'Likely clear comp')}
+      <div class="stat" onclick="go('#/pipeline')"><div class="v">${moving.length}</div><div class="l">Moving</div></div>
+      <div class="stat" onclick="go('#/pipeline')"><div class="v">${waiting.length}</div><div class="l">Contact working it</div></div>
+      <div class="stat" onclick="go('#/pipeline')"><div class="v">${ap.filter(r=>!isQuiet(r)).length}<small>/ ${ap.length}</small></div><div class="l">Applied, last ${QUIET}d</div></div>
+      <div class="stat" onclick="go('#/roles')"><div class="v">${fresh.length}</div><div class="l">New roles, 14d</div></div>
     </div>
-    <div class="sec-h">Explore</div>
-    <div class="tiles">
-      ${tile('#/roles','target','Opportunities',`${top.length} fresh matches scored 7+`)}
-      ${tile('#/pipeline','pipe','Pipeline',`${pipe} application${pipe===1?'':'s'} tracked`)}
-      ${tile('#/network','users','Network',`${warm} roles with a warm path`)}
-      ${tile('#/about','info','How Beacon works','Scoring, sources & method')}
+
+    ${sec('Moving',moving.length,{dot:'var(--green)',hint:'Active interview loops.'})}
+    ${list(moving,{note:true,stage:false},'No active loops right now.')}
+
+    ${sec('A contact is working it',waiting.length,{dot:'var(--teal)',hint:'Applied in the last '+QUIET+' days with a referral or intro in motion.'})}
+    ${list(waiting,{stage:false},'No referrals in motion.')}
+
+    ${ta.length?sec('Up next',ta.length,{dot:'var(--accent)',hint:'Queued to apply.'})+list(ta,{comp:true,score:true,stage:false}):''}
+
+    ${sec('New roles',fresh.length,{more:'#/roles',moreLabel:'All roles',hint:'People-manager DS roles posted in the last 14 days that aren’t in your pipeline.'})}
+    ${list(fresh.slice(0,5),{loc:true},'Nothing new in the last 14 days.')}
+
+    ${recentCold.length?`<details class="fold"><summary>${ic('chevR')} Applied cold, no contact yet · ${recentCold.length}</summary>${list(recentCold,{stage:false})}</details>`:''}
+    ${quietIP.length?`<details class="fold"><summary>${ic('chevR')} In process but quiet for ${QUIET}+ days · ${quietIP.length}</summary>${list(quietIP,{note:true,stage:false})}</details>`:''}
+
+    ${sec('Search to date',all.length)}
+    <div class="card">
+      <div class="funnel">${F.map(([k,c])=>`<i style="width:${cnt(k)/tot*100}%;background:${c}"></i>`).join('')}</div>
+      <div class="legend">${F.map(([k,c])=>`<span><em style="background:${c}"></em><b>${cnt(k)}</b> ${STG[k][0].toLowerCase()}</span>`).join('')}</div>
     </div>
-    <div class="sec-h">Top matches</div>
-    ${listView(top.slice(0,3),'No top matches right now.')}
-    ${top.length>3?`<div class="countline" style="margin-top:14px;text-align:center"><span class="back" onclick="go('#/roles')">See all ${top.length} →</span></div>`:''}
-    <div class="footer">Beacon · verified daily at 8:00 AM PT · scores are a decision aid, not a verdict</div>
+    <div class="foot">Roles re-verified daily against live job boards · pipeline from pipeline.json</div>
   </div>`;
 }
 
-let listMode='top', listTrack='', listQuery='', listComp='', listConf='', listSort='fit', listLane='ds', pipeLane='all';
-const COMPRANK={at:0,border:1,below:2,null:3};
-function filteredRoles(){
-  const rows=ROLES.filter(r=>{
-    // Pipeline-tracked roles live on the Pipeline tab; only surface "to apply" here.
-    if(stageOf(r) && stageOf(r)!=='to-apply') return false;
-    // Data Science vs Product (PM) lanes — DS is the default focus; PM lives behind its toggle.
-    const isPM = r.track==='pm' || r.kind==='pm';
-    if(listLane==='ds' && isPM) return false;
-    if(listLane==='pm' && !isPM) return false;
-    if(listTrack && r.track!==listTrack && r.extraTrack!==listTrack) return false;
-    if(listComp && r.compFit!==listComp) return false;
-    if(listConf && (r.fit||{}).confidence!==listConf) return false;
-    if(listQuery && !(r.co+' '+r.role).toLowerCase().includes(listQuery.toLowerCase())) return false;
-    return true;
-  });
-  const byScore=(a,b)=>(b.score??-1)-(a.score??-1);
-  if(listSort==='comp') rows.sort((a,b)=>(COMPRANK[a.compFit]??9)-(COMPRANK[b.compFit]??9)||byScore(a,b));
-  else if(listSort==='company') rows.sort((a,b)=>a.co.localeCompare(b.co)||byScore(a,b));
-  else rows.sort(byScore);
-  return rows;
-}
-const FVAL={comp:()=>listComp,conf:()=>listConf,sort:()=>listSort};
-function setF(k,v){ if(k==='comp')listComp=v; else if(k==='conf')listConf=v; else listSort=v; rerenderList(); }
-function sel(label,key,opts){
-  const cur=FVAL[key]();
-  return `<label class="selwrap">${label} <select onchange="setF('${key}',this.value)">${opts.map(([v,l])=>`<option value="${v}" ${cur===v?'selected':''}>${l}</option>`).join('')}</select></label>`;
-}
-function rolesView(){
-  setTimeout(()=>{const s=document.getElementById('q');if(s)s.value=listQuery;},0);
-  const base=filteredRoles();
-  const rows=(listLane==='pm')?base:(listMode==='top'?base.filter(r=>(r.score??0)>=7):base);
-  const lower=(listLane==='pm')?0:base.filter(r=>(r.score??0)<7).length;
-  const tracks=[['','All'],['domain','Domain'],['lateral','Lateral'],['stepup','Step-up'],['stretch','Stretch']];
+/* ---------- Pipeline ---------- */
+let pMode='active', pQ='', pDead='';
+function pipeline(){
+  const ip=S.inproc(), ap=S.applied(), ta=S.toApply(), dead=S.dead();
+  const q=pQ.toLowerCase(), match=r=>!q||(r.co+' '+r.role).toLowerCase().includes(q);
+  let body;
+  if(pMode==='active'){
+    const apR=ap.filter(r=>!isQuiet(r)&&match(r)), apQ=ap.filter(r=>isQuiet(r)&&match(r));
+    const ipR=ip.filter(r=>!isQuiet(r)&&match(r)), ipQ=ip.filter(r=>isQuiet(r)&&match(r));
+    body=`${sec('In process',ipR.length,{dot:'var(--green)'})}${list(ipR,{note:true,stage:false},'None.')}
+      ${ipQ.length?`<details class="fold"><summary>${ic('chevR')} Quiet for ${QUIET}+ days · ${ipQ.length}</summary>${list(ipQ,{note:true,stage:false})}</details>`:''}
+      ${sec('Applied',apR.length,{dot:'var(--teal)',hint:'Last '+QUIET+' days. Contact shown when a referral is in motion.'})}${list(apR,{stage:false},'None.')}
+      ${apQ.length?`<details class="fold"><summary>${ic('chevR')} Gone quiet (${QUIET}+ days, no reply) · ${apQ.length}</summary>${list(apQ,{stage:false})}</details>`:''}
+      ${sec('To apply',ta.filter(match).length,{dot:'var(--accent)'})}${list(ta.filter(match),{comp:true,score:true,stage:false},'Queue is empty.')}`;
+  }else{
+    const rows=dead.filter(r=>match(r)&&(!pDead||stage(r)===pDead));
+    const f=[['','All'],['rejected','Rejected'],['closed','Closed'],['passed','Archived']];
+    body=`<div class="bar" style="margin-top:0">${`<div class="seg">${f.map(([v,l])=>`<button class="${pDead===v?'on':''}" onclick="pDead='${v}';render()">${l}</button>`).join('')}</div>`}</div>
+      <div class="count">${rows.length} of ${dead.length}</div>${list(rows,{},'Nothing here.')}`;
+  }
   return `<div class="view">
-    <h1 class="display" style="font-size:30px">Opportunities</h1>
-    <div class="seg" style="margin-bottom:12px">
-      <button class="${listLane==='ds'?'on':''}" onclick="listLane='ds';listTrack='';router()">Data Science</button>
-      <button class="${listLane==='pm'?'on':''}" onclick="listLane='pm';listTrack='';router()">Product (PM)</button>
+    <h1>Pipeline</h1>
+    <p class="lede">${ip.length} in process · ${ap.length} applied · ${ta.length} to apply · ${dead.length} closed out</p>
+    <div class="bar">
+      <div class="seg"><button class="${pMode==='active'?'on':''}" onclick="pMode='active';render()">Active</button><button class="${pMode==='archive'?'on':''}" onclick="pMode='archive';render()">Archive</button></div>
+      <div class="search">${ic('search')}<input id="pq" placeholder="Search company or role" value="${esc(pQ)}" oninput="pQ=this.value;render(true)"></div>
     </div>
-    <div class="controls">
-      <div class="seg">
-        <button class="${listMode==='top'?'on':''}" onclick="listMode='top';router()">Top matches</button>
-        <button class="${listMode==='all'?'on':''}" onclick="listMode='all';router()">All roles</button>
-      </div>
-      <div class="search">${icon('search')}<input id="q" placeholder="Search company or role" oninput="listQuery=this.value;rerenderList()"></div>
-    </div>
-    ${listLane==='ds'?`<div class="chiprow">${tracks.map(([v,l])=>`<button class="fchip ${listTrack===v?'on':''}" onclick="listTrack='${v}';router()">${l}</button>`).join('')}</div>`:''}
-    <div class="fbar">
-      ${sel('Comp','comp',[['','Any'],['at','Likely clears'],['border','Borderline'],['below','Below target']])}
-      ${sel('Confidence','conf',[['','Any'],['high','High'],['med','Medium'],['low','Low']])}
-      ${sel('Sort','sort',[['fit','Best fit'],['comp','Comp first'],['company','Company A–Z']])}
-    </div>
-    <div class="countline" id="cl">${rows.length} role${rows.length===1?'':'s'}${listMode==='top'&&lower?` · ${lower} more under 7 in All`:''}</div>
-    <div id="rolelist">${listView(rows,'Nothing matches these filters.')}</div>
-  </div>`;
-}
-function rerenderList(){
-  const base=filteredRoles();
-  const rows=(listLane==='pm')?base:(listMode==='top'?base.filter(r=>(r.score??0)>=7):base);
-  const lc=document.getElementById('rolelist'); if(lc) lc.innerHTML=listView(rows,'Nothing matches these filters.');
-  const cl=document.getElementById('cl'); if(cl) cl.textContent=`${rows.length} role${rows.length===1?'':'s'}`+(listMode==='top'&&lower?` · ${lower} more under 7 in All`:'');
-}
-
-const ILLUS_RADAR=`<svg width="132" height="132" viewBox="0 0 132 132" fill="none" aria-hidden="true">
-  <circle cx="66" cy="62" r="50" stroke="var(--line)" stroke-width="2"/>
-  <circle cx="66" cy="62" r="34" stroke="var(--line)" stroke-width="2"/>
-  <circle cx="66" cy="62" r="18" stroke="var(--line)" stroke-width="2"/>
-  <path d="M66 62 L108 36" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" opacity=".5"/>
-  <path d="M53 40h26a5 5 0 0 1 5 5v44l-18-10-18 10V45a5 5 0 0 1 5-5z" fill="var(--tint)" stroke="var(--accent)" stroke-width="2.6" stroke-linejoin="round"/>
-  <circle cx="108" cy="36" r="4" fill="var(--accent)"/>
-</svg>`;
-function radarView(){
-  const rows=ROLES.filter(isEngaged).sort((a,b)=>(b.score??-1)-(a.score??-1));
-  const body = rows.length ? listView(rows,'') : `<div class="empty illus">
-    ${ILLUS_RADAR}
-    <h3>Nothing on your radar yet</h3>
-    <p>Open any role and tap <b>Mark engaged</b> once you've applied or reached out. It'll show up here — saved on this device.</p>
-    <button class="btn btn-primary" style="max-width:220px;margin:18px auto 0" onclick="go('#/roles')">Browse roles</button>
-  </div>`;
-  return `<div class="view">
-    <h1 class="display" style="font-size:30px">In my radar</h1>
-    <p class="lede" style="font-size:15px">Roles you've applied to or reached out about. Saved on this device.</p>
-    <div style="height:18px"></div>
     ${body}
   </div>`;
 }
 
-function pipelineView(){
-  const isPM=r=>r.track==='pm'||r.kind==='pm';
-  const all=ROLES.filter(r=>r.app);
-  const tracked = pipeLane==='ds'?all.filter(r=>!isPM(r)) : pipeLane==='pm'?all.filter(isPM) : all;
-  const active=tracked.filter(r=>['to-apply','applied','in-process'].includes(stageOf(r))).length;
-  const lanes=[['all','All'],['ds','Data Science'],['pm','Product (PM)']];
-  const body = tracked.length ? STAGES.map(([key,label,color,blurb])=>{
-    const rows=tracked.filter(r=>stageOf(r)===key).sort((a,b)=>(b.score??-1)-(a.score??-1));
-    if(!rows.length) return '';
-    return `<div class="stage-head"><span class="sdot" style="background:${color}"></span><h3>${label}</h3><span class="cnt">· ${rows.length}</span></div>
-      <div class="appnote" style="margin:-8px 2px 10px;color:var(--faint)">${blurb}</div>
-      ${listView(rows,'')}`;
-  }).join('') : `<div class="empty">No applications in this view.</div>`;
+/* ---------- Roles ---------- */
+let rWin=30, rQ='', rSort='new';
+function roles(){
+  const q=rQ.toLowerCase();
+  let rows=S.fresh(rWin).filter(r=>!q||(r.co+' '+r.role).toLowerCase().includes(q));
+  if(rSort==='fit') rows=rows.slice().sort((a,b)=>(b.score??-1)-(a.score??-1));
+  const W=[[7,'7 days'],[30,'30 days'],[null,'All']];
   return `<div class="view">
-    <h1 class="display" style="font-size:30px">Pipeline</h1>
-    <p class="lede" style="font-size:15px">Where each application stands — <b>${active} active</b> of ${tracked.length} tracked. Synced from roles.json, so it travels across your devices.</p>
-    <div class="seg" style="margin:12px 0 4px">${lanes.map(([v,l])=>`<button class="${pipeLane===v?'on':''}" onclick="pipeLane='${v}';router()">${l}</button>`).join('')}</div>
-    <div style="height:12px"></div>
-    ${body}
-  </div>`;
-}
-
-function networkView(){
-  const byCo={};
-  ROLES.forEach(r=>{const rf=r.referral||{level:'pending'};const o=byCo[r.co]||(byCo[r.co]={co:r.co,level:rf.level,text:rf.text||'',n:0});o.n++;});
-  const order={active:0,direct:1,bridge:2,pending:3,none:4};
-  const cos=Object.values(byCo).sort((a,b)=>(order[a.level]??9)-(order[b.level]??9)||a.co.localeCompare(b.co));
-  return `<div class="view">
-    <h1 class="display" style="font-size:30px">Network</h1>
-    <p class="lede" style="font-size:15px">Warm paths into each company — 1st &amp; 2nd-degree contacts in data/analytics leadership.</p>
-    <div style="height:18px"></div>
-    <div class="list">${cos.map(c=>{const rl=REF[c.level]||REF.pending;return `<div class="row" style="cursor:default;align-items:flex-start">
-      ${logoBox(c.co)}
-      <div class="mid">
-        <div class="rl" style="white-space:normal">${c.co} <span style="font-weight:400;color:var(--faint);font-size:13px">· ${c.n} role${c.n===1?'':'s'}</span></div>
-        <div class="reflevel" style="margin-top:4px"><span class="lvl-dot" style="background:${rl[0]}"></span>${rl[1]}</div>
-        ${c.text?`<div class="reftext">${c.text}</div>`:''}
-      </div>
-    </div>`;}).join('')}</div>
-  </div>`;
-}
-
-function aboutView(){
-  const lanes=[
-    ['target','Domain-perfect','Roles where your lending / monetization / lifecycle story is the JD. Highest interview-conversion.'],
-    ['refresh','Lateral → better company','Same level at a higher-quality, faster-growing company. Lowest risk, fastest close.'],
-    ['compass','Step-up title','Director / Head scope — the Manager-adjacent path that reliably clears your comp target.'],
-    ['spark','Stretch / AI-native','Frontier-AI and pre-IPO names. Top ceilings, higher variance.'],
-  ];
-  return `<div class="view">
-    <h1 class="display" style="font-size:30px">How Beacon works</h1>
-    <div class="sec-h">The engine</div>
-    <div class="feat">
-      <div class="fcard"><div class="tic">${icon('refresh')}</div><h3>Verified daily</h3><p>Every role is re-checked at 8 AM PT against the company's live job board. Closed roles are pruned; new ones are discovered automatically.</p></div>
-      <div class="fcard"><div class="tic">${icon('gauge')}</div><h3>Scored for fit</h3><p>A weighted model — 35% relevance, 20% level, 20% experience match, 10% company, 15% comp — judged against your real profile and each JD.</p></div>
-      <div class="fcard"><div class="tic">${icon('users')}</div><h3>Network-mapped</h3><p>Each role carries warm 1st/2nd-degree paths into the hiring team, refreshed on demand from your LinkedIn.</p></div>
-      <div class="fcard"><div class="tic">${icon('bookmark')}</div><h3>Yours to steer</h3><p>Mark roles engaged to move them into your radar. Saved on your device — nothing leaves your machine.</p></div>
+    <h1>Roles</h1>
+    <p class="lede">Live people-manager data science roles from tracked company boards, not yet in your pipeline.</p>
+    <div class="bar">
+      <div class="seg">${W.map(([v,l])=>`<button class="${rWin===v?'on':''}" onclick="rWin=${v};render()">${l}</button>`).join('')}</div>
+      <div class="seg"><button class="${rSort==='new'?'on':''}" onclick="rSort='new';render()">Newest</button><button class="${rSort==='fit'?'on':''}" onclick="rSort='fit';render()">Best fit</button></div>
+      <div class="search">${ic('search')}<input id="rq" placeholder="Search company or role" value="${esc(rQ)}" oninput="rQ=this.value;render(true)"></div>
     </div>
-    <div class="sec-h">The mobility framework</div>
-    <div class="lanes">${lanes.map(([i,h,p])=>`<div class="lane">${icon(i)}<div><h4>${h}</h4><p>${p}</p></div></div>`).join('')}</div>
-    <div class="footer">Comp ranges are base salary as posted; total comp adds equity + bonus. Re-verify before applying.</div>
+    <div class="count">${rows.length} role${rows.length===1?'':'s'}</div>
+    ${list(rows,{loc:true,score:true,comp:true},'No roles in this window. Try a wider range.')}
+  </div>`;
+}
+
+/* ---------- Detail ---------- */
+function detail(k){
+  const r=ROLES.find(x=>key(x)===k);
+  if(!r) return `<div class="empty">Role not found. <a style="color:var(--accent)" onclick="go('#/')">Back to Today</a></div>`;
+  const st=stage(r), f=r.fit, rf=r.referral||{};
+  const bars=f?[['Relevance',f.relevance],['Level',f.level],['Experience',f.experience],['Company',f.company]].filter(x=>x[1]!=null):[];
+  return `<div class="view">
+    <span class="back" onclick="history.length>1?history.back():go('#/')">${ic('chevL')} Back</span>
+    <div class="dh">${logo(r.co)}<div><div class="co">${esc(r.co)}</div><h1>${esc(r.role)}</h1>
+      <div class="loc">${esc(r.loc||'')}${r.posted?` · posted ${md(r.posted)}`:''}</div></div></div>
+    <div class="chips">${badge(st)}${st&&r.app.since?`<span class="b gray">since ${md(r.app.since)}</span>`:''}${compB(r)}${r.score!=null?`<span class="b gray">fit ${Number(r.score).toFixed(1)}</span>`:''}</div>
+    ${r.url?`<a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">Open posting ${ic('ext')}</a>`:''}
+    <div class="panels">
+      ${r.app&&r.app.note?`<div class="panel"><h3>Status</h3><p>${esc(strip(r.app.note))}</p></div>`:''}
+      ${rf.text?`<div class="panel"><h3>Contact</h3><div class="tx">${rf.text}</div></div>`:''}
+      ${r.note?`<div class="panel"><h3>Why it fits</h3><p>${esc(strip(r.note))}</p></div>`:''}
+      ${r.comp||bars.length?`<div class="panel"><h3>Comp & fit</h3>
+        ${r.comp?`<div class="kv"><span>Posted base</span><span>${esc(r.comp)}</span></div>`:''}
+        ${bars.length?`<div class="fitbars">${bars.map(([l,v])=>`<div class="fb"><span>${l}</span><span class="tr"><i style="width:${v*10}%"></i></span><b>${v}</b></div>`).join('')}</div>`:''}
+        ${f&&f.yoe_req?`<p style="font-size:13px;color:var(--sub);margin-top:10px">JD asks: ${esc(f.yoe_req)}</p>`:''}
+      </div>`:''}
+    </div>
   </div>`;
 }
 
 /* ---------- router ---------- */
-function go(hash){ location.hash=hash; }
-function router(){
-  const h=location.hash||'#/';
-  const app=document.getElementById('app');
-  let html, active='#/';
-  if(h.startsWith('#/role/')){ html=roleDetail(dec(h.slice(7))); active='#/roles'; }
-  else if(h.startsWith('#/roles')){ html=rolesView(); active='#/roles'; }
-  else if(h.startsWith('#/pipeline')){ html=pipelineView(); active='#/pipeline'; }
-  else if(h.startsWith('#/radar')){ html=radarView(); active='#/radar'; }
-  else if(h.startsWith('#/network')){ html=networkView(); active='#/network'; }
-  else if(h.startsWith('#/about')){ html=aboutView(); active='#/about'; }
-  else { html=homeView(); active='#/'; }
+function go(h){location.hash=h;}
+function render(keepFocus){
+  const h=location.hash||'#/', app=document.getElementById('app');
+  const fid=keepFocus&&document.activeElement&&document.activeElement.id, pos=fid&&document.activeElement.selectionStart;
+  let html,act='#/';
+  if(h.startsWith('#/role/')){html=detail(dec(h.slice(7)));act=null;}
+  else if(h.startsWith('#/pipeline')){html=pipeline();act='#/pipeline';}
+  else if(h.startsWith('#/roles')){html=roles();act='#/roles';}
+  else html=today();
   app.innerHTML=html;
-  document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.dataset.route===active));
-  if(!h.startsWith('#/role/')) window.scrollTo(0,0);
+  document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.dataset.r===act));
+  if(fid){const el=document.getElementById(fid);if(el){el.focus();try{el.setSelectionRange(pos,pos);}catch(e){}}}
 }
-window.addEventListener('hashchange',router);
-
-/* ---------- theme ---------- */
-function applyTheme(t){
-  document.documentElement.setAttribute('data-theme',t);
-  try{ localStorage.setItem('beacon_theme',t); }catch(e){}
-  const mc=document.getElementById('mc'); if(mc) mc.setAttribute('content', t==='dark'?'#000000':'#fbfbfd');
-  const tb=document.getElementById('themebtn'); if(tb) tb.innerHTML=icon(t==='dark'?'sun':'moon');
-}
-function toggleTheme(){ applyTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark'); }
-applyTheme('light');  // dark mode disabled for now
+window.addEventListener('hashchange',()=>{render();window.scrollTo(0,0);});
 
 fetch('roles.json',{cache:'no-store'})
   .then(r=>{if(!r.ok)throw new Error('roles.json '+r.status);return r.json();})
-  .then(data=>{ VERIFIED_ON=data.verified_on||''; ROLES=(data.roles||[]).filter(r=>(r.status||{live:true}).live || r.pinned); router(); })
-  .catch(e=>{ document.getElementById('app').innerHTML=`<div class="empty" style="color:#c0392b">Couldn't load roles.json (${e.message}). Serve over http (e.g. <code>python3 -m http.server</code>) — GitHub Pages works fine.</div>`; });
+  .then(d=>{VERIFIED=d.verified_on||'';ROLES=(d.roles||[]).filter(r=>!r.hidden&&((r.status||{live:true}).live||r.pinned));render();})
+  .catch(e=>{document.getElementById('app').innerHTML=`<div class="empty">Couldn't load roles.json (${esc(e.message)}).</div>`;});
 </script>
 </body>
 </html>
