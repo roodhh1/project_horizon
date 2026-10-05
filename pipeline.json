@@ -290,17 +290,17 @@
    "compFit": "border",
    "tier": "Elite pre-IPO fintech (Stripe) · Finance & Strategy DS",
    "url": "https://stripe.com/jobs/listing/data-science-manager-finance-and-strategy/7440963",
-   "note": "Stripe DSM Finance & Strategy. Somya Jain referral -> recruiter screen 9/22 -> Round 1 done 9/28-29. Furthest-along live lead. Location catch: Bay Area excluded (remote elsewhere / Chicago / Atlanta relo).",
+   "note": "Stripe DSM Finance & Strategy. Somya Jain referral -> recruiter screen 9/22 -> Round 1 done 9/28-29. Rejected 10/2 after Round 1. Location catch: Bay Area excluded (remote elsewhere / Chicago / Atlanta relo).",
    "pinned": true,
    "source": "stripe careers (applied 7/27)",
    "status": {
-    "live": true,
-    "v": "IN-PROCESS - Round 1 complete 9/29 (Jeff Li stats + HM Steve Wasik). Awaiting final-loop decision. #1 live lead."
+    "live": false,
+    "v": "REJECTED 10/2 after Round 1 (Jeff Li stats + HM Steve Wasik)"
    },
    "app": {
-    "stage": "in-process",
-    "since": "2026-09-22",
-    "note": "Recruiter screen (Elisa Vatn) passed 9/22 -> Round 1: Statistics w/ Jeff Li (Mon 9/28, went well) + Experience & Goals w/ HM Steve Wasik (Tue 9/29 3pm). Thank-you to Elisa sent 9/29. Awaiting decision on final ~5-interview virtual onsite. Open question: Bay Area excluded for budget reasons - clarify SF before final loop."
+    "stage": "rejected",
+    "since": "2026-10-02",
+    "note": "Elisa Vatn 10/2: team synced, not moving forward after Round 1 (stats w/ Jeff Li 9/28 + Experience & Goals w/ HM Steve Wasik 9/29). No feedback given. Rodrigo replied graciously same day. Bay Area exclusion was a latent issue regardless."
    },
    "referral": {
     "level": "warm",
@@ -2797,6 +2797,90 @@
    },
    "discovered": false,
    "isNew": false
+  },
+  {
+   "co": "X, the moonshot factory",
+   "role": "Head of Data Science, Tapestry",
+   "loc": "Mountain View, CA",
+   "track": "aspirational",
+   "trackLabel": "Aspirational",
+   "extraTrack": "",
+   "score": 7.5,
+   "domain": null,
+   "comp": "TBD",
+   "compFit": null,
+   "tier": "Alphabet moonshot - Tapestry (electric-grid AI)",
+   "url": "https://x.company/careers/",
+   "note": "Head of DS for Tapestry, X's grid-planning/AI moonshot. Head-level title + AI exposure + Alphabet brand; energy domain is off-wedge.",
+   "pinned": true,
+   "source": "10/5 Gmail sweep",
+   "status": {
+    "live": true,
+    "v": "Applied 10/03"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-10-03",
+    "note": "Applied 10/3 (X careers confirmation). Cold - no referral yet."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Eli Lilly",
+   "role": "Senior Director, Customer Insights & Analytics (CI&A) - LillyDirect",
+   "loc": "Indianapolis, IN (TBC)",
+   "track": "aspirational",
+   "trackLabel": "Aspirational",
+   "extraTrack": "",
+   "score": 6.8,
+   "domain": null,
+   "comp": "TBD",
+   "compFit": null,
+   "tier": "Fortune 100 pharma - DTC platform (LillyDirect)",
+   "url": "https://careers.lilly.com/",
+   "note": "Leads customer insights & analytics for LillyDirect, Lilly's direct-to-consumer platform. Sr Director title; consumer/DTC lifecycle maps to wedge, pharma domain is new. Location likely Indianapolis - confirm.",
+   "pinned": true,
+   "source": "10/5 Gmail sweep",
+   "status": {
+    "live": true,
+    "v": "Applied 10/03"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-10-03",
+    "note": "Applied 10/3 (Workday confirmation). Candidate Home account setup pending. Cold."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Marsh (Marsh McLennan)",
+   "role": "Vice President, Analytics Models & Innovation (R_365781)",
+   "loc": "TBC",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": 6.0,
+   "domain": null,
+   "comp": "TBD",
+   "compFit": null,
+   "tier": "Global insurance broker / risk advisory (NYSE: MRSH)",
+   "url": "https://careers.marsh.com/",
+   "note": "VP-level analytics models & innovation role at Marsh. Insurance brokerage is off-wedge; scope/people-leadership TBC.",
+   "pinned": true,
+   "source": "10/5 Gmail sweep",
+   "status": {
+    "live": true,
+    "v": "Applied 10/04"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-10-04",
+    "note": "Applied 10/4 (Workday confirmation). Cold."
+   },
+   "discovered": false,
+   "isNew": true
   }
  ],
  "overrides": {
