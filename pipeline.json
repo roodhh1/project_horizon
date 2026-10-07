@@ -2900,15 +2900,19 @@
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
     "live": true,
-    "v": "To apply - 10/6 sweep"
+    "v": "Applied 10/6 + outreach"
    },
    "app": {
-    "stage": "to-apply",
+    "stage": "applied",
     "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "note": "Applied 10/6. Connection note sent to Anurag Ramachandra (Sr Director, Data & AI)."
    },
    "discovered": false,
-   "isNew": true
+   "isNew": true,
+   "referral": {
+    "level": "bridge",
+    "text": "Anurag Ramachandra (Sr Director, Data & AI, 2nd) - likely HM"
+   }
   },
   {
    "co": "Airwallex",
@@ -2928,15 +2932,19 @@
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
     "live": true,
-    "v": "To apply - 10/6 sweep"
+    "v": "Applied 10/6 + outreach"
    },
    "app": {
-    "stage": "to-apply",
+    "stage": "applied",
     "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "note": "Applied 10/6. Connection note sent to Firdevs Abacioglu (Head of DS & AI)."
    },
    "discovered": false,
-   "isNew": true
+   "isNew": true,
+   "referral": {
+    "level": "bridge",
+    "text": "Firdevs Abacioglu (Head of DS & AI, ex-Meta, SF, 2nd) - likely HM"
+   }
   },
   {
    "co": "Socure",
@@ -2956,15 +2964,19 @@
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
     "live": true,
-    "v": "To apply - 10/6 sweep"
+    "v": "Applied 10/6 + outreach"
    },
    "app": {
-    "stage": "to-apply",
+    "stage": "applied",
     "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "note": "Applied 10/6. Notes to Omar Gutierrez (VP DS) + Louis Yansaud (Sr DSM)."
    },
    "discovered": false,
-   "isNew": true
+   "isNew": true,
+   "referral": {
+    "level": "bridge",
+    "text": "Omar Gutierrez (VP DS, 2nd) - likely HM; Louis Yansaud (Sr DSM SF, 2nd, 10 mutuals) - peer/intel"
+   }
   },
   {
    "co": "Zendesk",
@@ -2984,15 +2996,19 @@
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
     "live": true,
-    "v": "To apply - 10/6 sweep"
+    "v": "Applied 10/6 + outreach"
    },
    "app": {
-    "stage": "to-apply",
+    "stage": "applied",
     "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "note": "Applied 10/6. Referral ask sent to Ashwin Gajendra; fallback = intro via Favio/sahithi."
    },
    "discovered": false,
-   "isNew": true
+   "isNew": true,
+   "referral": {
+    "level": "bridge",
+    "text": "Ashwin Gajendra (Product & AI Analytics, 2nd, 11 mutuals incl. sahithi/Favio)"
+   }
   },
   {
    "co": "Scribe",
@@ -3012,15 +3028,19 @@
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
     "live": true,
-    "v": "To apply - 10/6 sweep"
+    "v": "Applied 10/6 + outreach"
    },
    "app": {
-    "stage": "to-apply",
+    "stage": "applied",
     "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "note": "Applied 10/6. Note sent to Nick Churcher asking who leads the search."
    },
    "discovered": false,
-   "isNew": true
+   "isNew": true,
+   "referral": {
+    "level": "bridge",
+    "text": "Nick Churcher (Growth & Marketing leader, 2nd) - ask who leads the search"
+   }
   },
   {
    "co": "Headway",
@@ -3040,15 +3060,19 @@
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
     "live": true,
-    "v": "To apply - 10/6 sweep"
+    "v": "Applied 10/7 + outreach"
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "stage": "applied",
+    "since": "2026-10-07",
+    "note": "Applied 10/7. Note/referral ask to Robert Thorstad (Sr DSM @ Headway)."
    },
    "discovered": false,
-   "isNew": true
+   "isNew": true,
+   "referral": {
+    "level": "bridge",
+    "text": "<b>Robert Thorstad</b> (Senior DS Manager @ Headway, NYC, 2nd) = peer, likely knows HM; <b>Lexi Breitz</b> (Director of Research, 2nd, 20 mutuals) = backup."
+   }
   },
   {
    "co": "Crypto.com",
@@ -3067,16 +3091,20 @@
    "pinned": true,
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
-    "live": true,
-    "v": "To apply - 10/6 sweep"
+    "live": false,
+    "v": "Passed 10/7"
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "stage": "passed",
+    "since": "2026-10-07",
+    "note": "Passed 10/7 - pay capped ~$200K, VP title misleading."
    },
    "discovered": false,
-   "isNew": true
+   "isNew": true,
+   "referral": {
+    "level": "cold",
+    "text": "Thin network - no US analytics leader at 1st/2nd. Apply + note to recruiter after submitting."
+   }
   },
   {
    "co": "Faire",
@@ -3095,16 +3123,20 @@
    "pinned": true,
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
-    "live": true,
-    "v": "To apply - 10/6 sweep"
+    "live": false,
+    "v": "Passed 10/7"
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "stage": "passed",
+    "since": "2026-10-07",
+    "note": "Rodrigo skipped 10/7 - Sr Director level felt like a stretch."
    },
    "discovered": false,
-   "isNew": true
+   "isNew": true,
+   "referral": {
+    "level": "bridge",
+    "text": "<b>Gopal Nath</b> (Director, Strategy & Analytics, ex-Uber, 2nd) via Saurabh Kumar/sahithi. Also mention pending Experimentation Director app (8/4)."
+   }
   },
   {
    "co": "Figma",
@@ -3123,16 +3155,20 @@
    "pinned": true,
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
-    "live": true,
-    "v": "To apply - 10/6 sweep"
+    "live": false,
+    "v": "Passed 10/7"
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "stage": "passed",
+    "since": "2026-10-07",
+    "note": "Rodrigo skipped 10/7."
    },
    "discovered": false,
-   "isNew": true
+   "isNew": true,
+   "referral": {
+    "level": "bridge",
+    "text": "1st: <b>Enrique Olivo</b> (DS & AI @Figma) + <b>Joe Mandozzi</b>. 2nd: Clancy Slack (Director Product DS). Ask Enrique for referral."
+   }
   },
   {
    "co": "Reddit",
@@ -3152,15 +3188,19 @@
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
     "live": true,
-    "v": "To apply - 10/6 sweep"
+    "v": "Applied 10/7 + outreach"
    },
    "app": {
-    "stage": "to-apply",
-    "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "stage": "applied",
+    "since": "2026-10-07",
+    "note": "Applied 10/7. Notes to Tyler Otto (VP DS & Safety, likely HM) and recruiter Eric Webber (asked to route to right recruiter)."
    },
    "discovered": false,
-   "isNew": true
+   "isNew": true,
+   "referral": {
+    "level": "bridge",
+    "text": "<b>Tyler Otto</b> (VP Data Science & Safety, SF, 2nd) - likely HM; <b>Eric Webber</b> (Recruiting, 2nd). Backup: Liliya McLean (1st)."
+   }
   },
   {
    "co": "Capital One",
@@ -3180,12 +3220,48 @@
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
     "live": true,
-    "v": "To apply - 10/6 sweep"
+    "v": "To apply 10/7 (batch 2)"
    },
    "app": {
     "stage": "to-apply",
     "since": "2026-10-06",
-    "note": "Surfaced in 10/6 sweep. Verified live. Find a 1st/2nd-degree path before applying."
+    "note": "On hold - do not apply until a referrer (Pallavi/Luciano) is lined up; prioritize Director R1002371 first."
+   },
+   "discovered": false,
+   "isNew": true,
+   "referral": {
+    "level": "bridge",
+    "text": "<b>Deepesh Singh</b> (1st-ish, already asked 9/29 for the Director app) - bundle this req into that thread."
+   }
+  },
+  {
+   "co": "Capital One",
+   "role": "Director, Data Science (Agentic AI products) - 2nd req R1002371",
+   "loc": "San Francisco, CA / McLean / NY / Cambridge / Richmond",
+   "track": "aspirational",
+   "trackLabel": "Aspirational",
+   "extraTrack": "",
+   "score": 7.8,
+   "domain": null,
+   "comp": "$293.6K-$335.1K base (SF/NY) + bonus + LTI",
+   "compFit": null,
+   "tier": "Public bank - enterprise agentic AI science team",
+   "url": "https://www.capitalonecareers.com/job/mclean/director-data-science/1732/101361027680",
+   "note": "Second opening on the same agentic-AI science team as R1002344 (applied 9/29). A/B tests, telemetry modeling, AI strategy for C-suite. Req: MS+7 yrs, 4+ yrs production ML, 4+ yrs A/B tests. Risk: production-ML bar.",
+   "pinned": true,
+   "source": "Rodrigo found 10/7",
+   "status": {
+    "live": true,
+    "v": "To apply AFTER Deepesh refers"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-10-07",
+    "note": "DO NOT apply first. Waiting on Pallavi/Luciano referral (asked 10/7)."
+   },
+   "referral": {
+    "level": "warm",
+    "text": "Deepesh left Capital One. Referral asks sent 10/7 to <b>Pallavi Yadav</b> (DS @ Capital One, 1st) and <b>Luciano Rodríguez Nanni</b> (Product, ex-ITAM student, 1st). Recruiter <b>Malayna Tran</b> (Principal Recruiter, 2nd) - contact only AFTER referral is in."
    },
    "discovered": false,
    "isNew": true
