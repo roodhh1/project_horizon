@@ -3421,6 +3421,38 @@
    },
    "discovered": false,
    "isNew": true
+  },
+  {
+   "co": "Sanofi",
+   "role": "Data / AI leadership via Chief Digital Officer (Ana Iglesias intro) - incl. Sr Director, US Insights & Analytics Enablement",
+   "loc": "Paris / Lyon / Cambridge MA / Morristown NJ",
+   "track": "aspirational",
+   "trackLabel": "Aspirational",
+   "extraTrack": "",
+   "score": 7.5,
+   "domain": null,
+   "comp": "Sr Dir US I&A Enablement: $206K-$298K (closes Oct 15)",
+   "compFit": null,
+   "tier": "Global pharma - Sanofi (Digital / Data & AI)",
+   "url": "https://jobs.sanofi.com/",
+   "note": "Warm path: Ana Isabel Iglesias (Global Head of Finance, M&S; ex-Chief of Staff to CEO; Paris). 10/7 she offered to pass CV to the Chief Digital Officer; mentioned the M&S 'accelerator' in Lyon building manufacturing apps. Posted fit: Sr Director, US Insights & Analytics Enablement (Cambridge MA, 3 days onsite, closes Oct 15). Paris has no posted fit - intro-led.",
+   "pinned": true,
+   "source": "Ana Iglesias warm intro 10/7",
+   "status": {
+    "live": true,
+    "v": "Warm intro to CDO via Ana (10/8)"
+   },
+   "app": {
+    "stage": "in-process",
+    "since": "2026-10-08",
+    "note": "Ana asked for CV (Ana.iglesias@sanofi.com) to pass to the Chief Digital Officer. Sanofi-tailored resume built 10/8. Do not apply to the US Sr Director role until after Ana's intro / by Oct 13 at latest."
+   },
+   "referral": {
+    "level": "warm",
+    "text": "<b>Ana Isabel Iglesias</b> (Global Head of Finance, Manufacturing & Supply, Paris; ex-CEO Chief of Staff) - passing CV to the <b>Chief Digital Officer</b>."
+   },
+   "discovered": false,
+   "isNew": true
   }
  ],
  "overrides": {
