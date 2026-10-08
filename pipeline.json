@@ -2200,8 +2200,8 @@
     "note": "Applied (req R1002344, posted 9/28) - new science team for Capital One agentic AI products (A/B testing, telemetry modeling, AI strategy). LinkedIn referral request sent 9/29 to Deepesh Singh (Data Analysis Mgr, not previously acquainted). | 9/29: sent resume to Deepesh on LinkedIn (referral in progress)."
    },
    "referral": {
-    "level": "pending",
-    "text": "Referral ask sent 9/29 to <b>Deepesh Singh</b> (Data Analysis Manager @ Capital One) - awaiting reply."
+    "level": "cold",
+    "text": "Deepesh Singh referral failed 9/29 (already applied) and he has since left Capital One. Active referral push is on the 2nd req R1002371 (Pallavi/Luciano/Shrinidhi + recruiter Malayna Tran)."
    },
    "discovered": false,
    "isNew": true
@@ -2223,13 +2223,13 @@
    "pinned": true,
    "source": "9/29 sweep",
    "status": {
-    "live": true,
-    "v": "Applied 9/28"
+    "live": false,
+    "v": "Rejected 10/8"
    },
    "app": {
-    "stage": "applied",
-    "since": "2026-09-28",
-    "note": "Applied 9/28 (confirmation received)."
+    "stage": "rejected",
+    "since": "2026-10-08",
+    "note": "Rejected 10/8 (high volume of applicants)."
    },
    "referral": {
     "level": "none",
@@ -3060,18 +3060,18 @@
    "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
    "status": {
     "live": true,
-    "v": "Applied 10/7 + outreach"
+    "v": "Applied + flagged to recruiter by Robert Thorstad"
    },
    "app": {
     "stage": "applied",
     "since": "2026-10-07",
-    "note": "Applied 10/7. Note/referral ask to Robert Thorstad (Sr DSM @ Headway)."
+    "note": "Applied 10/7. Robert Thorstad (Sr DSM) attached a note + flagged Rodrigo to the recruiter 10/7; knows the HM and thinks it is a good role."
    },
    "discovered": false,
    "isNew": true,
    "referral": {
-    "level": "bridge",
-    "text": "<b>Robert Thorstad</b> (Senior DS Manager @ Headway, NYC, 2nd) = peer, likely knows HM; <b>Lexi Breitz</b> (Director of Research, 2nd, 20 mutuals) = backup."
+    "level": "warm",
+    "text": "<b>Robert Thorstad</b> (Senior DS Manager @ Headway) flagged Rodrigo to the recruiter with a note (10/7); knows the HM."
    }
   },
   {
@@ -3257,11 +3257,167 @@
    "app": {
     "stage": "to-apply",
     "since": "2026-10-07",
-    "note": "DO NOT apply first. Waiting on Pallavi/Luciano referral (asked 10/7)."
+    "note": "Luciano agreed to refer 10/7; resume + blurb sent. Waiting for his confirmation/apply link - do NOT apply first."
    },
    "referral": {
     "level": "warm",
-    "text": "Deepesh left Capital One. Referral asks sent 10/7 to <b>Pallavi Yadav</b> (DS @ Capital One, 1st) and <b>Luciano Rodríguez Nanni</b> (Product, ex-ITAM student, 1st). Recruiter <b>Malayna Tran</b> (Principal Recruiter, 2nd) - contact only AFTER referral is in."
+    "text": "<b>Luciano Rodríguez Nanni</b> (Product @ Capital One, ex-ITAM student) agreed 10/7 to refer; resume sent. Backups asked: Pallavi Yadav, Shrinidhi Purohit. Recruiter Malayna Tran InMailed."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "DoorDash",
+   "role": "Manager, Analytics, Customer Experience",
+   "loc": "San Francisco / Sunnyvale / Seattle / NYC / Chicago / Austin",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": 6.8,
+   "domain": null,
+   "comp": "$184.3K-$271K base + equity",
+   "compFit": "border",
+   "tier": "Public - local commerce marketplace",
+   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8220560",
+   "note": "Manager level (one below the Sr Mgr Analytics CX app from 9/2 - same org). 6+ yrs req. Posted 9/21.",
+   "pinned": true,
+   "source": "Rodrigo cold-applied 10/7",
+   "status": {
+    "live": true,
+    "v": "Applied 10/7 (cold)"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-10-07",
+    "note": "Cold-applied 10/7. Sibling Sr Mgr Analytics CX app (9/2) still pending."
+   },
+   "referral": {
+    "level": "bridge",
+    "text": "1st: <b>Maximiliano Medina García</b>, Jasper. 2nd: <b>Ethan Zhu</b> (DS & Analytics Leadership / Sunnyvale site lead, ~32 mutuals via sahithi visvanathan)."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "co": "Airwallex",
+   "role": "Head of Growth Data Science",
+   "loc": "San Francisco, CA",
+   "track": "aspirational",
+   "trackLabel": "Aspirational",
+   "extraTrack": "",
+   "score": 8.9,
+   "domain": 4,
+   "comp": "$300K-$320K base + bonus + equity",
+   "compFit": null,
+   "tier": "Late-stage fintech - global payments/financial OS",
+   "url": "https://jobs.ashbyhq.com/airwallex/3acc4c7d-9659-4927-9532-091f1fd5d63a",
+   "note": "Posted 10/7. Leads Growth DS: experimentation + advanced analytics across acquisition, activation, conversion, retention, expansion; growth strategy + measurement frameworks. Bullseye wedge (fintech + growth + experimentation). Sister to the CEO-office Director role applied 10/6. Req: 10+ yrs.",
+   "pinned": true,
+   "source": "10/7 quick sweep (Ashby)",
+   "status": {
+    "live": true,
+    "v": "Applied 10/7 + outreach"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-10-07",
+    "note": "Applied 10/7 (Ashby). InMail to Sunday Shields (Technical Recruiter, ex-Intuit) asking to route to right recruiter."
+   },
+   "referral": {
+    "level": "bridge",
+    "text": "<b>Firdevs Abacioglu</b> (Head of DS & AI, SF, 2nd) - already contacted 10/6 re the CEO-office Director role; <b>Le Zheng</b> (GTM DS @ AWX, SF, 2nd)."
+   },
+   "discovered": false,
+   "isNew": true
+  },
+  {
+   "track": "aspirational",
+   "trackLabel": "Aspirational",
+   "extraTrack": "",
+   "domain": null,
+   "compFit": null,
+   "tier": "Big tech - Meta",
+   "pinned": true,
+   "source": "Rodrigo found 10/7",
+   "discovered": false,
+   "isNew": true,
+   "co": "Meta",
+   "role": "Director, Data Science - New Revenue Bets",
+   "loc": "Sunnyvale / Menlo Park / SF +",
+   "score": 7.8,
+   "comp": "$253K-$314K base + bonus + RSUs",
+   "url": "https://www.metacareers.com/profile/job_details/27034262962921676/",
+   "note": "Senior IC (no direct team): analytics leader across Subscriptions, BizAI, XF APAC; LTV, pricing/packaging, measurement for nascent revenue products. 12+ yrs + MS/PhD. Best domain fit; IC tradeoff.",
+   "status": {
+    "live": true,
+    "v": "Referred by Ishita 10/7"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-10-07",
+    "note": "Ishita Chaudhary submitted referral 10/7 (Meta email: referral reviewed within ~10 days). Confirm which role(s) on Meta Career Profile."
+   },
+   "referral": {
+    "level": "warm",
+    "text": "<b>Ishita Chaudhary</b> (friend @ Meta) - agreed 10/7 to refer; sending resume + blurb package. Do NOT apply directly."
+   }
+  },
+  {
+   "track": "aspirational",
+   "trackLabel": "Aspirational",
+   "extraTrack": "",
+   "domain": null,
+   "compFit": null,
+   "tier": "Big tech - Meta",
+   "pinned": true,
+   "source": "Rodrigo found 10/7",
+   "discovered": false,
+   "isNew": true,
+   "co": "Meta",
+   "role": "Data Science Director (Infrastructure) - Sunnyvale/SF",
+   "loc": "Sunnyvale / San Francisco",
+   "score": 6.9,
+   "comp": "$253K-$314K base + bonus + RSUs",
+   "url": "https://www.metacareers.com/profile/job_details/3489873754638185/",
+   "note": "People-leader DS Director for Infrastructure product/business teams. 10+ yrs managing analytics teams (Rodrigo ~10). Off-domain (infra).",
+   "status": {
+    "live": true,
+    "v": "Referral via Ishita (10/7)"
+   },
+   "app": {
+    "stage": "to-apply",
+    "since": "2026-10-07",
+    "note": "Ishita referring - wait for referral link/confirmation."
+   },
+   "referral": {
+    "level": "warm",
+    "text": "<b>Ishita Chaudhary</b> (friend @ Meta) - agreed 10/7 to refer; sending resume + blurb package. Do NOT apply directly."
+   }
+  },
+  {
+   "co": "Amazon",
+   "role": "Senior Manager, Data Science and Analytics, Prime Video Personalization & Analytics",
+   "loc": "Sunnyvale, CA",
+   "track": "lateral",
+   "trackLabel": "Lateral",
+   "extraTrack": "",
+   "score": 7.0,
+   "domain": null,
+   "comp": "TBD",
+   "compFit": null,
+   "tier": "Big tech - Amazon / Prime Video",
+   "url": "https://www.amazon.jobs/en/jobs/10426053",
+   "note": "Rodrigo applied 10/8 (ID 10426053). Personalization & analytics leadership for Prime Video.",
+   "pinned": true,
+   "source": "Rodrigo applied 10/8",
+   "status": {
+    "live": true,
+    "v": "Applied 10/8"
+   },
+   "app": {
+    "stage": "applied",
+    "since": "2026-10-08",
+    "note": "Applied 10/8 (cold)."
    },
    "discovered": false,
    "isNew": true
