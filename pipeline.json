@@ -802,7 +802,7 @@
       "app": {
         "stage": "applied",
         "since": "2026-07-08",
-        "note": "Applied 2026-07-08 · outreach to HM + recruiter sent"
+        "note": "Applied 2026-07-08 · outreach to HM + recruiter sent | 10/21: req REPOSTED (LinkedIn 4470180023, SF/NY, $225K+) - re-engage HM Lauren Stoller."
       },
       "referral": {
         "level": "direct",
@@ -2133,13 +2133,13 @@
         "text": "Off-wedge - do not invest unless it moves on its own."
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-08",
-        "note": "Applied 9/8 - confirmation received."
+        "stage": "rejected",
+        "since": "2026-10-23",
+        "note": "Rejected 10/23."
       },
       "status": {
-        "live": true,
-        "v": "Applied 9/8 - off-wedge healthcare, lowest priority."
+        "live": false,
+        "v": "Rejected"
       }
     },
     {
@@ -2319,13 +2319,13 @@
       "pinned": true,
       "source": "9/29 sweep",
       "status": {
-        "live": true,
-        "v": "Applied 9/29 - referral via Eugenio Soto"
+        "live": false,
+        "v": "Rejected"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-29",
-        "note": "Applied 9/29 (req 302436, confirmation received). Being referred by Eugenio Soto."
+        "stage": "rejected",
+        "since": "2026-10-17",
+        "note": "Rejected 10/17."
       },
       "referral": {
         "level": "warm",
@@ -3187,13 +3187,13 @@
       "pinned": true,
       "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
       "status": {
-        "live": true,
-        "v": "Applied 10/7 + outreach"
+        "live": false,
+        "v": "Rejected"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-10-07",
-        "note": "Applied 10/7. Notes to Tyler Otto (VP DS & Safety, likely HM) and recruiter Eric Webber (asked to route to right recruiter)."
+        "stage": "rejected",
+        "since": "2026-10-15",
+        "note": "Rejected 10/15 after review."
       },
       "discovered": false,
       "isNew": true,
@@ -3257,11 +3257,11 @@
       "app": {
         "stage": "applied",
         "since": "2026-10-13",
-        "note": "Applied directly 10/13 - no reply from Luciano after nudge. Next: DS recruiter outreach (Tim Keenan) + tell Malayna."
+        "note": "Applied 10/13; Luciano referral uploaded 10/14."
       },
       "referral": {
-        "level": "warm",
-        "text": "<b>Luciano Rodríguez Nanni</b> (Product @ Capital One, ex-ITAM student) agreed 10/7 to refer; resume sent. Backups asked: Pallavi Yadav, Shrinidhi Purohit. Recruiter Malayna Tran InMailed."
+        "level": "referred",
+        "text": "<b>Luciano Rodriguez Nanni</b> - referral uploaded 10/14 (under review). Tim Keenan (DS recruiter) InMailed 10/13."
       },
       "discovered": false,
       "isNew": true
@@ -3471,13 +3471,13 @@
       "pinned": true,
       "source": "10/12 sweep (LinkedIn)",
       "status": {
-        "live": true,
-        "v": "Applied"
+        "live": false,
+        "v": "Rejected"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-10-14",
-        "note": "Applied directly 10/14 (Ana Paula on maternity leave). Desired salary: $310K base."
+        "stage": "rejected",
+        "since": "2026-10-23",
+        "note": "Rejected 10/23."
       },
       "referral": {
         "level": "warm",
@@ -3557,13 +3557,13 @@
       "url": "https://www.linkedin.com/jobs/view/4478042207",
       "note": "Posted 10/10. Consumer + developer experience DS; 9 yrs (7 w/ Master's). Base ~$245-279K (Chicago band; SF higher). Apply + mention to Tim Keenan.",
       "app": {
-        "stage": "to-apply",
-        "since": "2026-10-13",
-        "note": "From 10/13 sweep."
+        "stage": "passed",
+        "since": "2026-10-16",
+        "note": "Parked by Rodrigo 10/16 - not pursuing for now."
       },
       "status": {
         "live": true,
-        "v": "To apply"
+        "v": "Parked"
       },
       "referral": {
         "level": "none",
@@ -3653,13 +3653,13 @@
       "url": "https://www.linkedin.com/jobs/view/4468382790",
       "note": "Auto finance commercial analytics; 12+ yrs. Base $204-285K + JPM bonus.",
       "app": {
-        "stage": "applied",
-        "since": "2026-10-14",
-        "note": "Applied 10/14 (Job 210790831). Asked Jack Parker (VP Auto Loan Pricing, ex-Intuit) to flag to HM."
+        "stage": "rejected",
+        "since": "2026-10-19",
+        "note": "Rejected 10/19 (high volume)."
       },
       "status": {
-        "live": true,
-        "v": "Applied"
+        "live": false,
+        "v": "Rejected"
       },
       "referral": {
         "level": "warm",
@@ -3685,17 +3685,17 @@
       "url": "https://www.linkedin.com/jobs/view/4478142801",
       "note": "12+ yrs, 5+ managing managers (gap). $223-359K.",
       "app": {
-        "stage": "applied",
-        "since": "2026-10-14",
-        "note": "Applied 10/14 (Greenhouse). Asked Madhavi Adusumilli (ex-Intuit, Squarespace analytics) to flag."
+        "stage": "in-process",
+        "since": "2026-10-22",
+        "note": "Recruiter screen w/ Alice Fay done 10/22 - ADVANCING. Next: HM call w/ Michael Wexler (VP Data). Madhavi shared guidance on Michael."
       },
       "status": {
         "live": true,
-        "v": "Applied"
+        "v": "In Process"
       },
       "referral": {
-        "level": "warm",
-        "text": "<b>Madhavi Adusumilli</b> (Squarespace analytics, ex-Intuit) - asked to flag 10/14."
+        "level": "referred",
+        "text": "<b>Madhavi Adusumilli</b> - referral submitted 10/14 (Greenhouse confirmed)."
       },
       "track": "domain",
       "trackLabel": "Domain-strong",
@@ -3717,17 +3717,17 @@
       "url": "https://boards.greenhouse.io/robinhood/jobs/8180757",
       "note": "Head of DS for Finance & Strategy.",
       "app": {
-        "stage": "applied",
-        "since": "2026-10-14",
-        "note": "Applied 10/14 (Greenhouse). Asked Mandar Deshpande for referral/flag."
+        "stage": "rejected",
+        "since": "2026-10-16",
+        "note": "Rejected 10/16 despite Mandar referral."
       },
       "status": {
-        "live": true,
-        "v": "Applied"
+        "live": false,
+        "v": "Rejected"
       },
       "referral": {
-        "level": "warm",
-        "text": "<b>Mandar Deshpande</b> - said yes 10/14; resume + link sent."
+        "level": "referred",
+        "text": "<b>Mandar Deshpande</b> (ex-Intuit) - committed to refer 10/14; asked if open to relocate (yes)."
       },
       "track": "domain",
       "trackLabel": "Domain-strong",
@@ -3740,6 +3740,262 @@
       "pinned": true,
       "source": "Rodrigo 10/14",
       "discovered": "2026-10-13",
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Senior Manager, Ads & Promotions Analytics",
+      "loc": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7454878",
+      "note": "Lead analytics for DoorDash Ads (incrementality, advertiser value, promos). 8+ yrs.",
+      "app": {
+        "stage": "passed",
+        "since": "2026-10-16",
+        "note": "Parked by Rodrigo 10/16 - not pursuing for now."
+      },
+      "status": {
+        "live": true,
+        "v": "Parked"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Reema Garewal</b> (Mgr, Ads & Promo Analytics @ DoorDash, ex-Intuit) - linkedin.com/in/reemagarewal"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 8.6,
+      "domain": 5,
+      "comp": "$220-323K",
+      "compFit": null,
+      "tier": "Public - local commerce / ads",
+      "pinned": true,
+      "source": "10/16 sweep",
+      "discovered": "2026-10-16",
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Senior Manager, Core Consumer Analytics",
+      "loc": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4450115441",
+      "note": "Consumer analytics, 8+ yrs DS, 3+ people mgmt. 99 applicants.",
+      "app": {
+        "stage": "passed",
+        "since": "2026-10-16",
+        "note": "Parked by Rodrigo 10/16 - not pursuing for now."
+      },
+      "status": {
+        "live": true,
+        "v": "Parked"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Mahesh Raja</b> (Sr Mgr DS, Consumer Growth @ DoorDash, 17 mutuals) - linkedin.com/in/maheshraja"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.8,
+      "domain": 4,
+      "comp": "$220-323K",
+      "compFit": null,
+      "tier": "Public - local commerce",
+      "pinned": true,
+      "source": "10/16 sweep",
+      "discovered": "2026-10-16",
+      "isNew": true
+    },
+    {
+      "co": "Prosper Marketplace",
+      "role": "Director, Collections Strategy & Analytics",
+      "loc": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4480311821",
+      "note": "Head analytics for Collections & Recoveries across Personal Loans + Credit Card. 10+ yrs. <25 applicants.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-10-16",
+        "note": "Applied 10/16. Asked Siddharth Somayajula to flag to hiring team."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Zhifu Xiao</b> (Director Credit Risk Analytics, SF) / <b>Siddharth Somayajula</b> (Marketing & Analytics lead, SF)"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.4,
+      "domain": 4,
+      "comp": "$230-287K",
+      "compFit": null,
+      "tier": "Private fintech - personal loans + cards",
+      "pinned": true,
+      "source": "10/16 sweep",
+      "discovered": "2026-10-16",
+      "isNew": true
+    },
+    {
+      "co": "rPotential",
+      "role": "Head of Data",
+      "loc": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4481248008",
+      "note": "Applied by Rodrigo via LinkedIn 10/20.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-10-20",
+        "note": "Applied via LinkedIn 10/20."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied"
+      },
+      "referral": {
+        "level": "none",
+        "text": ""
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.0,
+      "domain": 3,
+      "comp": "TBC",
+      "compFit": null,
+      "tier": "Startup (TBC)",
+      "pinned": true,
+      "source": "Rodrigo 10/20",
+      "discovered": "2026-10-20",
+      "isNew": true
+    },
+    {
+      "co": "Ethos",
+      "role": "Senior Director of Analytics, Third-Party Agent Business",
+      "loc": "Remote US",
+      "url": "https://www.linkedin.com/jobs/view/4418175889",
+      "note": "Primary analytics/DS voice for the agent business; lead + grow team. 10+ yrs, 5+ building teams. 200+ applicants.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-10-21",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "To apply - referral first"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Tony DeMarco</b> (VP Performance Marketing @ Ethos, SF) - linkedin.com/in/dmarco13"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.4,
+      "domain": 3,
+      "comp": "$193-340K",
+      "compFit": null,
+      "tier": "Late-stage insurtech (life insurance)",
+      "pinned": true,
+      "source": "10/21 sweep",
+      "discovered": "2026-10-21",
+      "isNew": true
+    },
+    {
+      "co": "ServiceNow",
+      "role": "Senior Director, Product Analytics",
+      "loc": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4482006976",
+      "note": "15+ yrs, 7+ people mgmt (STRETCH). 31 applicants, posted 10/20.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-10-21",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "To apply - referral first"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Janeil Schock</b> (Dir PM, Data & Analytics @ ServiceNow, ex-Intuit) - linkedin.com/in/janeilschock"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.2,
+      "domain": 3,
+      "comp": "$255-445K + equity",
+      "compFit": null,
+      "tier": "Public enterprise SaaS",
+      "pinned": true,
+      "source": "10/21 sweep",
+      "discovered": "2026-10-21",
+      "isNew": true
+    },
+    {
+      "co": "Upstart",
+      "role": "Senior Manager, Data Science (Marketing Science)",
+      "loc": "Remote US",
+      "url": "https://job-boards.greenhouse.io/upstart/jobs/8314331",
+      "note": "Lead Marketing Science (MMM, channel attribution, budget allocation across direct mail/paid/brand/partnerships) for AI lending marketplace. 10+ yrs, 5+ managing. 44 applicants, posted 10/22.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-10-23",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "To apply - referral first"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Noah Nathan</b> (Sr Analytics Mgr, Growth Analytics @ Upstart, 28 mutuals) - linkedin.com/in/noahnathan"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 8.7,
+      "domain": 5,
+      "comp": "$195-270K",
+      "compFit": null,
+      "tier": "Public fintech - AI lending",
+      "pinned": true,
+      "source": "10/23 sweep",
+      "discovered": "2026-10-23",
+      "isNew": true
+    },
+    {
+      "co": "Happen Bank (LendingClub)",
+      "role": "Director, Modeling and Data Science",
+      "loc": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4481621542",
+      "note": "Lead ML + statistical models for lending/deposits: credit risk, fraud, collections, pricing, marketing. 10+ yrs ML/DS, 6+ people mgmt. <25 applicants.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-10-23",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "To apply - referral first"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Harinishri S.</b> (DS @ Happen Bank, 8 mutuals) - or LendingClub alumni in network"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.6,
+      "domain": 4,
+      "comp": "$210-245K base",
+      "compFit": null,
+      "tier": "Public bank/fintech (LendingClub rebrand)",
+      "pinned": true,
+      "source": "10/23 sweep",
+      "discovered": "2026-10-23",
       "isNew": true
     }
   ],
