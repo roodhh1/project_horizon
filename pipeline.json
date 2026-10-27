@@ -3059,13 +3059,13 @@
       "pinned": true,
       "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
       "status": {
-        "live": true,
-        "v": "Applied + flagged to recruiter by Robert Thorstad"
+        "live": false,
+        "v": "Rejected"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-10-07",
-        "note": "Applied 10/7. Robert Thorstad (Sr DSM) attached a note + flagged Rodrigo to the recruiter 10/7; knows the HM and thinks it is a good role."
+        "stage": "rejected",
+        "since": "2026-10-26",
+        "note": "Rejected 10/26."
       },
       "discovered": false,
       "isNew": true,
@@ -3687,7 +3687,7 @@
       "app": {
         "stage": "in-process",
         "since": "2026-10-22",
-        "note": "Recruiter screen w/ Alice Fay done 10/22 - ADVANCING. Next: HM call w/ Michael Wexler (VP Data). Madhavi shared guidance on Michael."
+        "note": "Recruiter screen done 10/22 - advancing to HM call w/ Michael Wexler (VP Data). Followed up w/ Alice 10/26 for scheduling; waiting."
       },
       "status": {
         "live": true,
@@ -3996,6 +3996,102 @@
       "pinned": true,
       "source": "10/23 sweep",
       "discovered": "2026-10-23",
+      "isNew": true
+    },
+    {
+      "co": "Linktree",
+      "role": "Head of Data Science",
+      "loc": "San Francisco, CA (or LA)",
+      "url": "https://www.linkedin.com/jobs/view/4483275408",
+      "note": "Lead company-wide DS + analytics org (strategy, experimentation, analytics) in the AI era; hands-on. 12+ yrs, 5+ leading managers/directors. <25 applicants, posted 10/26.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-10-27",
+        "note": "Applied 10/27. Messaged Amit Adur 10/27 to flag to HM."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Amit Adur</b> (Director Data & AI Eng @ Linktree, ex-Snap) - asked to flag 10/27. Backup: Weiyang (Sharon) Yang."
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 8.8,
+      "domain": 4,
+      "comp": "$320-340K base (SF)",
+      "compFit": null,
+      "tier": "Late-stage startup - creator platform (50M+ creators)",
+      "pinned": true,
+      "source": "10/27 sweep",
+      "discovered": "2026-10-27",
+      "isNew": true
+    },
+    {
+      "co": "Twilio",
+      "role": "Sr. Director, Marketing Strategy, Analytics & Innovation",
+      "loc": "Remote US",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8325734",
+      "note": "Lead global marketing strategy + analytics team; planning, target setting, experimentation, measurement. 10+ yrs, 5+ people leadership.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-10-27",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "To apply - referral first"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Ray Miller</b> (Director, Marketing Strategy & Analytics @ Twilio) - linkedin.com/in/raymiller10"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.6,
+      "domain": 3,
+      "comp": "$228-302K",
+      "compFit": null,
+      "tier": "Public - comms/CPaaS",
+      "pinned": true,
+      "source": "10/27 sweep",
+      "discovered": "2026-10-27",
+      "isNew": true
+    },
+    {
+      "co": "Zocdoc",
+      "role": "Director, Marketing Data Science",
+      "loc": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/4446938769",
+      "note": "Marketing DS leadership (measurement/attribution). 8+ yrs. 144 applicants.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-10-27",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "To apply - referral first"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Prashant Singh</b> (Sr Mgr DS @ Zocdoc, San Jose) - linkedin.com/in/prashant-singh-wa"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.2,
+      "domain": 3,
+      "comp": "$220-300K",
+      "compFit": null,
+      "tier": "Private - healthcare marketplace",
+      "pinned": true,
+      "source": "10/27 sweep",
+      "discovered": "2026-10-27",
       "isNew": true
     }
   ],
