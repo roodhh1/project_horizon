@@ -2995,13 +2995,13 @@
       "pinned": true,
       "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
       "status": {
-        "live": true,
-        "v": "Applied 10/6 + outreach"
+        "live": false,
+        "v": "Closed"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-10-06",
-        "note": "Applied 10/6. Ashwin could not refer 10/8 - system showed already applied. Cold now."
+        "stage": "closed",
+        "since": "2026-10-29",
+        "note": "Zendesk closed/filled the role 10/29."
       },
       "discovered": false,
       "isNew": true,
@@ -4005,13 +4005,13 @@
       "url": "https://www.linkedin.com/jobs/view/4483275408",
       "note": "Lead company-wide DS + analytics org (strategy, experimentation, analytics) in the AI era; hands-on. 12+ yrs, 5+ leading managers/directors. <25 applicants, posted 10/26.",
       "app": {
-        "stage": "applied",
-        "since": "2026-10-27",
-        "note": "Applied 10/27. Messaged Amit Adur 10/27 to flag to HM."
+        "stage": "rejected",
+        "since": "2026-10-28",
+        "note": "Rejected 10/28 (one day after applying)."
       },
       "status": {
-        "live": true,
-        "v": "Applied"
+        "live": false,
+        "v": "Rejected"
       },
       "referral": {
         "level": "warm",
@@ -4092,6 +4092,38 @@
       "pinned": true,
       "source": "10/27 sweep",
       "discovered": "2026-10-27",
+      "isNew": true
+    },
+    {
+      "co": "DoorDash",
+      "role": "Director, Analytics, DashOS",
+      "loc": "SF / Sunnyvale / NY / Seattle",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8331068",
+      "note": "Lead analytics for DashOS - restaurant growth platform (Marketplace, direct ordering, reservations, loyalty, marketing incl. SevenRooms); 0->1 + scaling bets, commercialization. 10+ yrs. Posted 10/28.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-10-29",
+        "note": "Referral first (Ethan Zhu / Reema Garewal)."
+      },
+      "status": {
+        "live": true,
+        "v": "To apply - referral first"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Ethan Zhu</b> (Director DS & Analytics @ DoorDash, emailed 10/7) or <b>Reema Garewal</b> (ex-Intuit)"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 8.7,
+      "domain": 4,
+      "comp": "$255-375K",
+      "compFit": null,
+      "tier": "Public - local commerce (merchant platform)",
+      "pinned": true,
+      "source": "10/29 sweep",
+      "discovered": "2026-10-29",
       "isNew": true
     }
   ],
