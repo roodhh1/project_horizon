@@ -4197,13 +4197,13 @@
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922062002",
       "note": "Lead Product DS team of 6, report to Director DS; drive product impact + build merged DS function. 10+ yrs, 3+ managing. Lateral.",
       "app": {
-        "stage": "to-apply",
+        "stage": "applied",
         "since": "2026-11-03",
-        "note": "Referral first."
+        "note": "Applied 11/3. Messaging Naheil McAvinue (Director Analytics & DS, likely HM) to flag."
       },
       "status": {
         "live": true,
-        "v": "To apply - referral first"
+        "v": "Applied"
       },
       "referral": {
         "level": "warm",
@@ -4219,6 +4219,70 @@
       "tier": "Public - DevOps SaaS",
       "pinned": true,
       "source": "11/3 sweep",
+      "discovered": "2026-11-03",
+      "isNew": true
+    },
+    {
+      "co": "Anthropic",
+      "role": "Tech Lead Manager, Core Apps Data Scientist",
+      "loc": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4485797356",
+      "note": "Senior DS leader embedded in Core Apps (Claude consumer apps): product strategy, roadmap, DS agenda; hire + manage team AND lead highest-stakes analyses hands-on. 3+ yrs managing DS. <25 applicants, posted 11/2.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-11-03",
+        "note": "Applied 11/3 (own Why Anthropic answer). Messaged Jackson Wang 11/3 for referral/flag."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Jackson Wang</b> (DS, Finance & Strategy @ Anthropic) - messaged 11/3. Mutual: Sagar Ganapaneni."
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 8.6,
+      "domain": 3,
+      "comp": "$460K",
+      "compFit": null,
+      "tier": "Private AI lab",
+      "pinned": true,
+      "source": "Rodrigo 11/3 (job alert)",
+      "discovered": "2026-11-03",
+      "isNew": true
+    },
+    {
+      "co": "Anthropic",
+      "role": "Data Science Tech Lead Manager, Model Experience",
+      "loc": "Seattle, WA",
+      "url": "https://www.linkedin.com/jobs/view/4485784630",
+      "note": "DS leader for Model Experience (how users experience models; launch/roadmap decisions). Research-adjacent. Seattle.",
+      "app": {
+        "stage": "passed",
+        "since": "2026-11-03",
+        "note": "Passed - focusing on Core Apps (Seattle, research-adjacent)."
+      },
+      "status": {
+        "live": true,
+        "v": "Passed"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Jackson Wang</b> (DS, Finance & Strategy @ Anthropic; mutual: Sagar Ganapaneni, 1st) / Head of Data: <b>Lisa Cohen</b>"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.0,
+      "domain": 3,
+      "comp": "$380-460K",
+      "compFit": null,
+      "tier": "Private AI lab",
+      "pinned": true,
+      "source": "Rodrigo 11/3 (job alert)",
       "discovered": "2026-11-03",
       "isNew": true
     }
