@@ -2672,16 +2672,16 @@
       "source": "9/30 sweep",
       "status": {
         "live": true,
-        "v": "Applied 9/30 - referral ask to Wei An Lee"
+        "v": "Applied"
       },
       "app": {
         "stage": "applied",
-        "since": "2026-09-30",
-        "note": "Applied 9/30. Connection note + referral ask sent to Wei An Lee (Head of Finance Data, CFO org)."
+        "since": "2026-10-04",
+        "note": "Applied 10/4; messaged Wei An Lee 10/4 for referral - no reply. Role reposted 11/2."
       },
       "referral": {
-        "level": "bridge",
-        "text": "<b>Wei An Lee</b> (Head of Finance Data, OpenAI CFO org, 2nd, 33 mutuals) - peer to this role; connection note drafted 9/30. Brokers: Kunal Priyadarshi, sahithi visvanathan. Strategic Finance ICs: Kathir Sundarraj (via Kunal). DS leadership: Linsha Chen (via Alex Zhou)."
+        "level": "warm",
+        "text": "<b>Wei An Lee</b> (1st; Head of Finance Data @ OpenAI) - asked 10/4, no reply yet."
       },
       "discovered": false,
       "isNew": true
@@ -3941,13 +3941,13 @@
       "url": "https://job-boards.greenhouse.io/upstart/jobs/8314331",
       "note": "Lead Marketing Science (MMM, channel attribution, budget allocation across direct mail/paid/brand/partnerships) for AI lending marketplace. 10+ yrs, 5+ managing. 44 applicants, posted 10/22.",
       "app": {
-        "stage": "to-apply",
-        "since": "2026-10-23",
-        "note": "Referral first."
+        "stage": "passed",
+        "since": "2026-11-03",
+        "note": "Passed 11/3 - recent layoffs + role too marketing-oriented (Rodrigo)."
       },
       "status": {
         "live": true,
-        "v": "To apply - referral first"
+        "v": "Passed"
       },
       "referral": {
         "level": "warm",
@@ -4124,6 +4124,102 @@
       "pinned": true,
       "source": "10/29 sweep",
       "discovered": "2026-10-29",
+      "isNew": true
+    },
+    {
+      "co": "OpenAI",
+      "role": "Head of Data Science, Strategic Finance",
+      "loc": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4485780961",
+      "note": "Lead Strategic Finance DS: forecasting key business/financial metrics, target attainment, decision modeling, automation. 12+ yrs. 26 applicants, posted 11/2. STRETCH on finance-DS depth.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-10-04",
+        "note": "Applied 10/4; messaged Wei An Lee 10/4 for referral - no reply. Role reposted 11/2."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Wei An Lee</b> (1st; Head of Finance Data @ OpenAI) - asked 10/4, no reply yet."
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 8.4,
+      "domain": 3,
+      "comp": "$459-536K + equity",
+      "compFit": null,
+      "tier": "Private AI lab",
+      "pinned": true,
+      "source": "11/3 sweep",
+      "discovered": "2026-11-03",
+      "isNew": true
+    },
+    {
+      "co": "Justworks",
+      "role": "Senior Manager, Advanced Analytics",
+      "loc": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/4484964495",
+      "note": "Lead advanced analytics within Data & Analytics CoE. 8+ yrs, 3+ people mgmt. <25 applicants.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-11-03",
+        "note": "Applied 11/3 via LinkedIn Easy Apply (marked top choice). Next: note to Param Ghangas."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Param Ghangas</b> (VP Data & Analytics @ Justworks) / <b>Becca Ledley</b> (Director DS)"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.6,
+      "domain": 4,
+      "comp": "$240-310K",
+      "compFit": null,
+      "tier": "Private - SMB HR/payroll (PEO)",
+      "pinned": true,
+      "source": "11/3 sweep",
+      "discovered": "2026-11-03",
+      "isNew": true
+    },
+    {
+      "co": "GitLab",
+      "role": "Senior Manager, Data Science (Product DS)",
+      "loc": "Remote US",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922062002",
+      "note": "Lead Product DS team of 6, report to Director DS; drive product impact + build merged DS function. 10+ yrs, 3+ managing. Lateral.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-11-03",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "To apply - referral first"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Naheil McAvinue</b> (Director, Analytics & DS @ GitLab - likely HM) - linkedin.com/in/naheil-mcavinue"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.2,
+      "domain": 3,
+      "comp": "$153-259K",
+      "compFit": null,
+      "tier": "Public - DevOps SaaS",
+      "pinned": true,
+      "source": "11/3 sweep",
+      "discovered": "2026-11-03",
       "isNew": true
     }
   ],
