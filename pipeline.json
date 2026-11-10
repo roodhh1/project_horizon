@@ -4445,6 +4445,38 @@
       "source": "Rodrigo 11/10",
       "discovered": "2026-11-10",
       "isNew": true
+    },
+    {
+      "co": "Robinhood",
+      "role": "Senior Manager, Finance & Strategy Data Science",
+      "loc": "Menlo Park, CA",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8180757",
+      "note": "Same req 8180757 as the Head role (rejected 10/16), re-leveled to Sr Manager. 7+ yrs, 2+ managing. Comp below Intuit run-rate.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-11-10",
+        "note": "Reapplied 11/10. LinkedIn invite to recruiter Chen Cheng (Tech Recruiting Mgr, AI/Data). Mandar agreed to flag again."
+      },
+      "status": {
+        "live": true,
+        "v": "In Process"
+      },
+      "referral": {
+        "level": "strong",
+        "text": "<b>Mandar Deshpande</b> flagging again; <b>Chen Cheng</b> (recruiter) invite sent"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.5,
+      "domain": 5,
+      "comp": "$247-290K base",
+      "compFit": null,
+      "tier": "Public fintech",
+      "pinned": true,
+      "source": "Greenhouse",
+      "discovered": "2026-11-10",
+      "isNew": true
     }
   ],
   "overrides": {
