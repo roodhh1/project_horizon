@@ -2383,13 +2383,13 @@
       "pinned": true,
       "source": "9/29 sweep",
       "status": {
-        "live": true,
-        "v": "Applied 9/30 - referral ask to Patricio Garza"
+        "live": false,
+        "v": "Rejected"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-30",
-        "note": "Applied 9/30 (Greenhouse confirmation). Connection note + referral ask sent to Patricio Garza (in Spanish)."
+        "stage": "rejected",
+        "since": "2026-11-04",
+        "note": "Rejected 11/4."
       },
       "referral": {
         "level": "bridge",
@@ -2677,11 +2677,11 @@
       "app": {
         "stage": "applied",
         "since": "2026-10-04",
-        "note": "Applied 10/4; messaged Wei An Lee 10/4 for referral - no reply. Role reposted 11/2."
+        "note": "Applied 10/4; role reposted 11/2; Wei An could not help (11/3)."
       },
       "referral": {
         "level": "warm",
-        "text": "<b>Wei An Lee</b> (1st; Head of Finance Data @ OpenAI) - asked 10/4, no reply yet."
+        "text": "<b>Wei An Lee</b> - replied 11/3: does not know the HM; wished luck. No referral."
       },
       "discovered": false,
       "isNew": true
@@ -2899,13 +2899,13 @@
       "pinned": true,
       "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
       "status": {
-        "live": true,
-        "v": "Applied 10/6 + outreach"
+        "live": false,
+        "v": "Rejected"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-10-06",
-        "note": "Applied 10/6. Connection note sent to Anurag Ramachandra (Sr Director, Data & AI)."
+        "stage": "rejected",
+        "since": "2026-11-03",
+        "note": "Rejected 11/3."
       },
       "discovered": false,
       "isNew": true,
@@ -2931,13 +2931,13 @@
       "pinned": true,
       "source": "10/6 sweep (LinkedIn + Greenhouse/Ashby)",
       "status": {
-        "live": true,
-        "v": "Applied 10/6 + outreach"
+        "live": false,
+        "v": "Rejected"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-10-06",
-        "note": "Applied 10/6. Connection note sent to Firdevs Abacioglu (Head of DS & AI)."
+        "stage": "rejected",
+        "since": "2026-11-05",
+        "note": "Rejected 11/5 after resume review."
       },
       "discovered": false,
       "isNew": true,
@@ -3315,13 +3315,13 @@
       "pinned": true,
       "source": "10/7 quick sweep (Ashby)",
       "status": {
-        "live": true,
-        "v": "Applied 10/7 + outreach"
+        "live": false,
+        "v": "Rejected"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-10-07",
-        "note": "Applied 10/7 (Ashby). InMail to Sunday Shields (Technical Recruiter, ex-Intuit) asking to route to right recruiter."
+        "stage": "rejected",
+        "since": "2026-11-05",
+        "note": "Rejected 11/5 after resume review."
       },
       "referral": {
         "level": "bridge",
@@ -4135,7 +4135,7 @@
       "app": {
         "stage": "applied",
         "since": "2026-10-04",
-        "note": "Applied 10/4; messaged Wei An Lee 10/4 for referral - no reply. Role reposted 11/2."
+        "note": "Applied 10/4; role reposted 11/2; Wei An could not help (11/3)."
       },
       "status": {
         "live": true,
@@ -4143,7 +4143,7 @@
       },
       "referral": {
         "level": "warm",
-        "text": "<b>Wei An Lee</b> (1st; Head of Finance Data @ OpenAI) - asked 10/4, no reply yet."
+        "text": "<b>Wei An Lee</b> - replied 11/3: does not know the HM; wished luck. No referral."
       },
       "track": "domain",
       "trackLabel": "Domain-strong",
@@ -4284,6 +4284,166 @@
       "pinned": true,
       "source": "Rodrigo 11/3 (job alert)",
       "discovered": "2026-11-03",
+      "isNew": true
+    },
+    {
+      "co": "GitLab",
+      "role": "Director, Data Science",
+      "loc": "Remote US",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8931768002",
+      "note": "Lead Product, Sales and Finance DS teams; report to VP Data & Insights. 12+ yrs, 6+ leading, 3+ managing managers (gap). Posted 11/5. Step up from the Sr Mgr role already applied.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-11-07",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "To apply - referral first"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Naheil McAvinue</b> (Director Analytics & DS) - messaged 11/3 re Sr Mgr; ask about Director req"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.8,
+      "domain": 3,
+      "comp": "$210-314K",
+      "compFit": null,
+      "tier": "Public - DevOps SaaS",
+      "pinned": true,
+      "source": "11/7 sweep",
+      "discovered": "2026-11-07",
+      "isNew": true
+    },
+    {
+      "co": "Gap Inc.",
+      "role": "Director, Data Science",
+      "loc": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4487236559",
+      "note": "Lead cross-functional DS team building AI/ML across Gap brands. 7+ yrs, 2+ people leader. 35 applicants.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-11-07",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "To apply - referral first"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Belle Peng</b> (Director DS @ Gap) / <b>Jinit Haria</b> (Director Advanced Analytics - customer lifecycle/loyalty)"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 6.8,
+      "domain": 2,
+      "comp": "TBC",
+      "compFit": null,
+      "tier": "Public - apparel retail",
+      "pinned": true,
+      "source": "11/7 sweep",
+      "discovered": "2026-11-07",
+      "isNew": true
+    },
+    {
+      "co": "Mercado Pago",
+      "role": "Head of Credit Risk (Seller Credit)",
+      "loc": "Mexico City",
+      "url": "",
+      "note": "Inbound via T-mapp headhunter Adriana Marentes (WhatsApp 11/9). Seller credit risk, CDMX.",
+      "app": {
+        "stage": "in-process",
+        "since": "2026-11-10",
+        "note": "Recruiter call w/ Adriana Marentes Tue 11/10 8:30-9am PT. Prep doc: MercadoPago_Recruiter_Prep_Adriana.html"
+      },
+      "status": {
+        "live": true,
+        "v": "In Process"
+      },
+      "referral": {
+        "level": "warm",
+        "text": "<b>Adriana Marentes</b> (T-mapp headhunter) - inbound"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.8,
+      "domain": 5,
+      "comp": "TBC",
+      "compFit": null,
+      "tier": "Public LatAm fintech (MercadoLibre)",
+      "pinned": true,
+      "source": "Rodrigo 11/10",
+      "discovered": "2026-11-10",
+      "isNew": true
+    },
+    {
+      "co": "PwC",
+      "role": "Pricing and Revenue Data Science Senior Manager - Consumer Markets",
+      "loc": "San Francisco, CA",
+      "url": "",
+      "note": "Pricing & revenue DS consulting.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-11-10",
+        "note": "Applied 11/10 (Workday)."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied"
+      },
+      "referral": {
+        "level": "none",
+        "text": ""
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 5.5,
+      "domain": 4,
+      "comp": "TBC",
+      "compFit": null,
+      "tier": "Consulting (Big 4)",
+      "pinned": true,
+      "source": "Rodrigo 11/10",
+      "discovered": "2026-11-10",
+      "isNew": true
+    },
+    {
+      "co": "DRUM Associates (agency)",
+      "role": "Senior Manager of Advanced Analytics",
+      "loc": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/4489491104",
+      "note": "Agency posting; client unknown.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-11-10",
+        "note": "Applied 11/10 via LinkedIn."
+      },
+      "status": {
+        "live": true,
+        "v": "Applied"
+      },
+      "referral": {
+        "level": "none",
+        "text": ""
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 5.0,
+      "domain": 3,
+      "comp": "TBC",
+      "compFit": null,
+      "tier": "Recruiting agency - client undisclosed",
+      "pinned": true,
+      "source": "Rodrigo 11/10",
+      "discovered": "2026-11-10",
       "isNew": true
     }
   ],
