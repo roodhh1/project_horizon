@@ -4165,9 +4165,9 @@
       "url": "https://www.linkedin.com/jobs/view/4484964495",
       "note": "Lead advanced analytics within Data & Analytics CoE. 8+ yrs, 3+ people mgmt. <25 applicants.",
       "app": {
-        "stage": "applied",
-        "since": "2026-11-03",
-        "note": "Applied 11/3 via LinkedIn Easy Apply (marked top choice). Next: note to Param Ghangas."
+        "stage": "in-process",
+        "since": "2026-11-18",
+        "note": "Phone screen w/ Darnell Gilet (recruiter) Wed 11/18 10-10:30am PT."
       },
       "status": {
         "live": true,
@@ -4229,9 +4229,9 @@
       "url": "https://www.linkedin.com/jobs/view/4485797356",
       "note": "Senior DS leader embedded in Core Apps (Claude consumer apps): product strategy, roadmap, DS agenda; hire + manage team AND lead highest-stakes analyses hands-on. 3+ yrs managing DS. <25 applicants, posted 11/2.",
       "app": {
-        "stage": "applied",
-        "since": "2026-11-03",
-        "note": "Applied 11/3 (own Why Anthropic answer). Messaged Jackson Wang 11/3 for referral/flag."
+        "stage": "rejected",
+        "since": "2026-11-10",
+        "note": "Rejected 11/10 (Greenhouse)."
       },
       "status": {
         "live": true,
@@ -4421,9 +4421,9 @@
       "url": "https://www.linkedin.com/jobs/view/4489491104",
       "note": "Agency posting; client unknown.",
       "app": {
-        "stage": "applied",
-        "since": "2026-11-10",
-        "note": "Applied 11/10 via LinkedIn."
+        "stage": "in-process",
+        "since": "2026-11-20",
+        "note": "Call w/ Jen Gordon (Principal Recruiter) moved to Fri 11/20 9am PT."
       },
       "status": {
         "live": true,
@@ -4453,9 +4453,9 @@
       "url": "https://boards.greenhouse.io/robinhood/jobs/8180757",
       "note": "Same req 8180757 as the Head role (rejected 10/16), re-leveled to Sr Manager. 7+ yrs, 2+ managing. Comp below Intuit run-rate.",
       "app": {
-        "stage": "applied",
-        "since": "2026-11-10",
-        "note": "Reapplied 11/10. LinkedIn invite to recruiter Chen Cheng (Tech Recruiting Mgr, AI/Data). Mandar agreed to flag again."
+        "stage": "rejected",
+        "since": "2026-11-13",
+        "note": "Recruiter screen 11/12 w/ Michael Staffeldt; HM said no clear fit 11/13. Michael offered to stay in touch."
       },
       "status": {
         "live": true,
@@ -4475,6 +4475,198 @@
       "tier": "Public fintech",
       "pinned": true,
       "source": "Greenhouse",
+      "discovered": "2026-11-10",
+      "isNew": true
+    },
+    {
+      "co": "RentSpree",
+      "role": "Head of Data",
+      "loc": "",
+      "url": "",
+      "note": "Applied via Rippling.",
+      "app": {
+        "stage": "rejected",
+        "since": "2026-11-17",
+        "note": "Rejected 11/17 - role filled."
+      },
+      "status": {
+        "live": true,
+        "v": "In Process"
+      },
+      "referral": {
+        "level": "none",
+        "text": ""
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 5,
+      "domain": 3,
+      "comp": "TBC",
+      "compFit": null,
+      "tier": "Proptech",
+      "pinned": true,
+      "source": "Rippling",
+      "discovered": "2026-11-17",
+      "isNew": false
+    },
+    {
+      "co": "Wayfair",
+      "role": "Head of Data Science, Customer Technology",
+      "loc": "Mountain View, CA / Boston",
+      "url": "https://www.linkedin.com/jobs/view/4490543240",
+      "note": "Leads 35-40 DS (US/Canada/India) across the shopping journey: search, recs, experimentation, AI shopping. 67 applicants.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-11-18",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "In Process"
+      },
+      "referral": {
+        "level": "weak",
+        "text": "<b>Lejia Shen</b> (DS Mgr, 6 mutuals); <b>Mayank Gandhi</b> via Sandeep Uttamchandani"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.5,
+      "domain": 3,
+      "comp": "~$280-290K+ base",
+      "compFit": null,
+      "tier": "Public e-commerce",
+      "pinned": true,
+      "source": "LinkedIn/Greenhouse sweep 11/18",
+      "discovered": "2026-11-18",
+      "isNew": true
+    },
+    {
+      "co": "Freshworks",
+      "role": "Senior Director, Marketing Intelligence & Decision Science",
+      "loc": "San Mateo, CA",
+      "url": "https://www.linkedin.com/jobs/view/4492036623",
+      "note": "Marketing analytics, attribution/MMM, revenue intelligence. 12+ yrs asked. 25 applicants.",
+      "app": {
+        "stage": "passed",
+        "since": "2026-11-18",
+        "note": "Passed: marketing analytics / MMM-heavy, not a fit."
+      },
+      "status": {
+        "live": true,
+        "v": "In Process"
+      },
+      "referral": {
+        "level": "weak",
+        "text": "<b>Govind Nandanavanam</b> (Sr Mgr GTM Strategy & Analytics)"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.0,
+      "domain": 3,
+      "comp": "$255-315K base",
+      "compFit": null,
+      "tier": "Public B2B SaaS",
+      "pinned": true,
+      "source": "LinkedIn/Greenhouse sweep 11/18",
+      "discovered": "2026-11-18",
+      "isNew": true
+    },
+    {
+      "co": "Walmart",
+      "role": "Senior Director, Data Science",
+      "loc": "Sunnyvale, CA",
+      "url": "https://www.linkedin.com/jobs/view/4490816523",
+      "note": "Builds DS org, AI/ML model strategy. Team unclear from the JD - confirm. 25 applicants.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-11-18",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "In Process"
+      },
+      "referral": {
+        "level": "weak",
+        "text": "TBD"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 6.5,
+      "domain": 3,
+      "comp": "$208-416K base",
+      "compFit": null,
+      "tier": "Fortune 1",
+      "pinned": true,
+      "source": "LinkedIn/Greenhouse sweep 11/18",
+      "discovered": "2026-11-18",
+      "isNew": true
+    },
+    {
+      "co": "Samsara",
+      "role": "Head of Data Science, ML & Data Platform",
+      "loc": "Remote - SF Bay Area",
+      "url": "https://boards.greenhouse.io/samsara/jobs/8329357",
+      "note": "STRETCH: ~30 people across DS, production ML, data eng & platform; reports to SVP Eng. Posted 11/17.",
+      "app": {
+        "stage": "to-apply",
+        "since": "2026-11-18",
+        "note": "Referral first."
+      },
+      "status": {
+        "live": true,
+        "v": "In Process"
+      },
+      "referral": {
+        "level": "weak",
+        "text": "TBD"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 6.0,
+      "domain": 2,
+      "comp": "TBC",
+      "compFit": null,
+      "tier": "Public IoT SaaS",
+      "pinned": true,
+      "source": "LinkedIn/Greenhouse sweep 11/18",
+      "discovered": "2026-11-18",
+      "isNew": true
+    },
+    {
+      "co": "Intuit (contract)",
+      "role": "Contractor - Active Experts leadership (bridge)",
+      "loc": "Remote / Mountain View",
+      "url": "",
+      "note": "Contract via Alex Zhou; bridge until next FT role. Targeting early-Dec start.",
+      "app": {
+        "stage": "in-process",
+        "since": "2026-11-13",
+        "note": "Agreed terms with Alex 11/12; chose Active Experts option 11/13. Waiting on Intuit to finalize."
+      },
+      "status": {
+        "live": true,
+        "v": "In Process"
+      },
+      "referral": {
+        "level": "direct",
+        "text": "<b>Alex Zhou</b> (Intuit)"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 6,
+      "domain": 5,
+      "comp": "Hourly contract",
+      "compFit": null,
+      "tier": "Bridge role",
+      "pinned": true,
+      "source": "Inbound (Alex Zhou)",
       "discovered": "2026-11-10",
       "isNew": true
     }
