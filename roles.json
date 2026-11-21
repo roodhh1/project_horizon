@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-11-20",
+  "verified_on": "2026-11-21",
   "roles": [
     {
       "co": "Mercury",
@@ -73,7 +73,7 @@
       },
       "status": {
         "live": true,
-        "v": "Careers page · checked 2026-11-20"
+        "v": "Careers page · checked 2026-11-21"
       },
       "referral": {
         "level": "bridge",
@@ -115,7 +115,7 @@
       },
       "status": {
         "live": true,
-        "v": "LinkedIn posting · checked 2026-11-19 (recheck failed 2026-11-20)"
+        "v": "LinkedIn posting · checked 2026-11-19 (recheck failed 2026-11-20) (recheck failed 2026-11-21)"
       },
       "referral": {
         "level": "bridge",
@@ -636,7 +636,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -710,7 +710,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -741,7 +741,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-11-20"
+        "v": "Not on board · checked 2026-11-21"
       },
       "referral": {
         "level": "bridge",
@@ -779,7 +779,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -811,7 +811,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-11-20"
+        "v": "Not on board · checked 2026-11-21"
       },
       "referral": {
         "level": "bridge",
@@ -849,7 +849,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "bridge",
@@ -887,7 +887,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-11-20"
+        "v": "Not on board · checked 2026-11-21"
       },
       "referral": {
         "level": "bridge",
@@ -925,7 +925,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -957,7 +957,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -989,7 +989,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1021,7 +1021,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1053,7 +1053,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1085,7 +1085,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1117,7 +1117,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1149,7 +1149,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1220,7 +1220,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1252,7 +1252,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1284,7 +1284,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1316,7 +1316,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-11-20"
+        "v": "Not on board · checked 2026-11-21"
       },
       "referral": {
         "level": "bridge",
@@ -1354,7 +1354,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-11-20"
+        "v": "Not on board · checked 2026-11-21"
       },
       "referral": {
         "level": "bridge",
@@ -1392,7 +1392,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-11-20"
+        "v": "Not on board · checked 2026-11-21"
       },
       "referral": {
         "level": "bridge",
@@ -1430,7 +1430,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1462,7 +1462,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1544,7 +1544,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1615,7 +1615,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1647,7 +1647,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1679,7 +1679,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1750,7 +1750,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1782,7 +1782,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1814,7 +1814,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1846,7 +1846,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1878,7 +1878,7 @@
       },
       "status": {
         "live": false,
-        "v": "Not on board · checked 2026-11-20"
+        "v": "Not on board · checked 2026-11-21"
       },
       "referral": {
         "level": "bridge",
@@ -1916,7 +1916,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -1948,7 +1948,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -2016,7 +2016,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -2048,7 +2048,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -2080,7 +2080,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -2112,7 +2112,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -2573,7 +2573,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -2648,7 +2648,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -2680,7 +2680,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -2881,7 +2881,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -2985,7 +2985,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -3205,7 +3205,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -3483,7 +3483,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -3515,7 +3515,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-09-27 (recheck failed 2026-09-28) (recheck failed 2026-09-29) (recheck failed 2026-09-30) (recheck failed 2026-09-30) (recheck failed 2026-09-30) (recheck failed 2026-10-01) (recheck failed 2026-10-01) (recheck failed 2026-10-01) (recheck failed 2026-10-02) (recheck failed 2026-10-03) (recheck failed 2026-10-04) (recheck failed 2026-10-05) (recheck failed 2026-10-05) (recheck failed 2026-10-06) (recheck failed 2026-10-06) (recheck failed 2026-10-07) (recheck failed 2026-10-07) (recheck failed 2026-10-08) (recheck failed 2026-10-08) (recheck failed 2026-10-08) (recheck failed 2026-10-09) (recheck failed 2026-10-10) (recheck failed 2026-10-11) (recheck failed 2026-10-12) (recheck failed 2026-10-13) (recheck failed 2026-10-14) (recheck failed 2026-10-14) (recheck failed 2026-10-14) (recheck failed 2026-10-15) (recheck failed 2026-10-16) (recheck failed 2026-10-17) (recheck failed 2026-10-18) (recheck failed 2026-10-19) (recheck failed 2026-10-20) (recheck failed 2026-10-21) (recheck failed 2026-10-22) (recheck failed 2026-10-23) (recheck failed 2026-10-23) (recheck failed 2026-10-24) (recheck failed 2026-10-25) (recheck failed 2026-10-26) (recheck failed 2026-10-27) (recheck failed 2026-10-27) (recheck failed 2026-10-28) (recheck failed 2026-10-29) (recheck failed 2026-10-30) (recheck failed 2026-10-30) (recheck failed 2026-10-31) (recheck failed 2026-11-01) (recheck failed 2026-11-02) (recheck failed 2026-11-03) (recheck failed 2026-11-03) (recheck failed 2026-11-03) (recheck failed 2026-11-04) (recheck failed 2026-11-05) (recheck failed 2026-11-06) (recheck failed 2026-11-07) (recheck failed 2026-11-08) (recheck failed 2026-11-09) (recheck failed 2026-11-10) (recheck failed 2026-11-10) (recheck failed 2026-11-10) (recheck failed 2026-11-11) (recheck failed 2026-11-12) (recheck failed 2026-11-13) (recheck failed 2026-11-14) (recheck failed 2026-11-15) (recheck failed 2026-11-16) (recheck failed 2026-11-17) (recheck failed 2026-11-18) (recheck failed 2026-11-18) (recheck failed 2026-11-19) (recheck failed 2026-11-20)"
+        "v": "Board API · checked 2026-09-27 (recheck failed 2026-09-28) (recheck failed 2026-09-29) (recheck failed 2026-09-30) (recheck failed 2026-09-30) (recheck failed 2026-09-30) (recheck failed 2026-10-01) (recheck failed 2026-10-01) (recheck failed 2026-10-01) (recheck failed 2026-10-02) (recheck failed 2026-10-03) (recheck failed 2026-10-04) (recheck failed 2026-10-05) (recheck failed 2026-10-05) (recheck failed 2026-10-06) (recheck failed 2026-10-06) (recheck failed 2026-10-07) (recheck failed 2026-10-07) (recheck failed 2026-10-08) (recheck failed 2026-10-08) (recheck failed 2026-10-08) (recheck failed 2026-10-09) (recheck failed 2026-10-10) (recheck failed 2026-10-11) (recheck failed 2026-10-12) (recheck failed 2026-10-13) (recheck failed 2026-10-14) (recheck failed 2026-10-14) (recheck failed 2026-10-14) (recheck failed 2026-10-15) (recheck failed 2026-10-16) (recheck failed 2026-10-17) (recheck failed 2026-10-18) (recheck failed 2026-10-19) (recheck failed 2026-10-20) (recheck failed 2026-10-21) (recheck failed 2026-10-22) (recheck failed 2026-10-23) (recheck failed 2026-10-23) (recheck failed 2026-10-24) (recheck failed 2026-10-25) (recheck failed 2026-10-26) (recheck failed 2026-10-27) (recheck failed 2026-10-27) (recheck failed 2026-10-28) (recheck failed 2026-10-29) (recheck failed 2026-10-30) (recheck failed 2026-10-30) (recheck failed 2026-10-31) (recheck failed 2026-11-01) (recheck failed 2026-11-02) (recheck failed 2026-11-03) (recheck failed 2026-11-03) (recheck failed 2026-11-03) (recheck failed 2026-11-04) (recheck failed 2026-11-05) (recheck failed 2026-11-06) (recheck failed 2026-11-07) (recheck failed 2026-11-08) (recheck failed 2026-11-09) (recheck failed 2026-11-10) (recheck failed 2026-11-10) (recheck failed 2026-11-10) (recheck failed 2026-11-11) (recheck failed 2026-11-12) (recheck failed 2026-11-13) (recheck failed 2026-11-14) (recheck failed 2026-11-15) (recheck failed 2026-11-16) (recheck failed 2026-11-17) (recheck failed 2026-11-18) (recheck failed 2026-11-18) (recheck failed 2026-11-19) (recheck failed 2026-11-20) (recheck failed 2026-11-21)"
       },
       "referral": {
         "level": "pending",
@@ -3643,7 +3643,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -3675,7 +3675,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -3707,7 +3707,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4042,7 +4042,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4074,7 +4074,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4199,7 +4199,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4231,7 +4231,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4302,7 +4302,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4334,7 +4334,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "direct",
@@ -4372,7 +4372,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4443,39 +4443,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
-      },
-      "referral": {
-        "level": "pending",
-        "text": ""
-      },
-      "discovered": true,
-      "isNew": true,
-      "kind": "pm"
-    },
-    {
-      "co": "Roblox",
-      "role": "Principal Product Manager, Subscriptions and Growth",
-      "loc": "San Mateo, CA, United States",
-      "track": "pm",
-      "trackLabel": "Product (data/AI/growth)",
-      "extraTrack": "",
-      "score": null,
-      "domain": null,
-      "comp": "Not posted",
-      "compFit": null,
-      "tier": "",
-      "url": "https://careers.roblox.com/jobs/8219433?gh_jid=8219433",
-      "posted": "2026-09-23",
-      "note": "Auto-discovered on Roblox's job board 2026-09-24. Senior PM (data/AI/growth lane). Not yet scored — review fit, comp, and referral path.",
-      "verify": {
-        "type": "greenhouse",
-        "token": "roblox",
-        "id": "8219433"
-      },
-      "status": {
-        "live": true,
-        "v": "Live (closing? unconfirmed) · 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4507,7 +4475,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4578,7 +4546,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4610,7 +4578,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4681,7 +4649,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -4713,7 +4681,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -5321,7 +5289,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -5353,7 +5321,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -5469,7 +5437,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -5501,7 +5469,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -5533,7 +5501,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -5853,7 +5821,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -5885,7 +5853,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6073,7 +6041,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6105,7 +6073,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6137,7 +6105,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6169,7 +6137,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6489,7 +6457,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6521,7 +6489,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6553,7 +6521,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6585,7 +6553,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6617,7 +6585,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6649,7 +6617,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6905,7 +6873,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -6937,7 +6905,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7143,7 +7111,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7175,7 +7143,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7207,7 +7175,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7239,7 +7207,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7271,7 +7239,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7303,7 +7271,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7335,7 +7303,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7463,7 +7431,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7495,7 +7463,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7527,7 +7495,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7559,7 +7527,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7591,7 +7559,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7623,7 +7591,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7655,7 +7623,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7687,7 +7655,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7911,7 +7879,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7943,7 +7911,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -7975,7 +7943,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8007,7 +7975,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8039,7 +8007,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8071,7 +8039,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8103,7 +8071,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8135,7 +8103,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8167,7 +8135,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8199,7 +8167,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8231,7 +8199,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8263,7 +8231,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8295,7 +8263,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8327,7 +8295,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8359,7 +8327,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8583,7 +8551,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8615,7 +8583,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8647,7 +8615,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8679,7 +8647,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8711,7 +8679,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · checked 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8743,7 +8711,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8775,7 +8743,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8807,7 +8775,7 @@
       },
       "status": {
         "live": true,
-        "v": "Board API · discovered 2026-11-20"
+        "v": "Board API · checked 2026-11-21"
       },
       "referral": {
         "level": "pending",
@@ -8816,6 +8784,38 @@
       "discovered": true,
       "isNew": true,
       "kind": "pm"
+    },
+    {
+      "co": "Lyft",
+      "role": "Director, Data Science, EU",
+      "loc": "San Francisco, CA",
+      "track": "new",
+      "trackLabel": "New find",
+      "extraTrack": "",
+      "score": null,
+      "domain": null,
+      "comp": "Not posted",
+      "compFit": null,
+      "tier": "",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8957556002?gh_jid=8957556002",
+      "posted": "2026-11-20",
+      "note": "Auto-discovered on Lyft's job board 2026-11-21. Not yet scored — review fit, comp, and referral path.",
+      "verify": {
+        "type": "greenhouse",
+        "token": "lyft",
+        "id": "8957556002"
+      },
+      "status": {
+        "live": true,
+        "v": "Board API · discovered 2026-11-21"
+      },
+      "referral": {
+        "level": "pending",
+        "text": ""
+      },
+      "discovered": true,
+      "isNew": true,
+      "kind": "ds"
     }
   ]
 }
