@@ -2291,9 +2291,9 @@
         "v": "Applied 9/15"
       },
       "app": {
-        "stage": "applied",
-        "since": "2026-09-15",
-        "note": "Applied 9/15 via Workday (confirmation received)."
+        "stage": "closed",
+        "since": "2026-11-18",
+        "note": "Position put under review/on hold 11/18."
       },
       "referral": {
         "level": "none",
@@ -4165,9 +4165,9 @@
       "url": "https://www.linkedin.com/jobs/view/4484964495",
       "note": "Lead advanced analytics within Data & Analytics CoE. 8+ yrs, 3+ people mgmt. <25 applicants.",
       "app": {
-        "stage": "in-process",
-        "since": "2026-11-18",
-        "note": "Phone screen w/ Darnell Gilet (recruiter) Wed 11/18 10-10:30am PT."
+        "stage": "passed",
+        "since": "2026-11-20",
+        "note": "Withdrew 11/20 before CodeSignal step: NYC, self-funded move, low pay."
       },
       "status": {
         "live": true,
@@ -4197,9 +4197,9 @@
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922062002",
       "note": "Lead Product DS team of 6, report to Director DS; drive product impact + build merged DS function. 10+ yrs, 3+ managing. Lateral.",
       "app": {
-        "stage": "applied",
-        "since": "2026-11-03",
-        "note": "Applied 11/3. Messaging Naheil McAvinue (Director Analytics & DS, likely HM) to flag."
+        "stage": "in-process",
+        "since": "2026-11-25",
+        "note": "Recruiter screen w/ Mairead O'Connor Wed 11/25 10-10:30am PT (Zoom). Naheil messaged 11/3."
       },
       "status": {
         "live": true,
@@ -4421,9 +4421,9 @@
       "url": "https://www.linkedin.com/jobs/view/4489491104",
       "note": "Agency posting; client unknown.",
       "app": {
-        "stage": "in-process",
+        "stage": "passed",
         "since": "2026-11-20",
-        "note": "Call w/ Jen Gordon (Principal Recruiter) moved to Fri 11/20 9am PT."
+        "note": "Call w/ Jen Gordon 11/20: client was Justworks (same role). Passed."
       },
       "status": {
         "live": true,
@@ -4668,6 +4668,70 @@
       "pinned": true,
       "source": "Inbound (Alex Zhou)",
       "discovered": "2026-11-10",
+      "isNew": true
+    },
+    {
+      "co": "Lyft",
+      "role": "Director, Data Science, EU",
+      "loc": "San Francisco, CA",
+      "url": "https://app.careerpuck.com/job-board/lyft/job/8957556002?gh_jid=8957556002",
+      "note": "Oversees EU Product Science (experimentation, metrics, rider/driver insights) + ML Eng (pricing, matching, ETAs). Asks 4+ yrs two-sided marketplace (gap), 10+ yrs, 5+ mgmt.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-11-21",
+        "note": "Applied 11/21 (Greenhouse)."
+      },
+      "status": {
+        "live": true,
+        "v": "In Process"
+      },
+      "referral": {
+        "level": "none",
+        "text": "TBD"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 6.5,
+      "domain": 3,
+      "comp": "$236-295K base",
+      "compFit": null,
+      "tier": "Public mobility marketplace",
+      "pinned": true,
+      "source": "Self-applied (Greenhouse)",
+      "discovered": "2026-11-21",
+      "isNew": true
+    },
+    {
+      "co": "Current",
+      "role": "Director, Product Analytics",
+      "loc": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/4492744576",
+      "note": "Leads analytics function across embedded teams; sets experimentation standards, aligns roadmaps to P&L; hands-on. 10+ yrs, 5+ mgmt. 25 applicants. NY-based: confirm remote/relo before investing.",
+      "app": {
+        "stage": "applied",
+        "since": "2026-11-23",
+        "note": "Applied 11/23. NY-based: confirm remote/relo."
+      },
+      "status": {
+        "live": true,
+        "v": "In Process"
+      },
+      "referral": {
+        "level": "weak",
+        "text": "<b>Simran Kalera</b> (Risk Strategy @ Current; mutual: Deepesh Singh)"
+      },
+      "track": "domain",
+      "trackLabel": "Domain-strong",
+      "extraTrack": "",
+      "score": 7.5,
+      "domain": 5,
+      "comp": "$260-320K base",
+      "compFit": null,
+      "tier": "Private fintech (neobank)",
+      "pinned": true,
+      "source": "LinkedIn sweep 11/23",
+      "discovered": "2026-11-23",
       "isNew": true
     }
   ],
